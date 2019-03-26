@@ -1,0 +1,1 @@
+For Vscode - make sure you add the full path to the Romi directory into the c_cpp_properties.json includepath
