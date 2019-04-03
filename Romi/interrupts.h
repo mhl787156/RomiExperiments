@@ -27,6 +27,7 @@ extern PID    LeftSpeedControl;
 extern PID    RightSpeedControl;
 extern Motor  LeftMotor;
 extern Motor  RightMotor;
+//extern Kinematics Pose;
 
 
 // This ISR handles just Encoder 1
@@ -292,29 +293,3 @@ void startTimer()
     // Output Compare Match A Interrupt Enable
     TIMSK3 |= (1 << OCIE3A);
 }
-
-ISR(TIMER3_COMPA_vect)
-{
-
-    /*
-     * Calculate Speeds
-     */
-    signed int left_delta = left_encoder_count - last_count_left;
-    signed int right_delta = right_encoder_count - last_count_right;
-
-    last_count_left = left_encoder_count;
-    last_count_right = right_encoder_count;
-
-    left_speed =  left_delta;
-    right_speed = right_delta;
-
-    if (use_speed_controller)
-    {
-        float left_motor_demand = LeftSpeedControl.update(left_speed_demand, left_speed);
-        float right_motor_demand = RightSpeedControl.update(right_speed_demand, right_speed);
-      
-        LeftMotor.setPower(left_motor_demand);
-        RightMotor.setPower(right_motor_demand);
-    }
-}
-

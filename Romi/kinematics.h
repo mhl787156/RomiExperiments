@@ -34,7 +34,7 @@ class Kinematics
          float angular_velocity = 0;
          long  last_left_encoder_count = 0;
          long  last_right_encoder_count = 0;
-         bool  debug=false;
+         bool  debug=true;
          unsigned long last_update = 0;
 
 };
@@ -51,10 +51,16 @@ void Kinematics::update()
     last_left_encoder_count = left_encoder_count;
     last_right_encoder_count = right_encoder_count;  
 
-    //Update position
-    x+= mean_delta * cos(theta);
-    y+= mean_delta * sin(theta);
-    theta -=  (left_delta-right_delta) / (WHEEL_DISTANCE);  
+   theta -= ( ( ( right_delta - left_delta ) / WHEEL_DISTANCE ) ) /2 ;
+
+  x += ( mean_delta * cos ( theta ) ) ;
+  y += ( mean_delta * sin ( theta ) ) ;
+  //
+//
+//    //Update position
+//    x+= mean_delta * cos(theta);
+//    y+= mean_delta * sin(theta);
+//    theta -=  (left_delta-right_delta) / (WHEEL_DISTANCE);  
 
     float time_elapsed = millis() - last_update;
     last_update = millis();
@@ -137,7 +143,7 @@ void Kinematics::printPose()
     Serial.print(F(" Y: "));
     Serial.print(y);
     Serial.print(F(" H: "));
-    Serial.println(rad2deg(theta));
+    Serial.println(theta);
 
 }
 

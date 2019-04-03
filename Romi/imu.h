@@ -92,13 +92,13 @@ void Imu::calibrate()
   }
 
    analogWrite(BUZZER_PIN, 10);
-  delay(500);
+  delay(250);
   digitalWrite( BUZZER_PIN, LOW );
-  delay(500);
+  delay(250);
   analogWrite(BUZZER_PIN, 10);
-  delay(500);
+  delay(250);
   digitalWrite( BUZZER_PIN, LOW );
-  delay(500);
+  delay(250);
 
   
 }
