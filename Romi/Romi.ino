@@ -66,6 +66,7 @@ PID           HeadingControl( 1.5, 0, 0.001 );
 
 Mapper        Map; //Class for representing the map
 
+Pushbutton    ButtonA( BUTTON_A, DEFAULT_STATE_HIGH);
 Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -97,6 +98,8 @@ void setup()
   setupLeftEncoder();
   setupRightEncoder();
   startTimer();
+
+  Pose.setDebug(false);
 
   //Set speed control maximum outputs to match motor
   LeftSpeedControl.setMax(100);
@@ -186,25 +189,45 @@ void stop_moving() { // Returns the wheel speeds to zero
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void loop() {
 
+  // Stop and auto print map to serial
+  if(ButtonA.getSingleDebouncedPress()) {
+    Map.printMap();
+    stop_moving();
+    buzz();
+    byte map_counter = 0;
+    while(true){
+      if(map_counter > 5000) {
+        Map.printMap();
+        map_counter = 0;
+      }
+      map_counter++;
+    }
+  }
+
+  // Print map to serial on button b press.
+  if(ButtonB.getSingleDebouncedPress()) {
+    Map.printMap();
+  }
+
   // Remember to always update kinematics!!
   Pose.update();
   X = Pose.getX() ;
   Y = Pose.getY() ;
 
 
-    doMovement();
-    //    LeftMotor.setPower(30) ;
-    //    RightMotor.setPower(30) ;
+  doMovement();
+  //    LeftMotor.setPower(30) ;
+  //    RightMotor.setPower(30) ;
 
-    e1_now = right_encoder_count ;
-    e0_now = left_encoder_count ;
+  e1_now = right_encoder_count ;
+  e0_now = left_encoder_count ;
 
-    //    float Theta = Pose.getThetaRadians() ;
-    //    float Phi = atan2( ( Pose.getY() - 900 ) , ( Pose.getX() - 900 ) ) ;
-    //    Heading = ( 3.141 ) ;
-    //    while ( Heading > 6.283 ) {
-    //      Heading -= 6.283 ;
-    //    }
+  //    float Theta = Pose.getThetaRadians() ;
+  //    float Phi = atan2( ( Pose.getY() - 900 ) , ( Pose.getX() - 900 ) ) ;
+  //    Heading = ( 3.141 ) ;
+  //    while ( Heading > 6.283 ) {
+  //      Heading -= 6.283 ;
+  //    }
   
   doMapping();
 
@@ -246,7 +269,7 @@ void doMovement() {
     walk_update = millis();
 
     // randGaussian(mean, sd).  utils.h
-    turn_bias = randGaussian(0, 35 );
+    turn_bias = randGaussian(0, 10);
 
     // Setting a speed demand with these variables
     // is automatically captured by a speed PID
@@ -288,6 +311,9 @@ void doMovement() {
    writing to eeprom memory.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void doMapping() {
+
+  // Put Romi travel path
+  Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
 
   // Read the IR Sensor and determine distance in
   // mm.  Make sure you calibrate your own code!
@@ -341,6 +367,9 @@ void doMapping() {
   if ( LineCentre.readRaw() > 580 ) {
     Map.updateMapFeature( (byte)'L', Pose.getY(), Pose.getX() );
   }
+
+
+  
 }
 
 

@@ -3,7 +3,7 @@
 #include <EEPROM.h>
 
 const byte MAP_RESOLUTION = 25;
-const byte MAP_DEFAULT_FEATURE = '#';
+const byte MAP_DEFAULT_FEATURE = '.';
 const int MAP_X=1800;
 const int MAP_Y=1800;
 
