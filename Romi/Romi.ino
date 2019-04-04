@@ -14,6 +14,7 @@
 #include "kinematics.h"
 #include "line_sensors.h"
 #include "irproximity.h"
+#include "beliefmapping.h"
 #include "mapping.h"
 #include "RF_Interface.h"
 #include <Wire.h>
@@ -64,7 +65,7 @@ PID           LeftSpeedControl( 3.5, 20.9, 0.04 );
 PID           RightSpeedControl( 3.5, 20.9, 0.04 );
 PID           HeadingControl( 1.5, 0, 0.001 );
 
-Mapper        Map; //Class for representing the map
+BeliefMapper  Map; //Class for representing the map
 
 Pushbutton    ButtonA( BUTTON_A, DEFAULT_STATE_HIGH);
 Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
@@ -278,26 +279,24 @@ void doMovement() {
     left_speed_demand = forward_bias + turn_bias;
     right_speed_demand = forward_bias - turn_bias;
 
-      if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() > 1725 ) {
-    stop_moving() ;
+    if ( map.checkInMapBound(Pose.getY(), Pose.getX()) {
+      stop_moving();
+      LeftMotor.setPower(40);
+      RightMotor.setPower(-40);
+      delay(2000);
+      stop_moving() ;
+      LeftMotor.setPower(30);
+      RightMotor.setPower(30);
+      delay(1000) ;
+      stop_moving() ;
 
-    LeftMotor.setPower(40);
-    RightMotor.setPower(-40);
-    delay(2000);
-    stop_moving() ;
-    LeftMotor.setPower(30);
-    RightMotor.setPower(30);
-    delay(1000) ;
-    stop_moving() ;
-    
+    } else {
 
-  } else {
+      LeftMotor.setPower(left_speed_demand) ;
+      RightMotor.setPower(right_speed_demand) ;
+    }
 
-    LeftMotor.setPower(left_speed_demand) ;
-    RightMotor.setPower(right_speed_demand) ;
   }
-
-}
 }
 
 
@@ -312,7 +311,7 @@ void doMovement() {
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void doMapping() {
 
-  // Put Romi travel path
+  // Put Romi's current location
   Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
 
   // Read the IR Sensor and determine distance in
@@ -331,13 +330,17 @@ void doMapping() {
     // sensor away from the centre of the robot.
     distance += 80;
 
+    // Update all cells up to the obstacle position as non-obstacles
+    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
+      projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() ) );
+      projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() ) );
+      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
+    }
 
     // Here we calculate the actual position of the obstacle we have detected
     float projected_x = Pose.getX() + ( distance * cos( Pose.getThetaRadians() ) );
     float projected_y = Pose.getY() + ( distance * sin( Pose.getThetaRadians() ) );
     Map.updateMapFeature( (byte)'O', projected_x, projected_y );
-
-
   }
 
   // Check RFID scanner.

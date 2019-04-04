@@ -10,10 +10,12 @@ const int MAP_Y=1800;
 class Mapper
 {
     public:
+        
         void resetMap();
         void printMap();
         void updateMapFeature(byte feature, int y, int x);
         void updateMapFeature(byte feature, float y, float x);
+        bool checkInMapBound(float y, float x);
         
         int  indexToPose(int i, int map_size, int resolution);
         int  poseToIndex(int x, int map_size, int resolution);
@@ -22,6 +24,10 @@ class Mapper
         int X_size;
         int Y_size;
 };
+
+void Mapper::checkInMapBound(float y, float x) {
+    return !(x > MAP_X || x < 0 || y > MAP_Y || y < 0)
+}
 
 void Mapper::resetMap()
 {
