@@ -198,7 +198,11 @@ void loop() {
     byte map_counter = 0;
     while(true){
       if(map_counter > 5000) {
-        Map.printMap();
+        if(ButtonA.getSingleDebouncedPress()) {
+          Map.printMap();
+        } else {
+          Map.printRawMap();
+        }
         map_counter = 0;
       }
       map_counter++;
@@ -279,7 +283,8 @@ void doMovement() {
     left_speed_demand = forward_bias + turn_bias;
     right_speed_demand = forward_bias - turn_bias;
 
-    if ( map.checkInMapBound(Pose.getY(), Pose.getX()) {
+    // Check for boundary
+    if ( map.checkInMapBound(Pose.getX(), Pose.getY()) {
       stop_moving();
       LeftMotor.setPower(40);
       RightMotor.setPower(-40);
