@@ -49,7 +49,9 @@ LineSensor    LineLeft(LINE_LEFT_PIN); //Left line sensor
 LineSensor    LineCentre(LINE_CENTRE_PIN); //Centre line sensor
 LineSensor    LineRight(LINE_RIGHT_PIN); //Right line sensor
 
-SharpIR       DistanceSensor(SHARP_IR_PIN); //Distance sensor
+SharpIR       RightDistanceSensor(RIGHT_SHARP_IR_PIN);
+SharpIR       CentreDistanceSensor(CENTRE_SHARP_IR_PIN); //Distance sensor
+SharpIR       LeftDistanceSensor(LEFT_SHARP_IR_PIN); //Distance sensor
 
 Imu           Imu;
 
@@ -261,7 +263,7 @@ void doMovement() {
 
   // Check if we are about to collide.  If so,
   // zero forward speed
-  if ( DistanceSensor.getDistanceRaw() > 450 ) {
+  if ( CentreDistanceSensor.getDistanceRaw() > 450 ) {
     forward_bias = 0;
   } else {
     forward_bias = 30;
@@ -325,7 +327,7 @@ void doMapping() {
   // The rationale being:
   // We can't trust very close readings or very far.
   // ...but feel free to investigate this.
-  float distance = DistanceSensor.getDistanceInMM();
+  float distance = CentreDistanceSensor.getDistanceInMM();
   if ( distance < 40 && distance > 12 ) {
 
     // We know the romi has the sensor mounted
