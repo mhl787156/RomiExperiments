@@ -3,7 +3,7 @@ byte pin2 = A0;
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial1.begin(9600);
   
 }
 
@@ -26,8 +26,8 @@ void loop() {
 //  const float exponent2 = (1/-0.616);
 //  distance2 = pow( ( distance2 / 12.494 ), exponent2);
   
-  Serial.print(distance);
-  Serial.print(" ");
-  Serial.println(distance2);
+  Serial1.print(distance);
+  Serial1.print(" ");
+  Serial1.println(distance2);
   delay(10);
 }

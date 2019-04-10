@@ -133,9 +133,9 @@ void setup()
 
 
   // Initialise Serial communication
-  Serial.begin( BAUD_RATE );
+  Serial1.begin( BAUD_RATE );
   delay(1000);
-  Serial.println("Board Reset");
+  Serial1.println("Board Reset");
 
   // Romi will wait for you to press a button and then print
   // the current map.
@@ -148,7 +148,7 @@ void setup()
   // Watch for second button press, then begin autonomous mode.
   ButtonB.waitForButton();
 
-  Serial.println("Map Erased - Mapping Started");
+  Serial1.println("Map Erased - Mapping Started");
   Map.resetMap();
 
   // Your extra setup code is best placed here:

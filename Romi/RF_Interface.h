@@ -34,21 +34,21 @@ bool checkForRFID()
 {
 
     bool found=false;
-    //Serial.println(F("Checking"));
+    //Serial1.println(F("Checking"));
     if (rfid.isCard())
     {
       
-        //Serial.println(F("Got a card"));
+        //Serial1.println(F("Got a card"));
     
         if (rfid.readCardSerial())
         {
             for (int i=0; i<=4; i++)//card value: "xyz xyz xyz xyz xyz" (15 digits maximum; 5 pairs of xyz)hence 0<=i<=4 //
             {
-                //Serial.print(rfid.serNum[i]);
+                //Serial1.print(rfid.serNum[i]);
             }
       
             found=true;
-            //Serial.println("");
+            //Serial1.println("");
         }
     }
 
@@ -66,7 +66,7 @@ float serialToXPos(char * serNum)
       }
     }
 
-    Serial.println(F("Error: Card not found"));
+    Serial1.println(F("Error: Card not found"));
     
     return -1;
 }
@@ -81,7 +81,7 @@ float serialToYPos(char * serNum)
         }
     }
 
-    Serial.println(F("Error: Card not found"));
+    Serial1.println(F("Error: Card not found"));
     
     return -1;
 }
@@ -95,7 +95,7 @@ float serialToBearing(char * serNum)
         }
     }
 
-    Serial.println(F("Error: Card not found"));
+    Serial1.println(F("Error: Card not found"));
     
     return -1;
 }

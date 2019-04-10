@@ -91,14 +91,14 @@ class PID
  */
 void PID::printComponents()
 {
-    Serial.print(F(" Proportional component: "));
-    Serial.print(Kp_output);
-    Serial.print(F(" Differential component: "));
-    Serial.print(Kd_output);
-    Serial.print(F(" Integral component: "));
-    Serial.print(Ki_output);
-    Serial.print(F(" Total: "));
-    Serial.println(total);
+    Serial1.print(F(" Proportional component: "));
+    Serial1.print(Kp_output);
+    Serial1.print(F(" Differential component: "));
+    Serial1.print(Kd_output);
+    Serial1.print(F(" Integral component: "));
+    Serial1.print(Ki_output);
+    Serial1.print(F(" Total: "));
+    Serial1.println(total);
 }
 
 
@@ -155,12 +155,12 @@ float PID::update(float demand, float measurement)
     //Print debugging information if required
     if (debug)
     {
-        Serial.print(F("Error: "));
-        Serial.print(error);
-        Serial.print(F(" Error Delta:"));
-        Serial.print(error_delta);
-        Serial.print(F(" Error Integral:"));
-        Serial.print(integral_error);
+        Serial1.print(F("Error: "));
+        Serial1.print(error);
+        Serial1.print(F(" Error Delta:"));
+        Serial1.print(error_delta);
+        Serial1.print(F(" Error Integral:"));
+        Serial1.print(integral_error);
         printComponents();
     }
 
@@ -182,7 +182,7 @@ void PID::setMax(float new_max)
     }
     else
     {
-        Serial.println(F("Max output must be positive"));
+        Serial1.println(F("Max output must be positive"));
     }
 }
 
@@ -208,7 +208,7 @@ void PID::printResponse()
 {
 
     float response = last_measurement / last_demand;
-    Serial.println(response);
+    Serial1.println(response);
 
 }
 
