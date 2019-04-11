@@ -1,4 +1,3 @@
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    Library Includes.
    Be sure to check each of these to see what variables/functions are made
@@ -30,12 +29,6 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 #define BAUD_RATE 9600
 
-int e1_now ;
-int e0_now ;
-float Heading ;
-float X ;
-float Y ;
-
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    Class Instances.
@@ -44,13 +37,11 @@ float Y ;
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 Kinematics    Pose; //Kinematics class to store position and heading
 
-LineSensor    LineLeft(LINE_LEFT_PIN); //Left line sensor
 LineSensor    LineCentre(LINE_CENTRE_PIN); //Centre line sensor
-LineSensor    LineRight(LINE_RIGHT_PIN); //Right line sensor
 
-SharpIR       RightDistanceSensor(RIGHT_SHARP_IR_PIN);
-SharpIR       CentreDistanceSensor(CENTRE_SHARP_IR_PIN); //Distance sensor
-SharpIR       LeftDistanceSensor(LEFT_SHARP_IR_PIN); //Distance sensor
+SharpIR       LeftIR(LEFT_IR_PIN, 50620 , -0.9465 , 54.72 );
+SharpIR       CentreIR(CENTRE_IR_PIN, 46440 , -0.9306 , 48.85 ); //Distance sensor
+SharpIR       RightIR(RIGHT_IR_PIN, 36740 , -0.8698 , 27.36 );
 
 Imu           Imu;
 
@@ -68,7 +59,6 @@ PID           HeadingControl( 1.5, 0, 0.001 );
 
 Mapper        Map; //Class for representing the map
 
-Pushbutton    ButtonA( BUTTON_A, DEFAULT_STATE_HIGH);
 Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -82,6 +72,10 @@ Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
 bool use_speed_controller = false;
 float left_speed_demand = 0;
 float right_speed_demand = 0;
+
+
+    float readingC ;
+
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -101,8 +95,6 @@ void setup()
   setupRightEncoder();
   startTimer();
 
-  Pose.setDebug(false);
-
   //Set speed control maximum outputs to match motor
   LeftSpeedControl.setMax(100);
   RightSpeedControl.setMax(100);
@@ -121,8 +113,9 @@ void setup()
   // See related lab sheets for more information.
 
   Wire.begin();
-  //  Mag.init();
-  //  Mag.calibrate();
+ // Mag.init();
+ // buzz() ;
+ // Mag.calibrate();
   //  Imu.init();
   //  Imu.calibrate();
 
@@ -172,6 +165,7 @@ void setup()
 
 
 
+
 }
 void stop_moving() { // Returns the wheel speeds to zero
 
@@ -191,49 +185,27 @@ void stop_moving() { // Returns the wheel speeds to zero
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void loop() {
 
-  // Stop and auto print map to serial
-  if(ButtonA.getSingleDebouncedPress()) {
-    Map.printMap();
-    stop_moving();
-    buzz();
-    byte map_counter = 0;
-    while(true){
-      if(map_counter > 5000) {
-        Map.printMap();
-        map_counter = 0;
-      }
-      map_counter++;
-    }
-  }
 
-  // Print map to serial on button b press.
-  if(ButtonB.getSingleDebouncedPress()) {
-    Map.printMap();
-  }
+readingC = CentreIR.getFilteredInMM() ; 
+//readingC = getReading() ;
+Serial.println(readingC) ;
+//float readingL = LeftIR.getFilteredInMM() ;
+//float readingR = RightIR.getFilteredInMM() ; 
+//Serial.print("Left: ") ;
+//Serial.println(readingL) ;
+//Serial.print("Centre: ") ;
 
-  // Remember to always update kinematics!!
-  Pose.update();
-  X = Pose.getX() ;
-  Y = Pose.getY() ;
+//Serial.print("Right: ") ;
+//Serial.println(readingR) ;
+//Serial.println() ;
+
+//float readingLine = LineCentre.readCalibrated() ;
+//Serial.print("Line: ") ;
+//Serial.println(readingLine) ;
+//Serial.println() ;
 
 
-  doMovement();
-  //    LeftMotor.setPower(30) ;
-  //    RightMotor.setPower(30) ;
-
-  e1_now = right_encoder_count ;
-  e0_now = left_encoder_count ;
-
-  //    float Theta = Pose.getThetaRadians() ;
-  //    float Phi = atan2( ( Pose.getY() - 900 ) , ( Pose.getX() - 900 ) ) ;
-  //    Heading = ( 3.141 ) ;
-  //    while ( Heading > 6.283 ) {
-  //      Heading -= 6.283 ;
-  //    }
-  
-  doMapping();
-
-  delay(2);
+delay(100);
 }
 
 
@@ -245,6 +217,15 @@ void loop() {
    better obstacle avoidance behaviour implemented for
    your Experiment Day 1 baseline test.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+float getReading() {
+for (int i = 0 ; i < 100 ; i++ )
+{ 
+float readingC = CentreIR.getFilteredInMM() ;
+readingC += ( readingC / 100 ) ;
+return readingC ;
+}
+}
+
 void doMovement() {
 
   // Static means this variable will keep
@@ -258,7 +239,7 @@ void doMovement() {
 
   // Check if we are about to collide.  If so,
   // zero forward speed
-  if ( CentreDistanceSensor.getDistanceRaw() > 450 ) {
+  if ( CentreIR.getDistanceRaw() > 450 ) {
     forward_bias = 0;
   } else {
     forward_bias = 30;
@@ -271,7 +252,7 @@ void doMovement() {
     walk_update = millis();
 
     // randGaussian(mean, sd).  utils.h
-    turn_bias = randGaussian(0, 10);
+    turn_bias = randGaussian(0, 35 );
 
     // Setting a speed demand with these variables
     // is automatically captured by a speed PID
@@ -314,16 +295,13 @@ void doMovement() {
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void doMapping() {
 
-  // Put Romi travel path
-  Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
-
   // Read the IR Sensor and determine distance in
   // mm.  Make sure you calibrate your own code!
   // We threshold a reading between 40mm and 12mm.
   // The rationale being:
   // We can't trust very close readings or very far.
   // ...but feel free to investigate this.
-  float distance = CentreDistanceSensor.getDistanceInMM();
+  float distance = CentreIR.getFilteredInMM();
   if ( distance < 40 && distance > 12 ) {
 
     // We know the romi has the sensor mounted
@@ -369,26 +347,27 @@ void doMapping() {
   if ( LineCentre.readRaw() > 580 ) {
     Map.updateMapFeature( (byte)'L', Pose.getY(), Pose.getX() );
   }
-
-
-  
 }
 
 
 
 
-void turn_home(float Heading , int e0 , int e1 ) {
 
-  float arc_length = 75 * Heading ;
+void turn( float angle ) { // Turn the Romi by a specified angle ( in Radians )
+
+  float arc_length = 75 * angle ;
   int turn_target = round ( arc_length / ( MM_PER_COUNT ) ) ;
 
-  float L_PWM = LeftPosControl.update( ( e1 + turn_target ) , left_encoder_count ) ;
-  float R_PWM = RightPosControl.update( ( e0 - turn_target ) , right_encoder_count ) ;
+  float L_PWM = LeftPosControl.update( (  - turn_target ) , left_encoder_count ) ;
+  float R_PWM = RightPosControl.update( (  turn_target ) , right_encoder_count ) ;
+  //float ADJ = wheelMatch.update( 0 , turn_error ) ;
 
-  LeftMotor.setPower( L_PWM ) ;
-  RightMotor.setPower( R_PWM ) ;
+  leftWheel_output(L_PWM) ;
+  rightWheel_output(R_PWM) ;
+
+ //  analogWrite(10,L_PWM);
+ //   analogWrite(9,R_PWM);
   //
-
 }
 
 
@@ -396,9 +375,9 @@ void turn_home(float Heading , int e0 , int e1 ) {
 
 void buzz() {
 
-  delay ( 250 ) ;
-  analogWrite( 6 , 100 ) ;
-  delay ( 250 ) ;
+  delay ( 25 ) ;
+  analogWrite( 6 , 10 ) ;
+  delay ( 25 ) ;
   analogWrite( 6 , 0 ) ;
   //
 }
@@ -430,4 +409,32 @@ ISR(TIMER3_COMPA_vect)
     LeftMotor.setPower(left_motor_demand);
     RightMotor.setPower(right_motor_demand);
   }
+}
+
+
+void leftWheel_output( float leftPower ) { // Writes left wheel power signal
+
+  if ( leftPower < 0 ) {
+    leftPower *= -1 ;
+    digitalWrite( MOTOR_DIR_L , HIGH ) ;
+    analogWrite( MOTOR_PWM_L , leftPower ) ;
+  } else {
+    digitalWrite( MOTOR_DIR_L , LOW ) ;
+    analogWrite( MOTOR_PWM_L , leftPower ) ;
+  }
+  //
+}
+
+
+void rightWheel_output( float rightPower ) { // Writes right wheel power signal
+
+  if ( rightPower < 0 ) {
+    rightPower *= -1 ;
+    digitalWrite( MOTOR_DIR_R , HIGH ) ;
+    analogWrite( MOTOR_PWM_R , rightPower ) ;
+  } else {
+    digitalWrite( MOTOR_DIR_R , LOW ) ;
+    analogWrite( MOTOR_PWM_R , rightPower ) ;
+  }
+  //
 }
