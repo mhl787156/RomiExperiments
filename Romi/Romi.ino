@@ -42,9 +42,7 @@ SharpIR       LeftIR(LEFT_IR_PIN, 50620 , -0.9465 , 54.72 );
 SharpIR       CentreIR(CENTRE_IR_PIN, 46440 , -0.9306 , 48.85 ); //Distance sensor
 SharpIR       RightIR(RIGHT_IR_PIN, 36740 , -0.8698 , 27.36 );
 
-Imu           Imu;
-
-Magnetometer  Mag; // Class for the magnetometer
+// Magnetometer  Mag; // Class for the magnetometer
 
 Motor         LeftMotor(MOTOR_PWM_L, MOTOR_DIR_L);
 Motor         RightMotor(MOTOR_PWM_R, MOTOR_DIR_R);
@@ -117,8 +115,7 @@ void setup()
  // Mag.init();
  // buzz() ;
  // Mag.calibrate();
-  //  Imu.init();
-  //  Imu.calibrate();
+  Pose.calibrateIMU() ;
 
 
   // Set the random seed for the random number generator
@@ -197,19 +194,16 @@ void loop() {
   //   }
   // }
 
-
+Pose.update() ;
   // Print map to serial on button b press.
   if(ButtonB.getSingleDebouncedPress()) {
     Map.printMap();
   }
 
+  //  Serial1.println(Pose.getThetaDegrees());
+ Pose.printPose() ;
 
-  Serial1.print(LeftIR.getFilteredInMM()) ;
-  Serial1.print(" , ") ;
-  Serial1.print(CentreIR.getFilteredInMM()) ;
-  Serial1.print(" , ") ;
-  Serial1.println(RightIR.getFilteredInMM()) ;
-  
+
   // Remember to always update kinematics!!
   // Pose.update();
   // X = Pose.getX() ;
@@ -431,7 +425,8 @@ void IRaddToMap()
 ISR(TIMER3_COMPA_vect)
 {
 
-  Pose.update() ;
+  
+ 
 
   /*
      Calculate Speeds
