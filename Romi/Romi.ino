@@ -126,9 +126,9 @@ void setup()
 
 
   // Initialise Serial communication
-  Serial.begin( BAUD_RATE );
+  Serial1.begin( BAUD_RATE );
   delay(1000);
-  Serial.println("Board Reset");
+  Serial1.println("Board Reset");
 
   // Romi will wait for you to press a button and then print
   // the current map.
@@ -141,7 +141,7 @@ void setup()
   // Watch for second button press, then begin autonomous mode.
   ButtonB.waitForButton();
 
-  Serial.println("Map Erased - Mapping Started");
+  Serial1.println("Map Erased - Mapping Started");
   Map.resetMap();
 
   // Your extra setup code is best placed here:
@@ -188,21 +188,21 @@ void loop() {
 
 readingC = CentreIR.getFilteredInMM() ; 
 //readingC = getReading() ;
-Serial.println(readingC) ;
+Serial1.println(readingC) ;
 //float readingL = LeftIR.getFilteredInMM() ;
 //float readingR = RightIR.getFilteredInMM() ; 
-//Serial.print("Left: ") ;
-//Serial.println(readingL) ;
-//Serial.print("Centre: ") ;
+//Serial1.print("Left: ") ;
+//Serial1.println(readingL) ;
+//Serial1.print("Centre: ") ;
 
-//Serial.print("Right: ") ;
-//Serial.println(readingR) ;
-//Serial.println() ;
+//Serial1.print("Right: ") ;
+//Serial1.println(readingR) ;
+//Serial1.println() ;
 
 //float readingLine = LineCentre.readCalibrated() ;
-//Serial.print("Line: ") ;
-//Serial.println(readingLine) ;
-//Serial.println() ;
+//Serial1.print("Line: ") ;
+//Serial1.println(readingLine) ;
+//Serial1.println() ;
 
 
 delay(100);

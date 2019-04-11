@@ -34,7 +34,7 @@ void Mapper::resetMap()
             
             if (eeprom_address > 1023)
             {
-                Serial.println(F("Error: EEPROM Address greater than 1023"));
+                Serial1.println(F("Error: EEPROM Address greater than 1023"));
             }
             else
             {
@@ -49,7 +49,7 @@ void Mapper::resetMap()
 void Mapper::printMap()
 {
 
-    Serial.println("Map");
+    Serial1.println("Map");
     for (int i=0;i<MAP_RESOLUTION;i++)
     {
         for(int j=0;j<MAP_RESOLUTION;j++)
@@ -57,10 +57,10 @@ void Mapper::printMap()
             int eeprom_address = (i*MAP_RESOLUTION)+j;
             byte value;
             value = EEPROM.read(eeprom_address);//, value);
-            Serial.print( (char)value );
-            Serial.print(" ");
+            Serial1.print( (char)value );
+            Serial1.print(" ");
         }
-        Serial.println("");
+        Serial1.println("");
     }
   
 }
@@ -84,7 +84,7 @@ void Mapper::updateMapFeature(byte feature, int y, int x)
 {
     if (x > MAP_X || x < 0 || y > MAP_Y || y < 0)
     {
-      Serial.println(F("Error:Invalid co-ordinate"));
+      Serial1.println(F("Error:Invalid co-ordinate"));
       return;
     }
 
@@ -95,7 +95,7 @@ void Mapper::updateMapFeature(byte feature, int y, int x)
 
     if (eeprom_address > 1023)
     {
-        Serial.println(F("Error: EEPROM Address greater than 1023"));
+        Serial1.println(F("Error: EEPROM Address greater than 1023"));
     }
     else
     {

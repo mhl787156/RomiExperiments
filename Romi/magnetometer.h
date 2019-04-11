@@ -40,7 +40,7 @@ void Magnetometer::init()
 {
     if (!mag.init())
     {
-        Serial.println("Failed to detect and initialize magnetometer!");
+        Serial1.println("Failed to detect and initialize magnetometer!");
         while (1);
     }
 
@@ -126,19 +126,19 @@ void Magnetometer::calculateOffsets()
   y_scale = avg_scale / y_scale;
   z_scale = avg_scale / z_scale;
 
-  Serial.print("X: ");
-  Serial.print(x_offset);  
-  Serial.print("Y: ");
-  Serial.print(y_offset);
-  Serial.print("Z: ");
-  Serial.println(z_offset);
+  Serial1.print("X: ");
+  Serial1.print(x_offset);  
+  Serial1.print("Y: ");
+  Serial1.print(y_offset);
+  Serial1.print("Z: ");
+  Serial1.println(z_offset);
   
-  Serial.print("X: ");
-  Serial.print(x_scale);  
-  Serial.print("Y: ");
-  Serial.print(y_scale);
-  Serial.print("Z: ");
-  Serial.println(z_scale);
+  Serial1.print("X: ");
+  Serial1.print(x_scale);  
+  Serial1.print("Y: ");
+  Serial1.print(y_scale);
+  Serial1.print("Z: ");
+  Serial1.println(z_scale);
   
 }
 

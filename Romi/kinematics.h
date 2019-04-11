@@ -138,12 +138,12 @@ void Kinematics::setPose(float newX, float newY, float newTheta)
 void Kinematics::printPose()
 {
 
-    Serial.print(F("X: "));
-    Serial.print(x);
-    Serial.print(F(" Y: "));
-    Serial.print(y);
-    Serial.print(F(" H: "));
-    Serial.println(theta);
+    Serial1.print(F("X: "));
+    Serial1.print(x);
+    Serial1.print(F(" Y: "));
+    Serial1.print(y);
+    Serial1.print(F(" H: "));
+    Serial1.println(theta);
 
 }
 
