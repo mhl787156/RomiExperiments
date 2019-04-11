@@ -25,8 +25,8 @@ class Mapper
         int Y_size;
 };
 
-void Mapper::checkInMapBound(float y, float x) {
-    return !(x > MAP_X || x < 0 || y > MAP_Y || y < 0)
+bool Mapper::checkInMapBound(float y, float x) {
+    return !(x > MAP_X || x < 0 || y > MAP_Y || y < 0);
 }
 
 void Mapper::resetMap()

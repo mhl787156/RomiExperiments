@@ -69,9 +69,7 @@ void Imu::readCalibrated()
   ay = a_sensitivity * imu.a.y;
   az = a_sensitivity * imu.a.z;
 
- 
- 
-  
+   
 }
 
 void Imu::calibrate()
@@ -79,7 +77,6 @@ void Imu::calibrate()
 
   for (int i=0;i<NUM_CALIBRATIONS_IMU;i++)
   {
-    //analogWrite(BUZZER_PIN, 10);
     delay(50);
     
     imu.read();
@@ -87,8 +84,7 @@ void Imu::calibrate()
     gx_offset += ((float)imu.g.x / NUM_CALIBRATIONS_IMU);
     gy_offset += ((float)imu.g.y / NUM_CALIBRATIONS_IMU);
     gz_offset += ((float)imu.g.z / NUM_CALIBRATIONS_IMU);
-    analogWrite(BUZZER_PIN, 0);
-    delay(50);
+    
   }
 
    analogWrite(BUZZER_PIN, 10);

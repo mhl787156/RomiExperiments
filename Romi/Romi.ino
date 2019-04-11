@@ -21,8 +21,6 @@
 #include "magnetometer.h"
 #include "Pushbutton.h"
 
-
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    Definitions.  Other definitions exist in the .h files above.
    Also ensure you check pins.h for pin/device definitions.
@@ -58,7 +56,7 @@ PID           LeftSpeedControl( 3.5, 20.9, 0.04 );
 PID           RightSpeedControl( 3.5, 20.9, 0.04 );
 PID           HeadingControl( 1.5, 0, 0.001 );
 
-Mapper        Map; //Class for representing the map
+BeliefMapper  Map; //Class for representing the map
 
 Pushbutton    ButtonA( BUTTON_A, DEFAULT_STATE_HIGH);
 Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
@@ -74,9 +72,7 @@ Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
 bool use_speed_controller = false;
 float left_speed_demand = 0;
 float right_speed_demand = 0;
-
-
-    float readingC ;
+float readingC ;
 
 
 
@@ -169,17 +165,9 @@ void setup()
   RightPosControl.setMax( 30 ) ;
 
 
-
-
 }
-void stop_moving() { // Returns the wheel speeds to zero
-
-  LeftMotor.setPower( 0 ) ;
-  RightMotor.setPower( 0 ) ;
-  //
 
 
-}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    This loop() demonstrates all devices being used in a basic sequence.
@@ -190,24 +178,24 @@ void stop_moving() { // Returns the wheel speeds to zero
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void loop() {
 
-  // Stop and auto print map to serial
-  if(ButtonA.getSingleDebouncedPress()) {
-    Map.printMap();
-    stop_moving();
-    buzz();
-    byte map_counter = 0;
-    while(true){
-      if(map_counter > 5000) {
-        if(ButtonA.getSingleDebouncedPress()) {
-          Map.printMap();
-        } else {
-          Map.printRawMap();
-        }
-        map_counter = 0;
-      }
-      map_counter++;
-    }
-  }
+  // // Stop and auto print map to serial
+  // if(ButtonA.getSingleDebouncedPress()) {
+  //   Map.printMap();
+  //   stop_moving();
+  //   buzz();
+  //   byte map_counter = 0;
+  //   while(true){
+  //     if(map_counter > 5000) {
+  //       if(ButtonA.getSingleDebouncedPress()) {
+  //         Map.printMap();
+  //       } else {
+  //         Map.printRawMap();
+  //       }
+  //       map_counter = 0;
+  //     }
+  //     map_counter++;
+  //   }
+  // }
 
 
   // Print map to serial on button b press.
@@ -216,42 +204,19 @@ void loop() {
   }
 
 
-  readingC = CentreIR.getFilteredInMM() ; 
-  //readingC = getReading() ;
-  Serial1.println(readingC) ;
-  //float readingL = LeftIR.getFilteredInMM() ;
-  //float readingR = RightIR.getFilteredInMM() ; 
-  //Serial1.print("Left: ") ;
-  //Serial1.println(readingL) ;
-  //Serial1.print("Centre: ") ;
-
-  //Serial1.print("Right: ") ;
-  //Serial1.println(readingR) ;
-  //Serial1.println() ;
-
-  //float readingLine = LineCentre.readCalibrated() ;
-  //Serial1.print("Line: ") ;
-  //Serial1.println(readingLine) ;
-  //Serial1.println() ;
+  Serial1.print(LeftIR.getFilteredInMM()) ;
+  Serial1.print(" , ") ;
+  Serial1.print(CentreIR.getFilteredInMM()) ;
+  Serial1.print(" , ") ;
+  Serial1.println(RightIR.getFilteredInMM()) ;
   
   // Remember to always update kinematics!!
-  Pose.update();
-  X = Pose.getX() ;
-  Y = Pose.getY() ;
+  // Pose.update();
+  // X = Pose.getX() ;
+  // Y = Pose.getY() ;
 
   doMovement();
-  //    LeftMotor.setPower(30) ;
-  //    RightMotor.setPower(30) ;
-
-  e1_now = right_encoder_count ;
-  e0_now = left_encoder_count ;
-
-  //    float Theta = Pose.getThetaRadians() ;
-  //    float Phi = atan2( ( Pose.getY() - 900 ) , ( Pose.getX() - 900 ) ) ;
-  //    Heading = ( 3.141 ) ;
-  //    while ( Heading > 6.283 ) {
-  //      Heading -= 6.283 ;
-  //    }
+ 
   
   doMapping();
   delay(100);
@@ -266,14 +231,6 @@ void loop() {
    better obstacle avoidance behaviour implemented for
    your Experiment Day 1 baseline test.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-float getReading() {
-for (int i = 0 ; i < 100 ; i++ )
-{ 
-float readingC = CentreIR.getFilteredInMM() ;
-readingC += ( readingC / 100 ) ;
-return readingC ;
-}
-}
 
 void doMovement() {
 
@@ -288,20 +245,16 @@ void doMovement() {
 
   // Check if we are about to collide.  If so,
   // zero forward speed
-  if ( CentreIR.getDistanceRaw() > 450 ) {
-    forward_bias = 0;
-  } else {
-    forward_bias = 30;
-  }
+  forward_bias = ObstacleAvoidance() ;
 
   // Periodically set a random turn.
   // Here, gaussian means we most often drive
   // forwards, and occasionally make a big turn.
-  if ( millis() - walk_update > 500 ) {
+  if ( millis() - walk_update > 300 ) {
     walk_update = millis();
 
     // randGaussian(mean, sd).  utils.h
-    turn_bias = randGaussian(0, 35 );
+    turn_bias = randGaussian(0, 25 );
 
     // Setting a speed demand with these variables
     // is automatically captured by a speed PID
@@ -311,19 +264,19 @@ void doMovement() {
     right_speed_demand = forward_bias - turn_bias;
 
       if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() > 1725 ) {
-    stop_moving() ;
+      stop_moving() ;
 
-    LeftMotor.setPower(40);
-    RightMotor.setPower(-40);
-    delay(2000);
-    stop_moving() ;
-    LeftMotor.setPower(30);
-    RightMotor.setPower(30);
-    delay(1000) ;
-    stop_moving() ;
+      LeftMotor.setPower(40);
+      RightMotor.setPower(-40);
+      delay(2000);
+      stop_moving() ;
+      LeftMotor.setPower(30);
+      RightMotor.setPower(30);
+      delay(1000) ;
+      stop_moving() ;
     
 
-  } else {
+      } else {
 
     LeftMotor.setPower(left_speed_demand) ;
     RightMotor.setPower(right_speed_demand) ;
@@ -347,34 +300,8 @@ void doMapping() {
   // Put Romi's current location
   Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
 
-  // Read the IR Sensor and determine distance in
-  // mm.  Make sure you calibrate your own code!
-  // We threshold a reading between 40mm and 12mm.
-  // The rationale being:
-  // We can't trust very close readings or very far.
-  // ...but feel free to investigate this.
-  float distance = CentreDistanceSensor.getDistanceInMM();
-  if ( distance < 40 && distance > 12 ) {
-
-    // We know the romi has the sensor mounted
-    // to the front of the robot.  Therefore, the
-    // sensor faces along Pose.Theta.
-    // We also add on the distance of the
-    // sensor away from the centre of the robot.
-    distance += 80;
-
-    // Update all cells up to the obstacle position as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
-      projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() ) );
-      projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() ) );
-      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
-    }
-
-    // Here we calculate the actual position of the obstacle we have detected
-    float projected_x = Pose.getX() + ( distance * cos( Pose.getThetaRadians() ) );
-    float projected_y = Pose.getY() + ( distance * sin( Pose.getThetaRadians() ) );
-    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
-  }
+  // Read IR sensors and add any detected obstacles to belief map
+  IRaddToMap() ;
 
   // Check RFID scanner.
   // Look inside RF_interface.h for more info.
@@ -407,44 +334,104 @@ void doMapping() {
 }
 
 
-
-
-
-void turn( float angle ) { // Turn the Romi by a specified angle ( in Radians )
-
-  float arc_length = 75 * angle ;
-  int turn_target = round ( arc_length / ( MM_PER_COUNT ) ) ;
-
-  float L_PWM = LeftPosControl.update( (  - turn_target ) , left_encoder_count ) ;
-  float R_PWM = RightPosControl.update( (  turn_target ) , right_encoder_count ) ;
-  //float ADJ = wheelMatch.update( 0 , turn_error ) ;
-
-  leftWheel_output(L_PWM) ;
-  rightWheel_output(R_PWM) ;
-
- //  analogWrite(10,L_PWM);
- //   analogWrite(9,R_PWM);
-  //
+float ObstacleAvoidance()
+{
+  float forward_bias ;
+    if ( CentreIR.getDistanceRaw() > 500 || LeftIR.getDistanceRaw() > 600 || RightIR.getDistanceRaw() > 600 ) {
+       forward_bias = -20 ;
+    } else {
+    forward_bias = 30;
+  }
+  return forward_bias ;
 }
 
 
+void IRaddToMap()
+{
+  float distance = CentreIR.getFilteredInMM();
+  if ( distance < 450 && distance > 100 ) {
 
+    // We know the romi has the sensor mounted
+    // to the front of the robot.  Therefore, the
+    // sensor faces along Pose.Theta.
+    // We also add on the distance of the
+    // sensor away from the centre of the robot.
+    distance += 80;
 
-void buzz() {
+    float projected_x = 0 ;
+    float projected_y = 0 ;
 
-  delay ( 25 ) ;
-  analogWrite( 6 , 10 ) ;
-  delay ( 25 ) ;
-  analogWrite( 6 , 0 ) ;
-  //
+    // Update all cells up to the obstacle position as non-obstacles
+    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
+      projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() ) );
+      projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() ) );
+      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
+    }
+
+    // Here we calculate the actual position of the obstacle we have detected
+    projected_x = Pose.getX() + ( distance * cos( Pose.getThetaRadians() ) );
+    projected_y = Pose.getY() + ( distance * sin( Pose.getThetaRadians() ) );
+    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
+  }
+
+    distance = LeftIR.getFilteredInMM();
+  if ( distance < 450 && distance > 100 ) {
+
+    // We know the romi has the sensor mounted
+    // to the front of the robot.  Therefore, the
+    // sensor faces along Pose.Theta.
+    // We also add on the distance of the
+    // sensor away from the centre of the robot.
+    distance += 80;
+
+    float projected_x = 0 ;
+    float projected_y = 0 ;
+
+    // Update all cells up to the obstacle position as non-obstacles
+    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
+      projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() - (PI/4) ));
+      projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() - (PI/4) ));
+      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
+    }
+
+    // Here we calculate the actual position of the obstacle we have detected
+    projected_x = Pose.getX() + ( distance * cos( Pose.getThetaRadians() - (PI/4) ) );
+    projected_y = Pose.getY() + ( distance * sin( Pose.getThetaRadians() - (PI/4) ) );
+    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
+  }
+
+    distance = RightIR.getFilteredInMM();
+  if ( distance < 450 && distance > 100 ) {
+
+    // We know the romi has the sensor mounted
+    // to the front of the robot.  Therefore, the
+    // sensor faces along Pose.Theta.
+    // We also add on the distance of the
+    // sensor away from the centre of the robot.
+    distance += 80;
+
+    float projected_x = 0 ;
+    float projected_y = 0 ;
+
+    // Update all cells up to the obstacle position as non-obstacles
+    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
+      projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() + (PI/4) ) );
+      projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() + (PI/4) ) );
+      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
+    }
+
+    // Here we calculate the actual position of the obstacle we have detected
+    projected_x = Pose.getX() + ( distance * cos( Pose.getThetaRadians() + (PI/4)  ) );
+    projected_y = Pose.getY() + ( distance * sin( Pose.getThetaRadians() + (PI/4)  ) );
+    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
+  }
 }
-
 
 
 ISR(TIMER3_COMPA_vect)
 {
 
-  //Pose.update() ;
+  Pose.update() ;
 
   /*
      Calculate Speeds
@@ -493,5 +480,12 @@ void rightWheel_output( float rightPower ) { // Writes right wheel power signal
     digitalWrite( MOTOR_DIR_R , LOW ) ;
     analogWrite( MOTOR_PWM_R , rightPower ) ;
   }
+  //
+}
+
+void stop_moving() { // Returns the wheel speeds to zero
+
+  LeftMotor.setPower( 0 ) ;
+  RightMotor.setPower( 0 ) ;
   //
 }

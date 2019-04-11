@@ -46,7 +46,7 @@ float SharpIR::getDistanceInMM()
 
   float distance = (float)analogRead( pin );
 
-  distance = ( pow( (( distance - c ) / a  ),  (1/b) ) );
+  distance = ( pow( (( distance - c ) / a ),  (1/b) ) );
   
   return distance;
 }
@@ -55,6 +55,10 @@ float   SharpIR::getFilteredInMM()
 {
 
 float output = ( alpha * SharpIR::getDistanceInMM() ) + ( ( 1 - alpha ) * last_output )  ;
+if ( isnan(output) || output > 1000 )
+{
+  output = 1000 ;
+}
 last_output = output ;
 
 return output ;
