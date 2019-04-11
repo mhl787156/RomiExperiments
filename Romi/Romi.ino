@@ -1,4 +1,3 @@
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    Library Includes.
    Be sure to check each of these to see what variables/functions are made
@@ -31,12 +30,6 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 #define BAUD_RATE 9600
 
-int e1_now ;
-int e0_now ;
-float Heading ;
-float X ;
-float Y ;
-
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    Class Instances.
@@ -45,13 +38,11 @@ float Y ;
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 Kinematics    Pose; //Kinematics class to store position and heading
 
-LineSensor    LineLeft(LINE_LEFT_PIN); //Left line sensor
 LineSensor    LineCentre(LINE_CENTRE_PIN); //Centre line sensor
-LineSensor    LineRight(LINE_RIGHT_PIN); //Right line sensor
 
-SharpIR       RightDistanceSensor(RIGHT_SHARP_IR_PIN);
-SharpIR       CentreDistanceSensor(CENTRE_SHARP_IR_PIN); //Distance sensor
-SharpIR       LeftDistanceSensor(LEFT_SHARP_IR_PIN); //Distance sensor
+SharpIR       LeftIR(LEFT_IR_PIN, 50620 , -0.9465 , 54.72 );
+SharpIR       CentreIR(CENTRE_IR_PIN, 46440 , -0.9306 , 48.85 ); //Distance sensor
+SharpIR       RightIR(RIGHT_IR_PIN, 36740 , -0.8698 , 27.36 );
 
 Imu           Imu;
 
@@ -67,7 +58,7 @@ PID           LeftSpeedControl( 3.5, 20.9, 0.04 );
 PID           RightSpeedControl( 3.5, 20.9, 0.04 );
 PID           HeadingControl( 1.5, 0, 0.001 );
 
-BeliefMapper  Map; //Class for representing the map
+Mapper        Map; //Class for representing the map
 
 Pushbutton    ButtonA( BUTTON_A, DEFAULT_STATE_HIGH);
 Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
@@ -83,6 +74,10 @@ Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
 bool use_speed_controller = false;
 float left_speed_demand = 0;
 float right_speed_demand = 0;
+
+
+    float readingC ;
+
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -104,6 +99,7 @@ void setup()
 
   Pose.setDebug(false);
 
+
   //Set speed control maximum outputs to match motor
   LeftSpeedControl.setMax(100);
   RightSpeedControl.setMax(100);
@@ -122,8 +118,9 @@ void setup()
   // See related lab sheets for more information.
 
   Wire.begin();
-  //  Mag.init();
-  //  Mag.calibrate();
+ // Mag.init();
+ // buzz() ;
+ // Mag.calibrate();
   //  Imu.init();
   //  Imu.calibrate();
 
@@ -134,9 +131,9 @@ void setup()
 
 
   // Initialise Serial communication
-  Serial.begin( BAUD_RATE );
+  Serial1.begin( BAUD_RATE );
   delay(1000);
-  Serial.println("Board Reset");
+  Serial1.println("Board Reset");
 
   // Romi will wait for you to press a button and then print
   // the current map.
@@ -149,7 +146,7 @@ void setup()
   // Watch for second button press, then begin autonomous mode.
   ButtonB.waitForButton();
 
-  Serial.println("Map Erased - Mapping Started");
+  Serial1.println("Map Erased - Mapping Started");
   Map.resetMap();
 
   // Your extra setup code is best placed here:
@@ -170,6 +167,7 @@ void setup()
 
   LeftPosControl.setMax( 30 ) ;
   RightPosControl.setMax( 30 ) ;
+
 
 
 
@@ -211,16 +209,35 @@ void loop() {
     }
   }
 
+
   // Print map to serial on button b press.
   if(ButtonB.getSingleDebouncedPress()) {
     Map.printMap();
   }
 
+
+  readingC = CentreIR.getFilteredInMM() ; 
+  //readingC = getReading() ;
+  Serial1.println(readingC) ;
+  //float readingL = LeftIR.getFilteredInMM() ;
+  //float readingR = RightIR.getFilteredInMM() ; 
+  //Serial1.print("Left: ") ;
+  //Serial1.println(readingL) ;
+  //Serial1.print("Centre: ") ;
+
+  //Serial1.print("Right: ") ;
+  //Serial1.println(readingR) ;
+  //Serial1.println() ;
+
+  //float readingLine = LineCentre.readCalibrated() ;
+  //Serial1.print("Line: ") ;
+  //Serial1.println(readingLine) ;
+  //Serial1.println() ;
+  
   // Remember to always update kinematics!!
   Pose.update();
   X = Pose.getX() ;
   Y = Pose.getY() ;
-
 
   doMovement();
   //    LeftMotor.setPower(30) ;
@@ -237,8 +254,7 @@ void loop() {
   //    }
   
   doMapping();
-
-  delay(2);
+  delay(100);
 }
 
 
@@ -250,6 +266,15 @@ void loop() {
    better obstacle avoidance behaviour implemented for
    your Experiment Day 1 baseline test.
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+float getReading() {
+for (int i = 0 ; i < 100 ; i++ )
+{ 
+float readingC = CentreIR.getFilteredInMM() ;
+readingC += ( readingC / 100 ) ;
+return readingC ;
+}
+}
+
 void doMovement() {
 
   // Static means this variable will keep
@@ -263,7 +288,7 @@ void doMovement() {
 
   // Check if we are about to collide.  If so,
   // zero forward speed
-  if ( CentreDistanceSensor.getDistanceRaw() > 450 ) {
+  if ( CentreIR.getDistanceRaw() > 450 ) {
     forward_bias = 0;
   } else {
     forward_bias = 30;
@@ -276,7 +301,7 @@ void doMovement() {
     walk_update = millis();
 
     // randGaussian(mean, sd).  utils.h
-    turn_bias = randGaussian(0, 10);
+    turn_bias = randGaussian(0, 35 );
 
     // Setting a speed demand with these variables
     // is automatically captured by a speed PID
@@ -285,25 +310,26 @@ void doMovement() {
     left_speed_demand = forward_bias + turn_bias;
     right_speed_demand = forward_bias - turn_bias;
 
-    // Check for boundary
-    if ( map.checkInMapBound(Pose.getX(), Pose.getY()) {
-      stop_moving();
-      LeftMotor.setPower(40);
-      RightMotor.setPower(-40);
-      delay(2000);
-      stop_moving() ;
-      LeftMotor.setPower(30);
-      RightMotor.setPower(30);
-      delay(1000) ;
-      stop_moving() ;
+      if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() > 1725 ) {
+    stop_moving() ;
 
-    } else {
+    LeftMotor.setPower(40);
+    RightMotor.setPower(-40);
+    delay(2000);
+    stop_moving() ;
+    LeftMotor.setPower(30);
+    RightMotor.setPower(30);
+    delay(1000) ;
+    stop_moving() ;
+    
 
-      LeftMotor.setPower(left_speed_demand) ;
-      RightMotor.setPower(right_speed_demand) ;
-    }
+  } else {
 
+    LeftMotor.setPower(left_speed_demand) ;
+    RightMotor.setPower(right_speed_demand) ;
   }
+
+}
 }
 
 
@@ -377,26 +403,28 @@ void doMapping() {
   if ( LineCentre.readRaw() > 580 ) {
     Map.updateMapFeature( (byte)'L', Pose.getY(), Pose.getX() );
   }
-
-
-  
+ 
 }
 
 
 
 
-void turn_home(float Heading , int e0 , int e1 ) {
 
-  float arc_length = 75 * Heading ;
+void turn( float angle ) { // Turn the Romi by a specified angle ( in Radians )
+
+  float arc_length = 75 * angle ;
   int turn_target = round ( arc_length / ( MM_PER_COUNT ) ) ;
 
-  float L_PWM = LeftPosControl.update( ( e1 + turn_target ) , left_encoder_count ) ;
-  float R_PWM = RightPosControl.update( ( e0 - turn_target ) , right_encoder_count ) ;
+  float L_PWM = LeftPosControl.update( (  - turn_target ) , left_encoder_count ) ;
+  float R_PWM = RightPosControl.update( (  turn_target ) , right_encoder_count ) ;
+  //float ADJ = wheelMatch.update( 0 , turn_error ) ;
 
-  LeftMotor.setPower( L_PWM ) ;
-  RightMotor.setPower( R_PWM ) ;
+  leftWheel_output(L_PWM) ;
+  rightWheel_output(R_PWM) ;
+
+ //  analogWrite(10,L_PWM);
+ //   analogWrite(9,R_PWM);
   //
-
 }
 
 
@@ -404,9 +432,9 @@ void turn_home(float Heading , int e0 , int e1 ) {
 
 void buzz() {
 
-  delay ( 250 ) ;
-  analogWrite( 6 , 100 ) ;
-  delay ( 250 ) ;
+  delay ( 25 ) ;
+  analogWrite( 6 , 10 ) ;
+  delay ( 25 ) ;
   analogWrite( 6 , 0 ) ;
   //
 }
@@ -438,4 +466,32 @@ ISR(TIMER3_COMPA_vect)
     LeftMotor.setPower(left_motor_demand);
     RightMotor.setPower(right_motor_demand);
   }
+}
+
+
+void leftWheel_output( float leftPower ) { // Writes left wheel power signal
+
+  if ( leftPower < 0 ) {
+    leftPower *= -1 ;
+    digitalWrite( MOTOR_DIR_L , HIGH ) ;
+    analogWrite( MOTOR_PWM_L , leftPower ) ;
+  } else {
+    digitalWrite( MOTOR_DIR_L , LOW ) ;
+    analogWrite( MOTOR_PWM_L , leftPower ) ;
+  }
+  //
+}
+
+
+void rightWheel_output( float rightPower ) { // Writes right wheel power signal
+
+  if ( rightPower < 0 ) {
+    rightPower *= -1 ;
+    digitalWrite( MOTOR_DIR_R , HIGH ) ;
+    analogWrite( MOTOR_PWM_R , rightPower ) ;
+  } else {
+    digitalWrite( MOTOR_DIR_R , LOW ) ;
+    analogWrite( MOTOR_PWM_R , rightPower ) ;
+  }
+  //
 }

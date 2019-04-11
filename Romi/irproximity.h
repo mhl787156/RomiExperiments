@@ -3,46 +3,62 @@
 
 class SharpIR
 {
-    public:
-        SharpIR(byte pin);
-        int  getDistanceRaw();
-        float  getDistanceInMM();
-        void calibrate();
+  public:
+    SharpIR(byte pin, float a, float b, float c);
+    int     getDistanceRaw();
+    float   getDistanceInMM();
+    float   getFilteredInMM() ;
+    void    calibrate();
 
-    private:
-        byte pin;
+  private:
+    byte  pin;
+    float a ;
+    float b ;
+    float c ;
+    double alpha = 0.1 ;
+    float last_output ;
+
 };
 
-SharpIR::SharpIR(byte _pin)
+SharpIR::SharpIR(byte _pin, float _a, float _b, float _c )
 {
   pin = _pin;
+  a = _a ;
+  b = _b ;
+  c = _c ;
 }
 
 int SharpIR::getDistanceRaw()
 {
-    return analogRead(pin);
+  return analogRead(pin);
 }
 
 
 /*
- * This piece of code is quite crucial to mapping
- * obstacle distance accurately, so you are encouraged
- * to calibrate your own sensor by following the labsheet.
- * Also remember to make sure your sensor is fixed to your
- * Romi firmly and has a clear line of sight!
- */
+   This piece of code is quite crucial to mapping
+   obstacle distance accurately, so you are encouraged
+   to calibrate your own sensor by following the labsheet.
+   Also remember to make sure your sensor is fixed to your
+   Romi firmly and has a clear line of sight!
+*/
 float SharpIR::getDistanceInMM()
 {
-    
-    float distance = (float)analogRead( pin );
-    
-    // map this to 0 : 5v range.
-    distance *= 0.0048;
 
-    const float exponent = (1/-0.616);
-    distance = pow( ( distance / 12.494 ), exponent);
-       
-    return distance;
+  float distance = (float)analogRead( pin );
+
+  distance = ( pow( (( distance - c ) / a  ),  (1/b) ) );
+  
+  return distance;
+}
+
+float   SharpIR::getFilteredInMM() 
+{
+
+float output = ( alpha * SharpIR::getDistanceInMM() ) + ( ( 1 - alpha ) * last_output )  ;
+last_output = output ;
+
+return output ;
+      
 }
 
 

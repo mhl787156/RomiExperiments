@@ -32,7 +32,7 @@ void BeliefMapper::resetMap()
             
             if (eeprom_address > 1023)
             {
-                Serial.println(F("Error: EEPROM Address greater than 1023"));
+                Serial1.println(F("Error: EEPROM Address greater than 1023"));
             }
             else
             {
@@ -45,7 +45,7 @@ void BeliefMapper::resetMap()
 }
 
 void BeliefMapper::printMap() {
-    Serial.println("Belief Map");
+    Serial1.println("Belief Map");
     for (int i=0;i<MAP_RESOLUTION;i++)
     {
         for(int j=0;j<MAP_RESOLUTION;j++)
@@ -57,20 +57,20 @@ void BeliefMapper::printMap() {
             bool visited_bit = value & VISITED_BIT;
             byte conf = value & CONFIDENCE_MASK;
             if (visited_bit) {
-                Serial.print((char)'*');
+                Serial1.print((char)'*');
             } else if (conf > DEFAULT_PROB) {
-                Serial.print((char)'O');
+                Serial1.print((char)'O');
             } else {
-                Serial.print((char) MAP_DEFAULT_FEATURE);
+                Serial1.print((char) MAP_DEFAULT_FEATURE);
             }
-            Serial.print(" ");
+            Serial1.print(" ");
         }
-        Serial.println("");
+        Serial1.println("");
     }
 }
 
 void BeliefMapper::printRawMap() {
-    Serial.println("Map");
+    Serial1.println("Map");
     for (int i=0;i<MAP_RESOLUTION;i++)
     {
         for(int j=0;j<MAP_RESOLUTION;j++)
@@ -78,10 +78,10 @@ void BeliefMapper::printRawMap() {
             int eeprom_address = (i*MAP_RESOLUTION)+j;
             byte value;
             value = EEPROM.read(eeprom_address);//, value);
-            Serial.print((char) value);
-            Serial.print(" ");
+            Serial1.print((char) value);
+            Serial1.print(" ");
         }
-        Serial.println("");
+        Serial1.println("");
     }
 }
 
@@ -113,7 +113,7 @@ void BeliefMapper::updateMapFeature(byte feature, int y, int x)
 {
     if (x > MAP_X || x < 0 || y > MAP_Y || y < 0)
     {
-      Serial.println(F("Error:Invalid co-ordinate"));
+      Serial1.println(F("Error:Invalid co-ordinate"));
       return;
     }
 
@@ -124,7 +124,7 @@ void BeliefMapper::updateMapFeature(byte feature, int y, int x)
 
     if (eeprom_address > 1023)
     {
-        Serial.println(F("Error: EEPROM Address greater than 1023"));
+        Serial1.println(F("Error: EEPROM Address greater than 1023"));
     }
     else
     {   

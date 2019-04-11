@@ -34,7 +34,7 @@ void Imu::init()
 {
     if (!imu.init())
     {
-        Serial.println("Failed to detect and initialize magnetometer!");
+        Serial1.println("Failed to detect and initialize magnetometer!");
         while (1);
     }
 
