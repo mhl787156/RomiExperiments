@@ -70,20 +70,10 @@ void Kinematics::update()
     last_left_encoder_count = left_encoder_count;
     last_right_encoder_count = right_encoder_count;  
 
-   theta_enc_d = ( ( ( right_delta - left_delta ) / WHEEL_DISTANCE ) )  ;
-   theta_imu_d = ( IMU.gz_rad * ( time_elapsed / 1000 ) ) ;
-   theta += ( theta_enc_d ) + ( theta_imu_d - theta_enc_d ) ;
-
-
-    x += ( mean_delta * cos ( theta ) ) ;
-    y += ( mean_delta * sin ( theta ) ) ;
-
-
-    angular_velocity = ( (left_delta-right_delta) / WHEEL_DISTANCE );
-    angular_velocity -= last_theta;
-    angular_velocity /= time_elapsed;
+    theta_enc_d = ( ( ( right_delta - left_delta ) / WHEEL_DISTANCE ) )  ;  // Heading from Encoders
+    theta_imu_d = ( IMU.gz_rad * ( time_elapsed / 1000 ) ) ;                // Heading from IMU
+    theta += theta_enc_d + ( theta_imu_d - theta_enc_d ) ;                  // Complimentary filter for current heading 
     
-
     //Wrap theta between -PI and PI.
     if (theta > PI)
     {
@@ -94,7 +84,16 @@ void Kinematics::update()
         theta += 2*PI;
     } 
 
-    last_theta = theta;
+    last_theta = theta; // Store theta for next iteration
+
+    x += ( mean_delta * cos ( theta ) ) ;   // X position update
+    y += ( mean_delta * sin ( theta ) ) ;   // Y position update
+
+
+    angular_velocity = ( (left_delta-right_delta) / WHEEL_DISTANCE );
+    angular_velocity -= last_theta;
+    angular_velocity /= time_elapsed;
+    
 
     if (debug)
     {

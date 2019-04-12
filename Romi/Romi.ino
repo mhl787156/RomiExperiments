@@ -112,9 +112,8 @@ void setup()
   // See related lab sheets for more information.
 
   Wire.begin();
- // Mag.init();
- // buzz() ;
- // Mag.calibrate();
+  // Mag.init();
+  // Mag.calibrate();
   Pose.calibrateIMU() ;
 
 
@@ -194,26 +193,21 @@ void loop() {
   //   }
   // }
 
-Pose.update() ;
+  Pose.update() ; // Update kinematic model
+
   // Print map to serial on button b press.
   if(ButtonB.getSingleDebouncedPress()) {
     Map.printMap();
   }
 
-  //  Serial1.println(Pose.getThetaDegrees());
- Pose.printPose() ;
+  Pose.printPose() ;
 
-
-  // Remember to always update kinematics!!
-  // Pose.update();
-  // X = Pose.getX() ;
-  // Y = Pose.getY() ;
 
   doMovement();
  
   
   doMapping();
-  delay(100);
+  delay(10);
 }
 
 
@@ -237,18 +231,15 @@ void doMovement() {
   float forward_bias;
   float turn_bias;
 
-  // Check if we are about to collide.  If so,
-  // zero forward speed
-  forward_bias = ObstacleAvoidance() ;
+  forward_bias = ObstacleAvoidance() ;  // Collision detection and avoidance
 
   // Periodically set a random turn.
   // Here, gaussian means we most often drive
   // forwards, and occasionally make a big turn.
-  if ( millis() - walk_update > 300 ) {
+  if ( millis() - walk_update > 750 ) {
     walk_update = millis();
 
-    // randGaussian(mean, sd).  utils.h
-    turn_bias = randGaussian(0, 25 );
+      turn_bias = randGaussian(0, 20 ); // Set turn bias
 
     // Setting a speed demand with these variables
     // is automatically captured by a speed PID
@@ -345,12 +336,7 @@ void IRaddToMap()
   float distance = CentreIR.getFilteredInMM();
   if ( distance < 450 && distance > 100 ) {
 
-    // We know the romi has the sensor mounted
-    // to the front of the robot.  Therefore, the
-    // sensor faces along Pose.Theta.
-    // We also add on the distance of the
-    // sensor away from the centre of the robot.
-    distance += 80;
+    distance += 80; // Adjust for sensor placement on body
 
     float projected_x = 0 ;
     float projected_y = 0 ;
@@ -371,12 +357,7 @@ void IRaddToMap()
     distance = LeftIR.getFilteredInMM();
   if ( distance < 450 && distance > 100 ) {
 
-    // We know the romi has the sensor mounted
-    // to the front of the robot.  Therefore, the
-    // sensor faces along Pose.Theta.
-    // We also add on the distance of the
-    // sensor away from the centre of the robot.
-    distance += 80;
+    distance += 80; // Adjust for sensor placement on body
 
     float projected_x = 0 ;
     float projected_y = 0 ;
@@ -397,12 +378,7 @@ void IRaddToMap()
     distance = RightIR.getFilteredInMM();
   if ( distance < 450 && distance > 100 ) {
 
-    // We know the romi has the sensor mounted
-    // to the front of the robot.  Therefore, the
-    // sensor faces along Pose.Theta.
-    // We also add on the distance of the
-    // sensor away from the centre of the robot.
-    distance += 80;
+    distance += 80; // Adjust for sensor placement on body
 
     float projected_x = 0 ;
     float projected_y = 0 ;
