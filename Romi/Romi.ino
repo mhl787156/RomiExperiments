@@ -70,7 +70,6 @@ Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
 bool use_speed_controller = false;
 float left_speed_demand = 0;
 float right_speed_demand = 0;
-float readingC ;
 
 
 
@@ -93,7 +92,6 @@ void setup()
 
   Pose.setDebug(false);
 
-
   //Set speed control maximum outputs to match motor
   LeftSpeedControl.setMax(100);
   RightSpeedControl.setMax(100);
@@ -105,15 +103,10 @@ void setup()
   //Setup RFID card
   setupRFID();
 
-  // These functions calibrate the IMU and Magnetometer
-  // The magnetometer calibration routine require you to move
-  // your robot around  in space.
   // The IMU calibration requires the Romi does not move.
   // See related lab sheets for more information.
 
   Wire.begin();
-  // Mag.init();
-  // Mag.calibrate();
   Pose.calibrateIMU() ;
 
 
@@ -172,7 +165,8 @@ void setup()
    - log lines, RFID and obstacles to the map.
 
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-void loop() {
+void loop() 
+{
 
   StopAndPrint() ;
 
@@ -188,6 +182,7 @@ void loop() {
   doMovement();
    
   doMapping();
+
   delay(10);
 }
 
