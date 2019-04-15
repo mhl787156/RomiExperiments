@@ -174,24 +174,7 @@ void setup()
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void loop() {
 
-  // // Stop and auto print map to serial
-  // if(ButtonA.getSingleDebouncedPress()) {
-  //   Map.printMap();
-  //   stop_moving();
-  //   buzz();
-  //   byte map_counter = 0;
-  //   while(true){
-  //     if(map_counter > 5000) {
-  //       if(ButtonA.getSingleDebouncedPress()) {
-  //         Map.printMap();
-  //       } else {
-  //         Map.printRawMap();
-  //       }
-  //       map_counter = 0;
-  //     }
-  //     map_counter++;
-  //   }
-  // }
+  StopAndPrint() ;
 
   Pose.update() ; // Update kinematic model
 
@@ -249,27 +232,26 @@ void doMovement() {
     right_speed_demand = forward_bias - turn_bias;
 
       if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() > 1725 ) {
-      stop_moving() ;
+      StopMoving() ;
 
       LeftMotor.setPower(40);
       RightMotor.setPower(-40);
       delay(2000);
-      stop_moving() ;
+      StopMoving() ;
       LeftMotor.setPower(30);
       RightMotor.setPower(30);
       delay(1000) ;
-      stop_moving() ;
+      StopMoving() ;
     
 
       } else {
 
-    LeftMotor.setPower(left_speed_demand) ;
-    RightMotor.setPower(right_speed_demand) ;
+      LeftMotor.setPower(left_speed_demand) ;
+      RightMotor.setPower(right_speed_demand) ;
+
+    }
   }
-
 }
-}
-
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    This function groups up our sensor checks, and then
@@ -318,9 +300,7 @@ void doMapping() {
  
 }
 
-
-float ObstacleAvoidance()
-{
+float ObstacleAvoidance() {
   float forward_bias ;
     if ( CentreIR.getDistanceRaw() > 500 || LeftIR.getDistanceRaw() > 600 || RightIR.getDistanceRaw() > 600 ) {
        forward_bias = -20 ;
@@ -330,9 +310,14 @@ float ObstacleAvoidance()
   return forward_bias ;
 }
 
+void StopMoving() { // Returns the wheel speeds to zero
 
-void IRaddToMap()
-{
+  LeftMotor.setPower( 0 ) ;
+  RightMotor.setPower( 0 ) ;
+  //
+}
+
+void IRaddToMap() {
   float distance = CentreIR.getFilteredInMM();
   if ( distance < 450 && distance > 100 ) {
 
@@ -397,14 +382,29 @@ void IRaddToMap()
   }
 }
 
+void StopAndPrintMap() {
+  if(ButtonA.getSingleDebouncedPress()) {
+    Map.printMap();
+    StopMoving();
+    buzz();
+    byte map_counter = 0;
+    while(true){
+      if(map_counter > 5000) {
+        if(ButtonA.getSingleDebouncedPress()) {
+          Map.printMap();
+        } else {
+          Map.printRawMap();
+        }
+        map_counter = 0;
+      }
+      map_counter++;
+    }
+  }
+}
 
-ISR(TIMER3_COMPA_vect)
-{
-
+ISR(TIMER3_COMPA_vect) {
   
- 
-
-  /*
+   /*
      Calculate Speeds
   */
   signed int left_delta = left_encoder_count - last_count_left;
@@ -424,39 +424,4 @@ ISR(TIMER3_COMPA_vect)
     LeftMotor.setPower(left_motor_demand);
     RightMotor.setPower(right_motor_demand);
   }
-}
-
-
-void leftWheel_output( float leftPower ) { // Writes left wheel power signal
-
-  if ( leftPower < 0 ) {
-    leftPower *= -1 ;
-    digitalWrite( MOTOR_DIR_L , HIGH ) ;
-    analogWrite( MOTOR_PWM_L , leftPower ) ;
-  } else {
-    digitalWrite( MOTOR_DIR_L , LOW ) ;
-    analogWrite( MOTOR_PWM_L , leftPower ) ;
-  }
-  //
-}
-
-
-void rightWheel_output( float rightPower ) { // Writes right wheel power signal
-
-  if ( rightPower < 0 ) {
-    rightPower *= -1 ;
-    digitalWrite( MOTOR_DIR_R , HIGH ) ;
-    analogWrite( MOTOR_PWM_R , rightPower ) ;
-  } else {
-    digitalWrite( MOTOR_DIR_R , LOW ) ;
-    analogWrite( MOTOR_PWM_R , rightPower ) ;
-  }
-  //
-}
-
-void stop_moving() { // Returns the wheel speeds to zero
-
-  LeftMotor.setPower( 0 ) ;
-  RightMotor.setPower( 0 ) ;
-  //
 }
