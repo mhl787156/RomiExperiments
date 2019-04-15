@@ -185,10 +185,8 @@ void loop() {
 
   Pose.printPose() ;
 
-
   doMovement();
- 
-  
+   
   doMapping();
   delay(10);
 }
