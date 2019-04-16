@@ -70,6 +70,7 @@ Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
 bool use_speed_controller = false;
 float left_speed_demand = 0;
 float right_speed_demand = 0;
+unsigned long map_timer ;
 
 
 
@@ -135,10 +136,13 @@ void setup()
   Serial1.println("Map Erased - Mapping Started");
   Map.resetMap();
 
+  
+
   // Your extra setup code is best placed here:
   // ...
   // ...
   // but not after the following:
+  map_timer = millis() ;
 
   // Because code flow has been blocked, we need to reset the
   // last_time variable of the PIDs, otherwise we update the
@@ -168,7 +172,12 @@ void setup()
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void loop() 
 {
-
+    if ( millis() > map_timer + 10000 ) {
+    map_timer = millis() ;
+    Map.printMap() ;
+    Serial1.print("Pose: ") ;
+    Pose.printPose() ;
+  }
   StopAndPrintMap() ;
 
   Pose.update() ; // Update kinematic model
@@ -177,8 +186,6 @@ void loop()
   if(ButtonB.getSingleDebouncedPress()) {
     Map.printMap();
   }
-
-  Pose.printPose() ;
 
   doMovement();
    
@@ -217,7 +224,7 @@ void doMovement() {
   if ( millis() - walk_update > 500 ) {
     walk_update = millis();
 
-    turn_bias = randGaussian(0, 20 ); // Set turn bias
+    turn_bias = randGaussian(0, 10 ); // Set turn bias
 
     // Setting a speed demand with these variables
     // is automatically captured by a speed PID
@@ -230,7 +237,7 @@ void doMovement() {
     LeftMotor.setPower(left_speed_demand) ;
     RightMotor.setPower(right_speed_demand) ;
 
-  }
+    }
 
 }
 
@@ -246,8 +253,7 @@ void doMovement() {
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void doMapping() {
 
-  // Put Romi's current location
-  Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
+
 
   // Read IR sensors and add any detected obstacles to belief map
   IRaddToMap() ;
@@ -279,6 +285,9 @@ void doMapping() {
   if ( LineCentre.readRaw() > 580 ) {
     Map.updateMapFeature( (byte)'L', Pose.getY(), Pose.getX() );
   }
+
+    // Put Romi's current location
+  Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
  
 }
 
@@ -287,13 +296,13 @@ float ObstacleAvoidance() {
     if ( CentreIR.getDistanceRaw() > 500 || LeftIR.getDistanceRaw() > 600 || RightIR.getDistanceRaw() > 600 ) {
        forward_bias = -20 ;
     } else {
-    forward_bias = 30;
+    forward_bias = 20;
     }
   return forward_bias ;
 }
 
 void BoundaryBehaviour() {
-if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() > 1725 ) {
+if ( Pose.getX() < 150 || Pose.getX() > 1650 || Pose.getY() < 150 || Pose.getY() > 1650 ) {
     StopMoving() ;
     delay(1000) ;
     bool Goal = false ;
@@ -302,8 +311,8 @@ if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() >
 
     while (!Goal) {
       Pose.update() ;
-      Pose.printPose() ;
-      Serial1.println(Boundary_Turn) ;
+      // Pose.printPose() ;
+      // Serial1.println(Boundary_Turn) ;
       float turn = HeadingControl.update(Boundary_Turn,Pose.getThetaRadians());
       LeftMotor.setPower(-turn);
       RightMotor.setPower(turn);
@@ -312,12 +321,15 @@ if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() >
         StopMoving() ;
         Goal = true ;
         buzz();
-        
-        delay(250) ;
+        long int time_start = millis() ;
 
         LeftMotor.setPower(30);
         RightMotor.setPower(30);
-        delay(1000) ;
+
+        while ( millis() < ( time_start + 1000 ) ) {
+          Pose.update() ;
+        }
+        
       }
     }
   }
@@ -332,7 +344,7 @@ void StopMoving() { // Returns the wheel speeds to zero
 
 void IRaddToMap() {
   float distance = CentreIR.getFilteredInMM();
-  if ( distance < 450 && distance > 100 ) {
+  if ( distance < 300 && distance > 50 ) {
 
     distance += 80; // Adjust for sensor placement on body
 
@@ -344,6 +356,7 @@ void IRaddToMap() {
       projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() ) );
       projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() ) );
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
+      Map.updateMapFeature( (byte)'*', Pose.getX(), Pose.getY());
     }
 
     // Here we calculate the actual position of the obstacle we have detected
@@ -353,7 +366,7 @@ void IRaddToMap() {
   }
 
     distance = LeftIR.getFilteredInMM();
-  if ( distance < 450 && distance > 100 ) {
+  if ( distance < 300 && distance > 50 ) {
 
     distance += 80; // Adjust for sensor placement on body
 
@@ -374,7 +387,7 @@ void IRaddToMap() {
   }
 
     distance = RightIR.getFilteredInMM();
-  if ( distance < 450 && distance > 100 ) {
+  if ( distance < 300 && distance > 50 ) {
 
     distance += 80; // Adjust for sensor placement on body
 

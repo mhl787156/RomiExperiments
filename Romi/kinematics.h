@@ -132,8 +132,8 @@ float Kinematics::getY()
 void Kinematics::resetPose()
 {
 
-    x = 0;
-    y = 0;
+    x = 900;
+    y = 900;
     theta = 0;
 
 }

@@ -54,7 +54,7 @@ void BeliefMapper::printMap() {
             byte value;
             value = EEPROM.read(eeprom_address);//, value);
             bool seen_bit = value & SEEN_BIT;
-            bool visited_bit = value & VISITED_BIT;
+            bool visited_bit = (value & VISITED_BIT)>>7;
             byte conf = value & CONFIDENCE_MASK;
             if (visited_bit) {
                 Serial1.print((char)'*');
@@ -63,7 +63,8 @@ void BeliefMapper::printMap() {
             } else {
                 Serial1.print((char) MAP_DEFAULT_FEATURE);
             }
-            Serial1.print(" ");
+            //Serial1.print(" ");
+            Serial1.print(visited_bit);
         }
         Serial1.println("");
     }
@@ -113,7 +114,7 @@ void BeliefMapper::updateMapFeature(byte feature, int y, int x)
 {
     if (x > MAP_X || x < 0 || y > MAP_Y || y < 0)
     {
-      Serial1.println(F("Error:Invalid co-ordinate"));
+      Serial1.println(F("Warning: detected obstacle out of bounds."));
       return;
     }
 
