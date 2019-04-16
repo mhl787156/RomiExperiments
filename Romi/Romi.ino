@@ -52,7 +52,7 @@ PID           LeftPosControl(.15, 0.04, 0.001) ;
 PID           RightPosControl(.15, 0.04, 0.001) ;
 PID           LeftSpeedControl( 3.5, 20.9, 0.04 );
 PID           RightSpeedControl( 3.5, 20.9, 0.04 );
-PID           HeadingControl( 1.5, 0, 0.001 );
+PID           HeadingControl( 325 , 0.00, 0.0000 );
 
 BeliefMapper  Map; //Class for representing the map
 
@@ -95,6 +95,7 @@ void setup()
   //Set speed control maximum outputs to match motor
   LeftSpeedControl.setMax(100);
   RightSpeedControl.setMax(100);
+  HeadingControl.setMax(50) ;
 
   // For this example, we'll calibrate only the
   // centre sensor.  You may wish to use more.
@@ -168,7 +169,7 @@ void setup()
 void loop() 
 {
 
-  StopAndPrint() ;
+  StopAndPrintMap() ;
 
   Pose.update() ; // Update kinematic model
 
@@ -208,14 +209,15 @@ void doMovement() {
   float turn_bias;
 
   forward_bias = ObstacleAvoidance() ;  // Collision detection and avoidance
+  BoundaryBehaviour() ;
 
   // Periodically set a random turn.
   // Here, gaussian means we most often drive
   // forwards, and occasionally make a big turn.
-  if ( millis() - walk_update > 750 ) {
+  if ( millis() - walk_update > 500 ) {
     walk_update = millis();
 
-      turn_bias = randGaussian(0, 20 ); // Set turn bias
+    turn_bias = randGaussian(0, 20 ); // Set turn bias
 
     // Setting a speed demand with these variables
     // is automatically captured by a speed PID
@@ -224,27 +226,14 @@ void doMovement() {
     left_speed_demand = forward_bias + turn_bias;
     right_speed_demand = forward_bias - turn_bias;
 
-      if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() > 1725 ) {
-      StopMoving() ;
 
-      LeftMotor.setPower(40);
-      RightMotor.setPower(-40);
-      delay(2000);
-      StopMoving() ;
-      LeftMotor.setPower(30);
-      RightMotor.setPower(30);
-      delay(1000) ;
-      StopMoving() ;
-    
+    LeftMotor.setPower(left_speed_demand) ;
+    RightMotor.setPower(right_speed_demand) ;
 
-      } else {
-
-      LeftMotor.setPower(left_speed_demand) ;
-      RightMotor.setPower(right_speed_demand) ;
-
-    }
   }
+
 }
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    This function groups up our sensor checks, and then
@@ -299,8 +288,39 @@ float ObstacleAvoidance() {
        forward_bias = -20 ;
     } else {
     forward_bias = 30;
-  }
+    }
   return forward_bias ;
+}
+
+void BoundaryBehaviour() {
+if ( Pose.getX() < 75 || Pose.getX() > 1725 || Pose.getY() < 75 || Pose.getY() > 1725 ) {
+    StopMoving() ;
+    delay(1000) ;
+    bool Goal = false ;
+    float Origin_Angle = atan2((Pose.getY()-900),(Pose.getX()-900)) ;
+    float Boundary_Turn = Wrap((Origin_Angle + PI )) ;
+
+    while (!Goal) {
+      Pose.update() ;
+      Pose.printPose() ;
+      Serial1.println(Boundary_Turn) ;
+      float turn = HeadingControl.update(Boundary_Turn,Pose.getThetaRadians());
+      LeftMotor.setPower(-turn);
+      RightMotor.setPower(turn);
+
+      if ( HeadingControl.detectStability() ) {
+        StopMoving() ;
+        Goal = true ;
+        buzz();
+        
+        delay(250) ;
+
+        LeftMotor.setPower(30);
+        RightMotor.setPower(30);
+        delay(1000) ;
+      }
+    }
+  }
 }
 
 void StopMoving() { // Returns the wheel speeds to zero
@@ -379,7 +399,6 @@ void StopAndPrintMap() {
   if(ButtonA.getSingleDebouncedPress()) {
     Map.printMap();
     StopMoving();
-    buzz();
     byte map_counter = 0;
     while(true){
       if(map_counter > 5000) {
@@ -393,6 +412,27 @@ void StopAndPrintMap() {
       map_counter++;
     }
   }
+}
+
+float Wrap(float num) {
+  if (num > PI)
+  {
+    num -=2*PI;
+  }
+  else if(num < -PI)
+  {
+    num += 2*PI;
+  } 
+  return num ;
+}
+
+
+void buzz() {
+
+  analogWrite( BUZZER_PIN , 10 ) ;
+  delay ( 25 ) ;
+  analogWrite( BUZZER_PIN , 0 ) ;
+  //
 }
 
 ISR(TIMER3_COMPA_vect) {

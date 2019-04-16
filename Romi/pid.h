@@ -36,6 +36,7 @@ class PID
         void  setDebug(bool state); //This function sets the debug flag;
         void  printResponse(); // This function prints the ratio of input to output in a way that is nicely interpreted by the Serial plotter
         void  setShowResponse(bool state); //This functions set the show_response flag
+        bool  detectStability() ; //This function determines steady state response
         
     /* Private functions and variables are defined here. These functions / variables cannot be accessed from outside the class.
      * For example, if we try to set the value of Kp in the file "Romi.h", we will get an error (Try it out!) 
@@ -60,7 +61,9 @@ class PID
         //Values to store
         float last_demand=0; //For storing the previous input
         float last_measurement=0; //For storing the last measurement
+        float error=0;
         float last_error=0; //For calculating the derivative term
+        float last_last_error=0; // For calculating stability
         float integral_error=0; //For storing the integral of the error
         long  last_millis = 0;
         bool  debug=false; //This flag controls whether we print the contributions of each component when update is called
@@ -129,7 +132,7 @@ float PID::update(float demand, float measurement)
     last_millis = time_now;  
 
     //This represents the error term
-    float error = demand - measurement;
+    error = demand - measurement;
     
     //This represents the error derivative
     float error_delta = (last_error - error) / time_delta;  
@@ -137,6 +140,7 @@ float PID::update(float demand, float measurement)
     //Update storage
     last_demand = demand;
     last_measurement = measurement;
+    last_last_error = last_error ;
     last_error = error;  
     
     integral_error += (error * time_delta);
@@ -216,6 +220,13 @@ void PID::printResponse()
 void PID::setShowResponse(bool state)
 {
     show_response = state;
+}
+
+bool PID::detectStability()
+{
+    float criteria = ( error + last_error + last_last_error ) / ( 3 * error ) ;
+    return ( error < (PI / 180) && error > (- PI / 180) && criteria < 1.1 && criteria > 0.9) ;
+ 
 }
 
 
