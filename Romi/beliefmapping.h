@@ -3,8 +3,8 @@
 
 #include "mapping.h"
 
-#define VISITED_BIT 0x10000000
-#define SEEN_BIT 0x01000000
+#define VISITED_BIT 0b10000000
+#define SEEN_BIT 0b01000000
 #define CONFIDENCE_MASK 0b00111111
 #define NUM_BITS 6
 #define DEFAULT_PROB 0b00011111 // this is default value of 32
@@ -53,8 +53,8 @@ void BeliefMapper::printMap() {
             int eeprom_address = (i*MAP_RESOLUTION)+j;
             byte value;
             value = EEPROM.read(eeprom_address);//, value);
-            bool seen_bit = value & SEEN_BIT;
-            bool visited_bit = (value & VISITED_BIT)>>7;
+            bool seen_bit = (value & SEEN_BIT) >> 6;
+            bool visited_bit = (value & VISITED_BIT) >> 7;
             byte conf = value & CONFIDENCE_MASK;
             if (visited_bit) {
                 Serial1.print((char)'*');
@@ -63,15 +63,14 @@ void BeliefMapper::printMap() {
             } else {
                 Serial1.print((char) MAP_DEFAULT_FEATURE);
             }
-            //Serial1.print(" ");
-            Serial1.print(visited_bit);
+            Serial1.print(" ");
         }
         Serial1.println("");
     }
 }
 
 void BeliefMapper::printRawMap() {
-    Serial1.println("Map");
+    Serial1.println("Raw Map");
     for (int i=0;i<MAP_RESOLUTION;i++)
     {
         for(int j=0;j<MAP_RESOLUTION;j++)
@@ -79,7 +78,10 @@ void BeliefMapper::printRawMap() {
             int eeprom_address = (i*MAP_RESOLUTION)+j;
             byte value;
             value = EEPROM.read(eeprom_address);//, value);
-            Serial1.print((char) value);
+            bool seen_bit = (value & SEEN_BIT) >> 6;
+            short conf = value & CONFIDENCE_MASK;
+            if(!seen_bit) {conf = conf * -1;}
+            Serial1.print(conf);
             Serial1.print(" ");
         }
         Serial1.println("");
@@ -90,9 +92,7 @@ void BeliefMapper::printRawMap() {
 byte BeliefMapper::update(byte feature, int eeprom_address) {
     byte value;
     value = EEPROM.read(eeprom_address);//, value);
-    
     value = value | SEEN_BIT; // always set seen bit
-
     if (feature == '*') {
         value = value | VISITED_BIT; // set first bit only
     } else if (feature == (byte)'O') { // Obstacle update

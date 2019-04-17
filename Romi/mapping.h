@@ -45,7 +45,6 @@ void Mapper::resetMap()
             else
             {
                 EEPROM.update(eeprom_address, MAP_DEFAULT_FEATURE );
-                
             }
         }
     }

@@ -70,8 +70,10 @@ Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
 bool use_speed_controller = false;
 float left_speed_demand = 0;
 float right_speed_demand = 0;
-unsigned long map_timer ;
+unsigned long map_timer = 0;
 
+// Declare helper functions
+void PauseAndPrintMap(bool raw=false);
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -111,11 +113,9 @@ void setup()
   Wire.begin();
   Pose.calibrateIMU() ;
 
-
   // Set the random seed for the random number generator
   // from A0, which should itself be quite random.
   randomSeed(analogRead(A0));
-
 
   // Initialise Serial communication
   Serial1.begin( BAUD_RATE );
@@ -135,15 +135,12 @@ void setup()
 
   Serial1.println("Map Erased - Mapping Started");
   Map.resetMap();
-
+  map_timer = millis() ;
   
-
   // Your extra setup code is best placed here:
   // ...
   // ...
   // but not after the following:
-  map_timer = millis() ;
-
   // Because code flow has been blocked, we need to reset the
   // last_time variable of the PIDs, otherwise we update the
   // PID with a large time elapsed since the class was
@@ -157,8 +154,6 @@ void setup()
 
   LeftPosControl.setMax( 30 ) ;
   RightPosControl.setMax( 30 ) ;
-
-
 }
 
 
@@ -172,26 +167,35 @@ void setup()
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void loop() 
 {
-    if ( millis() > map_timer + 10000 ) {
-    map_timer = millis() ;
-    Map.printMap() ;
-    Serial1.print("Pose: ") ;
-    Pose.printPose() ;
+  unsigned long curr_time = millis();
+  if ( curr_time - map_timer > 10000 ) {
+    map_timer = curr_time;
+    // Map.printMap();
+    // Serial1.print("Pose: ") ;
+    // Pose.printPose() ;
+    PauseAndPrintMap();
   }
-  StopAndPrintMap() ;
 
-  Pose.update() ; // Update kinematic model
-
+  if(ButtonA.getSingleDebouncedPress()) {
+    Serial1.print("Stopping");
+    StopAndPrintMap() ;
+  }
+ 
   // Print map to serial on button b press.
   if(ButtonB.getSingleDebouncedPress()) {
     Map.printMap();
   }
 
+  // Update kinematic model
+  Pose.update(); 
+
+  // Do Movement
   doMovement();
    
+  // Update the map with sensor readings
   doMapping();
 
-  delay(10);
+  delay(5);
 }
 
 
@@ -335,11 +339,14 @@ if ( Pose.getX() < 150 || Pose.getX() > 1650 || Pose.getY() < 150 || Pose.getY()
   }
 }
 
-void StopMoving() { // Returns the wheel speeds to zero
+void StartMoving() {
+  LeftMotor.setPower(30);
+  RightMotor.setPower(30);
+}
 
+void StopMoving() { // Returns the wheel speeds to zero
   LeftMotor.setPower( 0 ) ;
   RightMotor.setPower( 0 ) ;
-  //
 }
 
 void IRaddToMap() {
@@ -408,21 +415,26 @@ void IRaddToMap() {
   }
 }
 
-void StopAndPrintMap() {
-  if(ButtonA.getSingleDebouncedPress()) {
+void PauseAndPrintMap(bool raw=false) {
+  StopMoving();
+  if(!raw) {
     Map.printMap();
-    StopMoving();
-    byte map_counter = 0;
-    while(true){
-      if(map_counter > 5000) {
-        if(ButtonA.getSingleDebouncedPress()) {
-          Map.printMap();
-        } else {
-          Map.printRawMap();
-        }
-        map_counter = 0;
-      }
-      map_counter++;
+  } else {
+    Map.printRawMap();
+  }
+  StartMoving();
+}
+
+void StopAndPrintMap() {  
+  // Stops moving and prints map to serial forever
+  // If A is pressed in loop, human readable map will be sent.
+  StopMoving();
+  unsigned long start_time = millis();
+  while(true){
+    unsigned long curr_time = millis();
+    if((curr_time - start_time) > 5000) {
+      start_time = curr_time;
+      Map.printRawMap();
     }
   }
 }
