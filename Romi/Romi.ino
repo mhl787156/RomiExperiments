@@ -171,8 +171,6 @@ void loop()
   if ( curr_time - map_timer > 10000 ) {
     map_timer = curr_time;
     PauseAndPrintMap(true); // boolean indicates printing raw map
-    Serial1.print("Pose: ");
-    Pose.printPose();
   }
 
   if(ButtonA.getSingleDebouncedPress()) {
@@ -187,7 +185,9 @@ void loop()
 
   // Update kinematic model
   Pose.update(); 
-
+  Serial1.print("Pose: ");
+  Pose.printPose();
+  
   // Do Movement
   doMovement();
    
