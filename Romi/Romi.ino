@@ -170,10 +170,9 @@ void loop()
   unsigned long curr_time = millis();
   if ( curr_time - map_timer > 10000 ) {
     map_timer = curr_time;
-    // Map.printMap();
-    // Serial1.print("Pose: ") ;
-    // Pose.printPose() ;
-    PauseAndPrintMap();
+    PauseAndPrintMap(true); // boolean indicates printing raw map
+    Serial1.print("Pose: ");
+    Pose.printPose();
   }
 
   if(ButtonA.getSingleDebouncedPress()) {
@@ -306,7 +305,7 @@ float ObstacleAvoidance() {
 }
 
 void BoundaryBehaviour() {
-if ( Pose.getX() < 150 || Pose.getX() > 1650 || Pose.getY() < 150 || Pose.getY() > 1650 ) {
+if ( Pose.getX() < 200 || Pose.getX() > 1600 || Pose.getY() < 200 || Pose.getY() > 1600 ) {
     StopMoving() ;
     delay(1000) ;
     bool Goal = false ;
@@ -321,7 +320,8 @@ if ( Pose.getX() < 150 || Pose.getX() > 1650 || Pose.getY() < 150 || Pose.getY()
       LeftMotor.setPower(-turn);
       RightMotor.setPower(turn);
 
-      if ( HeadingControl.detectStability() ) {
+      // if we've reached stability or the turn power is really low, stop
+      if ( HeadingControl.detectStability() || abs(turn) < 5) {
         StopMoving() ;
         Goal = true ;
         buzz();

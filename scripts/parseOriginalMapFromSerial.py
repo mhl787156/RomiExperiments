@@ -6,18 +6,12 @@ import numpy
 
 filePrepend = "Belief_Human_Readable"
 
+foldername = "expr1-{}-{}".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
+
 PORT = "COM12"
-datafilename = "data/expr1-{}-{}.data".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
-mapfilename = "data/expr1-{}-{}.map".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
+datafilename = "data/{}/dat.data".format(foldername)
+mapfilename = "data/{}/map.map".format(foldername)
 
-# hl, = plt.plot([], [])
-
-# def update_plot(h1, new_data):
-#     hl.set_xdata(numpy.append(hl.get_xdata(), new_data))
-#     hl.set_ydata(numpy.append(hl.get_ydata(), new_data))
-#     plt.draw()
-
-# update_plot(hl, (900, 900))
 
 print("Script up finding ROMI on Bluetooth {}".format(PORT))
 mapString = ""
@@ -27,28 +21,43 @@ with serial.Serial(PORT, timeout=3) as ser:
         while True:
             current_time = datetime.datetime.now().strftime("%H-%M-%S")
             raw = ser.readline()
-            decode = raw.decode('utf-8').strip()
+            try:
+                decode = raw.decode('utf-8').strip()
+            except:
+                decode = "Failed to read line"
             print(current_time, decode if decode != "" else "TIMEOUT")
 
             # Decode the map
             if 'Map' in decode and 'Mapping' not in decode:
-                printstr = 'Map-{}\n'.format(current_time) 
+                if 'Raw' in decode:
+                    printstr = 'RawMap-{}\n'.format(current_time) 
+                else:
+                    printstr = 'HumanMap-{}\n'.format(current_time) 
                 mymap = printstr
                 for i in range(25):
                     raw = ser.readline()
-                    decode = raw.decode('utf-8').strip()
+                    try:
+                        decode = raw.decode('utf-8').strip()
+                    except Exception:
+                        decode = "Failed to read line in map"
                     print(decode)
                     mymap =  mymap + decode + '\n'
                 mapString = mapString + mymap + '\n'              
             else:
-                dataString = dataString + decode + '\n'               
-                
-
+                dataString = dataString + decode + '\n'                
     except KeyboardInterrupt:
         print('Stopping and Saving')
+    except Exception as e:
+        print('Error occured')
+        print(e)
             
-
-with open(mapfilename, 'w+') as f:
-    f.write(mapString)
-with open(datafilename, 'w+') as f:
-    f.write(dataString)
+x = input('Save Data (y/n)?: ')
+if(x in 'Yy'):
+    os.mkdir("data/{}".format(foldername))
+    with open(mapfilename, 'w+') as f:
+        f.write(mapString)
+    print('Saved Map in {}'.format(mapfilename))
+    with open(datafilename, 'w+') as f:
+        f.write(dataString)
+    print('Saved Data in {}'.format(datafilename))
+    

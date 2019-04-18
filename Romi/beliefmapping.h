@@ -79,8 +79,10 @@ void BeliefMapper::printRawMap() {
             byte value;
             value = EEPROM.read(eeprom_address);//, value);
             bool seen_bit = (value & SEEN_BIT) >> 6;
+            bool visited_bit = (value & VISITED_BIT) >> 7;
             short conf = value & CONFIDENCE_MASK;
             if(!seen_bit) {conf = conf * -1;}
+            if(visited_bit) {conf = conf + 100;}
             Serial1.print(conf);
             Serial1.print(" ");
         }
