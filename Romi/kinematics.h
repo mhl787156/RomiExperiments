@@ -1,4 +1,4 @@
-#ifndef _Kinematics
+#ifndef _Kinematics_h
 #define _Kinematics_h
 #include "imu.h"
 

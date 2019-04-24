@@ -20,6 +20,7 @@
 #include "imu.h"
 #include "magnetometer.h"
 #include "Pushbutton.h"
+#include "planner.h"
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    Definitions.  Other definitions exist in the .h files above.
@@ -58,6 +59,8 @@ BeliefMapper  Map; //Class for representing the map
 
 Pushbutton    ButtonA( BUTTON_A, DEFAULT_STATE_HIGH);
 Pushbutton    ButtonB( BUTTON_B, DEFAULT_STATE_HIGH);
+
+Planner       MotionPlanner(Map);
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    Global variables.
@@ -227,20 +230,19 @@ void doMovement() {
   if ( millis() - walk_update > 500 ) {
     walk_update = millis();
 
-    turn_bias = randGaussian(0, 10 ); // Set turn bias
+    if(MotionPlanner.isPreviousMoveComplete(Pose)){
+      MotionPlanner.calculateNextMove(Pose);  
+    }
+      
+    forward_bias = MotionPlanner.nextMoveTargetDist();
+    turn_bias = MotionPlanner.nextMoveTargetAngle();
 
-    // Setting a speed demand with these variables
-    // is automatically captured by a speed PID
-    // controller in timer3 ISR. Check interrupts.h
-    // for more information.
     left_speed_demand = forward_bias + turn_bias;
     right_speed_demand = forward_bias - turn_bias;
 
-
     LeftMotor.setPower(left_speed_demand) ;
     RightMotor.setPower(right_speed_demand) ;
-
-    }
+  }
 
 }
 

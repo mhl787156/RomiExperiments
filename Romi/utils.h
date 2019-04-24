@@ -1,3 +1,6 @@
+#ifndef RomiUtils_h
+#define RomiUtils_h
+
 float rad2deg(float rad)
 {
     return rad * (180.0 / PI);
@@ -48,3 +51,4 @@ float randGaussian( float mean, float sd ) {
    
 }
  
+#endif
