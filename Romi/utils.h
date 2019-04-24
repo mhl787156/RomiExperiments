@@ -8,6 +8,18 @@ float deg2rad(float deg)
 	  return deg * (PI/ 180.0);
 }
 
+float wrapAngle(float num) {
+  if (num > PI)
+  {
+    num -=2*PI;
+  }
+  else if(num < -PI)
+  {
+    num += 2*PI;
+  } 
+  return num ;
+}
+
 
 /*
  *  This is quite a computationally expensive routine,

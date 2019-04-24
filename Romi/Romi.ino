@@ -310,7 +310,7 @@ if ( Pose.getX() < 200 || Pose.getX() > 1600 || Pose.getY() < 200 || Pose.getY()
     delay(1000) ;
     bool Goal = false ;
     float Origin_Angle = atan2((Pose.getY()-900),(Pose.getX()-900)) ;
-    float Boundary_Turn = Wrap((Origin_Angle + PI )) ;
+    float Boundary_Turn = wrapAngle((Origin_Angle + PI )) ;
 
     while (!Goal) {
       Pose.update() ;
@@ -339,6 +339,49 @@ if ( Pose.getX() < 200 || Pose.getX() > 1600 || Pose.getY() < 200 || Pose.getY()
   }
 }
 
+void IRaddToMap() {
+  float distance = CentreIR.getFilteredInMM();
+  IRProjectOntoMap(distance, 0, 50, 300);
+  
+  distance = LeftIR.getFilteredInMM();
+  IRProjectOntoMap(distance, -PI/4, 50, 300);
+
+  distance = RightIR.getFilteredInMM();
+  IRProjectOntoMap(distance, PI/4, 50, 300);
+}
+
+void IRProjectOntoMap(float distance, float angleoffset, float mindist, float maxdist) {
+  if ( distance < maxdist && distance > mindist ) {
+    float projected_x = 0 ;
+    float projected_y = 0 ;
+
+    distance += 80; // Adjust for sensor placement on body
+    float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
+    float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
+
+    // Update all cells up to the obstacle position as non-obstacles
+    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
+      projected_x = Pose.getX() + ( k * cos_proj );
+      projected_y = Pose.getY() + ( k * sin_proj );
+      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
+    }
+
+    // Here we calculate the actual position of the obstacle we have detected
+    projected_x = Pose.getX() + cos_proj;
+    projected_y = Pose.getY() + sin_proj;
+    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
+  }
+}
+
+/**
+ * 
+ *  Utilitis 
+ *  Motor control and buzzer and other things
+ * 
+ * 
+ * */
+
+
 void StartMoving() {
   LeftMotor.setPower(30);
   RightMotor.setPower(30);
@@ -347,72 +390,6 @@ void StartMoving() {
 void StopMoving() { // Returns the wheel speeds to zero
   LeftMotor.setPower( 0 ) ;
   RightMotor.setPower( 0 ) ;
-}
-
-void IRaddToMap() {
-  float distance = CentreIR.getFilteredInMM();
-  if ( distance < 300 && distance > 50 ) {
-
-    distance += 80; // Adjust for sensor placement on body
-
-    float projected_x = 0 ;
-    float projected_y = 0 ;
-
-    // Update all cells up to the obstacle position as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
-      projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() ) );
-      projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() ) );
-      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
-      Map.updateMapFeature( (byte)'*', Pose.getX(), Pose.getY());
-    }
-
-    // Here we calculate the actual position of the obstacle we have detected
-    projected_x = Pose.getX() + ( distance * cos( Pose.getThetaRadians() ) );
-    projected_y = Pose.getY() + ( distance * sin( Pose.getThetaRadians() ) );
-    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
-  }
-
-    distance = LeftIR.getFilteredInMM();
-  if ( distance < 300 && distance > 50 ) {
-
-    distance += 80; // Adjust for sensor placement on body
-
-    float projected_x = 0 ;
-    float projected_y = 0 ;
-
-    // Update all cells up to the obstacle position as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
-      projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() - (PI/4) ));
-      projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() - (PI/4) ));
-      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
-    }
-
-    // Here we calculate the actual position of the obstacle we have detected
-    projected_x = Pose.getX() + ( distance * cos( Pose.getThetaRadians() - (PI/4) ) );
-    projected_y = Pose.getY() + ( distance * sin( Pose.getThetaRadians() - (PI/4) ) );
-    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
-  }
-
-    distance = RightIR.getFilteredInMM();
-  if ( distance < 300 && distance > 50 ) {
-
-    distance += 80; // Adjust for sensor placement on body
-
-    float projected_x = 0 ;
-    float projected_y = 0 ;
-
-    // Update all cells up to the obstacle position as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
-      projected_x = Pose.getX() + ( k * distance * cos( Pose.getThetaRadians() + (PI/4) ) );
-      projected_y = Pose.getY() + ( k * distance * sin( Pose.getThetaRadians() + (PI/4) ) );
-      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
-    }
-
-    // Here we calculate the actual position of the obstacle we have detected
-    projected_x = Pose.getX() + ( distance * cos( Pose.getThetaRadians() + (PI/4)  ) );
-    projected_y = Pose.getY() + ( distance * sin( Pose.getThetaRadians() + (PI/4)  ) );
-    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
-  }
 }
 
 void PauseAndPrintMap(bool raw=false) {
@@ -438,19 +415,6 @@ void StopAndPrintMap() {
     }
   }
 }
-
-float Wrap(float num) {
-  if (num > PI)
-  {
-    num -=2*PI;
-  }
-  else if(num < -PI)
-  {
-    num += 2*PI;
-  } 
-  return num ;
-}
-
 
 void buzz() {
 
