@@ -49,11 +49,11 @@ Motor         LeftMotor(MOTOR_PWM_L, MOTOR_DIR_L);
 Motor         RightMotor(MOTOR_PWM_R, MOTOR_DIR_R);
 
 //These work for our Romi - We strongly suggest you perform your own tuning
-PID           LeftPosControl(.15, 0.04, 0.001) ;
-PID           RightPosControl(.15, 0.04, 0.001) ;
-PID           LeftSpeedControl( 3.5, 20.9, 0.04 );
-PID           RightSpeedControl( 3.5, 20.9, 0.04 );
-PID           HeadingControl( 325 , 0.00, 0.0000 );
+PID           LeftPosControl(.15, 0.04, 0.000) ;
+PID           RightPosControl(.15, 0.04, 0.000) ;
+PID           LeftSpeedControl( 3.5, 20.9, 0 );
+PID           RightSpeedControl( 3.5, 20.9, 0 );
+PID           HeadingControl( 92 , 0, 0.00 );
 
 BeliefMapper  Map; //Class for representing the map
 
@@ -70,9 +70,9 @@ Planner       MotionPlanner(Map);
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 //Use these variables to set the demand of the speed controller
-bool use_speed_controller = false;
-float left_speed_demand = 0;
-float right_speed_demand = 0;
+bool use_speed_controller = true;// false;
+volatile float left_speed_demand = 0;
+volatile float right_speed_demand = 0;
 unsigned long map_timer = 0;
 
 // Declare helper functions
@@ -99,9 +99,9 @@ void setup()
   Pose.setDebug(false);
 
   //Set speed control maximum outputs to match motor
-  LeftSpeedControl.setMax(100);
-  RightSpeedControl.setMax(100);
-  HeadingControl.setMax(50) ;
+  LeftSpeedControl.setMax(30);
+  RightSpeedControl.setMax(30);
+  HeadingControl.setMax(50);
 
   // For this example, we'll calibrate only the
   // centre sensor.  You may wish to use more.
@@ -114,7 +114,6 @@ void setup()
   // See related lab sheets for more information.
 
   Wire.begin();
-  Pose.calibrateIMU() ;
 
   // Set the random seed for the random number generator
   // from A0, which should itself be quite random.
@@ -124,6 +123,7 @@ void setup()
   Serial1.begin( BAUD_RATE );
   delay(1000);
   Serial1.println("Board Reset");
+  buzz2();
 
   // Romi will wait for you to press a button and then print
   // the current map.
@@ -131,7 +131,12 @@ void setup()
   // !!! A second button press will erase the map !!!
   ButtonB.waitForButton();
 
+  Serial1.println("Calibrating IMU");
+  Pose.calibrateIMU() ;
+  Pose.setPose(900, 900, 0);
+
   Map.printMap();
+  buzz();
 
   // Watch for second button press, then begin autonomous mode.
   ButtonB.waitForButton();
@@ -152,8 +157,8 @@ void setup()
   // very fast!
   LeftSpeedControl.reset();
   RightSpeedControl.reset();
-  left_speed_demand = 5;
-  right_speed_demand = 5;
+  left_speed_demand = 0;
+  right_speed_demand = 0;
 
   LeftPosControl.setMax( 30 ) ;
   RightPosControl.setMax( 30 ) ;
@@ -173,12 +178,12 @@ void loop()
   unsigned long curr_time = millis();
   if ( curr_time - map_timer > 10000 ) {
     map_timer = curr_time;
-    PauseAndPrintMap(true); // boolean indicates printing raw map
+    PauseAndPrintMap(false); // boolean indicates printing raw map
   }
 
   if(ButtonA.getSingleDebouncedPress()) {
     Serial1.print("Stopping");
-    StopAndPrintMap() ;
+    StopAndPrintMap();
   }
  
   // Print map to serial on button b press.
@@ -186,7 +191,7 @@ void loop()
     Map.printMap();
   }
 
-  // Update kinematic model
+  // Update kinematic model and print pose
   Pose.update(); 
   Serial1.print("Pose: ");
   Pose.printPose();
@@ -197,55 +202,159 @@ void loop()
   // Update the map with sensor readings
   doMapping();
 
-  delay(5);
+  delay(5 );
 }
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-   We have implemented a random walk behaviour for you
-   with a *very* basic obstacle avoidance behaviour.
-   It is enough to get the Romi to drive around.  We
-   expect that in your first week, should should get a
-   better obstacle avoidance behaviour implemented for
-   your Experiment Day 1 baseline test.
+    Motion Control
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
+static unsigned short movement_state = 0; // keeps track of motion state
+static unsigned long movement_timer = millis(); // useful timer
+static unsigned short movement_internal_state = 0; //keep track of boundary motion state
 void doMovement() {
+  unsigned short prev_mvmt_state = movement_state;
 
-  // Static means this variable will keep
-  // its value on each call from loop()
-  static unsigned long walk_update = millis();
+  Serial1.print("mvmtstate: ");
+  Serial1.println(movement_state);
 
-  // used to control the forward and turn
-  // speeds of the robot.
-  float forward_bias;
-  float turn_bias;
+  // Check Current State and interrupt into other states
+  // if non-normal motion is detected
+  if (IRDetectObstacle()) {
+    movement_state = 1;
+  } else if (detectBoundary()) {
+    movement_state = 2;
+  } 
 
-  forward_bias = ObstacleAvoidance() ;  // Collision detection and avoidance
-  BoundaryBehaviour() ;
-
-  // Periodically set a random turn.
-  // Here, gaussian means we most often drive
-  // forwards, and occasionally make a big turn.
-  if ( millis() - walk_update > 500 ) {
-    walk_update = millis();
-
-    if(MotionPlanner.isPreviousMoveComplete(Pose)){
-      MotionPlanner.calculateNextMove(Pose);  
-    }
-      
-    forward_bias = MotionPlanner.nextMoveTargetDist();
-    turn_bias = MotionPlanner.nextMoveTargetAngle();
-
-    left_speed_demand = forward_bias + turn_bias;
-    right_speed_demand = forward_bias - turn_bias;
-
-    LeftMotor.setPower(left_speed_demand) ;
-    RightMotor.setPower(right_speed_demand) ;
+  // Reset timer if change of state
+  if(prev_mvmt_state != movement_state) {
+    movement_internal_state = 0;
+    HeadingControl.reset();
+    movement_timer = millis();
+    buzz1();
   }
 
+  // Based on state, run each behaviour
+  if (movement_state == 1) {
+    ObstacleAvoidanceState();
+  } else if (movement_state == 2) {
+    BoundaryAvoidanceState();
+  } else {
+    MotionPlanningState();
+  }
 }
 
+void ObstacleAvoidanceState(){
+  MotionPlanner.cancelCurrentMove();
+
+  // Reverse
+  float forward_bias = -20;
+  float turn_bias = 0.04 * (LeftIR.getDistanceRaw() - RightIR.getDistanceRaw()); // should be set to turn in opposite direction of obstacle
+  
+  left_speed_demand = forward_bias + turn_bias;
+  right_speed_demand = forward_bias - turn_bias;
+  
+  if(millis() - movement_timer > 2000) {
+    buzz();
+    buzz1();
+    movement_state = 0;
+  }
+}
+
+void BoundaryAvoidanceState() {
+  MotionPlanner.cancelCurrentMove();
+
+  // Boundary avoidance state 0 is turning to face the origin
+  if ( movement_internal_state == 0 ) {
+    
+    // Turn in direction of the origin of the map
+    float Origin_Angle = atan2((Pose.getY()-900),(Pose.getX()-900)) ;
+    float Boundary_Turn = wrapAngle((Origin_Angle + PI )) ;
+    
+    float turn_bias = HeadingControl.update(Boundary_Turn, Pose.getThetaRadians());
+    left_speed_demand = -turn_bias;
+    right_speed_demand = turn_bias;
+     
+    // If detect stability (i.e. finished turning), advance to state 1
+    if ( HeadingControl.detectStability() || abs(turn_bias) < 3) {
+      movement_timer = millis();
+      movement_internal_state = 1;
+      buzz();
+      buzz2();
+    }
+  } 
+
+  // Boundary avoidance state 1 is moving forward for 3 seconds towards origin.
+  if(movement_internal_state == 1) {
+    float forward_bias = 20;
+    left_speed_demand = forward_bias;
+    right_speed_demand = forward_bias;
+
+    // If moved forward for more than 3 seconds, exit back to motion planning
+    if(millis() - movement_timer > 2000) {
+      movement_state = 0;
+      movement_internal_state = 0;
+      buzz();
+      buzz();
+      buzz2();
+    }
+  }
+}
+
+void MotionPlanningState() {
+  
+  // Check if previous move has been achieved, or was cancelled
+  if(MotionPlanner.isPreviousMoveComplete(Pose)){    
+      // If so plan next set of moves
+      Serial1.println("MP: Planning new moves!");
+      MotionPlanner.calculateNextMove(Pose);  
+      movement_internal_state = 0;
+  }
+
+  // Otherwise recalculate demand based on current pose and continue with motionplanning
+  MotionPlanner.calculateDemand(Pose);
+  float forward_bias = MotionPlanner.nextMoveTargetDist();
+  float turn_bias = MotionPlanner.nextMoveTargetAngle();
+
+  float turn_control = HeadingControl.update(turn_bias, Pose.getThetaRadians());
+
+  // Serial1.print("MP- f: ");
+  // Serial1.print(forward_bias);
+  // Serial1.print("\t t: ");
+  // Serial1.print(turn_bias);
+  // Serial1.print("\t tc: ");
+  // Serial1.println(turn_control);
+
+  if (movement_internal_state == 0) {  
+    left_speed_demand = -turn_control;
+    right_speed_demand = turn_control;
+    if ( HeadingControl.detectStability() || abs(turn_bias - Pose.getThetaRadians()) < 0.05) {
+      movement_timer = millis();
+      movement_internal_state = 1;
+      buzz();
+      buzz2();
+    }
+  }
+
+  if (movement_internal_state == 1) {
+    float scaler = 1;
+    left_speed_demand = forward_bias - scaler * turn_control;
+    right_speed_demand = forward_bias + scaler * turn_control;
+  }
+ 
+}
+
+bool IRDetectObstacle() {
+  return CentreIR.getDistanceRaw() > 500 || LeftIR.getDistanceRaw() > 600 || RightIR.getDistanceRaw() > 600;
+}
+
+bool detectBoundary() {
+  float xmin = 200;// 200;
+  float xmax = 1600;// 1600;
+  float ymin = 200;// 200;
+  float ymax = 1600;// 1600;
+  return Pose.getX() < xmin || Pose.getX() > xmax || Pose.getY() < xmin || Pose.getY() > xmax;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    This function groups up our sensor checks, and then
@@ -296,51 +405,6 @@ void doMapping() {
  
 }
 
-float ObstacleAvoidance() {
-  float forward_bias ;
-    if ( CentreIR.getDistanceRaw() > 500 || LeftIR.getDistanceRaw() > 600 || RightIR.getDistanceRaw() > 600 ) {
-       forward_bias = -20 ;
-    } else {
-    forward_bias = 20;
-    }
-  return forward_bias ;
-}
-
-void BoundaryBehaviour() {
-if ( Pose.getX() < 200 || Pose.getX() > 1600 || Pose.getY() < 200 || Pose.getY() > 1600 ) {
-    StopMoving() ;
-    delay(1000) ;
-    bool Goal = false ;
-    float Origin_Angle = atan2((Pose.getY()-900),(Pose.getX()-900)) ;
-    float Boundary_Turn = wrapAngle((Origin_Angle + PI )) ;
-
-    while (!Goal) {
-      Pose.update() ;
-      // Pose.printPose() ;
-      // Serial1.println(Boundary_Turn) ;
-      float turn = HeadingControl.update(Boundary_Turn,Pose.getThetaRadians());
-      LeftMotor.setPower(-turn);
-      RightMotor.setPower(turn);
-
-      // if we've reached stability or the turn power is really low, stop
-      if ( HeadingControl.detectStability() || abs(turn) < 5) {
-        StopMoving() ;
-        Goal = true ;
-        buzz();
-        long int time_start = millis() ;
-
-        LeftMotor.setPower(30);
-        RightMotor.setPower(30);
-
-        while ( millis() < ( time_start + 1000 ) ) {
-          Pose.update() ;
-        }
-        
-      }
-    }
-  }
-}
-
 void IRaddToMap() {
   float distance = CentreIR.getFilteredInMM();
   IRProjectOntoMap(distance, 0, 50, 300);
@@ -375,33 +439,38 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
   }
 }
 
-/**
+/***********************************************************************************
  * 
- *  Utilitis 
+ *  Utilities 
  *  Motor control and buzzer and other things
  * 
  * 
  * */
 
+void StartMoving(float ldemand, float rdemand) {
+  LeftSpeedControl.reset();
+  RightSpeedControl.reset();
 
-void StartMoving() {
-  LeftMotor.setPower(30);
-  RightMotor.setPower(30);
+  left_speed_demand = ldemand;
+  right_speed_demand = rdemand;
 }
 
-void StopMoving() { // Returns the wheel speeds to zero
-  LeftMotor.setPower( 0 ) ;
-  RightMotor.setPower( 0 ) ;
+void StopMoving() { 
+  // Zero demands to stop speed controller motion
+  left_speed_demand = 0;
+  right_speed_demand = 0;
 }
 
 void PauseAndPrintMap(bool raw=false) {
+  float prevleftdemand = left_speed_demand;
+  float prevrightdemand = right_speed_demand;
   StopMoving();
   if(!raw) {
     Map.printMap();
   } else {
     Map.printRawMap();
   }
-  StartMoving();
+  StartMoving(prevleftdemand, prevrightdemand);
 }
 
 void StopAndPrintMap() {  
@@ -419,11 +488,21 @@ void StopAndPrintMap() {
 }
 
 void buzz() {
-
   analogWrite( BUZZER_PIN , 10 ) ;
   delay ( 25 ) ;
   analogWrite( BUZZER_PIN , 0 ) ;
-  //
+}
+
+void buzz1() {
+  analogWrite( BUZZER_PIN , 30 ) ;
+  delay ( 50 ) ;
+  analogWrite( BUZZER_PIN , 0 ) ;
+}
+
+void buzz2() {
+  analogWrite( BUZZER_PIN , 100 ) ;
+  delay ( 50 ) ;
+  analogWrite( BUZZER_PIN , 0 ) ;
 }
 
 ISR(TIMER3_COMPA_vect) {
@@ -444,6 +523,12 @@ ISR(TIMER3_COMPA_vect) {
   {
     float left_motor_demand = LeftSpeedControl.update(left_speed_demand, left_speed);
     float right_motor_demand = RightSpeedControl.update(right_speed_demand, right_speed);
+
+    // Serial.print(left_speed);
+    // Serial.print(" ");
+    // Serial.print(left_speed_demand);
+    // Serial.print(" ");
+    // Serial.println(left_motor_demand);
 
     LeftMotor.setPower(left_motor_demand);
     RightMotor.setPower(right_motor_demand);

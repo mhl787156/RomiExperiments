@@ -21,8 +21,8 @@ volatile float right_speed;
 // extern tells this class that these
 // are declared as globals else where
 extern bool   use_speed_controller;
-extern float left_speed_demand;
-extern float right_speed_demand;
+extern volatile float left_speed_demand;
+extern volatile float right_speed_demand;
 extern PID    LeftSpeedControl;
 extern PID    RightSpeedControl;
 extern Motor  LeftMotor;

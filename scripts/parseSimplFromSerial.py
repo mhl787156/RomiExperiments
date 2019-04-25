@@ -1,7 +1,6 @@
 import serial
 import os
 import datetime
-import matplotlib.pyplot as plt
 import numpy
 
 
@@ -13,9 +12,13 @@ with serial.Serial(PORT, timeout=1) as ser:
         while True:
             current_time = datetime.datetime.now().strftime("%H-%M-%S")
             raw = ser.readline()
-            decode = raw.decode('utf-8').strip()
-            if decode != "":
-                print(current_time, decode)
+            try:
+                decode = raw.decode('utf-8').strip()
+                if decode != "":
+                    print(current_time, decode)
+            except UnicodeDecodeError as e:
+                print("ERROR", e)
+                print(raw)
 
     except KeyboardInterrupt:
         print('Stopping and Saving')

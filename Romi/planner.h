@@ -9,6 +9,7 @@
 class Planner {
     public:
         Planner(Mapper& map):_map(map) {};
+        void cancelCurrentMove();
         void calculateNextMove(Kinematics& pose);
         bool calculateDemand(Kinematics& pose);
         bool isPreviousMoveComplete(Kinematics& pose);
@@ -20,6 +21,7 @@ class Planner {
 
     private:
         Mapper _map;
+        bool _cancel = true;
         bool _validMove = false;
         float _nextMoveX = 0;
         float _nextMoveY = 0;
@@ -28,17 +30,23 @@ class Planner {
 };
 
 void Planner::calculateNextMove(Kinematics& pose) {
-
-    if(!isPreviousMoveComplete(pose)) {
-        return;
-    }
-
     // Default Random Motion
-    _nextMoveX = randGaussian(pose.getX(), 5);
-    _nextMoveY = randGaussian(pose.getY(), 5);
+    float randHeading = randGaussian(pose.getThetaRadians(), PI/8);
+    float randDist = randGaussian(150, 40);
+    float distx = randDist * cos(randHeading);
+    float disty = randDist * sin(randHeading);
+    _nextMoveX = pose.getX() + distx;
+    _nextMoveY = pose.getY() + disty;
 
-    // Update demands
-    calculateDemand(pose);
+    Serial1.print("NextMove: ");
+    Serial1.print(pose.getX());
+    Serial1.print(", ");
+    Serial1.print(pose.getY());
+    Serial1.print(" -> ");
+    Serial1.print(_nextMoveX);
+    Serial1.print(", ");
+    Serial1.println(_nextMoveY);
+    // Demands calculated in Romi.ino each loop cycle
 }
 
 bool Planner::calculateDemand(Kinematics& pose) {
@@ -49,14 +57,21 @@ bool Planner::calculateDemand(Kinematics& pose) {
 
     // Calculate trajectory parameters
     _targetDist = sqrt( (dx*dx) + (dy*dy) );
-    _targetAngle = atan2(dy, dx) - pose.getThetaRadians();
+    _targetAngle = atan2(dy, dx);
     _targetAngle = wrapAngle(_targetAngle);
 }
 
 bool Planner::isPreviousMoveComplete(Kinematics& pose) {
-    // Checks if previous move was executed, currently arbitrary small threshold
-    calculateDemand(pose);
-    return abs(_targetDist) < 1 && abs(_targetAngle) < PI/12;
+    if(_cancel) {
+        // If cancel was called, return true as previous move is complete
+        _cancel = false;
+        return true;
+    } else {
+        // Checks if previous move was executed, currently arbitrary small threshold
+        // Within 2cm and 15 deg
+        calculateDemand(pose);
+        return abs(_targetDist) < 20 && abs(_targetAngle - pose.getThetaRadians()) < PI/12;
+    }
 }
 
 bool Planner::isNextMoveValid() {
@@ -77,6 +92,10 @@ float Planner::nextMoveTargetDist() {
 
 float Planner::nextMoveTargetAngle() {
     return _targetAngle;
+}
+
+void Planner::cancelCurrentMove() {
+    _cancel = true;
 }
 
 #endif

@@ -75,14 +75,14 @@ void Kinematics::update()
     theta += theta_enc_d + ( theta_imu_d - theta_enc_d ) ;                  // Complimentary filter for current heading 
     
     //Wrap theta between -PI and PI.
-    if (theta > PI)
-    {
-        theta -=2*PI;
-    }
-    else if(theta < -PI)
-    {
-        theta += 2*PI;
-    } 
+    // if (theta > PI)
+    // {
+    //     theta -=2*PI;
+    // }
+    // else if(theta < -PI)
+    // {
+    //     theta += 2*PI;
+    // } 
 
     last_theta = theta; // Store theta for next iteration
 
