@@ -31,13 +31,16 @@ class Kinematics
 
          float  x = 900 ;
          float  y = 900 ;
-         float  theta ;
+         float  theta = 0;
          float  last_theta = 0 ;
          float  theta_enc_d = 0 ;
          float  theta_imu_d = 0 ; 
          float  angular_velocity = 0 ;
          long   last_left_encoder_count = 0 ;
          long   last_right_encoder_count = 0 ;
+         float  filter_gain = 0;
+         float  g = 0.85;
+         float  h = 0.05;
          bool   debug = true ;
          unsigned long last_update = 0 ;
          Imu    IMU ;
@@ -47,59 +50,94 @@ class Kinematics
 void Kinematics::calibrateIMU() 
 {
 
-    IMU.init() ;
-    IMU.calibrate() ;
+    // IMU.init() ;
+    // IMU.calibrate() ;
 
 }
 
 
 void Kinematics::update()
 {
-
-    float time_elapsed = millis() - last_update;
+    unsigned long time_elapsed = millis() - last_update;
     last_update = millis();
 
-    IMU.readFiltered() ;
-
-    //Calculate delta since last update
-    float left_delta = (left_encoder_count - last_left_encoder_count)*MM_PER_COUNT;
-    float right_delta = (right_encoder_count - last_right_encoder_count)*MM_PER_COUNT;
-    float mean_delta = (left_delta + right_delta) / 2;  
+    // Calculate delta (distance) since last update
+    float left_delta = (left_encoder_count - last_left_encoder_count) * MM_PER_COUNT;
+    float right_delta = (right_encoder_count - last_right_encoder_count) * MM_PER_COUNT;  
     
-    //Store counts
+    // Store counts
     last_left_encoder_count = left_encoder_count;
     last_right_encoder_count = right_encoder_count;  
-
-    theta_enc_d = ( ( ( right_delta - left_delta ) / WHEEL_DISTANCE ) )  ;  // Heading from Encoders
-    theta_imu_d = ( IMU.gz_rad * ( time_elapsed / 1000 ) ) ;                // Heading from IMU
-    theta += theta_enc_d + ( theta_imu_d - theta_enc_d ) ;                  // Complimentary filter for current heading 
-    
-    //Wrap theta between -PI and PI.
-    // if (theta > PI)
-    // {
-    //     theta -=2*PI;
-    // }
-    // else if(theta < -PI)
-    // {
-    //     theta += 2*PI;
-    // } 
-
     last_theta = theta; // Store theta for next iteration
 
-    x += ( mean_delta * cos ( theta ) ) ;   // X position update
-    y += ( mean_delta * sin ( theta ) ) ;   // Y position update
 
+    // Calculate ICR
+    float diff = right_delta - left_delta;
+    float sum = right_delta + left_delta;
+    theta_enc_d = diff / WHEEL_DISTANCE;                                    // Heading from Encoders
+    if(abs(diff) < 1e-6) { // Forward Motion
+        // Serial1.println("Forward update");
+        float mean_delta = sum / 2;             // Average
+        x += ( mean_delta * cos ( theta ) ) ;   // X position update
+        y += ( mean_delta * sin ( theta ) ) ;   // Y position update
+    } else if (abs(sum) < 1e-6) { // On spot turn
+        // Serial1.println("On Spot update");
+        theta += theta_enc_d;
+    } else { // Using ICC
+        // Serial1.println("ICC update");
+        float R = (WHEEL_DISTANCE / 2) * (sum / diff);
+        float ICCx = x - R*sin(theta);
+        float ICCy = y + R*cos(theta);
 
-    angular_velocity = ( (left_delta-right_delta) / WHEEL_DISTANCE );
-    angular_velocity -= last_theta;
-    angular_velocity /= time_elapsed;
-    
+        float x_new = cos(theta_enc_d)*(x - ICCx) - sin(theta_enc_d)*(y - ICCy) + ICCx;
+        float y_new = sin(theta_enc_d)*(x - ICCx) + cos(theta_enc_d)*(y - ICCy) + ICCy;
+        x = x_new;
+        y = y_new;
+        theta += theta_enc_d;
+    }
+
+    // Update angular vel;
+    angular_velocity = (theta - last_theta) / time_elapsed;
+
+    // Serial1.print("theta:");
+    // Serial1.print(theta_enc_d, 4);
+    // Serial1.print(" ");
+    // Serial1.print(theta);
+    // Serial1.print(" ");
+
+    // Encorporate IMU using GH filter
+    // g = 0.85; h = 0.005;
+    // IMU.readFiltered() ;
+    // theta_imu_d = IMU.gz_rad * ( time_elapsed / 1000 );                     // Heading from IMU (effectively complementary as no accel
+    // theta += filter_gain * time_elapsed;
+    // diff = theta_imu_d - theta;
+    // theta += g * diff;
+    // filter_gain += h * diff / time_elapsed;
+    // filter_gain = filter_gain + h * (theta_imu_d - theta)/ time_elapsed;
+    // float predict_theta = theta + filter_gain;
+    // theta = predict_theta + g * (theta_imu_d - predict_theta);
+  
+    // Serial1.print(theta_imu_d, 6);
+    // Serial1.print(" ");
+    // Serial1.print(filter_gain,4);
+    // Serial1.print(" ");
+    // Serial1.print(theta,4);
+    Serial1.print("\n");
+
+    //  Wrap theta between -PI and PI.
+    if (theta > PI)
+    {
+        theta -=2*PI;
+    }
+    else if(theta < -PI)
+    {
+        theta += 2*PI;
+    } 
 
     if (debug)
     {
         printPose();
     }
-  
 }
 
 

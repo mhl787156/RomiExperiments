@@ -63,7 +63,11 @@ void BeliefMapper::printMap() {
             } else {
                 Serial1.print((char) MAP_DEFAULT_FEATURE);
             }
-            Serial1.print(" ");
+            if (seen_bit) {
+                Serial1.print("\"");
+            } else {
+                Serial1.print(" ");
+            }
         }
         Serial1.println("");
     }

@@ -191,18 +191,19 @@ void loop()
     Map.printMap();
   }
 
-  // Update kinematic model and print pose
-  Pose.update(); 
   Serial1.print("Pose: ");
   Pose.printPose();
-  
+
+  // Update kinematic model and print pose
+  Pose.update(); 
+
   // Do Movement
   doMovement();
    
   // Update the map with sensor readings
   doMapping();
 
-  delay(5 );
+  delay(5);
 }
 
 
@@ -215,8 +216,8 @@ static unsigned short movement_internal_state = 0; //keep track of boundary moti
 void doMovement() {
   unsigned short prev_mvmt_state = movement_state;
 
-  Serial1.print("mvmtstate: ");
-  Serial1.println(movement_state);
+  // Serial1.print("mvmtstate: ");
+  // Serial1.println(movement_state);
 
   // Check Current State and interrupt into other states
   // if non-normal motion is detected
@@ -249,7 +250,9 @@ void ObstacleAvoidanceState(){
 
   // Reverse
   float forward_bias = -20;
-  float turn_bias = 0.04 * (LeftIR.getDistanceRaw() - RightIR.getDistanceRaw()); // should be set to turn in opposite direction of obstacle
+  float dist = (LeftIR.getDistanceRaw() - RightIR.getDistanceRaw()); // should be set to turn in opposite direction of obstacle
+  float turn_bias = 15; // 0.2*dist;
+  if (dist < 0){turn_bias *= -1;}
   
   left_speed_demand = forward_bias + turn_bias;
   right_speed_demand = forward_bias - turn_bias;
@@ -306,7 +309,6 @@ void MotionPlanningState() {
   // Check if previous move has been achieved, or was cancelled
   if(MotionPlanner.isPreviousMoveComplete(Pose)){    
       // If so plan next set of moves
-      Serial1.println("MP: Planning new moves!");
       MotionPlanner.calculateNextMove(Pose);  
       movement_internal_state = 0;
   }
@@ -315,7 +317,6 @@ void MotionPlanningState() {
   MotionPlanner.calculateDemand(Pose);
   float forward_bias = MotionPlanner.nextMoveTargetDist();
   float turn_bias = MotionPlanner.nextMoveTargetAngle();
-
   float turn_control = HeadingControl.update(turn_bias, Pose.getThetaRadians());
 
   // Serial1.print("MP- f: ");
@@ -337,9 +338,8 @@ void MotionPlanningState() {
   }
 
   if (movement_internal_state == 1) {
-    float scaler = 1;
-    left_speed_demand = forward_bias - scaler * turn_control;
-    right_speed_demand = forward_bias + scaler * turn_control;
+    left_speed_demand = forward_bias - turn_control;
+    right_speed_demand = forward_bias + turn_control;
   }
  
 }
@@ -349,10 +349,10 @@ bool IRDetectObstacle() {
 }
 
 bool detectBoundary() {
-  float xmin = 200;// 200;
-  float xmax = 1600;// 1600;
-  float ymin = 200;// 200;
-  float ymax = 1600;// 1600;
+  float xmin = 100;// 200;
+  float xmax = 1700;// 1600;
+  float ymin = 100;// 200;
+  float ymax = 1700;// 1600;
   return Pose.getX() < xmin || Pose.getX() > xmax || Pose.getY() < xmin || Pose.getY() > xmax;
 }
 
@@ -367,7 +367,8 @@ bool detectBoundary() {
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void doMapping() {
 
-
+  // Add own position to map first
+  Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
 
   // Read IR sensors and add any detected obstacles to belief map
   IRaddToMap() ;
@@ -400,9 +401,6 @@ void doMapping() {
     Map.updateMapFeature( (byte)'L', Pose.getY(), Pose.getX() );
   }
 
-    // Put Romi's current location
-  Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
- 
 }
 
 void IRaddToMap() {
@@ -417,9 +415,9 @@ void IRaddToMap() {
 }
 
 void IRProjectOntoMap(float distance, float angleoffset, float mindist, float maxdist) {
+  float projected_x = 0 ;
+  float projected_y = 0 ;
   if ( distance < maxdist && distance > mindist ) {
-    float projected_x = 0 ;
-    float projected_y = 0 ;
 
     distance += 80; // Adjust for sensor placement on body
     float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
@@ -432,6 +430,27 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
     }
 
+    // Here we calculate the actual position of the obstacle we have detected
+    projected_x = Pose.getX() + cos_proj;
+    projected_y = Pose.getY() + sin_proj;
+    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
+  } else if (distance > maxdist) {
+    distance = maxdist;
+    distance += 80; // Adjust for sensor placement on body
+    float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
+    float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
+
+    // Update all cells up to maximum distance as non-obstacles
+    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
+      projected_x = Pose.getX() + ( k * cos_proj );
+      projected_y = Pose.getY() + ( k * sin_proj );
+      Map.updateMapFeature( (byte)'.', projected_x, projected_y );
+    }
+  } else if (distance < mindist) {
+    distance = mindist;
+    distance += 80; // Adjust for sensor placement on body
+    float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
+    float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset); 
     // Here we calculate the actual position of the obstacle we have detected
     projected_x = Pose.getX() + cos_proj;
     projected_y = Pose.getY() + sin_proj;

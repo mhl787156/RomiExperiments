@@ -31,7 +31,7 @@ class Planner {
 
 void Planner::calculateNextMove(Kinematics& pose) {
     // Default Random Motion
-    float randHeading = randGaussian(pose.getThetaRadians(), PI/8);
+    float randHeading = randGaussian(pose.getThetaRadians(), PI/4);
     float randDist = randGaussian(150, 40);
     float distx = randDist * cos(randHeading);
     float disty = randDist * sin(randHeading);
