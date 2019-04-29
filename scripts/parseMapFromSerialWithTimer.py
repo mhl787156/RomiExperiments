@@ -3,8 +3,10 @@ import os
 import datetime
 import matplotlib.pyplot as plt
 import numpy
+import time
+import string
 
-filePrepend = "Alpha_Test"
+filePrepend = "Hand_Test"
 
 foldername = "expr1-{}-{}".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
 
@@ -12,13 +14,25 @@ PORT = "COM12"
 datafilename = "data/{}/dat.data".format(foldername)
 mapfilename = "data/{}/map.map".format(foldername)
 
+timelimit = 60 * 3
 
 print("Script up finding ROMI on Bluetooth {}".format(PORT))
 mapString = ""
 dataString = ""
 with serial.Serial(PORT, timeout=3) as ser:
     try:
+        input('Press Enter to continue')
+        ser.write(b'A')
+        print('Romi Started')
+        starttime = time.time()
+
+        stoploop = False
         while True:
+            if time.time() - starttime > timelimit:
+                print('TIME LIMIT REACHED, Stopping ROMI')
+                ser.write(b'S')
+                stoploop = True
+
             current_time = datetime.datetime.now().strftime("%H-%M-%S")
             raw = ser.readline()
             try:
@@ -39,11 +53,15 @@ with serial.Serial(PORT, timeout=3) as ser:
                     raw = ser.readline()
                     try:
                         decode = raw.decode('utf-8').strip()
+                        # if not all(c in string.printable for c in decode):
+                        #     raise RuntimeError("Odd Character")
                     except Exception:
                         decode = "Failed to read line in map"
                     print(decode)
                     mymap =  mymap + decode + '\n'
-                mapString = mapString + mymap + '\n'              
+                mapString = mapString + mymap + '\n' 
+                if stoploop:
+                    break             
             else:
                 dataString = dataString + decode + '\n'                
     except KeyboardInterrupt:

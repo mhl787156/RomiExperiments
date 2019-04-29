@@ -129,7 +129,24 @@ void setup()
   // the current map.
   //
   // !!! A second button press will erase the map !!!
-  ButtonB.waitForButton();
+  while(!ButtonB.getSingleDebouncedPress()) {
+    if(Serial1.available() > 0) {
+      // read the incoming byte:
+      int incomingByte = Serial1.read();
+
+      // say what you got:
+      Serial1.print("RECEIVED: ");
+      Serial.println(incomingByte, DEC);
+      if (incomingByte  > 0) {
+        break;
+      }
+    } else {
+      Serial1.println("Waiting...");
+      delay(500);
+    }
+  }
+
+  // ButtonB.waitForButton();
 
   Serial1.println("Calibrating IMU");
   Pose.calibrateIMU() ;
@@ -139,7 +156,8 @@ void setup()
   buzz();
 
   // Watch for second button press, then begin autonomous mode.
-  ButtonB.waitForButton();
+  // ButtonB.waitForButton();
+  // delay(2);
 
   Serial1.println("Map Erased - Mapping Started");
   Map.resetMap();
@@ -178,7 +196,7 @@ void loop()
   unsigned long curr_time = millis();
   if ( curr_time - map_timer > 10000 ) {
     map_timer = curr_time;
-    PauseAndPrintMap(false); // boolean indicates printing raw map
+    PauseAndPrintMap(true); // boolean indicates printing raw map
   }
 
   if(ButtonA.getSingleDebouncedPress()) {
@@ -189,6 +207,20 @@ void loop()
   // Print map to serial on button b press.
   if(ButtonB.getSingleDebouncedPress()) {
     Map.printMap();
+  }
+
+  if(Serial1.available() > 0) {
+    // read the incoming byte:
+    int incomingByte = Serial1.read();
+
+    // say what you got:
+    Serial1.print("RECEIVED: ");
+    Serial.println(incomingByte, DEC);
+    if (incomingByte  > 0) {
+      Serial1.print("Stopping");
+      buzz4();
+      StopAndPrintMap();
+    }
   }
 
   Serial1.print("Pose: ");
@@ -404,22 +436,21 @@ void doMapping() {
 }
 
 void IRaddToMap() {
-  float distance = CentreIR.getFilteredInMM();
-  IRProjectOntoMap(distance, 0, 50, 300);
+  float distance; 
+  distance = CentreIR.getFilteredInMM();
+  IRProjectOntoMap(distance + 90, 0, 50, 300);
   
   distance = LeftIR.getFilteredInMM();
-  IRProjectOntoMap(distance, -PI/4, 50, 300);
+  IRProjectOntoMap(distance + 85, PI/4, 50, 300);
 
   distance = RightIR.getFilteredInMM();
-  IRProjectOntoMap(distance, PI/4, 50, 300);
+  IRProjectOntoMap(distance + 85, -PI/4, 50, 300);
 }
 
 void IRProjectOntoMap(float distance, float angleoffset, float mindist, float maxdist) {
   float projected_x = 0 ;
   float projected_y = 0 ;
   if ( distance < maxdist && distance > mindist ) {
-
-    distance += 80; // Adjust for sensor placement on body
     float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
     float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
 
@@ -436,7 +467,6 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
     Map.updateMapFeature( (byte)'O', projected_x, projected_y );
   } else if (distance > maxdist) {
     distance = maxdist;
-    distance += 80; // Adjust for sensor placement on body
     float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
     float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
 
@@ -446,16 +476,17 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
       projected_y = Pose.getY() + ( k * sin_proj );
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
     }
-  } else if (distance < mindist) {
-    distance = mindist;
-    distance += 80; // Adjust for sensor placement on body
-    float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
-    float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset); 
-    // Here we calculate the actual position of the obstacle we have detected
-    projected_x = Pose.getX() + cos_proj;
-    projected_y = Pose.getY() + sin_proj;
-    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
-  }
+  } 
+  // else if (distance < mindist) {
+  //   distance = mindist;
+  //   distance += 80; // Adjust for sensor placement on body
+  //   float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
+  //   float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset); 
+  //   // Here we calculate the actual position of the obstacle we have detected
+  //   projected_x = Pose.getX() + cos_proj;
+  //   projected_y = Pose.getY() + sin_proj;
+  //   Map.updateMapFeature( (byte)'O', projected_x, projected_y );
+  // }
 }
 
 /***********************************************************************************
@@ -521,6 +552,12 @@ void buzz1() {
 void buzz2() {
   analogWrite( BUZZER_PIN , 100 ) ;
   delay ( 50 ) ;
+  analogWrite( BUZZER_PIN , 0 ) ;
+}
+
+void buzz4() {
+  analogWrite( BUZZER_PIN , 200 ) ;
+  delay ( 250 ) ;
   analogWrite( BUZZER_PIN , 0 ) ;
 }
 
