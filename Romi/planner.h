@@ -12,7 +12,7 @@ class Planner {
         void cancelCurrentMove();
         void calculateNextMove(Kinematics& pose);
         bool calculateDemand(Kinematics& pose);
-        bool isPreviousMoveComplete(Kinematics& pose);
+        int isPreviousMoveComplete(Kinematics& pose);
         bool isNextMoveValid();
         float nextMoveX();
         float nextMoveY();
@@ -61,11 +61,11 @@ bool Planner::calculateDemand(Kinematics& pose) {
     _targetAngle = wrapAngle(_targetAngle);
 }
 
-bool Planner::isPreviousMoveComplete(Kinematics& pose) {
+int Planner::isPreviousMoveComplete(Kinematics& pose) {
     if(_cancel) {
         // If cancel was called, return true as previous move is complete
         _cancel = false;
-        return true;
+        return 2;
     } else {
         // Checks if previous move was executed, currently arbitrary small threshold
         // Within 2cm and 15 deg

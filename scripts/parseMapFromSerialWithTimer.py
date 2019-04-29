@@ -6,7 +6,7 @@ import numpy
 import time
 import string
 
-filePrepend = "Hand_Test"
+filePrepend = "Random_with_spin"
 
 foldername = "expr1-{}-{}".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
 
@@ -73,10 +73,10 @@ with serial.Serial(PORT, timeout=3) as ser:
 x = input('Save Data (y/n)?: ')
 if(x in 'Yy'):
     os.mkdir("data/{}".format(foldername))
-    with open(mapfilename, 'w+') as f:
+    with open(mapfilename, 'w+', encoding='utf-8') as f:
         f.write(mapString)
     print('Saved Map in {}'.format(mapfilename))
-    with open(datafilename, 'w+') as f:
+    with open(datafilename, 'w+', encoding='utf-8') as f:
         f.write(dataString)
     print('Saved Data in {}'.format(datafilename))
     

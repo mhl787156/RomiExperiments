@@ -245,6 +245,7 @@ void loop()
 static unsigned short movement_state = 0; // keeps track of motion state
 static unsigned long movement_timer = millis(); // useful timer
 static unsigned short movement_internal_state = 0; //keep track of boundary motion state
+static float movement_prev_heading = 0;
 void doMovement() {
   unsigned short prev_mvmt_state = movement_state;
 
@@ -264,11 +265,14 @@ void doMovement() {
     movement_internal_state = 0;
     HeadingControl.reset();
     movement_timer = millis();
+    movement_prev_heading = Pose.getThetaRadians();
     buzz1();
   }
 
   // Based on state, run each behaviour
-  if (movement_state == 1) {
+  if(movement_state == 3) {
+    SpinningState();
+  } else if (movement_state == 1) {
     ObstacleAvoidanceState();
   } else if (movement_state == 2) {
     BoundaryAvoidanceState();
@@ -336,13 +340,29 @@ void BoundaryAvoidanceState() {
   }
 }
 
+void SpinningState() {
+  float turn_bias = 20;
+  left_speed_demand = turn_bias;
+  right_speed_demand = -turn_bias;
+  float status = abs(Pose.getThetaRadians() - movement_prev_heading);
+  Serial1.println(status);
+  if(millis() - movement_timer > 1000 && status < 0.05 ) {
+    buzz();
+    movement_state = 0;
+  }
+}
+
 void MotionPlanningState() {
   
-  // Check if previous move has been achieved, or was cancelled
-  if(MotionPlanner.isPreviousMoveComplete(Pose)){    
+  // Check if previous move has been achieved, or was cancelled (status == 2)
+  int status = MotionPlanner.isPreviousMoveComplete(Pose);
+  if(status > 0){    
       // If so plan next set of moves
       MotionPlanner.calculateNextMove(Pose);  
-      movement_internal_state = 0;
+      movement_internal_state = 0; 
+      if (status == 2) {
+        movement_state = 3; // Spin on 3
+      }
   }
 
   // Otherwise recalculate demand based on current pose and continue with motionplanning
@@ -377,7 +397,8 @@ void MotionPlanningState() {
 }
 
 bool IRDetectObstacle() {
-  return CentreIR.getDistanceRaw() > 500 || LeftIR.getDistanceRaw() > 600 || RightIR.getDistanceRaw() > 600;
+  // return CentreIR.getDistanceInMM() < 100 || LeftIR.getDistanceInMM() < 80 || RightIR.getDistanceRaw() < 80;
+  return CentreIR.getDistanceRaw() > 650 || LeftIR.getDistanceRaw() > 750 || RightIR.getDistanceRaw() > 750;
 }
 
 bool detectBoundary() {
