@@ -1,0 +1,5924 @@
+aiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+RECEIVED: Calibrating IMU
+Map Erased - Mapping Started
+Pose: X: 900.00 Y: 900.00 H: 0.00
+
+MvMt State: 0
+NextMove: 900.00, 900.00 -> 792.00, 864.00
+11, 12
+Pose: X: 900.00 Y: 900.00 H: 0.00
+
+MvMt State: 0
+Pose: X: 900.23 Y: 899.99 H: -0.12
+
+MvMt State: 0
+Pose: X: 900.30 Y: 899.97 H: -0.30
+
+MvMt State: 0
+Pose: X: 900.30 Y: 899.97 H: -0.46
+
+MvMt State: 0
+Pose: X: 900.37 Y: 899.93 H: -0.62
+
+MvMt State: 0
+Pose: X: 900.37 Y: 899.93 H: -0.76
+
+MvMt State: 0
+Pose: X: 900.42 Y: 899.87 H: -0.90
+
+MvMt State: 0
+Pose: X: 900.51 Y: 899.75 H: -1.04
+
+MvMt State: 0
+Pose: X: 900.54 Y: 899.68 H: -1.17
+
+MvMt State: 0
+Pose: X: 900.54 Y: 899.68 H: -1.31
+
+MvMt State: 0
+Pose: X: 900.59 Y: 899.46 H: -1.44
+
+MvMt State: 0
+Pose: X: 900.61 Y: 899.15 H: -1.56
+
+MvMt State: 0
+Pose: X: 900.60 Y: 899.00 H: -1.67
+
+MvMt State: 0
+Pose: X: 900.57 Y: 898.77 H: -1.78
+
+MvMt State: 0
+Pose: X: 900.52 Y: 898.63 H: -1.91
+
+MvMt State: 0
+Pose: X: 900.43 Y: 898.41 H: -2.03
+
+MvMt State: 0
+Pose: X: 900.36 Y: 898.28 H: -2.15
+
+MvMt State: 0
+Pose: X: 900.31 Y: 898.22 H: -2.27
+
+MvMt State: 0
+Pose: X: 900.16 Y: 898.05 H: -2.38
+
+MvMt State: 0
+Pose: X: 900.10 Y: 898.00 H: -2.49
+
+MvMt State: 0
+Pose: X: 899.85 Y: 897.83 H: -2.59
+
+MvMt State: 0
+Pose: X: 899.65 Y: 897.72 H: -2.68
+
+MvMt State: 0
+Pose: X: 899.58 Y: 897.69 H: -2.79
+
+MvMt State: 0
+Pose: X: 895.96 Y: 896.47 H: -2.84
+
+MvMt State: 0
+Pose: X: 891.15 Y: 894.98 H: -2.84
+
+MvMt State: 0
+Pose: X: 885.82 Y: 893.33 H: -2.84
+
+MvMt State: 0
+Pose: X: 880.78 Y: 891.79 H: -2.84
+
+MvMt State: 0
+Pose: X: 875.60 Y: 890.20 H: -2.85
+
+MvMt State: 0
+Pose: X: 870.05 Y: 888.51 H: -2.85
+
+MvMt State: 0
+Pose: X: 864.64 Y: 886.87 H: -2.85
+
+MvMt State: 0
+Pose: X: 859.16 Y: 885.21 H: -2.85
+
+MvMt State: 0
+Pose: X: 852.80 Y: 883.29 H: -2.85
+
+MvMt State: 0
+Pose: X: 846.67 Y: 881.42 H: -2.85
+
+MvMt State: 0
+Pose: X: 840.53 Y: 879.54 H: -2.84
+
+MvMt State: 0
+Pose: X: 834.33 Y: 877.62 H: -2.84
+
+MvMt State: 0
+Pose: X: 828.43 Y: 875.79 H: -2.84
+
+MvMt State: 0
+Pose: X: 822.16 Y: 873.83 H: -2.84
+
+MvMt State: 0
+Pose: X: 815.52 Y: 871.77 H: -2.84
+
+MvMt State: 0
+NextMove: 808.51, 869.62 -> 936.00, 864.00
+13, 12
+Pose: X: 808.51 Y: 869.62 H: -2.85
+
+MvMt State: 0
+Pose: X: 804.58 Y: 868.38 H: -2.82
+
+MvMt State: 0
+Pose: X: 803.86 Y: 868.12 H: -2.76
+
+MvMt State: 0
+Pose: X: 804.63 Y: 868.47 H: -2.68
+
+MvMt State: 0
+Pose: X: 804.30 Y: 868.28 H: -2.57
+
+MvMt State: 0
+Pose: X: 804.54 Y: 868.46 H: -2.46
+
+MvMt State: 0
+Pose: X: 804.99 Y: 868.87 H: -2.35
+
+MvMt State: 0
+Pose: X: 805.35 Y: 869.27 H: -2.26
+
+MvMt State: 0
+Pose: X: 805.67 Y: 869.69 H: -2.18
+
+MvMt State: 0
+Pose: X: 805.88 Y: 870.01 H: -2.10
+
+MvMt State: 0
+Pose: X: 806.09 Y: 870.42 H: -2.02
+
+MvMt State: 0
+Pose: X: 806.18 Y: 870.63 H: -1.94
+
+MvMt State: 0
+Pose: X: 806.28 Y: 870.92 H: -1.87
+
+MvMt State: 0
+Pose: X: 806.32 Y: 871.07 H: -1.79
+
+MvMt State: 0
+Pose: X: 806.34 Y: 871.14 H: -1.71
+
+MvMt State: 0
+Pose: X: 806.34 Y: 871.22 H: -1.63
+
+MvMt State: 0
+Pose: X: 806.35 Y: 871.37 H: -1.55
+
+MvMt State: 0
+Pose: X: 806.34 Y: 871.45 H: -1.47
+
+MvMt State: 0
+Pose: X: 806.35 Y: 871.37 H: -1.39
+
+MvMt State: 0
+Pose: X: 806.37 Y: 871.30 H: -1.32
+
+MvMt State: 0
+Pose: X: 806.43 Y: 871.08 H: -1.25
+
+MvMt State: 0
+Pose: X: 806.56 Y: 870.72 H: -1.19
+
+MvMt State: 0
+Pose: X: 806.56 Y: 870.72 H: -1.12
+
+MvMt State: 0
+Pose: X: 806.45 Y: 870.92 H: -1.05
+
+MvMt State: 0
+Pose: X: 806.25 Y: 871.24 H: -0.97
+
+MvMt State: 0
+Pose: X: 806.02 Y: 871.55 H: -0.89
+
+MvMt State: 0
+Pose: X: 805.82 Y: 871.78 H: -0.82
+
+MvMt State: 0
+Pose: X: 805.66 Y: 871.94 H: -0.74
+
+MvMt State: 0
+Pose: X: 805.42 Y: 872.14 H: -0.67
+
+MvMt State: 0
+Pose: X: 805.24 Y: 872.27 H: -0.60
+
+MvMt State: 0
+Pose: X: 805.05 Y: 872.39 H: -0.53
+
+MvMt State: 0
+Pose: X: 804.84 Y: 872.50 H: -0.45
+
+MvMt State: 0
+Pose: X: 804.63 Y: 872.59 H: -0.37
+
+MvMt State: 0
+Pose: X: 804.42 Y: 872.67 H: -0.29
+
+MvMt State: 0
+Pose: X: 804.34 Y: 872.69 H: -0.22
+
+MvMt State: 0
+Pose: X: 804.19 Y: 872.71 H: -0.13
+
+MvMt State: 0
+Pose: X: 804.12 Y: 872.72 H: -0.08
+
+MvMt State: 0
+Pose: X: 806.93 Y: 872.51 H: -0.07
+
+MvMt State: 0
+Pose: X: 811.81 Y: 872.16 H: -0.07
+
+MvMt State: 0
+Pose: X: 817.44 Y: 871.74 H: -0.07
+
+MvMt State: 0
+Pose: X: 823.38 Y: 871.29 H: -0.07
+
+MvMt State: 0
+Pose: X: 829.09 Y: 870.87 H: -0.07
+
+MvMt State: 0
+Pose: X: 835.11 Y: 870.43 H: -0.07
+
+MvMt State: 0
+Pose: X: 840.75 Y: 870.02 H: -0.07
+
+MvMt State: 0
+Pose: X: 846.46 Y: 869.60 H: -0.07
+
+MvMt State: 0
+Pose: X: 852.24 Y: 869.17 H: -0.07
+
+MvMt State: 0
+Pose: X: 857.96 Y: 868.75 H: -0.07
+
+MvMt State: 0
+Pose: X: 863.74 Y: 868.31 H: -0.08
+
+MvMt State: 0
+Pose: X: 869.53 Y: 867.85 H: -0.08
+
+MvMt State: 0
+Pose: X: 875.39 Y: 867.39 H: -0.08
+
+MvMt State: 0
+Pose: X: 881.33 Y: 866.91 H: -0.08
+
+MvMt State: 0
+Pose: X: 887.34 Y: 866.43 H: -0.08
+
+MvMt State: 0
+Pose: X: 893.58 Y: 865.91 H: -0.08
+
+MvMt State: 0
+Pose: X: 899.89 Y: 865.38 H: -0.08
+
+MvMt State: 0
+Pose: X: 906.36 Y: 864.83 H: -0.09
+
+MvMt State: 0
+Pose: X: 912.98 Y: 864.26 H: -0.09
+
+MvMt State: 0
+NextMove: 919.67, 863.68 -> 1008.00, 792.00
+14, 11
+Pose: X: 919.67 Y: 863.68 H: -0.09
+
+MvMt State: 0
+Pose: X: 922.79 Y: 863.38 H: -0.11
+
+MvMt State: 0
+Pose: X: 923.55 Y: 863.27 H: -0.17
+
+MvMt State: 0
+Pose: X: 923.17 Y: 863.35 H: -0.25
+
+MvMt State: 0
+Pose: X: 923.39 Y: 863.29 H: -0.33
+
+MvMt State: 0
+Pose: X: 923.32 Y: 863.31 H: -0.42
+
+MvMt State: 0
+Pose: X: 923.39 Y: 863.28 H: -0.51
+
+MvMt State: 0
+Pose: X: 923.52 Y: 863.20 H: -0.60
+
+MvMt State: 0
+Pose: X: 923.70 Y: 863.06 H: -0.67
+
+MvMt State: 0
+Pose: X: 926.07 Y: 861.14 H: -0.69
+
+MvMt State: 0
+Pose: X: 929.01 Y: 858.70 H: -0.69
+
+MvMt State: 0
+Pose: X: 933.00 Y: 855.37 H: -0.70
+
+MvMt State: 0
+Pose: X: 937.27 Y: 851.79 H: -0.70
+
+MvMt State: 0
+Pose: X: 941.82 Y: 847.95 H: -0.70
+
+MvMt State: 0
+Pose: X: 946.21 Y: 844.28 H: -0.70
+
+MvMt State: 0
+Pose: X: 950.68 Y: 840.56 H: -0.69
+
+MvMt State: 0
+Pose: X: 955.26 Y: 836.76 H: -0.69
+
+MvMt State: 0
+Pose: X: 960.13 Y: 832.71 H: -0.69
+
+MvMt State: 0
+Pose: X: 965.06 Y: 828.60 H: -0.69
+
+MvMt State: 0
+Pose: X: 969.87 Y: 824.60 H: -0.69
+
+MvMt State: 0
+Pose: X: 975.04 Y: 820.30 H: -0.69
+
+MvMt State: 0
+Pose: X: 980.26 Y: 815.95 H: -0.70
+
+MvMt State: 1
+Pose: X: 985.99 Y: 811.14 H: -0.70
+
+MvMt State: 1
+Pose: X: 984.60 Y: 812.33 H: -0.72
+
+MvMt State: 1
+Pose: X: 983.00 Y: 813.75 H: -0.74
+
+MvMt State: 1
+Pose: X: 980.39 Y: 816.21 H: -0.77
+
+MvMt State: 1
+Pose: X: 977.52 Y: 819.07 H: -0.80
+
+MvMt State: 1
+Pose: X: 975.06 Y: 821.68 H: -0.83
+
+MvMt State: 1
+Pose: X: 972.69 Y: 824.37 H: -0.86
+
+MvMt State: 1
+Pose: X: 970.34 Y: 827.19 H: -0.89
+
+MvMt State: 1
+Pose: X: 968.08 Y: 830.07 H: -0.92
+
+MvMt State: 1
+Pose: X: 965.83 Y: 833.16 H: -0.96
+
+MvMt State: 1
+Pose: X: 963.72 Y: 836.25 H: -0.99
+
+MvMt State: 1
+Pose: X: 961.68 Y: 839.47 H: -1.02
+
+MvMt State: 1
+Pose: X: 959.71 Y: 842.83 H: -1.06
+
+MvMt State: 1
+Pose: X: 957.85 Y: 846.25 H: -1.09
+
+MvMt State: 1
+Pose: X: 956.21 Y: 849.53 H: -1.12
+
+MvMt State: 1
+Pose: X: 954.56 Y: 853.14 H: -1.16
+
+MvMt State: 0
+NextMove: 951.43, 861.18 -> 1080.00, 864.00
+15, 12
+Pose: X: 951.43 Y: 861.18 H: -1.24
+
+MvMt State: 0
+Pose: X: 950.82 Y: 862.91 H: -1.23
+
+MvMt State: 0
+Pose: X: 950.85 Y: 862.84 H: -1.18
+
+MvMt State: 0
+Pose: X: 950.82 Y: 862.91 H: -1.11
+
+MvMt State: 0
+Pose: X: 950.82 Y: 862.91 H: -1.03
+
+MvMt State: 0
+Pose: X: 950.70 Y: 863.10 H: -0.96
+
+MvMt State: 0
+Pose: X: 950.60 Y: 863.22 H: -0.89
+
+MvMt State: 0
+Pose: X: 950.45 Y: 863.40 H: -0.82
+
+MvMt State: 0
+Pose: X: 950.18 Y: 863.66 H: -0.70
+
+MvMt State: 0
+Pose: X: 949.88 Y: 863.90 H: -0.64
+
+MvMt State: 0
+Pose: X: 949.69 Y: 864.03 H: -0.58
+
+MvMt State: 0
+Pose: X: 949.30 Y: 864.26 H: -0.50
+
+MvMt State: 0
+Pose: X: 949.16 Y: 864.33 H: -0.43
+
+MvMt State: 0
+Pose: X: 949.09 Y: 864.36 H: -0.34
+
+MvMt State: 0
+Pose: X: 949.02 Y: 864.38 H: -0.26
+
+MvMt State: 0
+Pose: X: 948.94 Y: 864.40 H: -0.18
+
+MvMt State: 0
+Pose: X: 948.72 Y: 864.43 H: -0.10
+
+MvMt State: 0
+Pose: X: 948.56 Y: 864.44 H: -0.04
+
+MvMt State: 0
+Pose: X: 950.24 Y: 864.39 H: -0.02
+
+MvMt State: 0
+Pose: X: 953.53 Y: 864.32 H: -0.02
+
+MvMt State: 0
+Pose: X: 958.18 Y: 864.19 H: -0.03
+
+MvMt State: 0
+Pose: X: 963.52 Y: 864.03 H: -0.03
+
+MvMt State: 0
+Pose: X: 969.40 Y: 863.84 H: -0.03
+
+MvMt State: 0
+Pose: X: 975.28 Y: 863.64 H: -0.03
+
+MvMt State: 0
+Pose: X: 981.31 Y: 863.43 H: -0.04
+
+MvMt State: 0
+Pose: X: 987.64 Y: 863.20 H: -0.04
+
+MvMt State: 0
+Pose: X: 993.36 Y: 862.99 H: -0.04
+
+MvMt State: 0
+Pose: X: 999.09 Y: 862.78 H: -0.04
+
+MvMt State: 0
+Pose: X: 1004.96 Y: 862.55 H: -0.04
+
+MvMt State: 0
+Pose: X: 1010.76 Y: 862.34 H: -0.04
+
+MvMt State: 0
+Pose: X: 1016.79 Y: 862.13 H: -0.03
+
+MvMt State: 0
+Pose: X: 1022.51 Y: 861.93 H: -0.04
+
+MvMt State: 0
+Pose: X: 1028.31 Y: 861.73 H: -0.04
+
+MvMt State: 0
+Pose: X: 1034.65 Y: 861.51 H: -0.03
+
+MvMt State: 0
+Pose: X: 1040.90 Y: 861.30 H: -0.03
+
+MvMt State: 0
+Pose: X: 1047.01 Y: 861.09 H: -0.03
+
+MvMt State: 0
+Pose: X: 1053.11 Y: 860.88 H: -0.03
+
+MvMt State: 0
+Pose: X: 1059.37 Y: 860.67 H: -0.03
+
+MvMt State: 0
+NextMove: 1064.56, 860.58 -> 1152.00, 792.00
+16, 11
+Pose: X: 1064.56 Y: 860.58 H: -0.00
+
+MvMt State: 0
+Pose: X: 1066.17 Y: 860.58 H: -0.00
+
+MvMt State: 0
+Pose: X: 1066.40 Y: 860.57 H: -0.06
+
+MvMt State: 0
+Pose: X: 1066.32 Y: 860.58 H: -0.13
+
+MvMt State: 0
+Pose: X: 1066.39 Y: 860.57 H: -0.21
+
+MvMt State: 0
+Pose: X: 1066.47 Y: 860.55 H: -0.30
+
+MvMt State: 0
+Pose: X: 1066.40 Y: 860.57 H: -0.40
+
+MvMt State: 0
+Pose: X: 1066.40 Y: 860.57 H: -0.50
+
+MvMt State: 0
+Pose: X: 1066.33 Y: 860.61 H: -0.59
+
+MvMt State: 0
+Pose: X: 1066.52 Y: 860.48 H: -0.66
+
+MvMt State: 0
+Pose: X: 1068.62 Y: 858.83 H: -0.67
+
+MvMt State: 0
+Pose: X: 1071.78 Y: 856.30 H: -0.67
+
+MvMt State: 0
+Pose: X: 1075.77 Y: 853.10 H: -0.68
+
+MvMt State: 1
+Pose: X: 1081.17 Y: 848.72 H: -0.68
+
+MvMt State: 1
+Pose: X: 1080.11 Y: 849.60 H: -0.69
+
+MvMt State: 1
+Pose: X: 1078.30 Y: 851.13 H: -0.71
+
+MvMt State: 1
+Pose: X: 1075.85 Y: 853.31 H: -0.74
+
+MvMt State: 1
+Pose: X: 1073.18 Y: 855.82 H: -0.77
+
+MvMt State: 1
+Pose: X: 1070.64 Y: 858.35 H: -0.80
+
+MvMt State: 1
+Pose: X: 1068.33 Y: 860.79 H: -0.83
+
+MvMt State: 1
+Pose: X: 1065.99 Y: 863.41 H: -0.86
+
+MvMt State: 1
+Pose: X: 1063.83 Y: 865.99 H: -0.89
+
+MvMt State: 1
+Pose: X: 1061.56 Y: 868.86 H: -0.92
+
+MvMt State: 1
+Pose: X: 1059.46 Y: 871.68 H: -0.95
+
+MvMt State: 1
+Pose: X: 1057.41 Y: 874.63 H: -0.98
+
+MvMt State: 1
+Pose: X: 1055.46 Y: 877.64 H: -1.01
+
+MvMt State: 1
+Pose: X: 1053.63 Y: 880.64 H: -1.04
+
+MvMt State: 1
+Pose: X: 1051.93 Y: 883.62 H: -1.07
+
+MvMt State: 1
+Pose: X: 1050.39 Y: 886.52 H: -1.10
+
+MvMt State: 1
+Pose: X: 1048.87 Y: 889.60 H: -1.13
+
+MvMt State: 0
+NextMove: 1045.75, 896.74 -> 1080.00, 792.00
+15, 11
+Pose: X: 1045.75 Y: 896.74 H: -1.19
+
+MvMt State: 0
+Pose: X: 1045.29 Y: 897.95 H: -1.22
+
+MvMt State: 0
+Pose: X: 1045.83 Y: 896.44 H: -1.24
+
+MvMt State: 0
+Pose: X: 1047.07 Y: 892.83 H: -1.24
+
+MvMt State: 0
+Pose: X: 1048.55 Y: 888.50 H: -1.24
+
+MvMt State: 0
+Pose: X: 1050.42 Y: 883.08 H: -1.24
+
+MvMt State: 0
+Pose: X: 1052.21 Y: 877.88 H: -1.24
+
+MvMt State: 0
+Pose: X: 1054.10 Y: 872.48 H: -1.23
+
+MvMt State: 0
+Pose: X: 1056.01 Y: 867.08 H: -1.23
+
+MvMt State: 0
+Pose: X: 1057.93 Y: 861.77 H: -1.22
+
+MvMt State: 0
+Pose: X: 1060.06 Y: 855.96 H: -1.22
+
+MvMt State: 0
+Pose: X: 1062.23 Y: 850.01 H: -1.22
+
+MvMt State: 0
+Pose: X: 1064.48 Y: 843.84 H: -1.22
+
+MvMt State: 0
+Pose: X: 1066.53 Y: 838.16 H: -1.22
+
+MvMt State: 0
+Pose: X: 1068.52 Y: 832.63 H: -1.23
+
+MvMt State: 0
+Pose: X: 1070.39 Y: 827.38 H: -1.23
+
+MvMt State: 1
+Pose: X: 1072.84 Y: 820.39 H: -1.24
+
+MvMt State: 1
+Pose: X: 1072.35 Y: 821.84 H: -1.25
+
+MvMt State: 1
+Pose: X: 1071.57 Y: 824.31 H: -1.28
+
+MvMt State: 1
+Pose: X: 1070.56 Y: 827.83 H: -1.30
+
+MvMt State: 1
+Pose: X: 1069.60 Y: 831.53 H: -1.33
+
+MvMt State: 1
+Pose: X: 1068.82 Y: 835.03 H: -1.37
+
+MvMt State: 1
+Pose: X: 1068.12 Y: 838.71 H: -1.40
+
+MvMt State: 1
+Pose: X: 1067.55 Y: 842.25 H: -1.43
+
+MvMt State: 1
+Pose: X: 1067.11 Y: 845.66 H: -1.46
+
+MvMt State: 1
+Pose: X: 1066.78 Y: 849.00 H: -1.49
+
+MvMt State: 1
+Pose: X: 1066.54 Y: 852.43 H: -1.51
+
+MvMt State: 1
+Pose: X: 1066.39 Y: 856.01 H: -1.55
+
+MvMt State: 1
+Pose: X: 1066.36 Y: 860.14 H: -1.58
+
+MvMt State: 1
+Pose: X: 1066.47 Y: 864.11 H: -1.62
+
+MvMt State: 1
+Pose: X: 1066.69 Y: 867.77 H: -1.65
+
+MvMt State: 1
+Pose: X: 1067.02 Y: 871.42 H: -1.68
+
+MvMt State: 0
+NextMove: 1068.09, 879.13 -> 1152.00, 936.00
+16, 13
+Pose: X: 1068.09 Y: 879.13 H: -1.74
+
+MvMt State: 0
+Pose: X: 1068.35 Y: 880.63 H: -1.74
+
+MvMt State: 0
+Pose: X: 1068.38 Y: 880.86 H: -1.69
+
+MvMt State: 0
+Pose: X: 106 .35 Y: 880.48 H: -1.61
+
+MvMt State: 0
+Pose: X: 1068.35 Y: 880.02 H: -1.53
+
+MvMt State: 0
+Pose: X: 1068.37 Y: 879.79 H: -1.45
+
+MvMt State: 0
+Pose: X: 1068.39 Y: 879.64 H: -1.37
+
+MvMt State: 0
+Pose: X: 1068.35 Y: 879.79 H: -1.29
+
+MvMt State: 0
+Pose: X: 1068.28 Y: 880.01 H: -1.19
+
+MvMt State: 0
+Pose: X: 1068.25 Y: 880.08 H: -1.10
+
+MvMt State: 0
+Pose: X: 1068.14 Y: 880.28 H: -1.02
+
+MvMt State: 0
+Pose: X: 1068.05 Y: 880.40 H: -0.94
+
+MvMt State: 0
+Pose: X: 1067.91 Y: 880.58 H: -0.86
+
+MvMt State: 0
+Pose: X: 1067.80 Y: 880.69 H: -0.78
+
+MvMt State: 0
+Pose: X: 1067.75 Y: 880.75 H: -0.70
+
+MvMt State: 0
+Pose: X: 1067.57 Y: 880.88 H: -0.61
+
+MvMt State: 0
+Pose: X: 1067.44 Y: 880.97 H: -0.53
+
+MvMt State: 0
+Pose: X: 1067.10 Y: 881.15 H: -0.45
+
+MvMt State: 0
+Pose: X: 1067.03 Y: 881.18 H: -0.38
+
+MvMt State: 0
+Pose: X: 1066.82 Y: 881.26 H: -0.30
+
+MvMt State: 0
+Pose: X: 1066.67 Y: 881.30 H: -0.23
+
+MvMt State: 0
+Pose: X: 1066.52 Y: 881.33 H: -0.16
+
+MvMt State: 0
+Pose: X: 1066.59 Y: 881.32 H: -0.04
+
+MvMt State: 0
+Pose: X: 1066.52 Y: 881.32 H: 0.03
+
+MvMt State: 0
+Pose: X: 1066.44 Y: 881.31 H: 0.10
+
+MvMt State: 0
+Pose: X: 1066.22 Y: 881.28 H: 0.17
+
+MvMt State: 0
+Pose: X: 1066.14 Y: 881.27 H: 0.25
+
+MvMt State: 0
+Pose: X: 1065.99 Y: 881.22 H: 0.33
+
+MvMt State: 0
+Pose: X: 1065.85 Y: 881.17 H: 0.41
+
+MvMt State: 0
+Pose: X: 1065.78 Y: 881.13 H: 0.49
+
+MvMt State: 0
+Pose: X: 1065.78 Y: 881.13 H: 0.55
+
+MvMt State: 0
+Pose: X: 1068.00 Y: 882.49 H: 0.55
+
+MvMt State: 0
+Pose: X: 1071.57 Y: 884.69 H: 0.55
+
+MvMt State: 0
+Pose: X: 1075.81 Y: 887.28 H: 0.55
+
+MvMt State: 0
+Pose: X: 1080.32 Y: 890.01 H: 0.54
+
+MvMt State: 0
+Pose: X: 1085.48 Y: 893.13 H: 0.54
+
+MvMt State: 0
+Pose: X: 1090.51 Y: 896.17 H: 0.54
+
+MvMt State: 0
+Pose: X: 1095.55 Y: 899.20 H: 0.54
+
+MvMt State: 0
+Pose: X: 1100.85 Y: 902.39 H: 0.54
+
+MvMt State: 0
+Pose: X: 1105.69 Y: 905.30 H: 0.54
+
+MvMt State: 0
+Pose: X: 1110.66 Y: 908.30 H: 0.54
+
+MvMt State: 0
+Pose: X: 1115.68 Y: 911.36 H: 0.55
+
+MvMt State: 0
+Pose: X: 1120.63 Y: 914.39 H: 0.55
+
+MvMt State: 0
+Pose: X: 1125.64 Y: 917.46 H: 0.55
+
+MvMt State: 0
+Pose: X: 1130.65 Y: 920.54 H: 0.55
+
+MvMt State: 0
+Pose: X: 1135.40 Y: 923.47 H: 0.55
+
+MvMt State: 0
+NextMove: 1140.26, 926.49 -> 1080.00, 1008.00
+15, 14
+Pose: X: 1140.26 Y: 926.49 H: 0.56
+
+MvMt State: 0
+Pose: X: 1142.89 Y: 928.19 H: 0.59
+
+MvMt State: 0
+Pose: X: 1143.39 Y: 928.54 H: 0.65
+
+MvMt State: 0
+Pose: X: 1143.03 Y: 928.25 H: 0.72
+
+MvMt State: 0
+Pose: X: 1142.70 Y: 927.93 H: 0.81
+
+MvMt State: 0
+Pose: X: 1142.55 Y: 927.76 H: 0.89
+
+MvMt State: 0
+Pose: X: 1142.28 Y: 927.39 H: 0.99
+
+MvMt State: 0
+Pose: X: 1142.05 Y: 927.00 H: 1.08
+
+MvMt State: 0
+Pose: X: 1141.99 Y: 926.86 H: 1.19
+
+MvMt State: 0
+Pose: X: 1141.88 Y: 926.57 H: 1.28
+
+MvMt State: 0
+Pose: X: 1141.83 Y: 926.35 H: 1.37
+
+MvMt State: 0
+Pose: X: 1141.78 Y: 926.05 H: 1.46
+
+MvMt State: 0
+Pose: X: 1141.76 Y: 925.74 H: 1.54
+
+MvMt State: 0
+Pose: X: 1141.76 Y: 925.51 H: 1.62
+
+MvMt State: 0
+Pose: X: 1141.80 Y: 925.13 H: 1.70
+
+MvMt State: 0
+Pose: X: 1141.85 Y: 924.83 H: 1.78
+
+MvMt State: 0
+Pose: X: 1141.92 Y: 924.54 H: 1.86
+
+MvMt State: 0
+Pose: X: 1142.02 Y: 924.25 H: 1.94
+
+MvMt State: 0
+Pose: X: 1142.05 Y: 924.18 H: 2.02
+
+MvMt State: 0
+Pose: X: 1142.05 Y: 924.18 H: 2.09
+
+MvMt State: 0
+Pose: X: 1142.09 Y: 924.11 H: 2.16
+
+MvMt State: 0
+Pose: X: 1141.09 Y: 925.55 H: 2.20
+
+MvMt State: 0
+Pose: X: 1139.20 Y: 928.15 H: 2.20
+
+MvMt State: 0
+Pose: X: 1136.57 Y: 931.80 H: 2.20
+
+MvMt State: 0
+Pose: X: 1133.76 Y: 935.71 H: 2.19
+
+MvMt State: 0
+Pose: X: 1130.70 Y: 940.00 H: 2.19
+
+MvMt State: 0
+Pose: X: 1126.99 Y: 945.23 H: 2.19
+
+MvMt State: 0
+Pose: X: 1123.38 Y: 950.34 H: 2.19
+
+MvMt State: 0
+Pose: X: 1119.89 Y: 955.26 H: 2.19
+
+MvMt State: 0
+Pose: X: 1116.26 Y: 960.36 H: 2.19
+
+MvMt State: 0
+Pose: X: 1112.57 Y: 965.52 H: 2.19
+
+MvMt State: 0
+Pose: X: 1109.06 Y: 970.43 H: 2.19
+
+MvMt State: 0
+Pose: X: 1105.46 Y: 975.45 H: 2.19
+
+MvMt State: 0
+Pose: X: 1101.81 Y: 980.54 H: 2.19
+
+MvMt State: 0
+Pose: X: 1098.46 Y: 985.19 H: 2.19
+
+MvMt State: 0
+Pose: X: 1094.80 Y: 990.27 H: 2.20
+
+MvMt State: 0
+NextMove: 1091.08, 995.40 -> 1224.00, 1008.00
+17, 14
+Pose: X: 1091.08 Y: 995.40 H: 2.20
+
+MvMt State: 0
+Pose: X: 1089.28 Y: 997.96 H: 2.17
+
+MvMt State: 0
+Pose: X: 1088.86 Y: 998.60 H: 2.11
+
+MvMt State: 0
+Pose: X: 1088.94 Y: 998.47 H: 2.04
+
+MvMt State: 0
+Pose: X: 1088.84 Y: 998.68 H: 1.96
+
+MvMt State: 0
+Pose: X: 1088.79 Y: 998.82 H: 1.86
+
+MvMt State: 0
+Pose: X: 1088.76 Y: 998.97 H: 1.77
+
+MvMt State: 0
+Pose: X: 1088.73 Y: 999.12 H: 1.68
+
+MvMt State: 0
+Pose: X: 1088.72 Y: 999.35 H: 1.59
+
+MvMt State: 0
+Pose: X: 1088.72 Y: 999.58 H: 1.51
+
+MvMt State: 0
+Pose: X: 1088.74 Y: 999.80 H: 1.43
+
+MvMt State: 0
+Pose: X: 1088.79 Y: 1000.03 H: 1.35
+
+MvMt State: 0
+Pose: X: 1088.82 Y: 1000.18 H: 1.28
+
+MvMt State: 0
+Pose: X: 1088.85 Y: 1000.25 H: 1.20
+
+MvMt State: 0
+Pose: X: 1088.91 Y: 1000.39 H: 1.13
+
+MvMt State: 0
+Pose: X: 1088.94 Y: 1000.46 H: 1.05
+
+MvMt State: 0
+Pose: X: 1088.98 Y: 1000.52 H: 0.97
+
+MvMt State: 0
+Pose: X: 1088.98 Y: 1000.52 H: 0.89
+
+MvMt State: 0
+Pose: X: 1089.03 Y: 1000.58 H: 0.82
+
+MvMt State: 0
+Pose: X: 1089.03 Y: 1000.58 H: 0.75
+
+MvMt State: 0
+Pose: X: 1089.15 Y: 1000.68 H: 0.67
+
+MvMt State: 0
+Pose: X: 1089.21 Y: 1000.72 H: 0.59
+
+MvMt State: 0
+Pose: X: 1089.21 Y: 1000.72 H: 0.52
+
+MvMt State: 0
+Pose: X: 1089.28 Y: 1000.76 H: 0.44
+
+MvMt State: 0
+Pose: X: 1089.28 Y: 1000.76 H: 0.37
+
+MvMt State: 0
+Pose: X: 1089.35 Y: 1000.78 H: 0.29
+
+MvMt State: 0
+Pose: X: 1089.43 Y: 1000.80 H: 0.22
+
+MvMt State: 0
+Pose: X: 1089.50 Y: 1000.82 H: 0.14
+
+MvMt State: 0
+Pose: X: 1089.58 Y: 1000.83 H: 0.09
+
+MvMt State: 0
+Pose: X: 1091.78 Y: 1001.00 H: 0.07
+
+MvMt State: 0
+Pose: X: 1095.44 Y: 1001.26 H: 0.07
+
+MvMt State: 0
+Pose: X: 1100.01 Y: 1001.59 H: 0.07
+
+MvMt State: 0
+Pose: X: 1105.27 Y: 1001.96 H: 0.07
+
+MvMt State: 0
+Pose: X: 1110.90 Y: 1002.36 H: 0.07
+
+MvMt State: 0
+Pose: X: 1116.61 Y: 1002.76 H: 0.07
+
+MvMt State: 0
+Pose: X: 1122.48 Y: 1003.17 H: 0.07
+
+MvMt State: 0
+Pose: X: 1128.65 Y: 1003.58 H: 0.07
+
+MvMt State: 0
+Pose: X: 1134.36 Y: 1003.97 H: 0.07
+
+MvMt State: 0
+Pose: X: 1140.08 Y: 1004.37 H: 0.07
+
+MvMt State: 0
+Pose: X: 1146.32 Y: 1004.80 H: 0.07
+
+MvMt State: 0
+Pose: X: 1152.34 Y: 1005.22 H: 0.07
+
+MvMt State: 0
+Pose: X: 1158.28 Y: 1005.63 H: 0.07
+
+MvMt State: 0
+Pose: X: 1163.92 Y: 1006.03 H: 0.07
+
+MvMt State: 0
+Pose: X: 1169.41 Y: 1006.41 H: 0.07
+
+MvMt State: 0
+Pose: X: 1175.12 Y: 1006.80 H: 0.07
+
+MvMt State: 1
+Pose: X: 1182.36 Y: 1007.30 H: 0.07
+
+MvMt State: 1
+Pose: X: 1181.14 Y: 1007.22 H: 0.06
+
+MvMt State: 1
+Pose: X: 1179.00 Y: 1007.11 H: 0.04
+
+MvMt State: 1
+Pose: X: 1175.57 Y: 1007.03 H: 0.01
+
+MvMt State: 1
+Pose: X: 1171.52 Y: 1007.05 H: -0.02
+
+MvMt State: 1
+Pose: X: 1167.25 Y: 1007.22 H: -0.06
+
+MvMt State: 1
+Pose: X: 1163.52 Y: 1007.50 H: -0.09
+
+MvMt State: 1
+Pose: X: 1159.95 Y: 1007.87 H: -0.12
+
+MvMt State: 1
+Pose: X: 1156.31 Y: 1008.35 H: -0.15
+
+MvMt State: 1
+Pose: X: 1152.55 Y: 1008.98 H: -0.18
+
+MvMt State: 1
+Pose: X: 1148.58 Y: 1009.78 H: -0.22
+
+MvMt State: 1
+Pose: X: 1142.73 Y: 1011.24 H: -0.27
+
+MvMt State: 0
+NextMove: 1135.51, 1013.49 -> 1296.00, 1008.00
+18, 14
+Pose: X: 1135.51 Y: 1013.49 H: -0.33
+
+MvMt State: 0
+Pose: X: 1133.64 Y: 1014.14 H: -0.33
+
+MvMt State: 0
+Pose: X: 1133.35 Y: 1014.23 H: -0.27
+
+MvMt State: 0
+Pose: X: 1133.57 Y: 1014.18 H: -0.20
+
+MvMt State: 1
+Pose: X: 1131.53 Y: 1014.50 H: -0.12
+
+MvMt State: 1
+Pose: X: 1129.03 Y: 1014.81 H: -0.13
+
+MvMt State: 1
+Pose: X: 1125.18 Y: 1015.38 H: -0.16
+
+MvMt State: 1
+Pose: X: 1121.20 Y: 1016.11 H: -0.20
+
+MvMt State: 1
+Pose: X: 1117.24 Y: 1016.96 H: -0.23
+
+MvMt State: 1
+Pose: X: 1113.39 Y: 1017.93 H: -0.26
+
+MvMt State: 1
+Pose: X: 1109.43 Y: 1019.07 H: -0.30
+
+MvMt State: 1
+Pose: X: 1105.66 Y: 1020.30 H: -0.33
+
+MvMt State: 1
+Pose: X: 1101.64 Y: 1021.77 H: -0.37
+
+MvMt State: 1
+Pose: X: 1098.10 Y: 1023.19 H: -0.40
+
+MvMt State: 1
+Pose: X: 1094.60 Y: 1024.73 H: -0.43
+
+MvMt State: 1
+Pose: X: 1091.23 Y: 1026.34 H: -0.46
+
+MvMt State: 1
+Pose: X: 1087.84 Y: 1028.10 H: -0.49
+
+MvMt State: 1
+Pose: X: 1084.63 Y: 1029.88 H: -0.52
+
+MvMt State: 1
+Pose: X: 1081.62 Y: 1031.68 H: -0.55
+
+MvMt State: 0
+NextMove: 1075.00, 1036.07 -> 1296.00, 1008.00
+18, 14
+Pose: X: 1075.00 Y: 1036.07 H: -0.62
+
+MvMt State: 0
+Pose: X: 1073.51 Y: 1037.13 H: -0.62
+
+MvMt State: 0
+Pose: X: 1073.38 Y: 1037.22 H: -0.56
+
+MvMt State: 0
+Pose: X: 1073.32 Y: 1037.26 H: -0.47
+
+MvMt State: 0
+Pose: X: 1073.32 Y: 1037.26 H: -0.38
+
+MvMt State: 0
+Pose: X: 1073.17 Y: 1037.31 H: -0.29
+
+MvMt State: 0
+Pose: X: 1072.88 Y: 1037.38 H: -0.20
+
+MvMt State: 0
+Pose: X: 1072.72 Y: 1037.41 H: -0.15
+
+MvMt State: 0
+Pose: X: 1074.39 Y: 1037.16 H: -0.14
+
+MvMt State: 0
+Pose: X: 1077.86 Y: 1036.66 H: -0.14
+
+MvMt State: 0
+Pose: X: 1082.85 Y: 1035.93 H: -0.15
+
+MvMt State: 0
+Pose: X: 1088.14 Y: 1035.15 H: -0.15
+
+MvMt State: 0
+Pose: X: 1093.80 Y: 1034.32 H: -0.15
+
+MvMt State: 0
+Pose: X: 1099.40 Y: 1033.51 H: -0.14
+
+MvMt State: 0
+Pose: X: 1104.91 Y: 1032.72 H: -0.14
+
+MvMt State: 0
+Pose: X: 1110.58 Y: 1031.91 H: -0.14
+
+MvMt State: 0
+Pose: X: 1116.25 Y: 1031.11 H: -0.14
+
+MvMt State: 0
+Pose: X: 1122.45 Y: 1030.24 H: -0.14
+
+MvMt State: 0
+Pose: X: 1128.66 Y: 1029.37 H: -0.14
+
+MvMt State: 0
+Pose: X: 1134.71 Y: 1028.53 H: -0.14
+
+MvMt State: 0
+Pose: X: 1140.91 Y: 1027.67 H: -0.14
+
+MvMt State: 0
+Pose: X: 1146.96 Y: 1026.83 H: -0.14
+
+MvMt State: 0
+Pose: X: 1153.08 Y: 1025.98 H: -0.14
+
+MvMt State: 1
+Pose: X: 1160.12 Y: 1024.98 H: -0.14
+
+MvMt State: 1
+Pose: X: 1158.61 Y: 1025.21 H: -0.16
+
+MvMt State: 1
+Pose: X: 1156.35 Y: 1025.59 H: -0.18
+
+MvMt State: 1
+Pose: X: 1152.68 Y: 1026.31 H: -0.21
+
+MvMt State: 1
+Pose: X: 1148.66 Y: 1027.23 H: -0.24
+
+MvMt State: 1
+Pose: X: 1145.19 Y: 1028.14 H: -0.27
+
+MvMt State: 1
+Pose: X: 1141.53 Y: 1029.24 H: -0.31
+
+MvMt State: 1
+Pose: X: 1138.20 Y: 1030.35 H: -0.34
+
+MvMt State: 1
+Pose: X: 1134.90 Y: 1031.56 H: -0.37
+
+MvMt State: 1
+Pose: X: 1131.71 Y: 1032.83 H: -0.40
+
+MvMt State: 1
+Pose: X: 1128.49 Y: 1034.23 H: -0.43
+
+MvMt State: 1
+Pose: X: 1125.38 Y: 1035.70 H: -0.45
+
+MvMt State: 1
+Pose: X: 1122.24 Y: 1037.28 H: -0.48
+
+MvMt State: 1
+Pose: X: 1119.15 Y: 1038.95 H: -0.51
+
+MvMt State: 1
+Pose: X: 1116.31 Y: 1040.60 H: -0.54
+
+MvMt State: 1
+Pose: X: 1113.33 Y: 1042.45 H: -0.57
+
+MvMt State: 1
+Pose: X: 1110.65 Y: 1044.21 H: -0.60
+
+MvMt State: 0
+NextMove: 1104.17, 1048.93 -> 1296.00, 1080.00
+18, 15
+Pose: X: 1104.17 Y: 1048.93 H: -0.66
+
+MvMt State: 0
+Pose: X: 1102.90 Y: 1049.91 H: -0.66
+
+MvMt State: 0
+Pose: X: 1102.72 Y: 1050.05 H: -0.59
+
+MvMt State: 0
+Pose: X: 1102.46 Y: 1050.21 H: -0.51
+
+MvMt State: 0
+Pose: X: 1102.32 Y: 1050.28 H: -0.43
+
+MvMt State: 0
+Pose: X: 1102.18 Y: 1050.34 H: -0.34
+
+MvMt State: 0
+Pose: X: 1101.89 Y: 1050.43 H: -0.26
+
+MvMt State: 0
+Pose: X: 1101.66 Y: 1050.48 H: -0.18
+
+MvMt State: 0
+Pose: X: 1101.44 Y: 1050.51 H: -0.10
+
+MvMt State: 0
+Pose: X: 1101.28 Y: 1050.52 H: -0.02
+
+MvMt State: 0
+Pose: X: 1101.13 Y: 1050.51 H: 0.06
+
+MvMt State: 0
+Pose: X: 1100.98 Y: 1050.50 H: 0.12
+
+MvMt State: 0
+Pose: X: 1102.87 Y: 1050.74 H: 0.14
+
+MvMt State: 0
+Pose: X: 1106.88 Y: 1051.30 H: 0.14
+
+MvMt State: 0
+Pose: X: 1111.88 Y: 1051.98 H: 0.14
+
+MvMt State: 0
+Pose: X: 1116.94 Y: 1052.67 H: 0.14
+
+MvMt State: 0
+Pose: X: 1122.69 Y: 1053.46 H: 0.14
+
+MvMt State: 0
+Pose: X: 1128.37 Y: 1054.25 H: 0.14
+
+MvMt State: 0
+Pose: X: 1133.96 Y: 1055.03 H: 0.14
+
+MvMt State: 0
+Pose: X: 1139.78 Y: 1055.85 H: 0.14
+
+MvMt State: 0
+Pose: X: 1145.53 Y: 1056.65 H: 0.14
+
+MvMt State: 0
+Pose: X: 1151.36 Y: 1057.46 H: 0.14
+
+MvMt State: 0
+Pose: X: 1157.56 Y: 1058.32 H: 0.14
+
+MvMt State: 0
+Pose: X: 1163.68 Y: 1059.17 H: 0.14
+
+MvMt State: 0
+Pose: X: 1169.28 Y: 1059.95 H: 0.14
+
+MvMt State: 0
+Pose: X: 1174.88 Y: 1060.73 H: 0.14
+
+MvMt State: 0
+Pose: X: 1181.08 Y: 1061.58 H: 0.13
+
+MvMt State: 0
+Pose: X: 1188.04 Y: 1062.50 H: 0.13
+
+MvMt State: 1
+Pose: X: 1195.16 Y: 1063.43 H: 0.13
+
+MvMt State: 1
+Pose: X: 1193.27 Y: 1063.20 H: 0.11
+
+MvMt State: 1
+Pose: X: 1190.46 Y: 1062.91 H: 0.09
+
+MvMt State: 1
+Pose: X: 1186.34 Y: 1062.60 H: 0.06
+
+MvMt State: 1
+Pose: X: 1182.61 Y: 1062.43 H: 0.03
+
+MvMt State: 1
+Pose: X: 1179.10 Y: 1062.38 H: 0.00
+
+MvMt State: 1
+Pose: X: 1175.35 Y: 1062.43 H: -0.03
+
+MvMt State: 1
+Pose: X: 1171.39 Y: 1062.60 H: -0.06
+
+MvMt State: 1
+Pose: X: 1167.58 Y: 1062.89 H: -0.09
+
+MvMt State: 1
+Pose: X: 1163.86 Y: 1063.30 H: -0.12
+
+MvMt State: 1
+Pose: X: 1160.23 Y: 1063.82 H: -0.16
+
+MvMt State: 1
+Pose: X: 1156.55 Y: 1064.46 H: -0.19
+
+MvMt State: 1
+Pose: X: 1152.81 Y: 1065.24 H: -0.22
+
+MvMt State: 1
+Pose: X: 1149.18 Y: 1066.13 H: -0.26
+
+MvMt State: 1
+Pose: X: 1145.65 Y: 1067.11 H: -0.29
+
+MvMt State: 1
+Pose: X: 1142.22 Y: 1068.18 H: -0.32
+
+MvMt State: 0
+Pose: X: 1134.55 Y: 1071.00 H: -0.39
+
+MvMt State: 1
+Pose: X: 1128.82 Y: 1073.52 H: -0.44
+
+MvMt State: 1
+Pose: X: 1125.60 Y: 1075.10 H: -0.47
+
+MvMt State: 1
+Pose: X: 1122.49 Y: 1076.74 H: -0.50
+
+MvMt State: 1
+Pose: X: 1119.44 Y: 1078.47 H: -0.53
+
+MvMt State: 1
+Pose: X: 1115.98 Y: 1080.57 H: -0.56
+
+MvMt State: 1
+Pose: X: 1110.71 Y: 1084.09 H: -0.62
+
+MvMt State: 0
+NextMove: 1104.19, 1089.01 -> 1296.00, 1080.00
+18, 15
+Pose: X: 1104.19 Y: 1089.01 H: -0.68
+
+MvMt State: 0
+Pose: X: 1102.75 Y: 1090.15 H: -0.66
+
+MvMt State: 0
+Pose: X: 1102.82 Y: 1090.11 H: -0.59
+
+MvMt State: 0
+Pose: X: 1102.49 Y: 1090.30 H: -0.50
+
+MvMt State: 0
+Pose: X: 1102.35 Y: 1090.37 H: -0.41
+
+MvMt State: 0
+Pose: X: 1102.14 Y: 1090.45 H: -0.32
+
+MvMt State: 0
+Pose: X: 1101.84 Y: 1090.54 H: -0.24
+
+MvMt State: 0
+Pose: X: 1101.55 Y: 1090.60 H: -0.15
+
+MvMt State: 0
+Pose: X: 1101.39 Y: 1090.62 H: -0.09
+
+MvMt State: 0
+Pose: X: 1103.45 Y: 1090.46 H: -0.07
+
+MvMt State: 0
+Pose: X: 1107.56 Y: 1090.17 H: -0.07
+
+MvMt State: 0
+Pose: X: 1113.43 Y: 1089.75 H: -0.07
+
+MvMt State: 0
+Pose: X: 1119.75 Y: 1089.29 H: -0.07
+
+MvMt State: 0
+Pose: X: 1126.45 Y: 1088.78 H: -0.08
+
+MvMt State: 0
+Pose: X: 1133.00 Y: 1088.29 H: -0.08
+
+MvMt State: 0
+Pose: X: 1140.00 Y: 1087.75 H: -0.08
+
+MvMt State: 0
+Pose: X: 1147.31 Y: 1087.20 H: -0.08
+
+MvMt State: 0
+Pose: X: 1154.62 Y: 1086.64 H: -0.08
+
+MvMt State: 1
+Pose: X: 1161.78 Y: 1086.08 H: -0.08
+
+MvMt State: 1
+Pose: X: 1160.25 Y: 1086.22 H: -0.09
+
+MvMt State: 1
+Pose: X: 1157.98 Y: 1086.45 H: -0.11
+
+MvMt State: 1
+Pose: X: 1154.42 Y: 1086.91 H: -0.14
+
+MvMt State: 1
+Pose: X: 1150.80 Y: 1087.48 H: -0.17
+
+MvMt State: 1
+Pose: X: 1147.42 Y: 1088.11 H: -0.20
+
+MvMt State: 1
+Pose: X: 1144.21 Y: 1088.80 H: -0.23
+
+MvMt State: 1
+Pose: X: 1141.02 Y: 1089.58 H: -0.25
+
+MvMt State: 1
+Pose: X: 1137.85 Y: 1090.44 H: -0.28
+
+MvMt State: 1
+Pose: X: 1134.56 Y: 1091.44 H: -0.31
+
+MvMt State: 1
+Pose: X: 1130.87 Y: 1092.68 H: -0.34
+
+MvMt State: 1
+Pose: X: 1127.36 Y: 1093.98 H: -0.37
+
+MvMt State: 1
+Pose: X: 1124.04 Y: 1095.33 H: -0.40
+
+MvMt State: 1
+Pose: X: 1120.75 Y: 1096.77 H: -0.43
+
+MvMt State: 1
+Pose: X: 1117.58 Y: 1098.28 H: -0.46
+
+MvMt State: 1
+Pose: X: 1114.52 Y: 1099.84 H: -0.49
+
+MvMt State: 0
+NextMove: 1107.69, 1103.74 -> 1296.00, 1080.00
+18, 15
+Pose: X: 1107.69 Y: 1103.74 H: -0.55
+
+MvMt State: 0
+Pose: X: 1106.05 Y: 1104.72 H: -0.53
+
+MvMt State: 0
+Pose: X: 1105.99 Y: 1104.76 H: -0.46
+
+MvMt State: 0
+Pose: X: 1105.71 Y: 1104.88 H: -0.37
+
+MvMt State: 0
+Pose: X: 1105.56 Y: 1104.93 H: -0.29
+
+MvMt State: 0
+Pose: X: 1105.27 Y: 1105.01 H: -0.20
+
+MvMt State: 0
+Pose: X: 1105.19 Y: 1105.02 H: -0.15
+
+MvMt State: 0
+Pose: X: 1107.08 Y: 1104.74 H: -0.14
+
+MvMt State: 0
+Pose: X: 1111.69 Y: 1104.07 H: -0.15
+
+MvMt State: 0
+Pose: X: 1117.73 Y: 1103.17 H: -0.15
+
+MvMt State: 0
+Pose: X: 1124.00 Y: 1102.22 H: -0.15
+
+MvMt State: 0
+Pose: X: 1130.57 Y: 1101.22 H: -0.15
+
+MvMt State: 0
+Pose: X: 1137.43 Y: 1100.17 H: -0.15
+
+MvMt State: 0
+Pose: X: 1144.38 Y: 1099.10 H: -0.15
+
+MvMt State: 0
+Pose: X: 1151.09 Y: 1098.07 H: -0.15
+
+MvMt State: 1
+Pose: X: 1157.43 Y: 1097.09 H: -0.16
+
+MvMt State: 1
+Pose: X: 1156.08 Y: 1097.31 H: -0.17
+
+MvMt State: 1
+Pose: X: 1153.90 Y: 1097.70 H: -0.19
+
+MvMt State: 1
+Pose: X: 1150.61 Y: 1098.38 H: -0.21
+
+MvMt State: 1
+Pose: X: 1147.11 Y: 1099.19 H: -0.24
+
+MvMt State: 1
+Pose: X: 1143.79 Y: 1100.06 H: -0.27
+
+MvMt State: 1
+Pose: X: 1140.78 Y: 1100.94 H: -0.30
+
+MvMt State: 1
+Pose: X: 1137.58 Y: 1101.96 H: -0.32
+
+MvMt State: 1
+Pose: X: 1134.48 Y: 1103.05 H: -0.35
+
+MvMt State: 1
+Pose: X: 1130.78 Y: 1104.48 H: -0.38
+
+MvMt State: 1
+Pose: X: 1127.05 Y: 1106.05 H: -0.42
+
+MvMt State: 1
+Pose: X: 1123.72 Y: 1107.58 H: -0.45
+
+MvMt State: 1
+Pose: X: 1120.30 Y: 1109.28 H: -0.48
+
+MvMt State: 1
+Pose: X: 1117.21 Y: 1110.94 H: -0.51
+
+MvMt State: 1
+Pose: X: 1114.03 Y: 1112.77 H: -0.54
+
+MvMt State: 1
+Pose: X: 1111.10 Y: 1114.56 H: -0.56
+
+MvMt State: 0
+NextMove: 1104.66, 1118.95 -> 1296.00, 1152.00
+18, 16
+Pose: X: 1104.66 Y: 1118.95 H: -0.63
+
+MvMt State: 0
+Pose: X: 1102.94 Y: 1120.21 H: -0.64
+
+MvMt State: 0
+Pose: X: 1102.63 Y: 1120.43 H: -0.57
+
+MvMt State: 0
+Pose: X: 1102.36 Y: 1120.59 H: -0.49
+
+MvMt State: 0
+Pose: X: 1102.30 Y: 1120.62 H: -0.41
+
+MvMt State: 0
+Pose: X: 1102.08 Y: 1120.70 H: -0.32
+
+MvMt State: 0
+Pose: X: 1101.79 Y: 1120.79 H: -0.24
+
+MvMt State: 0
+Pose: X: 1101.56 Y: 1120.83 H: -0.15
+
+MvMt State: 0
+Pose: X: 1101.26 Y: 1120.86 H: -0.05
+
+MvMt State: 1
+Pose: X: 1099.12 Y: 1120.86 H: 0.05
+
+MvMt State: 1
+Pose: X: 1096.30 Y: 1120.76 H: 0.03
+
+MvMt State: 1
+Pose: X: 1092.71 Y: 1120.73 H: -0.01
+
+MvMt State: 1
+Pose: X: 1089.20 Y: 1120.79 H: -0.03
+
+MvMt State: 1
+Pose: X: 1085.84 Y: 1120.96 H: -0.06
+
+MvMt State: 1
+Pose: X: 1082.34 Y: 1121.23 H: -0.09
+
+MvMt State: 1
+Pose: X: 1078.77 Y: 1121.62 H: -0.12
+
+MvMt State: 1
+Pose: X: 1074.99 Y: 1122.15 H: -0.16
+
+MvMt State: 1
+Pose: X: 1071.23 Y: 1122.80 H: -0.19
+
+MvMt State: 1
+Pose: X: 1067.57 Y: 1123.56 H: -0.22
+
+MvMt State: 1
+Pose: X: 1063.78 Y: 1124.48 H: -0.25
+
+MvMt State: 1
+Pose: X: 1060.10 Y: 1125.50 H: -0.29
+
+MvMt State: 1
+Pose: X: 1056.46 Y: 1126.64 H: -0.32
+
+MvMt State: 1
+Pose: X: 1052.85 Y: 1127.89 H: -0.35
+
+MvMt State: 1
+Pose: X: 1049.36 Y: 1129.23 H: -0.38
+
+MvMt State: 0
+NextMove: 1042.31, 1132.35 -> 1296.00, 1152.00
+18, 16
+Pose: X: 1042.31 Y: 1132.35 H: -0.45
+
+MvMt State: 0
+Pose: X: 1040.58 Y: 1133.16 H: -0.44
+
+MvMt State: 0
+Pose: X: 1040.37 Y: 1133.26 H: -0.38
+
+MvMt State: 0
+Pose: X: 1040.37 Y: 1133.26 H: -0.30
+
+MvMt State: 0
+Pose: X: 1040.15 Y: 1133.31 H: -0.22
+
+MvMt State: 0
+Pose: X: 1040.00 Y: 1133.34 H: -0.14
+
+MvMt State: 0
+Pose: X: 1039.85 Y: 1133.36 H: -0.06
+
+MvMt State: 0
+Pose: X: 1039.62 Y: 1133.36 H: 0.01
+
+MvMt State: 0
+Pose: X: 1039.47 Y: 1133.36 H: 0.06
+
+MvMt State: 0
+Pose: X: 1041.22 Y: 1133.46 H: 0.06
+
+MvMt State: 0
+Pose: X: 1045.19 Y: 1133.69 H: 0.06
+
+MvMt State: 0
+Pose: X: 1050.83 Y: 1134.00 H: 0.05
+
+MvMt State: 0
+Pose: X: 1056.47 Y: 1134.29 H: 0.05
+
+MvMt State: 0
+Pose: X: 1062.11 Y: 1134.57 H: 0.05
+
+MvMt State: 0
+Pose: X: 1070.66 Y: 1135.00 H: 0.05
+
+MvMt State: 0
+Pose: X: 1075.00 Y: 1135.22 H: 0.05
+
+MvMt State: 0
+Pose: X: 1080.19 Y: 1135.48 H: 0.05
+
+MvMt State: 0
+Pose: X: 1085.60 Y: 1135.75 H: 0.05
+
+MvMt State: 0
+Pose: X: 1091.93 Y: 1136.05 H: 0.05
+
+MvMt State: 1
+Pose: X: 1099.64 Y: 1136.41 H: 0.05
+
+MvMt State: 1
+Pose: X: 1098.34 Y: 1136.35 H: 0.03
+
+MvMt State: 1
+Pose: X: 1095.97 Y: 1136.30 H: 0.01
+
+MvMt State: 1
+Pose: X: 1092.31 Y: 1136.32 H: -0.02
+
+MvMt State: 1
+Pose: X: 1088.34 Y: 1136.45 H: -0.05
+
+MvMt State: 1
+Pose: X: 1084.61 Y: 1136.69 H: -0.08
+
+MvMt State: 1
+Pose: X: 1080.96 Y: 1137.05 H: -0.11
+
+MvMt State: 1
+Pose: X: 1077.55 Y: 1137.48 H: -0.14
+
+MvMt State: 1
+Pose: X: 1073.86 Y: 1138.07 H: -0.17
+
+MvMt State: 1
+Pose: X: 1069.81 Y: 1138.85 H: -0.21
+
+MvMt State: 1
+Pose: X: 1066.01 Y: 1139.73 H: -0.24
+
+MvMt State: 1
+Pose: X: 1062.32 Y: 1140.70 H: -0.27
+
+MvMt State: 1
+Pose: X: 1058.59 Y: 1141.82 H: -0.31
+
+MvMt State: 1
+Pose: X: 1054.68 Y: 1143.13 H: -0.34
+
+MvMt State: 1
+Pose: X: 1050.97 Y: 1144.53 H: -0.38
+
+MvMt State: 1
+Pose: X: 1047.30 Y: 1146.05 H: -0.41
+
+MvMt State: 0
+NextMove: 1039.91, 1149.53 -> 1224.00, 1224.00
+17, 17
+Pose: X: 1039.91 Y: 1149.53 H: -0.47
+
+MvMt State: 0
+Pose: X: 1038.27 Y: 1150.36 H: -0.47
+
+MvMt State: 0
+Pose: X: 1037.93 Y: 1150.52 H: -0.40
+
+MvMt State: 0
+Pose: X: 1037.86 Y: 1150.55 H: -0.32
+
+MvMt State: 0
+Pose: X: 1037.78 Y: 1150.57 H: -0.23
+
+MvMt State: 0
+Pose: X: 1037.56 Y: 1150.61 H: -0.15
+
+MvMt State: 0
+Pose: X: 1037.41 Y: 1150.62 H: -0.06
+
+MvMt State: 0
+Pose: X: 1037.25 Y: 1150.63 H: 0.02
+
+MvMt State: 0
+Pose: X: 1037.10 Y: 1150.62 H: 0.11
+
+MvMt State: 0
+Pose: X: 1036.87 Y: 1150.58 H: 0.19
+
+MvMt State: 0
+Pose: X: 1036.65 Y: 1150.53 H: 0.27
+
+MvMt State: 0
+Pose: X: 1036.43 Y: 1150.47 H: 0.34
+
+MvMt State: 0
+Pose: X: 1038.80 Y: 1151.33 H: 0.36
+
+MvMt State: 0
+Pose: X: 1043.81 Y: 1153.20 H: 0.36
+
+MvMt State: 0
+Pose: X: 1050.04 Y: 1155.50 H: 0.35
+
+MvMt State: 0
+Pose: X: 1055.99 Y: 1157.69 H: 0.35
+
+MvMt State: 0
+Pose: X: 1061.80 Y: 1159.80 H: 0.35
+
+MvMt State: 0
+Pose: X: 1067.97 Y: 1162.04 H: 0.35
+
+MvMt State: 0
+Pose: X: 1073.65 Y: 1164.07 H: 0.34
+
+MvMt State: 0
+Pose: X: 1079.48 Y: 1166.14 H: 0.34
+
+MvMt State: 0
+Pose: X: 1085.60 Y: 1168.30 H: 0.34
+
+MvMt State: 0
+Pose: X: 1091.51 Y: 1170.36 H: 0.34
+
+MvMt State: 0
+Pose: X: 1096.92 Y: 1172.25 H: 0.34
+
+MvMt State: 0
+Pose: X: 1102.26 Y: 1174.10 H: 0.33
+
+MvMt State: 1
+Pose: X: 1108.76 Y: 1176.34 H: 0.33
+
+MvMt State: 1
+Pose: X: 1107.24 Y: 1175.83 H: 0.32
+
+MvMt State: 1
+Pose: X: 1105.12 Y: 1175.17 H: 0.29
+
+MvMt State: 1
+Pose: X: 1101.75 Y: 1174.20 H: 0.26
+
+MvMt State: 1
+Pose: X: 1098.05 Y: 1173.26 H: 0.23
+
+MvMt State: 1
+Pose: X: 1094.55 Y: 1172.47 H: 0.21
+
+MvMt State: 1
+Pose: X: 1090.57 Y: 1171.71 H: 0.17
+
+MvMt State: 1
+Pose: X: 1086.88 Y: 1171.12 H: 0.14
+
+MvMt State: 1
+Pose: X: 1083.16 Y: 1170.66 H: 0.11
+
+MvMt State: 1
+Pose: X: 1079.29 Y: 1170.29 H: 0.08
+
+MvMt State: 1
+Pose: X: 1075.55 Y: 1170.06 H: 0.04
+
+MvMt State: 1
+Pose: X: 1071.89 Y: 1169.95 H: 0.01
+
+MvMt State: 1
+Pose: X: 1068.15 Y: 1169.95 H: -0.02
+
+MvMt State: 1
+Pose: X: 1064.41 Y: 1170.07 H: -0.05
+
+MvMt State: 1
+Pose: X: 1060.75 Y: 1170.30 H: -0.08
+
+MvMt State: 1
+Pose: X: 1056.80 Y: 1170.68 H: -0.11
+
+MvMt State: 0
+NextMove: 1049.02, 1171.81 -> 1224.00, 1296.00
+17, 18
+Pose: X: 1049.02 Y: 1171.81 H: -0.18
+
+MvMt State: 0
+Pose: X: 1047.14 Y: 1172.15 H: -0.17
+
+MvMt State: 0
+Pose: X: 1046.99 Y: 1172.17 H: -0.10
+
+MvMt State: 0
+Pose: X: 1046.91 Y: 1172.17 H: -0.02
+
+MvMt State: 0
+Pose: X: 1046.83 Y: 1172.17 H: 0.07
+
+MvMt State: 0
+Pose: X: 1046.68 Y: 1172.15 H: 0.15
+
+MvMt State: 0
+Pose: X: 1046.53 Y: 1172.12 H: 0.24
+
+MvMt State: 0
+Pose: X: 1046.24 Y: 1172.04 H: 0.32
+
+MvMt State: 0
+Pose: X: 1046.03 Y: 1171.96 H: 0.41
+
+MvMt State: 0
+Pose: X: 1045.82 Y: 1171.85 H: 0.50
+
+MvMt State: 0
+Pose: X: 1045.62 Y: 1171.74 H: 0.58
+
+MvMt State: 0
+Pose: X: 1047.72 Y: 1173.13 H: 0.60
+
+MvMt State: 0
+Pose: X: 1051.65 Y: 1175.78 H: 0.59
+
+MvMt State: 0
+Pose: X: 1056.35 Y: 1178.92 H: 0.59
+
+MvMt State: 0
+Pose: X: 1061.70 Y: 1182.45 H: 0.58
+
+MvMt State: 0
+Pose: X: 1067.13 Y: 1186.01 H: 0.58
+
+MvMt State: 0
+Pose: X: 1072.69 Y: 1189.65 H: 0.58
+
+MvMt State: 0
+Pose: X: 1078.63 Y: 1193.53 H: 0.58
+
+MvMt State: 0
+Pose: X: 1085.10 Y: 1197.74 H: 0.58
+
+MvMt State: 0
+Pose: X: 1091.69 Y: 1202.03 H: 0.58
+
+MvMt State: 0
+Pose: X: 1098.09 Y: 1206.19 H: 0.58
+
+MvMt State: 0
+Pose: X: 1104.36 Y: 1210.26 H: 0.58
+
+MvMt State: 0
+Pose: X: 1110.32 Y: 1214.13 H: 0.57
+
+MvMt State: 1
+Pose: X: 1116.23 Y: 1217.93 H: 0.57
+
+MvMt State: 1
+Pose: X: 1114.36 Y: 1216.75 H: 0.55
+
+MvMt State: 1
+Pose: X: 1112.46 Y: 1215.60 H: 0.53
+
+MvMt State: 1
+Pose: X: 1109.41 Y: 1213.87 H: 0.50
+
+MvMt State: 1
+Pose: X: 1106.24 Y: 1212.18 H: 0.48
+
+MvMt State: 1
+Pose: X: 1103.44 Y: 1210.79 H: 0.45
+
+MvMt State: 1
+Pose: X: 1100.53 Y: 1209.43 H: 0.42
+
+MvMt State: 1
+Pose: X: 1097.45 Y: 1208.10 H: 0.40
+
+MvMt State: 1
+Pose: X: 1094.26 Y: 1206.82 H: 0.37
+
+MvMt State: 1
+Pose: X: 1090.89 Y: 1205.58 H: 0.34
+
+MvMt State: 1
+Pose: X: 1086.98 Y: 1204.28 H: 0.30
+
+MvMt State: 1
+Pose: X: 1083.24 Y: 1203.18 H: 0.27
+
+MvMt State: 1
+Pose: X: 1079.40 Y: 1202.18 H: 0.24
+
+MvMt State: 1
+Pose: X: 1075.75 Y: 1201.36 H: 0.21
+
+MvMt State: 1
+Pose: X: 1072.00 Y: 1200.63 H: 0.18
+
+MvMt State: 1
+Pose: X: 1068.23 Y: 1200.02 H: 0.15
+
+MvMt State: 0
+NextMove: 1060.27, 1199.12 -> 1080.00, 1368.00
+15, 19
+Pose: X: 1060.27 Y: 1199.12 H: 0.08
+
+MvMt State: 0
+Pose: X: 1058.52 Y: 1198.99 H: 0.08
+
+MvMt State: 0
+Pose: X: 1058.29 Y: 1198.96 H: 0.14
+
+MvMt State: 0
+Pose: X: 1057.99 Y: 1198.91 H: 0.22
+
+MvMt State: 0
+Pose: X: 1057.84 Y: 1198.87 H: 0.30
+
+MvMt State: 0
+Pose: X: 1057.63 Y: 1198.79 H: 0.39
+
+MvMt State: 0
+Pose: X: 1057.21 Y: 1198.59 H: 0.52
+
+MvMt State: 0
+Pose: X: 1057.08 Y: 1198.51 H: 0.59
+
+MvMt State: 0
+Pose: X: 1056.84 Y: 1198.33 H: 0.67
+
+MvMt State: 0
+Pose: X: 1056.78 Y: 1198.28 H: 0.78
+
+MvMt State: 0
+Pose: X: 1056.68 Y: 1198.17 H: 0.88
+
+MvMt State: 0
+Pose: X: 1056.54 Y: 1197.98 H: 0.98
+
+MvMt State: 0
+Pose: X: 1056.46 Y: 1197.85 H: 1.09
+
+MvMt State: 0
+Pose: X: 1056.27 Y: 1197.43 H: 1.20
+
+MvMt State: 0
+Pose: X: 1056.15 Y: 1197.07 H: 1.31
+
+MvMt State: 0
+Pose: X: 1056.10 Y: 1196.85 H: 1.40
+
+MvMt State: 0
+Pose: X: 1056.60 Y: 1199.94 H: 1.42
+
+MvMt State: 0
+Pose: X: 1057.37 Y: 1205.07 H: 1.42
+
+MvMt State: 0
+Pose: X: 1058.18 Y: 1210.36 H: 1.42
+
+MvMt State: 0
+Pose: X: 1058.99 Y: 1215.56 H: 1.42
+
+MvMt State: 0
+Pose: X: 1059.83 Y: 1220.92 H: 1.42
+
+MvMt State: 0
+Pose: X: 1060.73 Y: 1226.65 H: 1.42
+
+MvMt State: 0
+Pose: X: 1061.66 Y: 1232.61 H: 1.41
+
+MvMt State: 0
+Pose: X: 1062.61 Y: 1238.57 H: 1.41
+
+MvMt State: 0
+Pose: X: 1063.58 Y: 1244.60 H: 1.41
+
+MvMt State: 0
+Pose: X: 1064.51 Y: 1250.25 H: 1.41
+
+MvMt State: 0
+Pose: X: 1065.54 Y: 1256.50 H: 1.41
+
+MvMt State: 0
+Pose: X: 1066.59 Y: 1262.83 H: 1.41
+
+MvMt State: 0
+Pose: X: 1067.53 Y: 1268.48 H: 1.41
+
+MvMt State: 0
+Pose: X: 1068.55 Y: 1274.58 H: 1.40
+
+MvMt State: 0
+Pose: X: 1069.63 Y: 1280.98 H: 1.40
+
+MvMt State: 0
+Pose: X: 1070.77 Y: 1287.68 H: 1.40
+
+MvMt State: 0
+Pose: X: 1071.86 Y: 1294.08 H: 1.40
+
+MvMt State: 0
+Pose: X: 1073.04 Y: 1300.93 H: 1.40
+
+MvMt State: 0
+Pose: X: 1074.15 Y: 1307.40 H: 1.40
+
+MvMt State: 0
+Pose: X: 1075.22 Y: 1313.57 H: 1.40
+
+MvMt State: 0
+Pose: X: 1076.38 Y: 1320.19 H: 1.40
+
+MvMt State: 0
+Pose: X: 1077.61 Y: 1327.18 H: 1.39
+
+MvMt State: 0
+Pose: X: 1078.71 Y: 1333.35 H: 1.39
+
+MvMt State: 0
+Pose: X: 1079.84 Y: 1339.74 H: 1.40
+
+MvMt State: 0
+Pose: X: 1080.90 Y: 1345.83 H: 1.40
+
+MvMt State: 0
+NextMove: 1081.65, 1350.74 -> 1152.00, 1440.00
+16, 20
+Pose: X: 1081.65 Y: 1350.74 H: 1.44
+
+MvMt State: 0
+Pose: X: 1081.89 Y: 1352.40 H: 1.42
+
+MvMt State: 0
+Pose: X: 1081.95 Y: 1352.70 H: 1.35
+
+MvMt State: 0
+Pose: X: 1081.99 Y: 1352.85 H: 1.26
+
+MvMt State: 0
+Pose: X: 1082.09 Y: 1353.13 H: 1.16
+
+MvMt State: 0
+Pose: X: 1082.20 Y: 1353.34 H: 1.06
+
+MvMt State: 0
+Pose: X: 1082.40 Y: 1353.66 H: 0.96
+
+MvMt State: 0
+Pose: X: 1082.44 Y: 1353.72 H: 0.90
+
+MvMt State: 0
+Pose: X: 1084.40 Y: 1356.17 H: 0.89
+
+MvMt State: 0
+Pose: X: 1087.50 Y: 1360.04 H: 0.90
+
+MvMt State: 0
+Pose: X: 1090.88 Y: 1364.28 H: 0.90
+
+MvMt State: 0
+Pose: X: 1094.36 Y: 1368.64 H: 0.90
+
+MvMt State: 0
+Pose: X: 1098.08 Y: 1373.29 H: 0.89
+
+MvMt State: 0
+Pose: X: 1101.57 Y: 1377.64 H: 0.89
+
+MvMt State: 1
+Pose: X: 1106.31 Y: 1383.52 H: 0.89
+
+MvMt State: 1
+Pose: X: 1105.49 Y: 1382.52 H: 0.88
+
+MvMt State: 1
+Pose: X: 1104.02 Y: 1380.76 H: 0.86
+
+MvMt State: 1
+Pose: X: 1101.80 Y: 1378.24 H: 0.84
+
+MvMt State: 1
+Pose: X: 1099.30 Y: 1375.55 H: 0.81
+
+MvMt State: 1
+Pose: X: 1097.06 Y: 1373.26 H: 0.78
+
+MvMt State: 1
+Pose: X: 1094.15 Y: 1370.45 H: 0.75
+
+MvMt State: 1
+Pose: X: 1091.61 Y: 1368.14 H: 0.72
+
+MvMt State: 1
+Pose: X: 1088.76 Y: 1365.71 H: 0.69
+
+MvMt State: 1
+Pose: X: 1085.85 Y: 1363.37 H: 0.66
+
+MvMt State: 1
+Pose: X: 1082.85 Y: 1361.12 H: 0.63
+
+MvMt State: 1
+Pose: X: 1079.67 Y: 1358.88 H: 0.59
+
+MvMt State: 1
+Pose: X: 1076.47 Y: 1356.79 H: 0.56
+
+MvMt State: 1
+Pose: X: 1073.21 Y: 1354.81 H: 0.53
+
+MvMt State: 1
+Pose: X: 1070.02 Y: 1353.00 H: 0.50
+
+MvMt State: 1
+Pose: X: 1066.64 Y: 1351.23 H: 0.47
+
+MvMt State: 0
+NextMove: 1059.36, 1347.87 -> 1152.00, 1440.00
+16, 20
+Pose: X: 1059.36 Y: 1347.87 H: 0.40
+
+MvMt State: 0
+Pose: X: 1057.47 Y: 1347.05 H: 0.42
+
+MvMt State: 0
+Pose: X: 1057.40 Y: 1347.02 H: 0.49
+
+MvMt State: 0
+Pose: X: 1057.34 Y: 1346.98 H: 0.57
+
+MvMt State: 0
+Pose: X: 1057.21 Y: 1346.89 H: 0.65
+
+MvMt State: 0
+Pose: X: 1057.03 Y: 1346.75 H: 0.72
+
+MvMt State: 0
+Pose: X: 1056.92 Y: 1346.64 H: 0.76
+
+MvMt State: 0
+Pose: X: 1058.36 Y: 1348.01 H: 0.76
+
+MvMt State: 0
+Pose: X: 1061.06 Y: 1350.59 H: 0.76
+
+MvMt State: 0
+Pose: X: 1064.94 Y: 1354.27 H: 0.76
+
+MvMt State: 0
+Pose: X: 1069.04 Y: 1358.17 H: 0.76
+
+MvMt State: 0
+Pose: X: 1073.51 Y: 1362.44 H: 0.76
+
+MvMt State: 0
+Pose: X: 1078.03 Y: 1366.77 H: 0.76
+
+MvMt State: 0
+Pose: X: 1082.77 Y: 1371.31 H: 0.76
+
+MvMt State: 0
+Pose: X: 1087.51 Y: 1375.86 H: 0.76
+
+MvMt State: 0
+Pose: X: 1091.70 Y: 1379.88 H: 0.76
+
+MvMt State: 0
+Pose: X: 1096.38 Y: 1384.37 H: 0.77
+
+MvMt State: 0
+Pose: X: 1101.11 Y: 1388.92 H: 0.77
+
+MvMt State: 1
+Pose: X: 1106.56 Y: 1394.17 H: 0.77
+
+MvMt State: 1
+Pose: X: 1105.57 Y: 1393.22 H: 0.76
+
+MvMt State: 1
+Pose: X: 1103.77 Y: 1391.56 H: 0.74
+
+MvMt State: 1
+Pose: X: 1101.09 Y: 1389.17 H: 0.71
+
+MvMt State: 1
+Pose: X: 1097.81 Y: 1386.43 H: 0.68
+
+MvMt State: 1
+Pose: X: 1094.50 Y: 1383.85 H: 0.65
+
+MvMt State: 1
+Pose: X: 1091.42 Y: 1381.59 H: 0.62
+
+MvMt State: 1
+Pose: X: 1088.33 Y: 1379.48 H: 0.58
+
+MvMt State: 1
+Pose: X: 1085.18 Y: 1377.47 H: 0.55
+
+MvMt State: 1
+Pose: X: 1081.96 Y: 1375.55 H: 0.52
+
+MvMt State: 1
+Pose: X: 1078.36 Y: 1373.55 H: 0.49
+
+MvMt State: 1
+Pose: X: 1074.55 Y: 1371.60 H: 0.46
+
+MvMt State: 1
+Pose: X: 1071.03 Y: 1369.94 H: 0.43
+
+MvMt State: 1
+Pose: X: 1067.74 Y: 1368.51 H: 0.40
+
+MvMt State: 1
+Pose: X: 1064.27 Y: 1367.12 H: 0.37
+
+MvMt State: 0
+NextMove: 1056.62, 1364.47 -> 1152.00, 1440.00
+16, 20
+Pose: X: 1056.62 Y: 1364.47 H: 0.30
+
+MvMt State: 0
+Pose: X: 1054.94 Y: 1363.95 H: 0.31
+
+MvMt State: 0
+Pose: X: 1054.87 Y: 1363.92 H: 0.37
+
+MvMt State: 0
+Pose: X: 1054.87 Y: 1363.92 H: 0.44
+
+MvMt State: 0
+Pose: X: 1054.74 Y: 1363.85 H: 0.51
+
+MvMt State: 0
+Pose: X: 1054.48 Y: 1363.69 H: 0.59
+
+MvMt State: 0
+Pose: X: 1054.41 Y: 1363.65 H: 0.64
+
+MvMt State: 0
+Pose: X: 1057.70 Y: 1366.13 H: 0.65
+
+MvMt State: 0
+Pose: X: 1061.47 Y: 1369.00 H: 0.65
+
+MvMt State: 0
+Pose: X: 1065.67 Y: 1372.19 H: 0.65
+
+MvMt State: 0
+Pose: X: 1070.29 Y: 1375.69 H: 0.65
+
+MvMt State: 0
+Pose: X: 1075.35 Y: 1379.51 H: 0.65
+
+MvMt State: 0
+Pose: X: 1080.72 Y: 1383.55 H: 0.64
+
+MvMt State: 0
+Pose: X: 1086.10 Y: 1387.58 H: 0.64
+
+MvMt State: 0
+Pose: X: 1091.54 Y: 1391.64 H: 0.64
+
+MvMt State: 0
+Pose: X: 1097.18 Y: 1395.84 H: 0.64
+
+MvMt State: 0
+Pose: X: 1102.39 Y: 1399.70 H: 0.64
+
+MvMt State: 1
+Pose: X: 1108.78 Y: 1404.42 H: 0.64
+
+MvMt State: 1
+Pose: X: 1107.67 Y: 1403.61 H: 0.62
+
+MvMt State: 1
+Pose: X: 1105.61 Y: 1402.16 H: 0.60
+
+MvMt State: 1
+Pose: X: 1102.44 Y: 1400.03 H: 0.58
+
+MvMt State: 1
+Pose: X: 1099.14 Y: 1397.96 H: 0.55
+
+MvMt State: 1
+Pose: X: 1095.58 Y: 1395.89 H: 0.51
+
+MvMt State: 1
+Pose: X: 1092.01 Y: 1393.98 H: 0.47
+
+MvMt State: 1
+Pose: X: 1088.44 Y: 1392.23 H: 0.44
+
+MvMt State: 1
+Pose: X: 1084.96 Y: 1390.66 H: 0.41
+
+MvMt State: 1
+Pose: X: 1081.44 Y: 1389.20 H: 0.38
+
+MvMt State: 1
+Pose: X: 1077.79 Y: 1387.83 H: 0.34
+
+MvMt State: 1
+Pose: X: 1074.39 Y: 1386.67 H: 0.31
+
+MvMt State: 1
+Pose: X: 1070.45 Y: 1385.47 H: 0.28
+
+MvMt State: 1
+Pose: X: 1066.84 Y: 1384.49 H: 0.25
+
+MvMt State: 1
+Pose: X: 1063.20 Y: 1383.63 H: 0.22
+
+MvMt State: 0
+NextMove: 1055.32, 1382.16 -> 1152.00, 1440.00
+16, 20
+Pose: X: 1055.32 Y: 1382.16 H: 0.15
+
+MvMt State: 0
+Pose: X: 1053.73 Y: 1381.91 H: 0.16
+
+MvMt State: 0
+Pose: X: 1053.58 Y: 1381.88 H: 0.23
+
+MvMt State: 0
+Pose: X: 1053.22 Y: 1381.78 H: 0.31
+
+MvMt State: 0
+Pose: X: 1053.00 Y: 1381.70 H: 0.40
+
+MvMt State: 0
+Pose: X: 1053.00 Y: 1381.70 H: 0.48
+
+MvMt State: 0
+Pose: X: 1055.01 Y: 1382.80 H: 0.52
+
+MvMt State: 0
+Pose: X: 1058.85 Y: 1385.01 H: 0.52
+
+MvMt State: 0
+Pose: X: 1064.16 Y: 1388.03 H: 0.51
+
+MvMt State: 0
+Pose: X: 1070.35 Y: 1391.51 H: 0.51
+
+MvMt State: 0
+Pose: X: 1076.67 Y: 1395.06 H: 0.51
+
+MvMt State: 0
+Pose: X: 1083.14 Y: 1398.68 H: 0.51
+
+MvMt State: 0
+Pose: X: 1090.14 Y: 1402.58 H: 0.51
+
+MvMt State: 0
+Pose: X: 1096.56 Y: 1406.12 H: 0.50
+
+MvMt State: 0
+Pose: X: 1102.58 Y: 1409.43 H: 0.50
+
+MvMt State: 0
+Pose: X: 1108.35 Y: 1412.57 H: 0.50
+
+MvMt State: 1
+Pose: X: 1114.33 Y: 1415.80 H: 0.49
+
+MvMt State: 1
+Pose: X: 1112.84 Y: 1415.02 H: 0.48
+
+MvMt State: 1
+Pose: X: 1110.87 Y: 1414.02 H: 0.46
+
+MvMt State: 1
+Pose: X: 1107.49 Y: 1412.41 H: 0.43
+
+MvMt State: 1
+Pose: X: 1104.35 Y: 1411.02 H: 0.40
+
+MvMt State: 1
+Pose: X: 1100.60 Y: 1409.49 H: 0.37
+
+MvMt State: 1
+Pose: X: 1096.73 Y: 1408.07 H: 0.34
+
+MvMt State: 1
+Pose: X: 1092.52 Y: 1406.68 H: 0.30
+
+MvMt State: 1
+Pose: X: 1088.27 Y: 1405.46 H: 0.26
+
+MvMt State: 1
+Pose: X: 1083.89 Y: 1404.38 H: 0.22
+
+MvMt State: 1
+Pose: X: 1079.63 Y: 1403.50 H: 0.19
+
+MvMt State: 1
+Pose: X: 1075.79 Y: 1402.84 H: 0.15
+
+MvMt State: 1
+Pose: X: 1071.94 Y: 1402.31 H: 0.12
+
+MvMt State: 1
+Pose: X: 1067.68 Y: 1401.87 H: 0.08
+
+MvMt State: 1
+Pose: X: 1063.72 Y: 1401.60 H: 0.05
+
+MvMt State: 0
+NextMove: 1055.02, 1401.47 -> 1152.00, 1440.00
+16, 20
+Pose: X: 1055.02 Y: 1401.47 H: -0.02
+
+MvMt State: 0
+Pose: X: 1053.04 Y: 1401.51 H: -0.02
+
+MvMt State: 0
+Pose: X: 1053.04 Y: 1401.51 H: 0.07
+
+MvMt State: 0
+Pose: X: 1052.73 Y: 1401.47 H: 0.16
+
+MvMt State: 0
+Pose: X: 1052.51 Y: 1401.42 H: 0.25
+
+MvMt State: 0
+Pose: X: 1052.36 Y: 1401.38 H: 0.33
+
+MvMt State: 0
+Pose: X: 1054.44 Y: 1402.13 H: 0.37
+
+MvMt State: 0
+Pose: X: 1058.58 Y: 1403.72 H: 0.36
+
+MvMt State: 0
+Pose: X: 1064.08 Y: 1405.81 H: 0.36
+
+MvMt State: 0
+Pose: X: 1070.72 Y: 1408.32 H: 0.36
+
+MvMt State: 0
+Pose: X: 1077.58 Y: 1410.89 H: 0.36
+
+MvMt State: 0
+Pose: X: 1083.95 Y: 1413.27 H: 0.36
+
+MvMt State: 0
+Pose: X: 1090.32 Y: 1415.63 H: 0.35
+
+MvMt State: 0
+Pose: X: 1096.70 Y: 1417.98 H: 0.35
+
+MvMt State: 1
+Pose: X: 1103.23 Y: 1420.36 H: 0.35
+
+MvMt State: 1
+Pose: X: 1101.35 Y: 1419.70 H: 0.33
+
+MvMt State: 1
+Pose: X: 1099.04 Y: 1418.92 H: 0.31
+
+MvMt State: 1
+Pose: X: 1095.53 Y: 1417.85 H: 0.28
+
+MvMt State: 1
+Pose: X: 1091.48 Y: 1416.74 H: 0.25
+
+MvMt State: 1
+Pose: X: 1087.10 Y: 1415.70 H: 0.21
+
+MvMt State: 1
+Pose: X: 1082.75 Y: 1414.85 H: 0.18
+
+MvMt State: 1
+Pose: X: 1078.76 Y: 1414.21 H: 0.14
+
+MvMt State: 1
+Pose: X: 1074.51 Y: 1413.69 H: 0.10
+
+MvMt State: 1
+Pose: X: 1070.56 Y: 1413.34 H: 0.07
+
+MvMt State: 1
+Pose: X: 1066.36 Y: 1413.12 H: 0.04
+
+MvMt State: 1
+Pose: X: 1062.24 Y: 1413.05 H: -0.00
+
+MvMt State: 1
+Pose: X: 1058.04 Y: 1413.13 H: -0.04
+
+MvMt State: 1
+Pose: X: 1054.08 Y: 1413.34 H: -0.07
+
+MvMt State: 0
+NextMove: 1045.58, 1414.25 -> 1080.00, 1512.00
+15, 21
+Pose: X: 1045.58 Y: 1414.25 H: -0.14
+
+MvMt State: 0
+Pose: X: 1043.61 Y: 1414.53 H: -0.14
+
+Mхѕ 0
+Pose: X: 1043.46 Y: 1414.54 H: -0.07
+
+MvMt State: 0
+Pose: X: 1043.15 Y: 1414.55 H: 0.01
+
+MvMt State: 0
+Pose: X: 1043.15 Y: 1414.55 H: 0.09
+
+MvMt State: 0
+Pose: X: 1042.93 Y: 1414.52 H: 0.17
+
+MvMt State: 0
+Pose: X: 1042.70 Y: 1414.47 H: 0.26
+
+MvMt State: 0
+Pose: X: 1042.34 Y: 1414.36 H: 0.35
+
+MvMt State: 0
+Pose: X: 1042.27 Y: 1414.33 H: 0.43
+
+MvMt State: 0
+Pose: X: 1042.06 Y: 1414.23 H: 0.51
+
+MvMt State: 0
+Pose: X: 1041.87 Y: 1414.11 H: 0.58
+
+MvMt State: 0
+Pose: X: 1041.62 Y: 1413.93 H: 0.67
+
+MvMt State: 0
+Pose: X: 1041.28 Y: 1413.63 H: 0.77
+
+MvMt State: 0
+Pose: X: 1041.01 Y: 1413.35 H: 0.86
+
+MvMt State: 0
+Pose: X: 1040.87 Y: 1413.17 H: 0.94
+
+MvMt State: 0
+Pose: X: 1040.66 Y: 1412.86 H: 1.03
+
+MvMt State: 0
+Pose: X: 1040.59 Y: 1412.72 H: 1.12
+
+MvMt State: 0
+Pose: X: 1040.49 Y: 1412.51 H: 1.19
+
+MvMt State: 0
+Pose: X: 1041.99 Y: 1416.19 H: 1.19
+
+MvMt State: 0
+Pose: X: 1043.80 Y: 1420.65 H: 1.18
+
+MvMt State: 0
+Pose: X: 1045.76 Y: 1425.46 H: 1.18
+
+MvMt State: 0
+Pose: X: 1048.07 Y: 1431.11 H: 1.18
+
+MvMt State: 0
+Pose: X: 1050.30 Y: 1436.55 H: 1.18
+
+MvMt State: 0
+Pose: X: 1052.75 Y: 1442.56 H: 1.18
+
+MvMt State: 0
+Pose: X: 1055.27 Y: 1448.71 H: 1.18
+
+MvMt State: 0
+Pose: X: 1057.63 Y: 1454.43 H: 1.18
+
+MvMt State: 0
+Pose: X: 1060.13 Y: 1460.50 H: 1.18
+
+MvMt State: 0
+Pose: X: 1062.66 Y: 1466.64 H: 1.18
+
+MvMt State: 0
+Pose: X: 1065.09 Y: 1472.49 H: 1.18
+
+MvMt State: 0
+Pose: X: 1067.33 Y: 1477.85 H: 1.17
+
+MvMt State: 0
+Pose: X: 1069.52 Y: 1483.06 H: 1.17
+
+MvMt State: 0
+Pose: X: 1071.87 Y: 1488.61 H: 1.17
+
+MvMt State: 0
+NextMove: 1074.28, 1494.31 -> 1008.00, 1584.00
+14, 22
+Pose: X: 1074.28 Y: 1494.31 H: 1.17
+
+MvMt State: 0
+Pose: X: 1075.78 Y: 1497.98 H: 1.20
+
+MvMt State: 0
+Pose: X: 1076.12 Y: 1498.92 H: 1.26
+
+MvMt State: 0
+Pose: X: 1076.02 Y: 1498.55 H: 1.33
+
+MvMt State: 0
+Pose: X: 1076.02 Y: 1498.55 H: 1.42
+
+MvMt State: 0
+Pose: X: 1075.97 Y: 1498.09 H: 1.51
+
+MvMt State: 0
+Pose: X: 1075.96 Y: 1497.64 H: 1.60
+
+MvMt State: 0
+Pose: X: 1075.99 Y: 1497.26 H: 1.70
+
+MvMt State: 0
+Pose: X: 1076.05 Y: 1496.96 H: 1.80
+
+MvMt State: 0
+Pose: X: 1076.13 Y: 1496.66 H: 1.90
+
+MvMt State: 0
+Pose: X: 1076.25 Y: 1496.38 H: 1.99
+
+MvMt State: 0
+Pose: X: 1076.38 Y: 1496.11 H: 2.08
+
+MvMt State: 0
+Pose: X: 1076.50 Y: 1495.91 H: 2.16
+
+MvMt State: 0
+Pose: X: 1076.55 Y: 1495.85 H: 2.22
+
+MvMt State: 0
+Pose: X: 1075.53 Y: 1497.19 H: 2.23
+
+MvMt State: 0
+Pose: X: 1073.40 Y: 1499.98 H: 2.22
+
+MvMt State: 0
+Pose: X: 1070.64 Y: 1503.63 H: 2.22
+
+MvMt State: 0
+Pose: X: 1067.61 Y: 1507.66 H: 2.21
+
+MvMt State: 0
+Pose: X: 1064.44 Y: 1511.87 H: 2.21
+
+MvMt State: 0
+Pose: X: 1061.24 Y: 1516.16 H: 2.21
+
+MvMt State: 0
+Pose: X: 1057.64 Y: 1520.99 H: 2.21
+
+MvMt State: 0
+Pose: X: 1054.00 Y: 1525.90 H: 2.21
+
+MvMt State: 0
+Pose: X: 1050.46 Y: 1530.69 H: 2.21
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1046.83 Y: 1535.61 H: 2.20
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1042.24 Y: 1541.89 H: 2.20
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1036.59 Y: 1549.68 H: 2.20
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1030.94 Y: 1557.56 H: 2.19
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1025.15 Y: 1565.72 H: 2.19
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1017.28 Y: 1576.71 H: 2.20
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.79 Y: 1580.95 H: 2.32
+
+MvMt State: 0
+NextMove: 1013.50, 1581.20 -> 1080.00, 1656.00
+15, 23
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.50 Y: 1581.20 H: 2.51
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.68 Y: 1581.06 H: 2.45
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.47 Y: 1581.27 H: 2.27
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.33 Y: 1581.46 H: 2.09
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.13 Y: 1581.95 H: 1.85
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.05 Y: 1582.40 H: 1.62
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.08 Y: 1582.86 H: 1.42
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.21 Y: 1583.38 H: 1.24
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.44 Y: 1583.86 H: 1.00
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.83 Y: 1584.33 H: 0.77
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.94 Y: 1584.44 H: 0.77
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.77 Y: 1584.27 H: 0.81
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1015.89 Y: 1586.48 H: 0.81
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1023.89 Y: 1594.78 H: 0.80
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1036.79 Y: 1608.01 H: 0.80
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1049.85 Y: 1621.30 H: 0.79
+
+MvMt State: 0
+NextMove: 1069.36, 1640.88 -> 1152.00, 1584.00
+16, 22
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1069.36 Y: 1640.88 H: 0.78
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1074.10 Y: 1644.18 H: 0.44
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1074.97 Y: 1644.43 H: 0.12
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1075.58 Y: 1644.43 H: -0.12
+
+MvMt State: 0
+Pose: X: 1075.96 Y: 1644.37 H: -0.25
+
+MvMt State: 0
+Pose: X: 1076.25 Y: 1644.28 H: -0.35
+
+MvMt State: 0
+Pose: X: 1076.46 Y: 1644.19 H: -0.43
+
+MvMt State: 0
+Pose: X: 1076.73 Y: 1644.05 H: -0.52
+
+MvMt State: 0
+Pose: X: 1076.86 Y: 1643.97 H: -0.60
+
+MvMt State: 0
+Pose: X: 1077.05 Y: 1643.83 H: -0.65
+
+MvMt State: 0
+Pose: X: 1078.68 Y: 1642.57 H: -0.66
+
+MvMt State: 0
+Pose: X: 1081.45 Y: 1640.41 H: -0.66
+
+MvMt State: 0
+Pose: X: 1087.66 Y: 1635.59 H: -0.66
+
+MvMt State: 0
+Pose: X: 1090.98 Y: 1633.01 H: -0.66
+
+MvMt State: 0
+Pose: X: 1094.72 Y: 1630.12 H: -0.66
+
+MvMt State: 0
+Pose: X: 1098.95 Y: 1626.84 H: -0.66
+
+MvMt State: 0
+Pose: X: 1103.29 Y: 1623.46 H: -0.66
+
+MvMt State: 0
+Pose: X: 1107.93 Y: 1619.85 H: -0.66
+
+MvMt State: 0
+Pose: X: 1112.64 Y: 1616.22 H: -0.65
+
+MvMt State: 0
+Pose: X: 1117.20 Y: 1612.75 H: -0.65
+
+MvMt State: 0
+Pose: X: 1121.59 Y: 1609.43 H: -0.65
+
+MvMt State: 0
+Pose: X: 1126.28 Y: 1605.89 H: -0.65
+
+MvMt State: 1
+Pose: X: 1131.38 Y: 1602.00 H: -0.66
+
+MvMt State: 1
+Pose: X: 1130.06 Y: 1603.04 H: -0.67
+
+MvMt State: 1
+Pose: X: 1128.16 Y: 1604.58 H: -0.69
+
+MvMt State: 1
+Pose: X: 1125.37 Y: 1606.96 H: -0.72
+
+MvMt State: 1
+Pose: X: 1122.60 Y: 1609.46 H: -0.75
+
+MvMt State: 1
+Pose: X: 1119.84 Y: 1612.10 H: -0.78
+
+MvMt State: 1
+Pose: X: 1117.38 Y: 1614.61 H: -0.81
+
+MvMt State: 1
+Pose: X: 1114.94 Y: 1617.25 H: -0.84
+
+MvMt State: 1
+Pose: X: 1112.63 Y: 1619.89 H: -0.87
+
+MvMt State: 1
+Pose: X: 1110.40 Y: 1622.61 H: -0.90
+
+MvMt State: 1
+Pose: X: 1108.12 Y: 1625.57 H: -0.93
+
+MvMt State: 1
+Pose: X: 1106.02 Y: 1628.48 H: -0.96
+
+MvMt State: 1
+Pose: X: 1103.88 Y: 1631.64 H: -0.99
+
+MvMt State: 1
+Pose: X: 1101.85 Y: 1634.87 H: -1.03
+
+MvMt State: 1
+Pose: X: 1099.99 Y: 1638.03 H: -1.06
+
+MvMt State: 1
+Pose: X: 1098.27 Y: 1641.18 H: -1.09
+
+MvMt State: 0
+NextMove: 1094.84, 1648.26 -> 1008.00, 1584.00
+14, 22
+Pose: X: 1094.84 Y: 1648.26 H: -1.15
+
+MvMt State: 0
+Pose: X: 1094.21 Y: 1649.73 H: -1.19
+
+MvMt State: 0
+Pose: X: 1093.94 Y: 1650.45 H: -1.24
+
+MvMt State: 0
+Pose: X: 1094.03 Y: 1650.16 H: -1.31
+
+MvMt State: 0
+Pose: X: 1094.03 Y: 1650.16 H: -1.38
+
+MvMt State: 0
+Pose: X: 1094.04 Y: 1650.08 H: -1.45
+
+MvMt State: 0
+Pose: X: 1094.04 Y: 1650.16 H: -1.52
+
+MvMt State: 0
+Pose: X: 1094.04 Y: 1650.08 H: -1.59
+
+MvMt State: 0
+Pose: X: 1094.05 Y: 1650.23 H: -1.67
+
+MvMt State: 0
+Pose: X: 1094.05 Y: 1650.23 H: -1.75
+
+MvMt State: 0
+Pose: X: 1094.03 Y: 1650.16 H: -1.83
+
+MvMt State: 0
+Pose: X: 1094.01 Y: 1650.08 H: -1.91
+
+MvMt State: 0
+Pose: X: 1094.04 Y: 1650.16 H: -1.99
+
+MvMt State: 0
+Pose: X: 1094.07 Y: 1650.22 H: -2.06
+
+MvMt State: 0
+Pose: X: 1094.11 Y: 1650.29 H: -2.14
+
+MvMt State: 0
+Pose: X: 1093.84 Y: 1649.92 H: -2.22
+
+MvMt State: 0
+Pose: X: 1093.70 Y: 1649.74 H: -2.30
+
+MvMt State: 0
+Pose: X: 1093.64 Y: 1649.68 H: -2.38
+
+MvMt State: 0
+Pose: X: 1093.59 Y: 1649.63 H: -2.44
+
+MvMt State: 0
+Pose: X: 1092.23 Y: 1648.52 H: -2.48
+
+MvMt State: 0
+Pose: X: 1089.47 Y: 1646.35 H: -2.47
+
+MvMt State: 0
+Pose: X: 1085.94 Y: 1643.55 H: -2.47
+
+MvMt State: 0
+Pose: X: 1082.05 Y: 1640.46 H: -2.47
+
+MvMt State: 0
+Pose: X: 1077.93 Y: 1637.18 H: -2.47
+
+MvMt State: 0
+Pose: X: 1073.75 Y: 1633.86 H: -2.47
+
+MvMt State: 0
+Pose: X: 1069.32 Y: 1630.34 H: -2.47
+
+MvMt State: 0
+Pose: X: 1064.95 Y: 1626.88 H: -2.47
+
+MvMt State: 0
+Pose: X: 1060.64 Y: 1623.47 H: -2.47
+
+MvMt State: 0
+Pose: X: 1056.26 Y: 1620.02 H: -2.47
+
+MvMt State: 0
+Pose: X: 1051.83 Y: 1616.52 H: -2.47
+
+MvMt State: 0
+Pose: X: 1047.03 Y: 1612.74 H: -2.48
+
+MvMt State: 0
+Pose: X: 1042.58 Y: 1609.25 H: -2.48
+
+MvMt State: 0
+Pose: X: 1038.25 Y: 1605.87 H: -2.48
+
+MvMt State: 0
+Pose: X: 1033.67 Y: 1602.30 H: -2.48
+
+MvMt State: 0
+Pose: X: 1029.20 Y: 1598.85 H: -2.48
+
+MvMt State: 0
+Pose: X: 1024.72 Y: 1595.40 H: -2.49
+
+MvMt State: 0
+NextMove: 1020.24, 1591.95 -> 936.00, 1656.00
+13, 23
+Pose: X: 1020.24 Y: 1591.95 H: -2.49
+
+MvMt State: 0
+Pose: X: 1018.31 Y: 1590.45 H: -2.48
+
+MvMt State: 0
+Pose: X: 1017.85 Y: 1590.06 H: -2.42
+
+MvMt State: 0
+Pose: X: 1018.34 Y: 1590.54 H: -2.34
+
+MvMt State: 0
+Pose: X: 1018.50 Y: 1590.71 H: -2.27
+
+MvMt State: 0
+Pose: X: 1018.68 Y: 1590.95 H: -2.19
+
+MvMt State: 0
+Pose: X: 1018.85 Y: 1591.20 H: -2.12
+
+MvMt State: 0
+Pose: X: 1018.96 Y: 1591.40 H: -2.04
+
+MvMt State: 0
+Pose: X: 1019.06 Y: 1591.61 H: -1.97
+
+MvMt State: 0
+Pose: X: 1019.14 Y: 1591.83 H: -1.89
+
+MvMt State: 0
+Pose: X: 1019.20 Y: 1592.05 H: -1.82
+
+MvMt State: 0
+Pose: X: 1019.25 Y: 1592.27 H: -1.74
+
+MvMt State: 0
+Pose: X: 1019.29 Y: 1592.57 H: -1.67
+
+MvMt State: 0
+Pose: X: 1019.30 Y: 1592.72 H: -1.60
+
+MvMt State: 0
+Pose: X: 1019.30 Y: 1593.03 H: -1.53
+
+MvMt State: 0
+Pose: X: 1019.27 Y: 1593.33 H: -1.45
+
+MvMt State: 0
+Pose: X: 1019.23 Y: 1593.64 H: -1.38
+
+MvMt State: 0
+Pose: X: 1019.16 Y: 1593.93 H: -1.31
+
+MvMt State: 0
+Pose: X: 1019.07 Y: 1594.23 H: -1.24
+
+MvMt State: 0
+Pose: X: 1018.96 Y: 1594.51 H: -1.16
+
+MvMt State: 0
+Pose: X: 1018.83 Y: 1594.79 H: -1.09
+
+MvMt State: 0
+Pose: X: 1018.68 Y: 1595.05 H: -1.02
+
+MvMt State: 0
+Pose: X: 1018.51 Y: 1595.31 H: -0.95
+
+MvMt State: 0
+Pose: X: 1018.37 Y: 1595.49 H: -0.88
+
+MvMt State: 0
+Pose: X: 1018.27 Y: 1595.60 H: -0.81
+
+MvMt State: 0
+Pose: X: 1018.10 Y: 1595.76 H: -0.74
+
+MvMt State: 0
+Pose: X: 1017.93 Y: 1595.91 H: -0.66
+
+MvMt State: 0
+Pose: X: 1017.68 Y: 1596.09 H: -0.59
+
+MvMt State: 0
+Pose: X: 1017.48 Y: 1596.21 H: -0.51
+
+MvMt State: 0
+Pose: X: 1017.21 Y: 1596.35 H: -0.44
+
+MvMt State: 0
+Pose: X: 1017.00 Y: 1596.44 H: -0.37
+
+MvMt State: 0
+Pose: X: 1016.79 Y: 1596.51 H: -0.30
+
+MvMt State: 0
+Pose: X: 1016.42 Y: 1596.61 H: -0.23
+
+MvMt State: 0
+Pose: X: 1016.27 Y: 1596.64 H: -0.16
+
+MvMt State: 0
+Pose: X: 1015.97 Y: 1596.68 H: -0.09
+
+MvMt State: 0
+Pose: X: 1015.66 Y: 1596.70 H: -0.02
+
+MvMt State: 0
+Pose: X: 1015.36 Y: 1596.69 H: 0.06
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1015.05 Y: 1596.66 H: 0.13
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1014.68 Y: 1596.60 H: 0.23
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1014.38 Y: 1596.51 H: 0.36
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.83 Y: 1596.25 H: 0.54
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.34 Y: 1595.89 H: 0.71
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1012.83 Y: 1595.32 H: 0.95
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1012.48 Y: 1594.65 H: 1.25
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1012.29 Y: 1593.60 H: 1.54
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1012.37 Y: 1592.76 H: 1.78
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1012.61 Y: 1592.04 H: 2.02
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.35 Y: 1590.98 H: 2.34
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1013.52 Y: 1590.83 H: 2.46
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1011.01 Y: 1592.83 H: 2.48
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 998.78 Y: 1602.47 H: 2.47
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 984.67 Y: 1613.56 H: 2.48
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 970.12 Y: 1624.95 H: 2.48
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 952.33 Y: 1638.90 H: 2.47
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 934.25 Y: 1654.05 H: 2.41
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle oqt of bounds.
+Pose: X: 930.65 Y: 1659.01 H: 1.99
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 930.48 Y: 1660.13 H: 1.45
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 931.40 Y: 1661.93 H: 0.74
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 932.41 Y: 1662.45 H: 0.21
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 933.09 Y: 1662.50 H: -0.08
+
+MvMt State: 0
+Pose: X: 933.39 Y: 1662.45 H: -0.26
+
+MvMt State: 0
+Pose: X: 933.46 Y: 1662.42 H: -0.34
+
+MvMt State: 0
+Pose: X: 933.61 Y: 1662.37 H: -0.41
+
+MvMt State: 0
+Pose: X: 933.74 Y: 1662.30 H: -0.48
+
+MvMt State: 0
+Pose: X: 933.88 Y: 1662.22 H: -0.56
+
+MvMt State: 0
+Pose: X: 934.00 Y: 1662.14 H: -0.63
+
+MvMt State: 0
+Pose: X: 934.18 Y: 1662.00 H: -0.70
+
+MvMt State: 0
+Pose: X: 934.30 Y: 1661.89 H: -0.78
+
+MvMt State: 0
+Pose: X: 934.40 Y: 1661.78 H: -0.85
+
+MvMt State: 0
+Pose: X: 934.50 Y: 1661.67 H: -0.93
+
+MvMt State: 0
+Pose: X: 934.54 Y: 1661.60 H: -1.00
+
+MvMt State: 0
+NextMove: 934.62, 1661.47 -> 864.00, 1584.00
+12, 22
+Pose: X: 934.62 Y: 1661.47 H: -1.08
+
+MvMt State: 0
+Pose: X: 934.65 Y: 1661.40 H: -1.13
+
+MvMt State: 0
+Pose: X: 934.62 Y: 1661.47 H: -1.19
+
+MvMt State: 0
+Pose: X: 934.65 Y: 1661.40 H: -1.25
+
+MvMt State: 0
+Pose: X: 934.67 Y: 1661.33 H: -1.32
+
+MvMt State: 0
+Pose: X: 934.65 Y: 1661.40 H: -1.40
+
+MvMt State: 0
+Pose: X: 934.64 Y: 1661.48 H: -1.47
+
+MvMt State: 0
+Pose: X: 934.64 Y: 1661.48 H: -1.55
+
+MvMt State: 0
+Pose: X: 934.64 Y: 1661.55 H: -1.62
+
+MvMt State: 0
+Pose: X: 934.66 Y: 1661.71 H: -1.70
+
+MvMt State: 0
+Pose: X: 934.67 Y: 1661.78 H: -1.77
+
+MvMt State: 0
+Pose: X: 934.71 Y: 1661.93 H: -1.84
+
+MvMt State: 0
+Pose: X: 934.75 Y: 1662.08 H: -1.92
+
+MvMt State: 0
+Pose: X: 934.75 Y: 1662.08 H: -1.99
+
+MvMt State: 0
+Pose: X: 934.68 Y: 1661.94 H: -2.07
+
+MvMt State: 0
+Pose: X: 934.61 Y: 1661.81 H: -2.15
+
+MvMt State: 0
+Pose: X: 934.52 Y: 1661.68 H: -2.23
+
+MvMt State: 0
+Pose: X: 934.52 Y: 1661.68 H: -2.28
+
+MvMt State: 0
+Pose: X: 933.47 Y: 1660.47 H: -2.29
+
+MvMt State: 0
+Pose: X: 931.17 Y: 1657.82 H: -2.28
+
+MvMt State: 0
+Pose: X: 928.33 Y: 1654.52 H: -2.28
+
+MvMt State: 0
+Pose: X: 925.05 Y: 1650.69 H: -2.28
+
+MvMt State: 0
+Pose: X: 921.57 Y: 1646.63 H: -2.28
+
+MvMt State: 0
+Pose: X: 917.99 Y: 1642.46 H: -2.28
+
+MvMt State: 0
+Pose: X: 914.22 Y: 1638.05 H: -2.28
+
+MvMt State: 0
+Pose: X: 910.49 Y: 1633.70 H: -2.28
+
+MvMt State: 0
+Pose: X: 906.56 Y: 1629.13 H: -2.28
+
+MvMt State: 0
+Pose: X: 902.78 Y: 1624.73 H: -2.28
+
+MvMt State: 0
+Pose: X: 899.09 Y: 1620.44 H: -2.28
+
+MvMt State: 0
+Pose: X: 895.26 Y: 1615.98 H: -2.28
+
+MvMt State: 0
+Pose: X: 891.68 Y: 1611.81 H: -2.28
+
+MvMt State: 0
+Pose: X: 887.95 Y: 1607.47 H: -2.28
+
+MvMt State: 0
+Pose: X: 884.31 Y: 1603.24 H: -2.28
+
+MvMt State: 0
+Pose: X: 880.67 Y: 1599.02 H: -2.28
+
+MvMt State: 0
+NextMove: 876.82, 1594.58 -> 936.00, 1512.00
+13, 21
+Pose: X: 876.82 Y: 1594.58 H: -2.29
+
+MvMt State: 0
+Pose: X: 875.23 Y: 1592.73 H: -2.28
+
+MvMt State: 0
+Pose: X: 874.89 Y: 1592.31 H: -2.21
+
+MvMt State: 0
+Pose: X: 875.11 Y: 1592.62 H: -2.14
+
+MvMt State: 0
+Pose: X: 875.22 Y: 1592.82 H: -2.06
+
+MvMt State: 0
+Pose: X: 875.33 Y: 1593.03 H: -1.99
+
+MvMt State: 0
+Pose: X: 875.44 Y: 1593.31 H: -1.91
+
+MvMt State: 0
+Pose: X: 875.55 Y: 1593.68 H: -1.82
+
+MvMt State: 0
+Pose: X: 875.63 Y: 1594.05 H: -1.73
+
+MvMt State: 0
+Pose: X: 875.68 Y: 1594.51 H: -1.65
+
+MvMt State: 0
+Pose: X: 875.69 Y: 1594.96 H: -1.56
+
+MvMt State: 0
+Pose: X: 875.68 Y: 1595.19 H: -1.49
+
+MvMt State: 0
+Pose: X: 875.64 Y: 1595.57 H: -1.42
+
+MvMt State: 0
+Pose: X: 875.60 Y: 1595.80 H: -1.35
+
+MvMt State: 0
+Pose: X: 875.56 Y: 1595.94 H: -1.27
+
+MvMt State: 0
+Pose: X: 875.43 Y: 1596.30 H: -1.20
+
+MvMt State: 0
+Pose: X: 875.37 Y: 1596.44 H: -1.13
+
+MvMt State: 0
+Pose: X: 875.23 Y: 1596.72 H: -1.06
+
+MvMt State: 0
+Pose: X: 875.15 Y: 1596.85 H: -0.99
+
+MvMt State: 0
+Pose: X: 875.96 Y: 1595.64 H: -0.96
+
+MvMt State: 0
+Pose: X: 877.74 Y: 1593.07 H: -0.97
+
+MvMt State: 0
+Pose: X: 882.11 Y: 1586.71 H: -0.97
+
+MvMt State: 0
+Pose: X: 884.39 Y: 1583.37 H: -0.97
+
+MvMt State: 0
+Pose: X: 887.15 Y: 1579.34 H: -0.97
+
+MvMt State: 0
+Pose: X: 889.82 Y: 1575.43 H: -0.97
+
+MvMt State: 0
+Pose: X: 892.74 Y: 1571.13 H: -0.97
+
+MvMt State: 0
+Pose: X: 895.75 Y: 1566.71 H: -0.98
+
+MvMt State: 0
+Pose: X: 898.83 Y: 1562.16 H: -0.98
+
+MvMt State: 0
+Pose: X: 902.00 Y: 1557.48 H: -0.98
+
+MvMt State: 0
+Pose: X: 905.16 Y: 1552.80 H: -0.98
+
+MvMt State: 0
+Pose: X: 908.32 Y: 1548.11 H: -0.98
+
+MvMt State: 0
+Pose: X: 911.49 Y: 1543.43 H: -0.98
+
+MvMt State: 0
+Pose: X: 914.70 Y: 1538.70 H: -0.97
+
+MvMt State: 0
+Pose: X: 917.79 Y: 1534.15 H: -0.97
+
+MvMt State: 0
+Pose: X: 920.93 Y: 1529.54 H: -0.97
+
+MvMt State: 0
+NextMove: 924.11, 1524.87 -> 1008.00, 1584.00
+14, 22
+Pose: X: 924.11 Y: 1524.87 H: -0.97
+
+MvMt State: 0
+Pose: X: 925.95 Y: 1522.24 H: -0.95
+
+MvMt State: 0
+Pose: X: 926.46 Y: 1521.58 H: -0.89
+
+MvMt State: 0
+Pose: X: 926.16 Y: 1521.92 H: -0.82
+
+MvMt State: 0
+Pose: X: 926.11 Y: 1521.98 H: -0.75
+
+MvMt State: 0
+Pose: X: 925.82 Y: 1522.23 H: -0.67
+
+MvMt State: 0
+Pose: X: 925.70 Y: 1522.32 H: -0.60
+
+MvMt State: 0
+Pose: X: 925.50 Y: 1522.44 H: -0.52
+
+MvMt State: 0
+Pose: X: 925.23 Y: 1522.58 H: -0.45
+
+MvMt State: 0
+Pose: X: 924.95 Y: 1522.71 H: -0.38
+
+MvMt State: 0
+Pose: X: 924.74 Y: 1522.78 H: -0.31
+
+MvMt State: 0
+Pose: X: 924.44 Y: 1522.86 H: -0.23
+
+MvMt State: 0
+Pose: X: 924.14 Y: 1522.92 H: -0.16
+
+MvMt State: 0
+Pose: X: 923.84 Y: 1522.96 H: -0.09
+
+MvMt State: 0
+Pose: X: 923.53 Y: 1522.98 H: -0.02
+
+MvMt State: 0
+Pose: X: 923.23 Y: 1522.98 H: 0.05
+
+MvMt State: 0
+Pose: X: 923.00 Y: 1522.96 H: 0.12
+
+MvMt State: 0
+Pose: X: 922.77 Y: 1522.92 H: 0.19
+
+MvMt State: 0
+Pose: X: 922.63 Y: 1522.89 H: 0.26
+
+MvMt State: 0
+Pose: X: 922.33 Y: 1522.80 H: 0.33
+
+MvMt State: 0
+Pose: X: 922.12 Y: 1522.72 H: 0.40
+
+MvMt State: 0
+Pose: X: 921.91 Y: 1522.62 H: 0.47
+
+MvMt State: 0
+Pose: X: 921.71 Y: 1522.51 H: 0.54
+
+MvMt State: 0
+Pose: X: 921.58 Y: 1522.43 H: 0.59
+
+MvMt State: 0
+Pose: X: 922.97 Y: 1523.37 H: 0.60
+
+MvMt State: 0
+Pose: X: 925.56 Y: 1525.14 H: 0.60
+
+MvMt State: 0
+Pose: X: 929.35 Y: 1527.71 H: 0.59
+
+MvMt State: 0
+Pose: X: 933.47 Y: 1530.48 H: 0.59
+
+MvMt State: 0
+Pose: X: 938.04 Y: 1533.54 H: 0.59
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 942.93 Y: 1536.80 H: 0.59
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 949.62 Y: 1541.21 H: 0.58
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 957.73 Y: 1546.53 H: 0.58
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 965.79 Y: 1551.79 H: 0.58
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 974.12 Y: 1557.18 H: 0.57
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 982.41 Y: 1562.51 H: 0.57
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 990.50 Y: 1567.71 H: 0.57
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 999.87 Y: 1574.03 H: 0.61
+
+MvMt State: 0
+NextMove: 1003.36, 1576.87 -> 1080.00, 1512.00
+15, 21
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1003.36 Y: 1576.87 H: 0.75
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1003.76 Y: 1577.23 H: 0.70
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1004.01 Y: 1577.40 H: 0.52
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1004.36 Y: 1577.56 H: 0.34
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1004.72 Y: 1577.66 H: 0.21
+
+MvMt State: 0
+Pose: X: 1005.18 Y: 1577.73 H: 0.09
+
+MvMt State: 0
+Pose: X: 1005.48 Y: 1577.75 H: 0.01
+
+MvMt State: 0
+Pose: X: 1005.79 Y: 1577.74 H: -0.06
+
+MvMt State: 0
+Pose: X: 1005.94 Y: 1577.73 H: -0.13
+
+MvMt State: 0
+Pose: X: 1006.09 Y: 1577.70 H: -0.20
+
+MvMt State: 0
+Pose: X: 1006.31 Y: 1577.65 H: -0.27
+
+MvMt State: 0
+Pose: X: 1006.39 Y: 1577.63 H: -0.34
+
+MvMt State: 0
+Pose: X: 1006.53 Y: 1577.57 H: -0.41
+
+MvMt State: 0
+Pose: X: 1006.60 Y: 1577.54 H: -0.49
+
+MvMt State: 0
+Pose: X: 1006.66 Y: 1577.50 H: -0.56
+
+MvMt State: 0
+Pose: X: 1006.73 Y: 1577.46 H: -0.64
+
+MvMt State: 0
+Pose: X: 1006.85 Y: 1577.36 H: -0.70
+
+MvMt State: 0
+Pose: X: 1008.01 Y: 1576.37 H: -0.72
+
+MvMt State: 0
+Pose: X: 1010.61 Y: 1574.12 H: -0.71
+
+MvMt State: 0
+Pose: X: 1013.91 Y: 1571.29 H: -0.71
+
+MvMt State: 0
+Pose: X: 1017.73 Y: 1568.00 H: -0.71
+
+MvMt State: 0
+Pose: X: 1021.72 Y: 1564.56 H: -0.71
+
+MvMt State: 0
+Pose: X: 1025.82 Y: 1561.01 H: -0.72
+
+MvMt State: 0
+Pose: X: 1029.96 Y: 1557.40 H: -0.72
+
+MvMt State: 0
+Pose: X: 1034.10 Y: 1553.78 H: -0.72
+
+MvMt State: 0
+Pose: X: 1038.16 Y: 1550.19 H: -0.73
+
+MvMt State: 0
+Pose: X: 1042.38 Y: 1546.43 H: -0.73
+
+MvMt State: 0
+Pose: X: 1046.54 Y: 1542.72 H: -0.73
+
+MvMt State: 0
+Pose: X: 1050.63 Y: 1539.05 H: -0.73
+
+MvMt State: 0
+Pose: X: 1054.83 Y: 1535.27 H: -0.73
+
+MvMt State: 0
+Pose: X: 1058.96 Y: 1531.53 H: -0.74
+
+MvMt State: 0
+Pose: X: 1063.09 Y: 1527.78 H: -0.74
+
+MvMt State: 0
+NextMove: 1067.28, 1523.98 -> 1152.00, 1584.00
+16, 22
+Pose: X: 1067.28 Y: 1523.98 H: -0.74
+
+MvMt State: 0
+Pose: X: 1069.84 Y: 1521.69 H: -0.72
+
+MvMt State: 0
+Pose: X: 1070.60 Y: 1521.06 H: -0.66
+
+MvMt State: 0
+Pose: X: 1070.54 Y: 1521.10 H: -0.59
+
+MvMt State: 0
+Pose: X: 1070.41 Y: 1521.18 H: -0.52
+
+MvMt State: 0
+Pose: X: 1070.41 Y: 1521.18 H: -0.45
+
+MvMt State: 0
+Pose: X: 1070.20 Y: 1521.27 H: -0.37
+
+MvMt State: 0
+Pose: X: 1069.84 Y: 1521.40 H: -0.30
+
+MvMt State: 0
+Pose: X: 1069.54 Y: 1521.48 H: -0.23
+
+MvMt State: 0
+Pose: X: 1069.17 Y: 1521.55 H: -0.15
+
+MvMt State: 0
+Pose: X: 1068.94 Y: 1521.58 H: -0.08
+
+MvMt State: 0
+Pose: X: 1068.71 Y: 1521.59 H: -0.00
+
+MvMt State: 0
+Pose: X: 1068.48 Y: 1521.58 H: 0.07
+
+MvMt State: 0
+Pose: X: 1068.26 Y: 1521.55 H: 0.15
+
+MvMt State: 0
+Pose: X: 1068.03 Y: 1521.51 H: 0.23
+
+MvMt State: 0
+Pose: X: 1067.81 Y: 1521.45 H: 0.31
+
+MvMt State: 0
+Pose: X: 1067.67 Y: 1521.40 H: 0.38
+
+MvMt State: 0
+Pose: X: 1067.46 Y: 1521.30 H: 0.45
+
+MvMt State: 0
+Pose: X: 1067.25 Y: 1521.20 H: 0.52
+
+MvMt State: 0
+Pose: X: 1067.13 Y: 1521.12 H: 0.59
+
+MvMt State: 0
+Pose: X: 1068.88 Y: 1522.34 H: 0.63
+
+MvMt State: 0
+Pose: X: 1071.85 Y: 1524.48 H: 0.62
+
+MvMt State: 0
+Pose: X: 1076.01 Y: 1527.46 H: 0.62
+
+MvMt State: 0
+Pose: X: 1080.11 Y: 1530.39 H: 0.62
+
+MvMt State: 0
+Pose: X: 1084.79 Y: 1533.70 H: 0.62
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1089.22 Y: 1536.82 H: 0.61
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1095.71 Y: 1541.39 H: 0.61
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1103.66 Y: 1546.95 H: 0.61
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1111.75 Y: 1552.57 H: 0.61
+
+MvMt State: 1
+Warning: detected obstacle out of bounds.
+Pose: X: 1116.99 Y: 1556.14 H: 0.59
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1110.72 Y: 1552.19 H: 0.53
+
+MvMt State: 1
+Warning: detected obstacle out of bounds.
+Pose: X: 1105.38 Y: 1549.22 H: 0.48
+
+MvMt State: 1
+Warning: detected obstacle out of bounds.
+Pose: X: 1101.21 Y: 1547.14 H: 0.44
+
+MvMt State: 1
+Pose: X: 1095.77 Y: 1544.73 H: 0.39
+
+MvMt State: 1
+Pose: X: 1092.50 Y: 1543.44 H: 0.36
+
+MvMt State: 1
+Pose: X: 1089.41 Y: 1542.32 H: 0.33
+
+MvMt State: 1
+Pose: X: 1086.37 Y: 1541.31 H: 0.31
+
+MvMt State: 1
+Pose: X: 1083.37 Y: 1540.41 H: 0.28
+
+MvMt State: 1
+Pose: X: 1080.21 Y: 1539.55 H: 0.25
+
+MvMt State: 1
+Pose: X: 1076.94 Y: 1538.75 H: 0.23
+
+MvMt State: 1
+Pose: X: 1073.51 Y: 1538.02 H: 0.20
+
+MvMt State: 1
+Pose: X: 1069.98 Y: 1537.37 H: 0.16
+
+MvMt State: 1
+Pose: X: 1066.12 Y: 1536.80 H: 0.13
+
+MvMt State: 1
+Pose: X: 1062.56 Y: 1536.38 H: 0.10
+
+MvMt State: 1
+Pose: X: 1059.21 Y: 1536.08 H: 0.07
+
+MvMt State: 1
+Pose: X: 1055.86 Y: 1535.88 H: 0.05
+
+MvMt State: 0
+NextMove: 1047.85, 1535.77 -> 1152.00, 1512.00
+16, 21
+Pose: X: 1047.85 Y: 1535.77 H: -0.02
+
+MvMt State: 0
+Pose: X: 1046.40 Y: 1535.83 H: -0.05
+
+MvMt State: 0
+Pose: X: 1045.71 Y: 1535.88 H: -0.11
+
+MvMt State: 0
+Pose: X: 1046.01 Y: 1535.84 H: -0.17
+
+MvMt State: 0
+Pose: X: 1046.09 Y: 1535.82 H: -0.21
+
+MvMt State: 0
+Pose: X: 1047.96 Y: 1535.43 H: -0.21
+
+MvMt State: 0
+Pose: X: 1051.47 Y: 1534.69 H: -0.21
+
+MvMt State: 0
+Pose: X: 1056.40 Y: 1533.65 H: -0.21
+
+MvMt State: 0
+Pose: X: 1061.63 Y: 1532.55 H: -0.21
+
+MvMt State: 0
+Pose: X: 1067.38 Y: 1531.32 H: -0.21
+
+MvMt State: 0
+Pose: X: 1072.90 Y: 1530.13 H: -0.21
+
+MvMt State: 0
+Pose: X: 1078.13 Y: 1528.99 H: -0.21
+
+MvMt State: 0
+Pose: X: 1083.50 Y: 1527.82 H: -0.22
+
+MvMt State: 0
+Pose: X: 1088.94 Y: 1526.61 H: -0.22
+
+MvMt State: 0
+Pose: X: 1094.53 Y: 1525.37 H: -0.22
+
+MvMt State: 1
+Pose: X: 1101.76 Y: 1523.76 H: -0.22
+
+MvMt State: 1
+Pose: X: 1100.42 Y: 1524.07 H: -0.23
+
+MvMt State: 1
+Pose: X: 1098.12 Y: 1524.62 H: -0.25
+
+MvMt State: 1
+Pose: X: 1095.09 Y: 1525.43 H: -0.27
+
+MvMt State: 1
+Pose: X: 1091.65 Y: 1526.43 H: -0.30
+
+MvMt State: 1
+Pose: X: 1088.30 Y: 1527.51 H: -0.33
+
+MvMt State: 1
+Pose: X: 1085.28 Y: 1528.58 H: -0.35
+
+MvMt State: 1
+Pose: X: 1082.00 Y: 1529.84 H: -0.38
+
+MvMt State: 1
+Pose: X: 1078.62 Y: 1531.26 H: -0.41
+
+MvMt State: 1
+Pose: X: 1075.29 Y: 1532.78 H: -0.45
+
+MvMt State: 1
+Pose: X: 1071.87 Y: 1534.48 H: -0.48
+
+MvMt State: 1
+Pose: X: 1068.45 Y: 1536.33 H: -0.51
+
+MvMt State: 1
+Pose: X: 1065.02 Y: 1538.34 H: -0.55
+
+MvMt State: 1
+Pose: X: 1061.66 Y: 1540.4 -0.58
+
+MvMt State: 1
+Pose: X: 1058.44 Y: 1542.65 H: -0.61
+
+MvMt State: 1
+Pose: X: 1055.36 Y: 1544.90 H: -0.65
+
+MvMt State: 0
+NextMove: 1049.07, 1549.99 -> 1152.00, 1584.00
+16, 22
+Pose: X: 1049.07 Y: 1549.99 H: -0.71
+
+MvMt State: 0
+Pose: X: 1047.57 Y: 1551.29 H: -0.71
+
+MvMt State: 0
+Pose: X: 1047.27 Y: 1551.53 H: -0.65
+
+MvMt State: 0
+Pose: X: 1047.21 Y: 1551.58 H: -0.57
+
+MvMt State: 0
+Pose: X: 1047.01 Y: 1551.69 H: -0.48
+
+MvMt State: 0
+Pose: X: 1046.87 Y: 1551.76 H: -0.40
+
+MvMt State: 0
+Pose: X: 1046.73 Y: 1551.81 H: -0.32
+
+MvMt State: 0
+Pose: X: 1046.58 Y: 1551.85 H: -0.25
+
+MvMt State: 0
+Pose: X: 1046.43 Y: 1551.89 H: -0.18
+
+MvMt State: 0
+Pose: X: 1046.21 Y: 1551.92 H: -0.10
+
+MvMt State: 0
+Pose: X: 1045.98 Y: 1551.93 H: -0.02
+
+MvMt State: 0
+Pose: X: 1045.67 Y: 1551.93 H: 0.05
+
+MvMt State: 0
+Pose: X: 1045.37 Y: 1551.90 H: 0.13
+
+MvMt State: 0
+Pose: X: 1045.14 Y: 1551.86 H: 0.21
+
+MvMt State: 0
+Pose: X: 1044.92 Y: 1551.81 H: 0.26
+
+MvMt State: 0
+Pose: X: 1046.39 Y: 1552.21 H: 0.28
+
+MvMt State: 0
+Pose: X: 1049.41 Y: 1553.06 H: 0.27
+
+MvMt State: 0
+Pose: X: 1053.83 Y: 1554.27 H: 0.27
+
+MvMt State: 0
+Pose: X: 1058.62 Y: 1555.57 H: 0.26
+
+MvMt State: 0
+Pose: X: 1063.70 Y: 1556.95 H: 0.26
+
+MvMt State: 0
+Pose: X: 1068.79 Y: 1558.32 H: 0.26
+
+MvMt State: 0
+Pose: X: 1074.02 Y: 1559.72 H: 0.26
+
+MvMt State: 0
+Pose: X: 1079.19 Y: 1561.10 H: 0.26
+
+MvMt State: 0
+Pose: X: 1084.58 Y: 1562.53 H: 0.26
+
+MvMt State: 0
+Pose: X: 1090.04 Y: 1563.97 H: 0.26
+
+MvMt State: 0
+Pose: X: 1095.88 Y: 1565.49 H: 0.26
+
+MvMt State: 0
+Pose: X: 1101.72 Y: 1567.01 H: 0.25
+
+MvMt State: 0
+Pose: X: 1107.41 Y: 1568.46 H: 0.25
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1113.26 Y: 1569.95 H: 0.25
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1121.26 Y: 1571.95 H: 0.24
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1131.05 Y: 1574.36 H: 0.24
+
+MvMt State: 1
+Warning: detected obstacle out of bounds.
+Pose: X: 1138.24 Y: 1576.11 H: 0.24
+
+MvMt State: 1
+Warning: detected obstacle out of bounds.
+Pose: X: 1136.01 Y: 1575.59 H: 0.22
+
+MvMt State: 1
+Pose: X: 1131.30 Y: 1574.63 H: 0.18
+
+MvMt State: 1
+Pose: X: 1127.61 Y: 1574.01 H: 0.15
+
+MvMt State: 1
+Pose: X: 1124.13 Y: 1573.52 H: 0.12
+
+MvMt State: 1
+Pose: X: 1120.87 Y: 1573.16 H: 0.10
+
+MvMt State: 1
+Pose: X: 1117.67 Y: 1572.89 H: 0.07
+
+MvMt State: 1
+Pose: X: 1114.40 Y: 1572.70 H: 0.04
+
+MvMt State: 1
+Pose: X: 1110.58 Y: 1572.60 H: 0.01
+
+MvMt State: 1
+Pose: X: 1106.30 Y: 1572.62 H: -0.02
+
+MvMt State: 1
+Pose: X: 1102.18 Y: 1572.78 H: -0.06
+
+MvMt State: 1
+Pose: X: 1098.22 Y: 1573.08 H: -0.09
+
+MvMt State: 1
+Pose: X: 1094.58 Y: 1573.46 H: -0.12
+
+MvMt State: 1
+Pose: X: 1091.17 Y: 1573.93 H: -0.15
+
+MvMt State: 1
+Pose: X: 1087.71 Y: 1574.50 H: -0.18
+
+MvMt State: 0
+NextMove: 1080.10, 1576.14 -> 1152.00, 1656.00
+16, 23
+Pose: X: 1080.10 Y: 1576.14 H: -0.24
+
+MvMt State: 0
+Pose: X: 1078.47 Y: 1576.54 H: -0.24
+
+MvMt State: 0
+Pose: X: 1078.09 Y: 1576.62 H: -0.19
+
+MvMt State: 0
+Pose: X: 1078.24 Y: 1576.60 H: -0.12
+
+MvMt State: 0
+Pose: X: 1077.94 Y: 1576.62 H: -0.04
+
+MvMt State: 0
+Pose: X: 1077.79 Y: 1576.62 H: 0.04
+
+MvMt State: 0
+Pose: X: 1077.56 Y: 1576.60 H: 0.12
+
+MvMt State: 0
+Pose: X: 1077.48 Y: 1576.59 H: 0.19
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1077.26 Y: 1576.54 H: 0.26
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1076.97 Y: 1576.45 H: 0.36
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1076.62 Y: 1576.29 H: 0.49
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1076.24 Y: 1576.04 H: 0.68
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1076.02 Y: 1575.83 H: 0.83
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1079.16 Y: 1579.37 H: 0.86
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1086.25 Y: 1587.57 H: 0.86
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1095.21 Y: 1597.90 H: 0.85
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1110.30 Y: 1615.02 H: 0.84
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Waning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1125.94 Y: 1632.28 H: 0.83
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1147.49 Y: 1655.51 H: 0.82
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1153.50 Y: 1659.47 H: 0.35
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1154.39 Y: 1659.65 H: 0.06
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1155.30 Y: 1659.59 H: -0.19
+
+MvMt State: 0
+Pose: X: 1155.60 Y: 1659.51 H: -0.31
+
+MvMt State: 0
+Pose: X: 1155.74 Y: 1659.46 H: -0.40
+
+MvMt State: 0
+Pose: X: 1155.95 Y: 1659.36 H: -0.48
+
+MvMt State: 0
+Pose: X: 1156.08 Y: 1659.29 H: -0.55
+
+MvMt State: 0
+Pose: X: 1156.21 Y: 1659.20 H: -0.63
+
+MvMt State: 0
+Pose: X: 1156.33 Y: 1659.11 H: -0.71
+
+MvMt State: 0
+Pose: X: 1156.44 Y: 1659.00 H: -0.79
+
+MvMt State: 1
+Pose: X: 1155.33 Y: 1660.26 H: -0.91
+
+MvMt State: 1
+Pose: X: 1153.76 Y: 1662.33 H: -0.93
+
+MvMt State: 1
+Pose: X: 1151.97 Y: 1664.81 H: -0.96
+
+MvMt State: 1
+Pose: X: 1150.08 Y: 1667.58 H: -0.98
+
+MvMt State: 1
+Pose: X: 1148.54 Y: 1669.95 H: -1.01
+
+MvMt State: 1
+Pose: X: 1146.90 Y: 1672.62 H: -1.03
+
+MvMt State: 1
+Pose: X: 1145.32 Y: 1675.33 H: -1.06
+
+MvMt State: 1
+Pose: X: 1143.82 Y: 1678.07 H: -1.08
+
+MvMt State: 1
+Pose: X: 1142.35 Y: 1680.92 H: -1.11
+
+MvMt State: 1
+Pose: X: 1140.90 Y: 1683.95 H: -1.14
+
+MvMt State: 1
+Pose: X: 1139.59 Y: 1686.88 H: -1.17
+
+MvMt State: 1
+Pose: X: 1138.31 Y: 1689.99 H: -1.19
+
+MvMt State: 1
+Pose: X: 1137.09 Y: 1693.20 H: -1.22
+
+MvMt State: 1
+Pose: X: 1135.99 Y: 1696.37 H: -1.25
+
+MvMt State: 1
+Pose: X: 1134.96 Y: 1699.65 H: -1.28
+
+MvMt State: 1
+Pose: X: 1134.04 Y: 1702.88 H: -1.31
+
+MvMt State: 2
+Pose: X: 1132.98 Y: 1707.49 H: -1.38
+
+MvMt State: 2
+Pose: X: 1132.82 Y: 1708.55 H: -1.45
+
+MvMt State: 2
+Pose: X: 1132.77 Y: 1709.08 H: -1.52
+
+MvMt State: 2
+Pose: X: 1132.76 Y: 1709.39 H: -1.59
+
+MvMt State: 2
+Pose: X: 1132.77 Y: 1709.54 H: -1.66
+
+MvMt State: 2
+Pose: X: 1132.85 Y: 1710.22 H: -1.72
+
+MvMt State: 2
+Pose: X: 1132.93 Y: 1710.67 H: -1.78
+
+MvMt State: 2
+Pose: X: 1132.98 Y: 1710.90 H: -1.82
+
+MvMt State: 2
+Pose: X: 1132.64 Y: 1709.57 H: -1.83
+
+MvMt State: 2
+Pose: X: 1131.84 Y: 1706.46 H: -1.82
+
+MvMt State: 2
+Pose: X: 1130.86 Y: 1702.53 H: -1.81
+
+MvMt State: 2
+Pose: X: 1129.72 Y: 1697.94 H: -1.81
+
+MvMt State: 2
+Pose: X: 1128.52 Y: 1693.04 H: -1.81
+
+MvMt State: 2
+Pose: X: 1127.31 Y: 1688.15 H: -1.81
+
+MvMt State: 2
+Pose: X: 1126.05 Y: 1683.04 H: -1.82
+
+MvMt State: 2
+Pose: X: 1124.77 Y: 1677.93 H: -1.82
+
+MvMt State: 2
+Pose: X: 1123.46 Y: 1672.74 H: -1.82
+
+MvMt State: 2
+Pose: X: 1122.19 Y: 1667.71 H: -1.82
+
+MvMt State: 2
+Pose: X: 1120.89 Y: 1662.60 H: -1.82
+
+MvMt State: 2
+Pose: X: 1119.57 Y: 1657.42 H: -1.82
+
+MvMt State: 2
+Pose: X: 1118.29 Y: 1652.39 H: -1.82
+
+MvMt State: 2
+Pose: X: 1116.96 Y: 1647.14 H: -1.82
+
+MvMt State: 2
+Pose: X: 1115.63 Y: 1641.96 H: -1.82
+
+MvMt State: 2
+Pose: X: 1114.27 Y: 1636.71 H: -1.82
+
+MvMt State: 2
+Pose: X: 1112.93 Y: 1631.54 H: -1.83
+
+MvMt State: 2
+Pose: X: 1111.53 Y: 1626.22 H: -1.83
+
+MvMt State: 2
+Pose: X: 1110.12 Y: 1620.98 H: -1.84
+
+MvMt State: 2
+Pose: X: 1108.61 Y: 1615.46 H: -1.84
+
+MvMt State: 2
+Pose: X: 1107.05 Y: 1609.87 H: -1.85
+
+MvMt State: 2
+Pose: X: 1105.66 Y: 1604.95 H: -1.85
+
+MvMt State: 2
+Pose: X: 1104.14 Y: 1599.58 H: -1.85
+
+MvMt State: 2
+Pose: X: 1102.63 Y: 1594.22 H: -1.85
+
+MvMt State: 2
+Pose: X: 1101.08 Y: 1588.78 H: -1.85
+
+MvMt State: 2
+Pose: X: 1099.55 Y: 1583.42 H: -1.85
+
+MvMt State: 2
+Pose: X: 1097.97 Y: 1577.92 H: -1.85
+
+MvMt State: 2
+Pose: X: 1096.37 Y: 1572.34 H: -1.85
+
+MvMt State: 2
+Pose: X: 1094.78 Y: 1566.84 H: -1.85
+
+MvMt State: 2
+Pose: X: 1093.20 Y: 1561.34 H: -1.85
+
+MvMt State: 2
+Pose: X: 1091.68 Y: 1556.05 H: -1.85
+
+MvMt State: 2
+Pose: X: 1090.21 Y: 1550.91 H: -1.85
+
+MvMt State: 2
+Pose: X: 1088.72 Y: 1545.70 H: -1.85
+
+MvMt State: 2
+Pose: X: 1087.26 Y: 1540.56 H: -1.85
+
+MvMt State: 0
+NextMove: 1083.31, 1526.68 -> 1152.00, 1440.00
+16, 20
+Pose: X: 1083.31 Y: 1526.68 H: -1.85
+
+MvMt State: 0
+Pose: X: 1082.50 Y: 1523.73 H: -1.83
+
+MvMt State: 0
+Pose: X: 1082.32 Y: 1522.99 H: -1.77
+
+MvMt State: 0
+Pose: X: 1082.35 Y: 1523.14 H: -1.71
+
+MvMt State: 0
+Pose: X: 1082.37 Y: 1523.37 H: -1.63
+
+MvMt State: 0
+Pose: X: 1082.38 Y: 1523.60 H: -1.56
+
+MvMt State: 0
+Pose: X: 1082.36 Y: 1523.90 H: -1.48
+
+MvMt State: 0
+Pose: X: 1082.33 Y: 1524.13 H: -1.40
+
+MvMt State: 0
+Pose: X: 1082.27 Y: 1524.43 H: -1.32
+
+MvMt State: 0
+Pose: X: 1082.20 Y: 1524.65 H: -1.24
+
+MvMt State: 0
+Pose: X: 1082.09 Y: 1524.93 H: -1.17
+
+MvMt State: 0
+Pose: X: 1081.99 Y: 1525.14 H: -1.09
+
+MvMt State: 0
+Pose: X: 1081.92 Y: 1525.27 H: -1.02
+
+MvMt State: 0
+Pose: X: 1081.83 Y: 1525.40 H: -0.95
+
+MvMt State: 0
+Pose: X: 1081.74 Y: 1525.52 H: -0.91
+
+MvMt State: 0
+Pose: X: 1083.16 Y: 1523.72 H: -0.90
+
+MvMt State: 0
+Pose: X: 1085.56 Y: 1520.66 H: -0.91
+
+MvMt State: 0
+Pose: X: 1088.79 Y: 1516.49 H: -0.91
+
+MvMt State: 0
+Pose: X: 1092.25 Y: 1512.02 H: -0.91
+
+MvMt State: 0
+Pose: X: 1095.88 Y: 1507.30 H: -0.91
+
+MvMt State: 0
+Pose: X: 1099.70 Y: 1502.34 H: -0.92
+
+MvMt State: 0
+Pose: X: 1103.37 Y: 1497.55 H: -0.92
+
+MvMt State: 0
+Pose: X: 1106.99 Y: 1492.82 H: -0.92
+
+MvMt State: 0
+Pose: X: 1110.56 Y: 1488.15 H: -0.92
+
+MvMt State: 1
+Pose: X: 1115.04 Y: 1482.26 H: -0.92
+
+MvMt State: 1
+Pose: X: 1113.36 Y: 1484.53 H: -0.94
+
+MvMt State: 0
+Pose: X: 1109.25 Y: 1490.51 H: -1.00
+
+MvMt State: 1
+Pose: X: 1105.99 Y: 1495.85 H: -1.05
+
+MvMt State: 1
+Pose: X: 1104.28 Y: 1498.91 H: -1.08
+
+MvMt State: 1
+Pose: X: 1102.62 Y: 1502.10 H: -1.10
+
+MvMt State: 1
+Pose: X: 1101.05 Y: 1505.32 H: -1.13
+
+MvMt State: 1
+Pose: X: 1099.57 Y: 1508.60 H: -1.16
+
+MvMt State: 1
+Pose: X: 1098.23 Y: 1511.84 H: -1.19
+
+MvMt State: 1
+Pose: X: 1096.95 Y: 1515.19 H: -1.22
+
+MvMt State: 1
+Pose: X: 1095.69 Y: 1518.80 H: -1.25
+
+MvMt State: 1
+Pose: X: 1094.56 Y: 1522.44 H: -1.29
+
+MvMt State: 1
+Pose: X: 1093.55 Y: 1526.13 H: -1.32
+
+MvMt State: 1
+Pose: X: 1092.70 Y: 1529.61 H: -1.35
+
+MvMt State: 1
+Pose: X: 1091.94 Y: 1533.20 H: -1.38
+
+MvMt State: 1
+Pose: X: 1091.28 Y: 1536.88 H: -1.41
+
+MvMt State: 1
+Pose: X: 1090.73 Y: 1540.66 H: -1.44
+
+MvMt State: 1
+Pose: X: 1090.29 Y: 1544.45 H: -1.47
+
+MvMt State: 1
+Pose: X: 1089.98 Y: 1548.26 H: -1.50
+
+MvMt State: 0
+NextMove: 1089.72, 1556.34 -> 1080.00, 1656.00
+15, 23
+Pose: X: 1089.72 Y: 1556.34 H: -1.57
+
+MvMt State: 0
+Pose: X: 1089.73 Y: 1558.25 H: -1.57
+
+MvMt State: 0
+Pose: X: 1089.72 Y: 1558.56 H: -1.52
+
+MvMt State: 0
+Pose: X: 1089.71 Y: 1558.63 H: -1.44
+
+MvMt State: 0
+Pose: X: 1089.70 Y: 1558.71 H: -1.36
+
+MvMt State: 0
+Pose: X: 1089.64 Y: 1558.93 H: -1.28
+
+MvMt State: 0
+Pose: X: 1089.57 Y: 1559.15 H: -1.21
+
+MvMt State: 0
+Pose: X: 1089.48 Y: 1559.36 H: -1.13
+
+MvMt State: 0
+Pose: X: 1089.37 Y: 1559.56 H: -1.06
+
+MvMt State: 0
+Pose: X: 1089.25 Y: 1559.76 H: -0.98
+
+MvMt State: 0
+Pose: X: 1089.16 Y: 1559.88 H: -0.90
+
+MvMt State: 0
+Pose: X: 1088.91 Y: 1560.17 H: -0.82
+
+MvMt State: 0
+Pose: X: 1088.70 Y: 1560.38 H: -0.73
+
+MvMt State: 0
+Pose: X: 1088.40 Y: 1560.63 H: -0.64
+
+MvMt State: 0
+Pose: X: 1088.09 Y: 1560.84 H: -0.56
+
+MvMt State: 0
+Pose: X: 1087.95 Y: 1560.92 H: -0.48
+
+MvMt State: 0
+Pose: X: 1087.68 Y: 1561.05 H: -0.41
+
+MvMt State: 0
+Pose: X: 1087.39 Y: 1561.16 H: -0.33
+
+MvMt State: 0
+Pose: X: 1087.10 Y: 1561.25 H: -0.25
+
+MvMt State: 0
+Pose: X: 1086.80 Y: 1561.31 H: -0.17
+
+MvMt State: 0
+Pose: X: 1086.50 Y: 1561.35 H: -0.09
+
+MvMt State: 0
+Pose: X: 1086.19 Y: 1561.36 H: -0.01
+
+MvMt State: 0
+Pose: X: 1085.97 Y: 1561.36 H: 0.07
+
+MvMt State: 0
+Pose: X: 1085.89 Y: 1561.35 H: 0.13
+
+MvMt State: 0
+Pose: X: 1085.74 Y: 1561.32 H: 0.20
+
+MvMt State: 0
+Pose: X: 1085.52 Y: 1561.27 H: 0.27
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1085.30 Y: 1561.20 H: 0.34
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1085.02 Y: 1561.08 H: 0.45
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1084.69 Y: 1560.89 H: 0.58
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1084.38 Y: 1560.67 H: 0.70
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1084.10 Y: 1560.40 H: 0.83
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1083.81 Y: 1560.05 H: 0.95
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1083.61 Y: 1559.72 H: 1.08
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1083.49 Y: 1559.45 H: 1.20
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1083.36 Y: 1559.01 H: 1.39
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1083.32 Y: 1558.63 H: 1.52
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1083.31 Y: 1558.40 H: 1.60
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1083.27 Y: 1559.62 H: 1.61
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1083.11 Y: 1564.58 H: 1.60
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1082.77 Y: 1577.10 H: 1.59
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1082.45 Y: 1590.76 H: 1.59
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1082.13 Y: 1604.88 H: 1.59
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1081.70 Y: 1623.05 H: 1.59
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1081.04 Y: 1653.59 H: 1.59
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1079.22 Y: 1659.25 H: 2.17
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1078.96 Y: 1659.88 H: 1.76
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1079.19 Y: 1661.59 H: 1.12
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1079.80 Y: 1662.25 H: 0.53
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1080.73 Y: 1662.60 H: 0.18
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1081.26 Y: 1662.61 H: -0.12
+
+MvMt State: 0
+Pose: X: 1081.93 Y: 1662.46 H: -0.34
+
+MvMt State: 0
+Pose: X: 1082.00 Y: 1662.43 H: -0.41
+
+MvMt State: 0
+Pose: X: 1082.07 Y: 1662.40 H: -0.47
+
+MvMt State: 0
+Pose: X: 1082.27 Y: 1662.29 H: -0.54
+
+MvMt State: 0
+Pose: X: 1082.33 Y: 1662.24 H: -0.61
+
+MvMt State: 0
+Pose: X: 1082.45 Y: 1662.15 H: -0.68
+
+MvMt State: 0
+Pose: X: 1082.57 Y: 1662.05 H: -0.75
+
+MvMt State: 0
+Pose: X: 1082.68 Y: 1661.94 H: -0.83
+
+MvMt State: 0
+Pose: X: 1082.78 Y: 1661.83 H: -0.90
+
+MvMt State: 0
+Pose: X: 1082.87 Y: 1661.71 H: -0.97
+
+MvMt State: 0
+Pose: X: 1082.99 Y: 1661.51 H: -1.04
+
+MvMt State: 0
+Pose: X: 1083.06 Y: 1661.38 H: -1.11
+
+MvMt State: 0
+Pose: X: 1083.13 Y: 1661.24 H: -1.18
+
+MvMt State: 0
+Pose: X: 1083.13 Y: 1661.24 H: -1.25
+
+MvMt State: 0
+Pose: X: 1083.10 Y: 1661.31 H: -1.32
+
+MvMt State: 0
+Pose: X: 1083.09 Y: 1661.39 H: -1.39
+
+MvMt State: 0
+Pose: X: 1083.05 Y: 1661.61 H: -1.46
+
+MvMt State: 0
+Pose: X: 1083.03 Y: 1661.92 H: -1.53
+
+MvMt State: 0
+Pose: X: 1083.03 Y: 1662.15 H: -1.60
+
+MvMt State: 0
+Pose: X: 1083.04 Y: 1662.22 H: -1.68
+
+MvMt State: 0
+Pose: X: 1083.04 Y: 1662.22 H: -1.76
+
+MvMt State: 0
+NextMove: 1083.05, 1662.30 -> 1152.00, 1584.00
+16, 22
+Pose: X: 1083.05 Y: 1662.30 H: -1.83
+
+MvMt State: 0
+Pose: X: 1083.01 Y: 1662.15 H: -1.85
+
+MvMt State: 0
+Pose: X: 1083.07 Y: 1602.37 H: -1.80
+
+MvMt State: 0
+Pose: X: 1083.10 Y: 1662.52 H: -1.73
+
+MvMt State: 0
+Pose: X: 1083.12 Y: 1662.67 H: -1.66
+
+MvMt State: 0
+Pose: X: 1083.11 Y: 1662.60 H: -1.59
+
+MvMt State: 0
+Pose: X: 1083.11 Y: 1662.67 H: -1.52
+
+MvMt State: 0
+Pose: X: 1083.11 Y: 1662.75 H: -1.45
+
+MvMt State: 0
+Pose: X: 1083.06 Y: 1663.05 H: -1.38
+
+MvMt State: 0
+Pose: X: 1082.95 Y: 1663.50 H: -1.30
+
+MvMt State: 0
+Pose: X: 1082.81 Y: 1663.93 H: -1.23
+
+MvMt State: 0
+Pose: X: 1082.65 Y: 1664.36 H: -1.16
+
+MvMt State: 0
+Pose: X: 1082.41 Y: 1664.84 H: -1.08
+
+MvMt State: 0
+Pose: X: 1082.26 Y: 1665.10 H: -1.01
+
+MvMt State: 0
+Pose: X: 1082.13 Y: 1665.29 H: -0.94
+
+MvMt State: 0
+Pose: X: 1081.99 Y: 1665.48 H: -0.89
+
+MvMt State: 0
+Pose: X: 1083.01 Y: 1664.24 H: -0.88
+
+MvMt State: 0
+Pose: X: 1085.06 Y: 1661.77 H: -0.88
+
+MvMt State: 0
+Pose: X: 1087.99 Y: 1658.25 H: -0.88
+
+MvMt State: 0
+Pose: X: 1091.15 Y: 1654.42 H: -0.88
+
+MvMt State: 0
+Pose: X: 1094.40 Y: 1650.47 H: -0.88
+
+MvMt State: 0
+Pose: X: 1097.75 Y: 1646.40 H: -0.88
+
+MvMt State: 0
+Pose: X: 1100.95 Y: 1642.51 H: -0.88
+
+MvMt State: 0
+Pose: X: 1104.08 Y: 1638.76 H: -0.87
+
+MvMt State: 0
+Pose: X: 1107.33 Y: 1634.91 H: -0.87
+
+MvMt State: 0
+Pose: X: 1110.64 Y: 1631.01 H: -0.87
+
+MvMt State: 0
+Pose: X: 1114.16 Y: 1626.88 H: -0.87
+
+MvMt State: 0
+Pose: X: 1117.72 Y: 1622.69 H: -0.87
+
+MvMt State: 0
+Pose: X: 1121.23 Y: 1618.56 H: -0.87
+
+MvMt State: 0
+Pose: X: 1124.82 Y: 1614.29 H: -0.87
+
+MvMt State: 0
+Pose: X: 1128.30 Y: 1610.14 H: -0.87
+
+MvMt State: 0
+Pose: X: 1131.73 Y: 1606.04 H: -0.87
+
+MvMt State: 0
+Pose: X: 1135.26 Y: 1601.82 H: -0.87
+
+MvMt State: 0
+NextMove: 1138.69, 1597.73 -> 1224.00, 1656.00
+17, 23
+Pose: X: 1138.69 Y: 1597.73 H: -0.87
+
+MvMt State: 0
+Pose: X: 1140.92 Y: 1595.11 H: -0.86
+
+MvMt State: 0
+Pose: X: 1141.65 Y: 1594.33 H: -0.80
+
+MvMt State: 0
+Pose: X: 1141.37 Y: 1594.59 H: -0.73
+
+MvMt State: 1
+Pose: X: 1140.78 Y: 1595.07 H: -0.63
+
+MvMt State: 1
+Pose: X: 1139.00 Y: 1596.39 H: -0.64
+
+MvMt State: 1
+Pose: X: 1136.76 Y: 1598.11 H: -0.66
+
+MvMt State: 1
+Pose: X: 1134.37 Y: 1600.02 H: -0.69
+
+MvMt State: 1
+Pose: X: 1131.87 Y: 1602.14 H: -0.72
+
+MvMt State: 1
+Pose: X: 1129.37 Y: 1604.38 H: -0.74
+
+MvMt State: 1
+Pose: X: 1126.98 Y: 1606.63 H: -0.77
+
+MvMt State: 1
+Pose: X: 1124.59 Y: 1609.00 H: -0.80
+
+MvMt State: 1
+Pose: X: 1122.33 Y: 1611.38 H: -0.82
+
+MvMt State: 1
+Pose: X: 1120.03 Y: 1613.94 H: -0.85
+
+MvMt State: 1
+Pose: X: 1117.80 Y: 1616.55 H: -0.88
+
+MvMt State: 1
+Pose: X: 1115.65 Y: 1619.23 H: -0.91
+
+MvMt State: 1
+Pose: X: 1113.57 Y: 1621.97 H: -0.94
+
+MvMt State: 1
+Pose: X: 1111.45 Y: 1624.95 H: -0.97
+
+MvMt State: 1
+Pose: X: 1109.50 Y: 1627.88 H: -1.00
+
+MvMt State: 1
+Pose: X: 1107.60 Y: 1630.92 H: -1.03
+
+MvMt State: 1
+Pose: X: 1105.87 Y: 1633.89 H: -1.06
+
+MvMt State: 0
+NextMove: 1102.27, 1640.79 -> 1152.00, 1728.00
+16, 24
+Pose: X: 1102.27 Y: 1640.79 H: -1.12
+
+MvMt State: 0
+Pose: X: 1101.42 Y: 1642.59 H: -1.12
+
+MvMt State: 0
+Pose: X: 1101.31 Y: 1642.79 H: -1.07
+
+MvMt State: 0
+Pose: X: 1101.31 Y: 1642.79 H: -1.01
+
+MvMt State: 0
+Pose: X: 1101.14 Y: 1643.04 H: -0.93
+
+MvMt State: 0
+Pose: X: 1100.90 Y: 1643.34 H: -0.85
+
+MvMt State: 0
+Pose: X: 1100.58 Y: 1643.67 H: -0.77
+
+MvMt State: 0
+Pose: X: 1100.18 Y: 1644.03 H: -0.69
+
+MvMt State: 0
+Pose: X: 1100.00 Y: 1644.17 H: -0.61
+
+MvMt State: 0
+Pose: X: 1099.81 Y: 1644.29 H: -0.54
+
+MvMt State: 0
+Pose: X: 1099.61 Y: 1644.40 H: -0.46
+
+MvMt State: 0
+Pose: X: 1099.33 Y: 1644.52 H: -0.38
+
+MvMt State: 0
+Pose: X: 1099.11 Y: 1644.60 H: -0.30
+
+MvMt State: 0
+Pose: X: 1098.74 Y: 1644.70 H: -0.21
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Pose: X: 1098.52 Y: 1644.74 H: -0.14
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1098.06 Y: 1644.78 H: -0.04
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1097.45 Y: 1644.74 H: 0.15
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1096.94 Y: 1644.60 H: 0.39
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1096.15 Y: 1644.14 H: 0.68
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1095.31 Y: 1643.16 H: 1.03
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1105.11 Y: 1658.91 H: 1.00
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1128.75 Y: 1695.73 H: 1.00
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstale out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1159.78 Y: 1743.68 H: 1.00
+
+MvMt State: 2
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1168.75 Y: 1749.97 H: 0.23
+
+MvMt State: 2
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1169.12 Y: 1749.95 H: -0.35
+
+MvMt State: 2
+Pose: X: 1167.74 Y: 1750.74 H: -0.70
+
+MvMt State: 2
+Pose: X: 1167.57 Y: 1750.90 H: -0.77
+
+MvMt State: 2
+Pose: X: 1167.47 Y: 1751.01 H: -0.84
+
+MvMt State: 2
+Pose: X: 1167.42 Y: 1751.07 H: -0.91
+
+MvMt State: 2
+Pose: X: 1167.33 Y: 1751.19 H: -0.97
+
+MvMt State: 2
+Pose: X: 1167.29 Y: 1751.25 H: -1.04
+
+MvMt State: 2
+Pose: X: 1167.25 Y: 1751.32 H: -1.10
+
+MvMt State: 2
+Pose: X: 1167.12 Y: 1751.60 H: -1.17
+
+MvMt State: 2
+Pose: X: 1166.95 Y: 1752.02 H: -1.23
+
+MvMt State: 2
+Pose: X: 1166.84 Y: 1752.39 H: -1.29
+
+MvMt State: 2
+Pose: X: 1166.80 Y: 1752.53 H: -1.36
+
+MvMt State: 2
+Pose: X: 1166.80 Y: 1752.53 H: -1.43
+
+MvMt State: 2
+Pose: X: 1166.82 Y: 1752.38 H: -1.50
+
+MvMt State: 2
+Pose: X: 1166.82 Y: 1752.15 H: -1.57
+
+MvMt State: 2
+Pose: X: 1166.81 Y: 1751.92 H: -1.64
+
+MvMt State: 2
+Pose: X: 1166.79 Y: 1751.70 H: -1.71
+
+MvMt State: 2
+Pose: X: 1166.72 Y: 1751.32 H: -1.78
+
+MvMt State: 2
+Pose: X: 1166.70 Y: 1751.25 H: -1.84
+
+MvMt State: 2
+Pose: X: 1166.64 Y: 1751.03 H: -1.86
+
+MvMt State: 2
+Pose: X: 1166.15 Y: 1749.34 H: -1.86
+
+MvMt State: 2
+Pose: X: 1165.19 Y: 1746.04 H: -1.85
+
+MvMt State: 2
+Pose: X: 1164.03 Y: 1742.01 H: -1.85
+
+MvMt State: 2
+Pose: X: 1162.68 Y: 1737.31 H: -1.85
+
+MvMt State: 2
+Pose: X: 1161.24 Y: 1732.24 H: -1.85
+
+MvMt State: 2
+Pose: X: 1159.78 Y: 1727.02 H: -1.84
+
+MvMt State: 2
+Pose: X: 1158.36 Y: 1721.95 H: -1.84
+
+MvMt State: 2
+Pose: X: 1156.96 Y: 1716.95 H: -1.84
+
+MvMt State: 2
+Pose: X: 1155.57 Y: 1712.02 H: -1.85
+
+MvMt State: 2
+Pose: X: 1154.10 Y: 1706.81 H: -1.85
+
+MvMt State: 2
+Pose: X: 1152.63 Y: 1701.67 H: -1.85
+
+MvMt State: 2
+Pose: X: 1151.16 Y: 1696.53 H: -1.85
+
+MvMt State: 2
+Pose: X: 1149.71 Y: 1691.46 H: -1.85
+
+MvMt State: 2
+Pose: X: 1148.25 Y: 1686.40 H: -1.85
+
+MvMt State: 2
+Pose: X: 1146.94 Y: 1681.85 H: -1.85
+
+MvMt State: 2
+Pose: X: 1145.58 Y: 1677.00 H: -1.84
+
+MvMt State: 2
+Pose: X: 1144.23 Y: 1672.14 H: -1.84
+
+MvMt State: 2
+Pose: X: 1142.78 Y: 1666.92 H: -1.84
+
+MvMt State: 2
+Pose: X: 1141.32 Y: 1661.62 H: -1.84
+
+MvMt State: 2
+Pose: X: 1139.87 Y: 1656.39 H: -1.84
+
+MvMt State: 2
+Pose: X: 1138.44 Y: 1651.24 H: -1.84
+
+MvMt State: 2
+Pose: X: 1137.04 Y: 1646.24 H: -1.85
+
+MvMt State: 2
+Pose: X: 1135.53 Y: 1640.95 H: -1.85
+
+MvMt State: 2
+Pose: X: 1134.09 Y: 1635.97 H: -1.85
+
+MvMt State: 2
+Pose: X: 1132.59 Y: 1630.84 H: -1.86
+
+MvMt State: 2
+Pose: X: 1131.06 Y: 1625.71 H: -1.86
+
+MvMt State: 2
+Pose: X: 1129.47 Y: 1620.45 H: -1.87
+
+MvMt State: 2
+Pose: X: 1127.75 Y: 1614.91 H: -1.87
+
+MvMt State: 2
+Pose: X: 1126.01 Y: 1609.37 H: -1.88
+
+MvMt State: 2
+Pose: X: 1124.45 Y: 1604.42 H: -1.88
+
+MvMt State: 2
+Pose: X: 1122.79 Y: 1599.18 H: -1.88
+
+MvMt State: 2
+Pose: X: 1121.20 Y: 1594.16 H: -1.88
+
+MvMt State: 2
+Pose: X: 1119.51 Y: 1588.85 H: -1.88
+
+MvMt State: 2
+Pose: X: 1117.86 Y: 1583.68 H: -1.88
+
+MvMt State: 2
+Pose: X: 1116.20 Y: 1578.52 H: -1.88
+
+MvMt State: 0
+NextMove: 1111.59, 1564.20 -> 1152.00, 1656.00
+16, 23
+Pose: X: 1111.59 Y: 1564.20 H: -1.88
+
+MvMt State: 0
+Pose: X: 1110.52 Y: 1560.78 H: -1.87
+
+MvMt State: 0
+Pose: X: 1110.29 Y: 1559.97 H: -1.81
+
+MvMt State: 0
+Pose: X: 1110.28 Y: 1559.89 H: -1.75
+
+MvMt State: 0
+Pose: X: 1110.31 Y: 1560.12 H: -1.67
+
+MvMt State: 0
+Pose: X: 1110.32 Y: 1560.35 H: -1.60
+
+MvMt State: 0
+Pose: X: 1110.32 Y: 1560.65 H: -1.52
+
+MvMt State: 0
+Pose: X: 1110.31 Y: 1560.81 H: -1.44
+
+MvMt State: 0
+Pose: X: 1110.27 Y: 1561.03 H: -1.36
+
+MvMt State: 0
+Pose: X: 1110.23 Y: 1561.18 H: -1.28
+
+MvMt State: 0
+Pose: X: 1110.13 Y: 1561.47 H: -1.20
+
+MvMt State: 0
+Pose: X: 1110.04 Y: 1561.68 H: -1.12
+
+MvMt State: 0
+Pose: X: 1109.89 Y: 1561.95 H: -1.04
+
+MvMt State: 1
+Pose: X: 1109.09 Y: 1563.16 H: -0.94
+
+MvMt State: 1
+Pose: X: 1107.94 Y: 1564.77 H: -0.96
+
+MvMt State: 1
+Pose: X: 1106.54 Y: 1566.87 H: -1.00
+
+MvMt State: 1
+Pose: X: 1104.94 Y: 1569.47 H: -1.04
+
+MvMt State: 1
+Pose: X: 1103.59 Y: 1571.86 H: -1.08
+
+MvMt State: 1
+Pose: X: 1102.24 Y: 1574.52 H: -1.12
+
+MvMt State: 1
+Pose: X: 1101.12 Y: 1576.94 H: -1.16
+
+MvMt State: 1
+Pose: X: 1100.06 Y: 1579.48 H: -1.20
+
+MvMt State: 1
+Pose: X: 1099.11 Y: 1582.06 H: -1.23
+
+MvMt State: 1
+Pose: X: 1098.25 Y: 1584.67 H: -1.27
+
+MvMt State: 1
+Pose: X: 1097.48 Y: 1587.39 H: -1.31
+
+MvMt State: 1
+Pose: X: 1096.71 Y: 1590.58 H: -1.36
+
+MvMt State: 1
+Pose: X: 1096.10 Y: 1593.73 H: -1.40
+
+MvMt State: 1
+Pose: X: 1095.66 Y: 1596.75 H: -1.45
+
+MvMt State: 1
+Pose: X: 1095.34 Y: 1599.79 H: -1.49
+
+MvMt State: 1
+Pose: X: 1095.16 Y: 1602.84 H: -1.53
+
+MvMt State: 0
+NextMove: 1095.20, 1609.40 -> 1152.00, 1512.00
+16, 21
+Pose: X: 1095.20 Y: 1609.40 H: -1.62
+
+MvMt State: 0
+Pose: X: 1095.28 Y: 1610.70 H: -1.63
+
+MvMt State: 0
+Pose: X: 1095.26 Y: 1610.24 H: -1.58
+
+MvMt State: 0
+Pose: X: 1095.27 Y: 1609.86 H: -1.51
+
+MvMt State: 0
+Pose: X: 1095.29 Y: 1609.71 H: -1.42
+
+MvMt State: 0
+Pose: X: 1095.26 Y: 1609.85 H: -1.33
+
+MvMt State: 0
+Pose: X: 1095.26 Y: 1609.85 H: -1.24
+
+MvMt State: 0
+Pose: X: 1095.23 Y: 1609.93 H: -1.17
+
+MvMt State: 0
+Pose: X: 1095.17 Y: 1610.06 H: -1.10
+
+MvMt State: 0
+Pose: X: 1095.06 Y: 1610.27 H: -1.06
+
+MvMt State: 0
+Pose: X: 1095.74 Y: 1609.07 H: -1.04
+
+MvMt State: 0
+Pose: X: 1097.59 Y: 1605.91 H: -1.04
+
+MvMt State: 0
+Pose: X: 1100.08 Y: 1601.71 H: -1.03
+
+MvMt State: 0
+Pose: X: 1103.06 Y: 1596.72 H: -1.03
+
+MvMt State: 0
+Pose: X: 1108.03 Y: 1588.40 H: -1.03
+
+MvMt State: 0
+Pose: X: 1110.50 Y: 1584.27 H: -1.03
+
+MvMt State: 0
+Pose: X: 1113.59 Y: 1579.09 H: -1.03
+
+MvMt State: 0
+Pose: X: 1116.78 Y: 1573.70 H: -1.03
+
+MvMt State: 0
+Pose: X: 1120.20 Y: 1567.92 H: -1.04
+
+MvMt State: 1
+Pose: X: 1123.85 Y: 1561.65 H: -1.05
+
+MvMt State: 1
+Pose: X: 1122.98 Y: 1563.18 H: -1.06
+
+MvMt State: 1
+Pose: X: 1121.67 Y: 1565.59 H: -1.08
+
+MvMt State: 1
+Pose: X: 1119.89 Y: 1569.05 H: -1.11
+
+MvMt State: 1
+Pose: X: 1118.27 Y: 1572.43 H: -1.14
+
+MvMt State: 1
+Pose: X: 1116.79 Y: 1575.78 H: -1.17
+
+MvMt State: 1
+Pose: X: 1115.47 Y: 1579.04 H: -1.20
+
+MvMt State: 1
+Pose: X: 1114.28 Y: 1582.26 H: -1.23
+
+MvMt State: 1
+Pose: X: 1113.31 Y: 1585.16 H: -1.26
+
+MvMt State: 1
+Pose: X: 1112.45 Y: 1588.08 H: -1.30
+
+MvMt State: 1
+Pose: X: 1111.68 Y: 1591.12 H: -1.34
+
+MvMt State: 1
+Pose: X: 1111.04 Y: 1594.18 H: -1.39
+
+MvMt State: 1
+Pose: X: 1110.54 Y: 1597.27 H: -1.43
+
+MvMt State: 1
+Pose: X: 1110.17 Y: 1600.46 H: -1.48
+
+MvMt State: 1
+Pose: X: 1109.95 Y: 1603.50 H: -1.52
+
+MvMt State: 1
+Pose: X: 1109.86 Y: 1606.56 H: -1.56
+
+MvMt State: 0
+NextMove: 1110.11, 1613.19 -> 1080.00, 1512.00
+15, 21
+Pose: X: 1110.11 Y: 1613.19 H: -1.66
+
+MvMt State: 0
+Pose: X: 1110.25 Y: 1614.48 H: -1.71
+
+MvMt State: 0
+Pose: X: 1110.24 Y: 1614.41 H: -1.78
+
+MvMt State: 0
+Pose: X: 1110.19 Y: 1614.19 H: -1.83
+
+MvMt State: 0
+Pose: X: 1109.59 Y: 1612.05 H: -1.85
+
+MvMt State: 0
+Pose: X: 1108.61 Y: 1608.68 H: -1.85
+
+MvMt State: 0
+Pose: X: 1107.16 Y: 1603.69 H: -1.85
+
+MvMt State: 0
+Pose: X: 1105.63 Y: 1598.41 H: -1.85
+
+MvMt State: 0
+Pose: X: 1103.94 Y: 1592.62 H: -1.85
+
+MvMt State: 0
+Pose: X: 1102.35 Y: 1587.12 H: -1.85
+
+MvMt State: 0
+Pose: X: 1100.71 Y: 1581.48 H: -1.85
+
+MvMt State: 0
+Pose: X: 1099.11 Y: 1575.98 H: -1.85
+
+MvMt State: 0
+Pose: X: 1097.46 Y: 1570.33 H: -1.86
+
+MvMt State: 0
+Pose: X: 1095.78 Y: 1564.62 H: -1.86
+
+MvMt State: 0
+Pose: X: 1094.11 Y: 1558.98 H: -1.86
+
+MvMt State: 0
+Pose: X: 1092.53 Y: 1553.64 H: -1.86
+
+MvMt State: 0
+Pose: X: 1090.96 Y: 1548.37 H: -1.86
+
+MvMt State: 0
+Pose: X: 1089.38 Y: 1543.10 H: -1.86
+
+MvMt State: 0
+Pose: X: 1087.83 Y: 1537.91 H: -1.86
+
+MvMt State: 0
+Pose: X: 1086.27 Y: 1532.71 H: -1.86
+
+MvMt State: 0
+NextMove: 1084.67, 1527.37 -> 1152.00, 1440.00
+16, 20
+Pose: X: 1084.67 Y: 1527.37 H: -1.86
+
+MvMt State: 0
+Pose: X: 1083.73 Y: 1524.15 H: -1.85
+
+MvMt State: 0
+Pose: X: 1083.50 Y: 1523.26 H: -1.79
+
+MvMt State: 0
+Pose: X: 1083.56 Y: 1523.56 H: -1.73
+
+MvMt State: 0
+Pose: X: 1083.57 Y: 1523.64 H: -1.65
+
+MvMt State: 0
+Pose: X: 1083.57 Y: 1523.87 H: -1.57
+
+MvMt State: 0
+Pose: X: 1083.57 Y: 1524.10 H: -1.49
+
+MvMt State: 0
+Pose: X: 1083.53 Y: 1524.40 H: -1.41
+
+MvMt State: 0
+Pose: X: 1083.50 Y: 1524.55 H: -1.32
+
+MvMt State: 0
+Pose: X: 1083.39 Y: 1524.91 H: -1.24
+
+MvMt State: 0
+Pose: X: 1083.28 Y: 1525.20 H: -1.16
+
+MvMt State: 0
+Pose: X: 1083.14 Y: 1525.47 H: -1.07
+
+MvMt State: 0
+Pose: X: 1082.98 Y: 1525.73 H: -0.98
+
+MvMt State: 0
+Pose: X: 1082.89 Y: 1525.86 H: -0.92
+
+MvMt State: 0
+Pose: X: 1084.24 Y: 1524.10 H: -0.91
+
+MvMt State: 0
+Pose: X: 1086.67 Y: 1520.96 H: -0.92
+
+MvMt State: 0
+Pose: X: 1089.78 Y: 1516.90 H: -0.92
+
+MvMt State: 0
+Pose: X: 1093.35 Y: 1512.23 H: -0.92
+
+MvMt State: 0
+Pose: X: 1097.05 Y: 1507.36 H: -0.92
+
+MvMt State: 0
+Pose: X: 1100.83 Y: 1502.38 H: -0.92
+
+MvMt State: 0
+Pose: X: 1104.57 Y: 1497.45 H: -0.92
+
+MvMt State: 0
+Pose: X: 1108.34 Y: 1492.45 H: -0.92
+
+MvMt State: 0
+Pose: X: 1112.06 Y: 1487.51 H: -0.93
+
+MvMt State: 0
+Pose: X: 1115.55 Y: 1482.87 H: -0.93
+
+MvMt State: 1
+Pose: X: 1119.48 Y: 1477.61 H: -0.93
+
+MvMt State: 1
+Pose: X: 1118.66 Y: 1478.71 H: -0.94
+
+MvMt State: 1
+Pose: X: 1117.38 Y: 1480.52 H: -0.97
+
+MvMt State: 1
+Pose: X: 1115.34 Y: 1483.57 H: -1.00
+
+MvMt State: 1
+Pose: X: 1113.43 Y: 1486.60 H: -1.02
+
+MvMt State: 1
+Pose: X: 1111.72 Y: 1489.49 H: -1.05
+
+MvMt State: 1
+Pose: X: 1110.08 Y: 1492.43 H: -1.08
+
+MvMt State: 1
+Pose: X: 1108.54 Y: 1495.41 H: -1.11
+
+MvMt State: 1
+Pose: X: 1107.03 Y: 1498.50 H: -1.13
+
+MvMt State: 1
+RECEIVED: Stopping

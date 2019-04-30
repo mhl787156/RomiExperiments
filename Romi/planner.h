@@ -1,14 +1,14 @@
 #ifndef _Planner_h
 #define _Planner_h
 
-#include "mapping.h"
+#include "beliefmapping.h"
 #include "kinematics.h"
 #include "utils.h"
 
 
 class Planner {
     public:
-        Planner(Mapper& map):_map(map) {};
+        Planner(BeliefMapper& map):_map(map) {};
         void cancelCurrentMove();
         void calculateNextMove(Kinematics& pose);
         bool calculateDemand(Kinematics& pose);
@@ -20,7 +20,7 @@ class Planner {
         float nextMoveTargetAngle();
 
     private:
-        Mapper _map;
+        BeliefMapper _map;
         bool _cancel = true;
         bool _validMove = false;
         float _nextMoveX = 0;
@@ -30,13 +30,59 @@ class Planner {
 };
 
 void Planner::calculateNextMove(Kinematics& pose) {
-    // Default Random Motion
-    float randHeading = randGaussian(pose.getThetaRadians(), PI/4);
-    float randDist = randGaussian(150, 40);
-    float distx = randDist * cos(randHeading);
-    float disty = randDist * sin(randHeading);
-    _nextMoveX = pose.getX() + distx;
-    _nextMoveY = pose.getY() + disty;
+    // Maximum closest gradient based method
+
+    short best_i = 0;
+    short best_j = 0;
+
+    float best_x = pose.getX();
+    float best_y = pose.getY();
+    short conf_threshold = 0;
+    short dist_min_threshold = 100; // 10cm
+    float best_dist = 10000;
+
+    for (int i=0;i<MAP_RESOLUTION;i++)
+    {
+        for (int j=0;j<MAP_RESOLUTION;j++)
+        {
+            int eeprom_address = (i*MAP_RESOLUTION)+j;
+            
+            if (eeprom_address > 1023)
+            {
+                Serial1.println(F("Error: EEPROM Address greater than 1023"));
+            }
+            else
+            {
+                int eeprom_address = (i*MAP_RESOLUTION)+j;
+                byte value;
+                value = EEPROM.read(eeprom_address);//, value);
+                short conf = value & CONFIDENCE_MASK;
+                short conf_diff = abs(conf - DEFAULT_PROB);
+                
+                // Check Probability value, want within threshold of default
+                if(conf_diff <= conf_threshold) {
+                    float x_loc = _map.indexToPose(i, MAP_X, MAP_RESOLUTION);
+                    float y_loc = _map.indexToPose(j, MAP_Y, MAP_RESOLUTION);
+                    float dist = pose.getDistanceFromLoc(x_loc, y_loc);
+
+                    if (dist < best_dist && dist > dist_min_threshold) {
+                        // Serial1.print(conf_diff);
+                        // Serial1.print(" ");
+                        // Serial1.println(dist);
+                        best_dist = dist;
+                        best_x = x_loc;
+                        best_y = y_loc;
+                        best_i = i;
+                        best_j = j;
+                    }
+                }
+            }
+        }
+    }
+
+    // Set next Move
+    _nextMoveX = best_x;
+    _nextMoveY = best_y;
 
     Serial1.print("NextMove: ");
     Serial1.print(pose.getX());
@@ -46,6 +92,11 @@ void Planner::calculateNextMove(Kinematics& pose) {
     Serial1.print(_nextMoveX);
     Serial1.print(", ");
     Serial1.println(_nextMoveY);
+    Serial1.print("  ");
+    Serial1.print(best_i);
+    Serial1.print(", ");
+    Serial1.println(best_j);
+
     // Demands calculated in Romi.ino each loop cycle
 }
 

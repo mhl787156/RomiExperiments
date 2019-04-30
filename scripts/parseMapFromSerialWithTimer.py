@@ -6,7 +6,7 @@ import numpy
 import time
 import string
 
-filePrepend = "Random_with_spin"
+filePrepend = "Gradients_Test1"
 
 foldername = "expr1-{}-{}".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
 

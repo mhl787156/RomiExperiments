@@ -249,8 +249,8 @@ static float movement_prev_heading = 0;
 void doMovement() {
   unsigned short prev_mvmt_state = movement_state;
 
-  // Serial1.print("mvmtstate: ");
-  // Serial1.println(movement_state);
+  Serial1.print("MvMt State: ");
+  Serial1.println(movement_state);
 
   // Check Current State and interrupt into other states
   // if non-normal motion is detected
@@ -270,12 +270,12 @@ void doMovement() {
   }
 
   // Based on state, run each behaviour
-  if(movement_state == 3) {
-    SpinningState();
-  } else if (movement_state == 1) {
+  if (movement_state == 1) {
     ObstacleAvoidanceState();
   } else if (movement_state == 2) {
     BoundaryAvoidanceState();
+  } else if (movement_state == 3) {
+    SpinningState();
   } else {
     MotionPlanningState();
   }
@@ -286,14 +286,14 @@ void ObstacleAvoidanceState(){
 
   // Reverse
   float forward_bias = -20;
-  float dist = (LeftIR.getDistanceRaw() - RightIR.getDistanceRaw()); // should be set to turn in opposite direction of obstacle
+  // float dist = (LeftIR.getDistanceRaw() - RightIR.getDistanceRaw()); // should be set to turn in opposite direction of obstacle
   float turn_bias = 15; // 0.2*dist;
-  if (dist < 0){turn_bias *= -1;}
+  // if (dist < 0){turn_bias *= -1;}
   
   left_speed_demand = forward_bias + turn_bias;
   right_speed_demand = forward_bias - turn_bias;
   
-  if(millis() - movement_timer > 2000) {
+  if(millis() - movement_timer > 1000) {
     buzz();
     buzz1();
     movement_state = 0;
@@ -341,12 +341,11 @@ void BoundaryAvoidanceState() {
 }
 
 void SpinningState() {
-  float turn_bias = 20;
+  float turn_bias = 50;
   left_speed_demand = turn_bias;
   right_speed_demand = -turn_bias;
-  float status = abs(Pose.getThetaRadians() - movement_prev_heading);
-  Serial1.println(status);
-  if(millis() - movement_timer > 1000 && status < 0.05 ) {
+  float status = abs(Pose.getThetaRadians() - PI/4 - movement_prev_heading);
+  if(millis() - movement_timer > 1000 && status < 0.1 ) {
     buzz();
     movement_state = 0;
   }
@@ -358,11 +357,17 @@ void MotionPlanningState() {
   int status = MotionPlanner.isPreviousMoveComplete(Pose);
   if(status > 0){    
       // If so plan next set of moves
+
+      float curr_ld = left_speed_demand;
+      float curr_rd = right_speed_demand;
+      StopMoving();
       MotionPlanner.calculateNextMove(Pose);  
+      StartMoving(curr_ld, curr_rd);
+
       movement_internal_state = 0; 
-      if (status == 2) {
-        movement_state = 3; // Spin on 3
-      }
+      // if (status != 2) {
+      //   movement_state = 3; // Spin on 3
+      // }
   }
 
   // Otherwise recalculate demand based on current pose and continue with motionplanning
@@ -420,8 +425,9 @@ bool detectBoundary() {
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 void doMapping() {
 
-  // Add own position to map first
+  // Add own position to map first and set it as empty
   Map.updateMapFeature((byte)'*', Pose.getX(), Pose.getY());
+  Map.updateMapFeature((byte)'.', Pose.getX(), Pose.getY());
 
   // Read IR sensors and add any detected obstacles to belief map
   IRaddToMap() ;
@@ -476,7 +482,7 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
     float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
 
     // Update all cells up to the obstacle position as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
+    for(float k = 0.0 ; k < 1.0 ; k=k+0.1) {
       projected_x = Pose.getX() + ( k * cos_proj );
       projected_y = Pose.getY() + ( k * sin_proj );
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
@@ -492,7 +498,7 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
     float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
 
     // Update all cells up to maximum distance as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.2) {
+    for(float k = 0.0 ; k < 1.0 ; k=k+0.1) {
       projected_x = Pose.getX() + ( k * cos_proj );
       projected_y = Pose.getY() + ( k * sin_proj );
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );

@@ -23,6 +23,7 @@ class Kinematics
          void  setPose(float X, float Y, float theta);
          void  printPose();
          void  setDebug(bool state);
+         float getDistanceFromLoc(float X, float Y);
          float getDistanceFromOrigin();
          float getAngularVelocity();
          void  calibrateIMU() ;
@@ -204,6 +205,12 @@ void Kinematics::setDebug(bool state)
     debug = state;
 }
 
+
+float Kinematics::getDistanceFromLoc(float nx, float ny) {
+    float diff_x = x - nx;
+    float diff_y = y - ny;
+    return sqrt(diff_x*diff_x + diff_y*diff_y);
+}
 
 float Kinematics::getDistanceFromOrigin()
 {
