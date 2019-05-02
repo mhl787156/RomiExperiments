@@ -35,11 +35,12 @@ void Planner::calculateNextMove(Kinematics& pose) {
     short best_i = 0;
     short best_j = 0;
 
+    bool found = false;
     float best_x = pose.getX();
     float best_y = pose.getY();
     short conf_threshold = 0;
-    short dist_min_threshold = 400; // 10cm
-    float best_dist = 10000;
+    short dist_min_threshold = 200; // 20cm
+    float best_dist = 1000000;
 
     for (int i=0;i<MAP_RESOLUTION;i++)
     {
@@ -53,7 +54,6 @@ void Planner::calculateNextMove(Kinematics& pose) {
             }
             else
             {
-                int eeprom_address = (i*MAP_RESOLUTION)+j;
                 byte value;
                 value = EEPROM.read(eeprom_address);//, value);
                 short conf = value & CONFIDENCE_MASK;
@@ -61,8 +61,8 @@ void Planner::calculateNextMove(Kinematics& pose) {
                 
                 // Check Probability value, want within threshold of default
                 if(conf_diff <= conf_threshold) {
-                    float x_loc = _map.indexToPose(i, MAP_X, MAP_RESOLUTION);
-                    float y_loc = _map.indexToPose(j, MAP_Y, MAP_RESOLUTION);
+                    float x_loc = _map.indexToPose(j, MAP_X, MAP_RESOLUTION);
+                    float y_loc = _map.indexToPose(i, MAP_Y, MAP_RESOLUTION);
                     float dist = pose.getDistanceFromLoc(x_loc, y_loc);
 
                     if (dist < best_dist && dist > dist_min_threshold) {
@@ -74,10 +74,15 @@ void Planner::calculateNextMove(Kinematics& pose) {
                         best_y = y_loc;
                         best_i = i;
                         best_j = j;
+                        found = true;
                     }
                 }
             }
         }
+    }
+
+    if (!found) {
+        conf_threshold += 10;
     }
 
     // Set next Move

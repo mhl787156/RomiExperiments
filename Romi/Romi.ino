@@ -406,7 +406,7 @@ void MotionPlanningState() {
 
 bool IRDetectObstacle() {
   // return CentreIR.getDistanceInMM() < 100 || LeftIR.getDistanceInMM() < 80 || RightIR.getDistanceRaw() < 80;
-  return CentreIR.getDistanceRaw() > 650 || LeftIR.getDistanceRaw() > 750 || RightIR.getDistanceRaw() > 750;
+  return CentreIR.getDistanceRaw() > 750 || LeftIR.getDistanceRaw() > 850 || RightIR.getDistanceRaw() > 850;
 }
 
 bool detectBoundary() {
@@ -507,16 +507,16 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
     }
   } 
-  // else if (distance < mindist) {
-  //   distance = mindist;
-  //   distance += 80; // Adjust for sensor placement on body
-  //   float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
-  //   float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset); 
-  //   // Here we calculate the actual position of the obstacle we have detected
-  //   projected_x = Pose.getX() + cos_proj;
-  //   projected_y = Pose.getY() + sin_proj;
-  //   Map.updateMapFeature( (byte)'O', projected_x, projected_y );
-  // }
+  else if (distance < mindist) {
+    distance = mindist;
+    distance += 80; // Adjust for sensor placement on body
+    float cos_proj = distance * cos( Pose.getThetaRadians() + angleoffset);
+    float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset); 
+    // Here we calculate the actual position of the obstacle we have detected
+    projected_x = Pose.getX() + cos_proj;
+    projected_y = Pose.getY() + sin_proj;
+    Map.updateMapFeature( (byte)'O', projected_x, projected_y );
+  }
 }
 
 /***********************************************************************************
