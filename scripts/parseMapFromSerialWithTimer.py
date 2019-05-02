@@ -6,7 +6,7 @@ import numpy
 import time
 import string
 
-filePrepend = "Gradients_Test1"
+filePrepend = "Gradients_Test1_Empty"
 
 foldername = "expr1-{}-{}".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
 

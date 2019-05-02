@@ -196,12 +196,12 @@ void loop()
   unsigned long curr_time = millis();
   if ( curr_time - map_timer > 10000 ) {
     map_timer = curr_time;
-    PauseAndPrintMap(true); // boolean indicates printing raw map
+    // PauseAndPrintMap(true); // boolean indicates printing raw map
   }
 
   if(ButtonA.getSingleDebouncedPress()) {
     Serial1.print("Stopping");
-    StopAndPrintMap();
+    // StopAndPrintMap();
   }
  
   // Print map to serial on button b press.
@@ -223,8 +223,8 @@ void loop()
     }
   }
 
-  Serial1.print("Pose: ");
-  Pose.printPose();
+  // Serial1.print("Pose: ");
+  // Pose.printPose();
 
   // Update kinematic model and print pose
   Pose.update(); 
@@ -361,6 +361,9 @@ void MotionPlanningState() {
       float curr_ld = left_speed_demand;
       float curr_rd = right_speed_demand;
       StopMoving();
+      Map.printRawMap();
+      Serial1.print("Pose: ");
+      Pose.printPose();
       MotionPlanner.calculateNextMove(Pose);  
       StartMoving(curr_ld, curr_rd);
 

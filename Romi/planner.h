@@ -38,7 +38,7 @@ void Planner::calculateNextMove(Kinematics& pose) {
     float best_x = pose.getX();
     float best_y = pose.getY();
     short conf_threshold = 0;
-    short dist_min_threshold = 100; // 10cm
+    short dist_min_threshold = 400; // 10cm
     float best_dist = 10000;
 
     for (int i=0;i<MAP_RESOLUTION;i++)
