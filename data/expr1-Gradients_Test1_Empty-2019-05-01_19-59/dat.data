@@ -1,0 +1,4094 @@
+0 0 0 100 0 0 0 0 0 0 0 0 0 14
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 0 0 0 0 100 100 0 0 0 0 0 0 0 2 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 2 0 100 100 100 100 0 0 0 0 0 0 0 -31 -31
+-31 2 -31 14 21 -31 -31 14 -31 -31 9 0 0 0 0 0 0 0 0 0 4 9 -31 -31 -31
+-31 -31 14 -31 -31 -31 -31 -31 -31 0 -31 0 0 0 0 0 0 0 2 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 4 9 -31 -31 9 -31 -31 1 0 0 0 0 0 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 14 21 21 -31 -31 9 6 -31 -31 -31 -31 0 0 9 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 14 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 0 21 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 6 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 0 -31 21 21 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+RECEIVED: Calibrating IMU
+Map Erased - Mapping Started
+
+MvMt State: 0
+Pose: X: 901.15 Y: 900.01 H: 0.02
+NextMove: 901.15, 900.01 -> 1080.00, 1008.00
+15, 14
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1064.43 Y: 998.67 H: 0.52
+NextMove: 1064.43, 998.67 -> 1080.00, 792.00
+15, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMp State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1076.71 Y: 810.44 H: -1.54
+NextMove: 1076.71, 810.44 -> 864.00, 792.00
+12, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 879.92 Y: 793.84 H: -3.09
+NextMove: 879.92, 793.84 -> 1080.00, 792.00
+15, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1060.27 Y: 788.84 H: -0.06
+NextMove: 1060.27, 788.84 -> 1080.00, 576.00
+15, 8
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1078.38 Y: 593.68 H: -1.50
+NextMove: 1078.38, 593.68 -> 1008.00, 792.00
+14, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1017.55 Y: 774.71 H: 1.88
+NextMove: 1017.55, 774.71 -> 1224.00, 792.00
+17, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1204.82 Y: 788.49 H: 0.04
+NextMove: 1204.82, 788.49 -> 1224.00, 576.00
+17, 8
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1224.28 Y: 591.16 H: -1.50
+NextMove: 1224.28, 591.16 -> 1224.00, 792.00
+17, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1226.07 Y: 776.02 H: 1.54
+NextMove: 1226.07, 776.02 -> 1224.00, 576.00
+17, 8
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1221.54 Y: 593.64 H: -1.62
+NextMove: 1221.54, 593.64 -> 1152.00, 792.00
+16, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1160.91 Y: 777.29 H: 1.89
+NextMove: 1160.91, 777.29 -> 1368.00, 792.00
+19, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1353.87 Y: 790.44 H: 0.02
+NextMove: 1353.87, 790.44 -> 1152.00, 792.00
+16, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 2
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 2
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 2
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 0
+Pose: X: 1530.00 Y: 768.70 H: 2.86
+NextMove: 1530.00, 768.70 -> 1584.00, 576.00
+22, 8
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Pose: X: 1576.10 Y: 593.59 H: -1.32
+NextMove: 1576.10, 593.59 -> 1512.00, 792.00
+21, 11
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1520.18 Y: 777.20 H: 1.84
+NextMove: 1520.18, 777.20 -> 1728.00, 792.00
+24, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 2
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 2
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 2
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 2
+
+MvMt State: 0
+Pose: X: 1519.38 Y: 823.20 H: 2.95
+NextMove: 1519.38, 823.20 -> 1440.00, 1008.00
+20, 14
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1445.91 Y: 989.52 H: 1.94
+NextMove: 1445.91, 989.52 -> 1512.00, 792.00
+21, 11
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1507.06 Y: 809.96 H: -1.29
+NextMove: 1507.06, 809.96 -> 1440.00, 1008.00
+20, 14
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1447.45 Y: 993.57 H: 1.85
+NextMove: 1447.45, 993.57 -> 1656.00, 1008.00
+23, 14
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Pose: X: 1656.47 Y: 1006.16 H: 1.59
+NextMove: 1656.47, 1006.16 -> 1512.00, 864.00
+21, 12
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1524.19 Y: 877.33 H: -2.38
+NextMove: 1524.19, 877.33 -> 1512.00, 1080.00
+21, 15
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1515.70 Y: 1060.55 H: 1.56
+NextMove: 1515.70, 1060.55 -> 1584.00, 864.00
+22, 12
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Pose: X: 1578.00 Y: 880.21 H: -1.28
+NextMove: 1578.00, 880.21 -> 1512.00, 1080.00
+21, 15
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+Warning: detected obstacle out of bounds.
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+Pose: X: 1521.77 Y: 1064.50 H: 1.87
+NextMove: 1521.77, 1064.50 -> 1368.00, 936.00
+19, 13
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+
+MvMt State: 0
+RECEIVED: Stopping
