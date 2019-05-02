@@ -32,15 +32,13 @@ class Planner {
 void Planner::calculateNextMove(Kinematics& pose) {
     // Maximum closest gradient based method
 
-    short best_i = 0;
-    short best_j = 0;
-
-    bool found = false;
     float best_x = pose.getX();
     float best_y = pose.getY();
-    short conf_threshold = 0;
-    short dist_min_threshold = 200; // 20cm
-    float best_dist = 1000000;
+    int max_entropy = 0;
+
+    float rand_threshold = 50;
+
+    bool found = false;
 
     for (int i=0;i<MAP_RESOLUTION;i++)
     {
@@ -57,34 +55,29 @@ void Planner::calculateNextMove(Kinematics& pose) {
                 byte value;
                 value = EEPROM.read(eeprom_address);//, value);
                 short conf = value & CONFIDENCE_MASK;
-                short conf_diff = abs(conf - DEFAULT_PROB);
+                float conf_p = ((float) conf) / 64;
                 
-                // Check Probability value, want within threshold of default
-                if(conf_diff <= conf_threshold) {
-                    float x_loc = _map.indexToPose(j, MAP_X, MAP_RESOLUTION);
-                    float y_loc = _map.indexToPose(i, MAP_Y, MAP_RESOLUTION);
-                    float dist = pose.getDistanceFromLoc(x_loc, y_loc);
+                float entropy_p = -(conf_p * log(conf_p)) -((1 - conf_p) * log(1-conf_p));
 
-                    if (dist < best_dist && dist > dist_min_threshold) {
-                        // Serial1.print(conf_diff);
-                        // Serial1.print(" ");
-                        // Serial1.println(dist);
-                        best_dist = dist;
-                        best_x = x_loc;
-                        best_y = y_loc;
-                        best_i = i;
-                        best_j = j;
+                // Find cell of maximum entropy
+                if (entropy_p >= max_entropy) {
+                    max_entropy = entropy_p;
+                    float x_loc = _map.indexToPose(j, MAP_X, MAP_RESOLUTION);
+                    float y_loc = _map.indexToPose(i, MAP_Y, MAP_RESOLUTION);    
+                    best_x = x_loc;
+                    best_y = y_loc;
+
+                    if (random(0, 1000) < rand_threshold) {                        
                         found = true;
+                        break;
                     }
                 }
             }
         }
+        if (found) {
+            break;
+        }
     }
-
-    if (!found) {
-        conf_threshold += 10;
-    }
-
     // Set next Move
     _nextMoveX = best_x;
     _nextMoveY = best_y;
@@ -98,9 +91,6 @@ void Planner::calculateNextMove(Kinematics& pose) {
     Serial1.print(", ");
     Serial1.println(_nextMoveY);
     Serial1.print("  ");
-    Serial1.print(best_i);
-    Serial1.print(", ");
-    Serial1.println(best_j);
 
     // Demands calculated in Romi.ino each loop cycle
 }

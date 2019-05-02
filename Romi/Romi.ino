@@ -330,7 +330,7 @@ void BoundaryAvoidanceState() {
     right_speed_demand = forward_bias;
 
     // If moved forward for more than 3 seconds, exit back to motion planning
-    if(millis() - movement_timer > 2000) {
+    if(millis() - movement_timer > 500) {
       movement_state = 0;
       movement_internal_state = 0;
       buzz();
