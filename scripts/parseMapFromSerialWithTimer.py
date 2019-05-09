@@ -6,9 +6,9 @@ import numpy
 import time
 import string
 
-filePrepend = "Random_with_spin"
+filePrepend = "CHE_3min_map2"
 
-foldername = "expr1-{}-{}".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
+foldername = "{}-{}".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
 
 PORT = "COM12"
 datafilename = "data/{}/dat.data".format(foldername)
