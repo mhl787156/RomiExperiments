@@ -6,7 +6,7 @@ import numpy
 import time
 import string
 
-filePrepend = "CHE_3min_map2"
+filePrepend = "CHE_10min_map2"
 
 foldername = "{}-{}".format(filePrepend, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M"))
 
@@ -14,7 +14,7 @@ PORT = "COM12"
 datafilename = "data/{}/dat.data".format(foldername)
 mapfilename = "data/{}/map.map".format(foldername)
 
-timelimit = 60 * 3
+timelimit = 60 * 10
 
 print("Script up finding ROMI on Bluetooth {}".format(PORT))
 mapString = ""

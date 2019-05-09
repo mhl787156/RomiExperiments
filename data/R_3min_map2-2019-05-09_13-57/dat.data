@@ -1,0 +1,5037 @@
+100 100 0 0 0 39 -31 0 0 0 100 0 0
+0 0 100 0 0 0 60 0 16 1 0 0 0 100 100 0 0 46 25 -31 0 0 100 0 0
+0 0 100 0 0 41 22 48 45 0 0 0 0 100 100 0 0 0 0 0 0 0 100 0 0
+0 100 100 100 0 0 0 0 0 0 0 0 100 100 100 100 0 0 0 0 0 100 100 0 0
+0 0 100 100 100 100 100 100 0 0 0 100 100 100 100 100 100 0 0 0 100 100 0 0 0
+0 0 100 100 0 0 100 100 100 100 100 100 100 100 100 0 100 100 0 0 100 0 0 0 0
+0 0 0 0 0 0 100 0 0 100 100 0 0 100 100 0 0 100 0 100 0 0 0 0 -31
+-31 -31 -31 0 0 0 100 0 0 100 0 0 0 100 100 0 0 0 100 0 0 0 0 -31 -31
+-31 -31 -31 -31 0 0 100 0 100 100 0 0 0 100 100 100 0 0 100 0 0 0 0 -31 -31
+-31 -31 -31 -31 0 0 100 100 100 0 0 0 0 0 0 100 0 0 0 5 0 0 -31 -31 -31
+-31 -31 -31 -31 0 0 100 100 0 0 0 -31 0 0 0 0 0 0 5 57 0 0 -31 -31 -31
+-31 -31 -31 -31 0 0 0 0 0 0 0 -31 -31 0 0 0 0 0 57 43 -31 1 -31 -31 -31
+-31 -31 -31 -31 0 0 0 0 0 0 0 -31 -31 0 0 0 0 1 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 0 0 0 0 0 0 10 -31 -31 -31 -31 -31 10 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 10 0 0 0 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+-31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31 -31
+Board Reset
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+RECEIVED: Calibrating IMU
+Map Erased - Mapping Started
+Pose: X: 900.00 Y: 900.00 H: 0.00
+
+NextMove: 899.92, 900.00 -> 1021.36, 961.84
+Pose: X: 899.92 Y: 900.00 H: 0.00
+
+0.08
+Pose: X: 899.85 Y: 900.00 H: 0.08
+
+0.07
+Pose: X: 899.39 Y: 899.96 H: 0.07
+
+0.04
+Pose: X: 899.31 Y: 899.96 H: -0.04
+
+Pose: X: 899.54 Y: 899.93 H: -0.20
+
+Pose: X: 899.62 Y: 899.92 H: -0.18
+
+Pose: X: 899.69 Y: 899.91 H: -0.07
+
+Pose: X: 899.46 Y: 899.92 H: 0.02
+
+Pose: X: 899.31 Y: 899.91 H: 0.11
+
+Pose: X: 899.01 Y: 899.86 H: 0.19
+
+Pose: X: 898.71 Y: 899.79 H: 0.28
+
+Pose: X: 898.35 Y: 899.67 H: 0.37
+
+Pose: X: 898.14 Y: 899.57 H: 0.45
+
+Pose: X: 900.54 Y: 900.75 H: 0.46
+
+Pose: X: 905.69 Y: 903.25 H: 0.45
+
+Pose: X: 911.96 Y: 906.25 H: 0.44
+
+Pose: X: 917.48 Y: 908.86 H: 0.44
+
+Pose: X: 923.43 Y: 911.65 H: 0.44
+
+Pose: X: 929.38 Y: 914.43 H: 0.44
+
+Pose: X: 935.60 Y: 917.35 H: 0.44
+
+Pose: X: 941.81 Y: 920.29 H: 0.44
+
+Pose: X: 947.59 Y: 923.06 H: 0.45
+
+Pose: X: 953.16 Y: 925.76 H: 0.45
+
+Pose: X: 959.33 Y: 928.78 H: 0.46
+
+Pose: X: 965.84 Y: 931.99 H: 0.46
+
+Pose: X: 972.39 Y: 935.27 H: 0.47
+
+Pose: X: 979.01 Y: 938.60 H: 0.47
+
+Pose: X: 985.14 Y: 941.71 H: 0.47
+
+Pose: X: 991.47 Y: 944.92 H: 0.47
+
+Pose: X: 997.73 Y: 948.10 H: 0.47
+
+Pose: X: 1003.72 Y: 951.15 H: 0.47
+
+NextMove: 1009.29, 954.01 -> 1126.32, 1095.31
+Pose: X: 1009.29 Y: 954.01 H: 0.48
+
+Pose: X: 1014.19 Y: 956.68 H: 0.52
+
+Pose: X: 1015.48 Y: 957.49 H: 0.59
+
+Pose: X: 1016.16 Y: 957.99 H: 0.68
+
+Pose: X: 1016.27 Y: 958.09 H: 0.76
+
+Pose: X: 1016.32 Y: 958.14 H: 0.84
+
+Pose: X: 1016.22 Y: 958.03 H: 0.89
+
+Pose: X: 1017.67 Y: 959.80 H: 0.89
+
+Pose: X: 1020.53 Y: 963.29 H: 0.88
+
+Pose: X: 1024.55 Y: 968.18 H: 0.88
+
+Pose: X: 1028.76 Y: 973.33 H: 0.89
+
+Pose: X: 1033.18 Y: 978.78 H: 0.89
+
+Pose: X: 1037.82 Y: 984.56 H: 0.90
+
+Pose: X: 1041.73 Y: 989.45 H: 0.90
+
+Pose: X: 1046.15 Y: 995.01 H: 0.90
+
+Pose: X: 1050.72 Y: 1000.74 H: 0.90
+
+Pose: X: 1055.15 Y: 1006.29 H: 0.90
+
+Pose: X: 1059.30 Y: 1011.47 H: 0.89
+
+Pose: X: 1063.60 Y: 1016.84 H: 0.89
+
+Pose: X: 1067.75 Y: 1022.02 H: 0.90
+
+Pose: X: 1071.43 Y: 1026.61 H: 0.90
+
+Pose: X: 1075.09 Y: 1031.21 H: 0.90
+
+Pose: X: 1078.89 Y: 1035.99 H: 0.90
+
+Pose: X: 1082.78 Y: 1040.90 H: 0.90
+
+Pose: X: 1086.72 Y: 1045.86 H: 0.90
+
+Pose: X: 1090.47 Y: 1050.59 H: 0.90
+
+Pose: X: 1094.27 Y: 1055.37 H: 0.90
+
+Pose: X: 1098.26 Y: 1060.40 H: 0.90
+
+Pose: X: 1102.52 Y: 1065.79 H: 0.90
+
+Pose: X: 1107.11 Y: 1071.60 H: 0.90
+
+Pose: X: 1111.88 Y: 1077.66 H: 0.90
+
+NextMove: 1116.69, 1083.79 -> 1296.82, 1150.68
+Pose: X: 1116.69 Y: 1083.79 H: 0.90
+
+Pose: X: 1120.60 Y: 1088.48 H: 0.85
+
+Pose: X: 1121.66 Y: 1089.58 H: 0.75
+
+Pose: X: 1122.42 Y: 1090.21 H: 0.64
+
+Pose: X: 1122.48 Y: 1090.26 H: 0.54
+
+Pose: X: 1122.48 Y: 1090.26 H: 0.44
+
+Pose: X: 1122.55 Y: 1090.29 H: 0.37
+
+Pose: X: 1124.92 Y: 1091.16 H: 0.34
+
+Pose: X: 1129.02 Y: 1092.62 H: 0.34
+
+Pose: X: 1134.99 Y: 1094.75 H: 0.34
+
+Pose: X: 1141.09 Y: 1096.95 H: 0.35
+
+Pose: X: 1147.42 Y: 1099.23 H: 0.35
+
+Pose: X: 1153.38 Y: 1101.38 H: 0.35
+
+Pose: X: 1159.34 Y: 1103.54 H: 0.35
+
+Pose: X: 1165.36 Y: 1105.73 H: 0.35
+
+Pose: X: 1164.00 Y: 1105.24 H: 0.34
+
+Pose: X: 1161.47 Y: 1104.38 H: 0.32
+
+Pose: X: 1157.82 Y: 1103.25 H: 0.29
+
+Pose: X: 1153.92 Y: 1102.16 H: 0.26
+
+Pose: X: 1150.29 Y: 1101.27 H: 0.23
+
+Pose: X: 1146.56 Y: 1100.47 H: 0.19
+
+Pose: X: 1142.57 Y: 1099.76 H: 0.16
+
+Pose: X: 1138.72 Y: 1099.20 H: 0.13
+
+Pose: X: 1135.00 Y: 1098.78 H: 0.10
+
+Pose: X: 1131.35 Y: 1098.48 H: 0.07
+
+Pose: X: 1127.53 Y: 1098.30 H: 0.03
+
+Pose: X: 1123.79 Y: 1098.23 H: 0.00
+
+Pose: X: 1119.90 Y: 1098.28 H: -0.03
+
+Pose: X: 1115.93 Y: 1098.46 H: -0.06
+
+Pose: X: 1112.05 Y: 1098.76 H: -0.09
+
+Pose: X: 1108.33 Y: 1099.17 H: -0.12
+
+Pose: X: 1104.78 Y: 1099.67 H: -0.15
+
+Pose: X: 1101.24 Y: 1100.27 H: -0.18
+
+Pose: X: 1097.65 Y: 1101.00 H: -0.21
+
+Pose: X: 1094.23 Y: 1101.80 H: -0.24
+
+Pose: X: 1090.76 Y: 1102.72 H: -0.27
+
+Pose: X: 1087.25 Y: 1103.77 H: -0.31
+
+Pose: X: 1083.91 Y: 1104.87 H: -0.34
+
+Pose: X: 1080.69 Y: 1106.05 H: -0.36
+
+Pose: X: 1077.49 Y: 1107.32 H: -0.39
+
+Pose: X: 1074.53 Y: 1108.55 H: -0.40
+
+Pose: X: 1071.70 Y: 1109.70 H: -0.37
+
+Pose: X: 1068.56 Y: 1110.88 H: -0.34
+
+Pose: X: 1065.67 Y: 1111.89 H: -0.33
+
+Pose: X: 1063.01 Y: 1112.83 H: -0.35
+
+Pose: X: 1060.01 Y: 1113.95 H: -0.37
+
+Pose: X: 1056.96 Y: 1115.18 H: -0.40
+
+Pose: X: 1054.29 Y: 1116.31 H: -0.40
+
+Pose: X: 1051.46 Y: 1117.47 H: -0.38
+
+NextMove: 1044.68, 1120.26 -> 1099.50, 1046.57
+Pose: X: 1044.68 Y: 1120.26 H: -0.40
+
+0.81
+Pose: X: 1041.70 Y: 1121.63 H: -0.46
+
+0.87
+Pose: X: 1040.96 Y: 1122.02 H: -0.52
+
+0.95
+Pose: X: 1040.63 Y: 1122.22 H: -0.60
+
+1.02
+Pose: X: 1040.63 Y: 1122.22 H: -0.67
+
+1.09
+Pose: X: 1040.69 Y: 1122.17 H: -0.74
+
+1.17
+Pose: X: 1040.86 Y: 1122.01 H: -0.82
+
+1.24
+Pose: X: 1041.01 Y: 1121.84 H: -0.89
+
+1.32
+Pose: X: 1041.10 Y: 1121.72 H: -0.97
+
+1.39
+Pose: X: 1041.10 Y: 1121.72 H: -1.04
+
+1.46
+Pose: X: 1041.13 Y: 1121.65 H: -1.12
+
+1.54
+Pose: X: 1041.16 Y: 1121.58 H: -1.19
+
+1.62
+Pose: X: 1041.19 Y: 1121.51 H: -1.27
+
+1.69
+Pose: X: 1041.17 Y: 1121.58 H: -1.35
+
+1.77
+Pose: X: 1041.17 Y: 1121.58 H: -1.42
+
+1.85
+Pose: X: 1041.17 Y: 1121.58 H: -1.50
+
+1.93
+Pose: X: 1041.17 Y: 1121.51 H: -1.58
+
+2.01
+Pose: X: 1041.17 Y: 1121.51 H: -1.66
+
+2.08
+Pose: X: 1041.18 Y: 1121.58 H: -1.74
+
+2.17
+Pose: X: 1041.17 Y: 1121.51 H: -1.82
+
+2.25
+Pose: X: 1041.21 Y: 1121.65 H: -1.90
+
+2.33
+Pose: X: 1041.18 Y: 1121.58 H: -1.99
+
+2.42
+Pose: X: 1041.15 Y: 1121.51 H: -2.07
+
+2.50
+Pose: X: 1041.15 Y: 1121.51 H: -2.16
+
+2.59
+Pose: X: 1041.10 Y: 1121.45 H: -2.24
+
+2.67
+Pose: X: 1041.05 Y: 1121.39 H: -2.32
+2.76
+Pose: X: 1041.00 Y: 1121.34 H: -2.41
+
+2.84
+Pose: X: 1040.82 Y: 1121.20 H: -2.49
+
+2.93
+Pose: X: 1040.70 Y: 1121.11 H: -2.59
+
+3.03
+Pose: X: 1040.63 Y: 1121.07 H: -2.68
+
+3.12
+Pose: X: 1040.42 Y: 1120.98 H: -2.77
+
+3.20
+Pose: X: 1040.35 Y: 1120.95 H: -2.85
+
+3.29
+Pose: X: 1040.20 Y: 1120.92 H: -2.95
+
+3.40
+Pose: X: 1040.12 Y: 1120.91 H: -3.05
+
+3.49
+Pose: X: 1039.97 Y: 1120.90 H: -3.14
+
+2.72
+Pose: X: 1039.82 Y: 1120.90 H: 3.06
+
+2.63
+Pose: X: 1039.67 Y: 1120.92 H: 2.98
+
+2.55
+Pose: X: 1039.67 Y: 1120.92 H: 2.89
+
+2.46
+Pose: X: 1039.59 Y: 1120.94 H: 2.80
+
+2.36
+Pose: X: 1039.66 Y: 1120.92 H: 2.71
+
+2.22
+Pose: X: 1039.46 Y: 1121.03 H: 2.57
+
+2.16
+Pose: X: 1039.46 Y: 1121.03 H: 2.51
+
+2.09
+Pose: X: 1039.28 Y: 1121.17 H: 2.43
+
+2.00
+Pose: X: 1039.17 Y: 1121.27 H: 2.35
+
+1.92
+Pose: X: 1038.92 Y: 1121.55 H: 2.27
+
+1.83
+Pose: X: 1038.82 Y: 1121.68 H: 2.18
+
+1.75
+Pose: X: 1038.70 Y: 1121.87 H: 2.09
+
+1.65
+Pose: X: 1038.63 Y: 1122.00 H: 2.00
+
+1.56
+Pose: X: 1038.60 Y: 1122.08 H: 1.90
+
+1.47
+Pose: X: 1038.58 Y: 1122.15 H: 1.82
+
+1.38
+Pose: X: 1038.56 Y: 1122.22 H: 1.73
+
+1.30
+Pose: X: 1038.55 Y: 1122.37 H: 1.65
+
+1.21
+Pose: X: 1038.54 Y: 1122.53 H: 1.56
+
+1.13
+Pose: X: 1038.55 Y: 1122.60 H: 1.48
+
+1.05
+Pose: X: 1038.56 Y: 1122.68 H: 1.40
+
+0.97
+Pose: X: 1038.57 Y: 1122.75 H: 1.32
+
+0.88
+Pose: X: 1038.59 Y: 1122.83 H: 1.23
+
+0.81
+Pose: X: 1038.62 Y: 1122.90 H: 1.15
+
+0.73
+Pose: X: 1038.66 Y: 1122.97 H: 1.08
+
+0.65
+Pose: X: 1038.69 Y: 1123.03 H: 1.00
+
+0.57
+Pose: X: 1038.78 Y: 1123.16 H: 0.91
+
+0.48
+Pose: X: 1038.93 Y: 1123.33 H: 0.83
+
+0.41
+Pose: X: 1039.09 Y: 1123.50 H: 0.75
+
+0.33
+Pose: X: 1039.15 Y: 1123.55 H: 0.68
+
+0.25
+Pose: X: 1039.27 Y: 1123.64 H: 0.60
+
+0.18
+Pose: X: 1039.40 Y: 1123.72 H: 0.53
+
+0.10
+Pose: X: 1039.47 Y: 1123.75 H: 0.45
+
+0.03
+Pose: X: 1039.54 Y: 1123.78 H: 0.38
+
+Pose: X: 1039.68 Y: 1123.83 H: 0.27
+
+Pose: X: 1039.83 Y: 1123.87 H: 0.19
+
+Pose: X: 1039.91 Y: 1123.88 H: 0.12
+
+Pose: X: 1039.91 Y: 1123.88 H: 0.04
+
+Pose: X: 1040.06 Y: 1123.88 H: -0.03
+
+Pose: X: 1040.13 Y: 1123.87 H: -0.11
+
+Pose: X: 1040.21 Y: 1123.86 H: -0.19
+
+Pose: X: 1040.28 Y: 1123.85 H: -0.26
+
+Pose: X: 1040.28 Y: 1123.85 H: -0.34
+
+Pose: X: 1040.36 Y: 1123.82 H: -0.41
+
+Pose: X: 1040.42 Y: 1123.78 H: -0.49
+
+Pose: X: 1040.49 Y: 1123.75 H: -0.57
+
+Pose: X: 1040.62 Y: 1123.66 H: -0.64
+
+Pose: X: 1040.73 Y: 1123.56 H: -0.72
+
+Pose: X: 1040.90 Y: 1123.41 H: -0.79
+
+Pose: X: 1040.95 Y: 1123.35 H: -0.86
+
+Pose: X: 1040.95 Y: 1123.35 H: -0.90
+
+Pose: X: 1042.13 Y: 1121.85 H: -0.91
+
+Pose: X: 1044.25 Y: 1119.14 H: -0.91
+
+Pose: X: 1047.02 Y: 1115.59 H: -0.91
+
+Pose: X: 1050.09 Y: 1111.69 H: -0.91
+
+Pose: X: 1053.58 Y: 1107.25 H: -0.91
+
+Pose: X: 1056.93 Y: 1102.98 H: -0.90
+
+Pose: X: 1060.47 Y: 1098.48 H: -0.90
+
+Pose: X: 1063.98 Y: 1094.05 H: -0.90
+
+Pose: X: 1067.48 Y: 1089.62 H: -0.90
+
+Pose: X: 1070.95 Y: 1085.26 H: -0.90
+
+Pose: X: 1074.47 Y: 1080.84 H: -0.90
+
+Pose: X: 1078.00 Y: 1076.42 H: -0.90
+
+Pose: X: 1081.52 Y: 1072.01 H: -0.90
+
+Pose: X: 1085.11 Y: 1067.54 H: -0.89
+
+NextMove: 1088.69, 1063.07 -> 1291.93, 1030.42
+Pose: X: 1088.69 Y: 1063.07 H: -0.89
+
+Pose: X: 1092.07 Y: 1059.03 H: -0.86
+
+Pose: X: 1093.26 Y: 1057.73 H: -0.80
+
+Pose: X: 1093.81 Y: 1057.21 H: -0.72
+
+Pose: X: 1093.81 Y: 1057.21 H: -0.65
+
+Pose: X: 1093.75 Y: 1057.25 H: -0.57
+
+Pose: X: 1093.55 Y: 1057.37 H: -0.49
+
+Pose: X: 1093.34 Y: 1057.47 H: -0.41
+
+Pose: X: 1093.13 Y: 1057.55 H: -0.33
+
+Pose: X: 1093.06 Y: 1057.57 H: -0.25
+
+Pose: X: 1092.91 Y: 1057.61 H: -0.19
+
+Pose: X: 1092.91 Y: 1057.61 H: -0.15
+
+Pose: X: 1094.19 Y: 1057.42 H: -0.15
+
+Pose: X: 1097.36 Y: 1056.94 H: -0.15
+
+Pose: X: 1101.74 Y: 1056.27 H: -0.15
+
+Pose: X: 1106.64 Y: 1055.51 H: -0.16
+
+Pose: X: 1111.92 Y: 1054.67 H: -0.16
+
+Pose: X: 1117.43 Y: 1053.79 H: -0.16
+
+Pose: X: 1122.86 Y: 1052.93 H: -0.16
+
+Pose: X: 1128.29 Y: 1052.06 H: -0.16
+
+Pose: X: 1133.56 Y: 1051.21 H: -0.16
+
+Pose: X: 1139.29 Y: 1050.30 H: -0.16
+
+Pose: X: 1145.02 Y: 1049.38 H: -0.16
+
+Pose: X: 1150.60 Y: 1048.49 H: -0.16
+
+Pose: X: 1156.41 Y: 1047.55 H: -0.16
+
+Pose: X: 1162.36 Y: 1046.59 H: -0.16
+
+Pose: X: 1168.09 Y: 1045.66 H: -0.16
+
+Pose: X: 1173.75 Y: 1044.75 H: -0.16
+
+Pose: X: 1179.85 Y: 1043.77 H: -0.16
+
+Pose: X: 1185.51 Y: 1042.86 H: -0.16
+
+Pose: X: 1191.24 Y: 1041.94 H: -0.16
+
+Pose: X: 1197.34 Y: 1040.95 H: -0.16
+
+Pose: X: 1203.53 Y: 1039.97 H: -0.16
+
+Pose: X: 1209.86 Y: 1038.96 H: -0.16
+
+Pose: X: 1216.20 Y: 1037.96 H: -0.16
+
+Pose: X: 1222.23 Y: 1037.01 H: -0.16
+
+Pose: X: 1228.11 Y: 1036.08 H: -0.16
+
+Pose: X: 1234.68 Y: 1035.04 H: -0.16
+
+Pose: X: 1241.01 Y: 1034.04 H: -0.16
+
+Pose: X: 1247.12 Y: 1033.08 H: -0.15
+
+Pose: X: 1253.53 Y: 1032.08 H: -0.16
+
+Pose: X: 1260.10 Y: 1031.05 H: -0.16
+
+Pose: X: 1266.21 Y: 1030.08 H: -0.16
+
+Pose: X: 1271.94 Y: 1029.19 H: -0.15
+
+NextMove: 1275.95, 1028.63 -> 1428.18, 1101.47
+Pose: X: 1275.95 Y: 1028.63 H: -0.12
+
+Pose: X: 1279.30 Y: 1028.36 H: -0.04
+
+Pose: X: 1280.21 Y: 1028.36 H: 0.04
+
+Pose: X: 1280.21 Y: 1028.36 H: 0.13
+
+Pose: X: 1280.21 Y: 1028.36 H: 0.22
+
+Pose: X: 1280.07 Y: 1028.32 H: 0.31
+
+Pose: X: 1279.92 Y: 1028.27 H: 0.39
+
+Pose: X: 1279.78 Y: 1028.21 H: 0.44
+
+Pose: X: 1281.37 Y: 1028.96 H: 0.44
+
+Pose: X: 1284.82 Y: 1030.59 H: 0.44
+
+Pose: X: 1289.73 Y: 1032.89 H: 0.44
+
+Pose: X: 1294.51 Y: 1035.10 H: 0.43
+
+Pose: X: 1299.79 Y: 1037.52 H: 0.43
+
+Pose: X: 1305.62 Y: 1040.19 H: 0.43
+
+Pose: X: 1311.32 Y: 1042.78 H: 0.43
+
+Pose: X: 1317.03 Y: 1045.36 H: 0.42
+
+Pose: X: 1322.67 Y: 1047.89 H: 0.42
+
+Pose: X: 1328.32 Y: 1050.41 H: 0.42
+
+Pose: X: 1333.69 Y: 1052.80 H: 0.42
+
+Pose: X: 1339.34 Y: 1055.31 H: 0.42
+
+Pose: X: 1345.00 Y: 1057.81 H: 0.42
+
+Pose: X: 1352.76 Y: 1061.22 H: 0.41
+
+Pose: X: 1356.19 Y: 1062.72 H: 0.41
+
+Pose: X: 1361.02 Y: 1064.83 H: 0.41
+
+Pose: X: 1366.48 Y: 1067.20 H: 0.41
+
+Pose: X: 1372.08 Y: 1069.64 H: 0.41
+
+Pose: X: 1377.75 Y: 1072.11 H: 0.41
+
+Pose: X: 1383.77 Y: 1074.74 H: 0.41
+
+Pose: X: 1390.06 Y: 1077.50 H: 0.41
+
+Pose: X: 1396.49 Y: 1080.33 H: 0.42
+
+Pose: X: 1403.62 Y: 1083.48 H: 0.42
+
+Pose: X: 1410.16 Y: 1086.42 H: 0.43
+
+Pose: X: 1414.70 Y: 1088.61 H: 0.47
+
+Pose: X: 1417.37 Y: 1090.09 H: 0.53
+
+NextMove: 1418.85, 1091.04 -> 1500.21, 1269.40
+Pose: X: 1418.85 Y: 1091.04 H: 0.61
+
+Pose: X: 1419.76 Y: 1091.74 H: 0.71
+
+Pose: X: 1419.92 Y: 1091.90 H: 0.80
+
+Pose: X: 1419.87 Y: 1091.84 H: 0.88
+
+Pose: X: 1418.92 Y: 1090.55 H: 0.98
+
+Pose: X: 1417.33 Y: 1088.21 H: 0.97
+
+Pose: X: 1415.38 Y: 1085.48 H: 0.94
+
+Pose: X: 1412.98 Y: 1082.31 H: 0.91
+
+Pose: X: 1410.57 Y: 1079.35 H: 0.87
+
+Pose: X: 1408.18 Y: 1076.58 H: 0.84
+
+Pose: X: 1405.69 Y: 1073.88 H: 0.81
+
+Pose: X: 1403.12 Y: 1071.27 H: 0.78
+
+Pose: X: 1400.59 Y: 1068.84 H: 0.75
+
+Pose: X: 1398.04 Y: 1066.54 H: 0.72
+
+Pose: X: 1395.36 Y: 1064.26 H: 0.69
+
+Pose: X: 1392.68 Y: 1062.11 H: 0.66
+
+Pose: X: 1390.00 Y: 1060.08 H: 0.63
+
+Pose: X: 1387.14 Y: 1058.05 H: 0.60
+
+Pose: X: 1384.28 Y: 1056.14 H: 0.58
+
+Pose: X: 1381.44 Y: 1054.36 H: 0.55
+
+Pose: X: 1378.69 Y: 1052.70 H: 0.54
+
+Pose: X: 1376.14 Y: 1051.15 H: 0.56
+
+Pose: X: 1373.49 Y: 1049.49 H: 0.56
+
+Pose: X: 1371.15 Y: 1048.05 H: 0.54
+
+Pose: X: 1368.32 Y: 1046.38 H: 0.52
+
+Pose: X: 1365.51 Y: 1044.83 H: 0.49
+
+Pose: X: 1362.88 Y: 1043.44 H: 0.49
+
+Pose: X: 1360.20 Y: 1041.98 H: 0.51
+
+Pose: X: 1357.47 Y: 1040.45 H: 0.51
+
+Pose: X: 1355.00 Y: 1039.08 H: 0.49
+
+Pose: X: 1352.09 Y: 1037.56 H: 0.47
+
+Pose: X: 1349.14 Y: 1036.12 H: 0.44
+
+Pose: X: 1346.23 Y: 1034.77 H: 0.43
+
+Pose: X: 1343.61 Y: 1033.52 H: 0.45
+
+Pose: X: 1340.66 Y: 1032.08 H: 0.45
+
+Pose: X: 1338.04 Y: 1030.84 H: 0.43
+
+Pose: X: 1335.04 Y: 1029.50 H: 0.41
+
+Pose: X: 1332.16 Y: 1028.28 H: 0.40
+
+Pose: X: 1329.63 Y: 1027.19 H: 0.42
+
+NextMove: 1322.68, 1024.22 -> 1448.45, 1121.18
+Pose: X: 1322.68 Y: 1024.22 H: 0.39
+
+0.50
+Pose: X: 1319.57 Y: 1022.95 H: 0.38
+
+0.49
+Pose: X: 1318.93 Y: 1022.69 H: 0.39
+
+0.54
+Pose: X: 1318.15 Y: 1022.39 H: 0.35
+
+0.61
+Pose: X: 1318.37 Y: 1022.46 H: 0.28
+
+0.68
+Pose: X: 1318.37 Y: 1022.46 H: 0.20
+
+0.76
+Pose: X: 1318.44 Y: 1022.47 H: 0.12
+
+0.84
+Pose: X: 1318.59 Y: 1022.49 H: 0.04
+
+0.92
+Pose: X: 1318.75 Y: 1022.49 H: -0.04
+
+1.00
+Pose: X: 1319.05 Y: 1022.46 H: -0.12
+
+1.09
+Pose: X: 1319.28 Y: 1022.43 H: -0.20
+
+1.16
+Pose: X: 1319.57 Y: 1022.35 H: -0.27
+
+1.23
+Pose: X: 1319.87 Y: 1022.26 H: -0.34
+
+1.30
+Pose: X: 1320.08 Y: 1022.18 H: -0.41
+
+1.37
+Pose: X: 1320.49 Y: 1021.98 H: -0.49
+
+1.45
+Pose: X: 1320.82 Y: 1021.79 H: -0.56
+
+1.52
+Pose: X: 1321.07 Y: 1021.61 H: -0.64
+
+1.60
+Pose: X: 1321.31 Y: 1021.42 H: -0.71
+
+1.67
+Pose: X: 1321.48 Y: 1021.27 H: -0.79
+
+1.75
+Pose: X: 1321.63 Y: 1021.10 H: -0.86
+
+1.83
+Pose: X: 1321.82 Y: 1020.86 H: -0.94
+
+1.91
+Pose: X: 1321.99 Y: 1020.60 H: -1.02
+
+1.98
+Pose: X: 1322.14 Y: 1020.34 H: -1.10
+
+2.06
+Pose: X: 1322.24 Y: 1020.13 H: -1.17
+
+2.13
+Pose: X: 1322.35 Y: 1019.84 H: -1.24
+
+2.20
+Pose: X: 1322.39 Y: 1019.70 H: -1.32
+
+2.28
+Pose: X: 1322.44 Y: 1019.47 H: -1.39
+
+2.35
+Pose: X: 1322.46 Y: 1019.32 H: -1.47
+
+2.43
+Pose: X: 1322.47 Y: 1019.17 H: -1.55
+
+2.51
+Pose: X: 1322.47 Y: 1019.02 H: -1.63
+
+2.59
+Pose: X: 1322.45 Y: 1018.87 H: -1.71
+
+2.67
+Pose: X: 1322.41 Y: 1018.64 H: -1.79
+
+2.75
+Pose: X: 1322.35 Y: 1018.42 H: -1.86
+
+2.82
+Pose: X: 1322.33 Y: 1018.35 H: -1.94
+
+2.90
+Pose: X: 1322.24 Y: 1018.14 H: -2.01
+
+2.98
+Pose: X: 1322.17 Y: 1018.00 H: -2.09
+
+3.05
+Pose: X: 1322.13 Y: 1017.94 H: -2.17
+
+3.13
+Pose: X: 1322.08 Y: 1017.87 H: -2.25
+
+3.21
+Pose: X: 1321.98 Y: 1017.76 H: -2.33
+
+3.29
+Pose: X: 1321.93 Y: 1017.71 H: -2.41
+
+3.37
+Pose: X: 1321.87 Y: 1017.66 H: -2.48
+
+3.45
+Pose: X: 1321.81 Y: 1017.61 H: -2.56
+
+3.53
+Pose: X: 1321.74 Y: 1017.57 H: -2.65
+
+3.61
+Pose: X: 1321.67 Y: 1017.54 H: -2.73
+
+3.69
+Pose: X: 1321.67 Y: 1017.54 H: -2.80
+
+3.76
+Pose: X: 1321.60 Y: 1017.52 H: -2.88
+
+3.84
+Pose: X: 1321.45 Y: 1017.48 H: -2.95
+
+3.91
+Pose: X: 1321.45 Y: 1017.48 H: -3.03
+
+3.99
+Pose: X: 1321.45 Y: 1017.48 H: -3.10
+
+2.22
+Pose: X: 1321.30 Y: 1017.48 H: 3.11
+
+2.15
+Pose: X: 1321.22 Y: 1017.49 H: 3.03
+
+2.08
+Pose: X: 1321.07 Y: 1017.51 H: 2.96
+
+2.00
+Pose: X: 1321.00 Y: 1017.53 H: 2.89
+
+1.93
+Pose: X: 1320.92 Y: 1017.55 H: 2.82
+
+1.86
+Pose: X: 1320.92 Y: 1017.55 H: 2.74
+
+1.79
+Pose: X: 1320.85 Y: 1017.58 H: 2.67
+
+1.72
+Pose: X: 1320.79 Y: 1017.62 H: 2.60
+
+1.65
+Pose: X: 1320.85 Y: 1017.58 H: 2.53
+
+1.58
+Pose: X: 1320.79 Y: 1017.62 H: 2.46
+
+1.50
+Pose: X: 1320.73 Y: 1017.67 H: 2.39
+
+1.43
+Pose: X: 1320.62 Y: 1017.78 H: 2.31
+
+1.35
+Pose: X: 1320.53 Y: 1017.90 H: 2.24
+
+1.28
+Pose: X: 1320.48 Y: 1017.96 H: 2.16
+
+1.21
+Pose: X: 1320.48 Y: 1017.96 H: 2.09
+
+1.13
+Pose: X: 1320.48 Y: 1017.96 H: 2.02
+
+1.06
+Pose: X: 1320.48 Y: 1017.96 H: 1.94
+
+0.99
+Pose: X: 1320.43 Y: 1018.10 H: 1.87
+
+0.92
+Pose: X: 1320.39 Y: 1018.25 H: 1.80
+
+0.84
+Pose: X: 1320.38 Y: 1018.33 H: 1.73
+
+0.77
+Pose: X: 1320.36 Y: 1018.48 H: 1.65
+
+0.69
+Pose: X: 1320.35 Y: 1018.55 H: 1.57
+
+0.61
+Pose: X: 1320.36 Y: 1018.63 H: 1.50
+
+0.53
+Pose: X: 1320.37 Y: 1018.78 H: 1.42
+
+0.46
+Pose: X: 1320.39 Y: 1018.86 H: 1.34
+
+0.38
+Pose: X: 1320.43 Y: 1019.00 H: 1.26
+
+0.31
+Pose: X: 1320.48 Y: 1019.15 H: 1.19
+
+0.23
+Pose: X: 1320.57 Y: 1019.36 H: 1.12
+
+0.12
+Pose: X: 1320.68 Y: 1019.56 H: 1.00
+
+0.07
+Pose: X: 1320.68 Y: 1019.56 H: 0.95
+
+0.00
+Pose: X: 1320.68 Y: 1019.56 H: 0.89
+
+Pose: X: 1320.79 Y: 1019.67 H: 0.78
+
+Pose: X: 1320.90 Y: 1019.77 H: 0.71
+
+Pose: X: 1322.78 Y: 1021.33 H: 0.67
+
+Pose: X: 1325.64 Y: 1023.62 H: 0.67
+
+Pose: X: 1329.46 Y: 1026.67 H: 0.67
+
+Pose: X: 1333.64 Y: 1030.01 H: 0.67
+
+Pose: X: 1338.00 Y: 1033.48 H: 0.67
+
+Pose: X: 1342.48 Y: 1037.04 H: 0.67
+
+Pose: X: 1346.91 Y: 1040.55 H: 0.67
+
+Pose: X: 1351.42 Y: 1044.09 H: 0.67
+
+Pose: X: 1355.86 Y: 1047.57 H: 0.66
+
+Pose: X: 1360.32 Y: 1051.04 H: 0.66
+
+Pose: X: 1364.84 Y: 1054.56 H: 0.66
+
+Pose: X: 1369.37 Y: 1058.06 H: 0.66
+
+Pose: X: 1373.90 Y: 1061.57 H: 0.66
+
+Pose: X: 1378.42 Y: 1065.08 H: 0.66
+
+Pose: X: 1383.01 Y: 1068.63 H: 0.66
+
+Pose: X: 1387.60 Y: 1072.19 H: 0.66
+
+Pose: X: 1392.37 Y: 1075.88 H: 0.66
+
+Pose: X: 1397.51 Y: 1079.84 H: 0.66
+
+Pose: X: 1402.96 Y: 1084.02 H: 0.65
+
+Pose: X: 1408.07 Y: 1087.91 H: 0.65
+
+Pose: X: 1412.99 Y: 1091.65 H: 0.65
+
+Pose: X: 1418.05 Y: 1095.48 H: 0.65
+
+Pose: X: 1422.80 Y: 1099.06 H: 0.64
+
+Pose: X: 1427.51 Y: 1102.58 H: 0.64
+
+Pose: X: 1432.41 Y: 1106.22 H: 0.64
+
+NextMove: 1436.76, 1109.46 -> 1495.92, 1089.98
+Pose: X: 1436.76 Y: 1109.46 H: 0.64
+
+Pose: X: 1440.41 Y: 1112.11 H: 0.61
+
+Pose: X: 1441.74 Y: 1113.00 H: 0.56
+
+Pose: X: 1442.54 Y: 1113.45 H: 0.48
+
+Pose: X: 1443.09 Y: 1113.71 H: 0.40
+
+Pose: X: 1443.23 Y: 1113.77 H: 0.32
+
+Pose: X: 1443.45 Y: 1113.83 H: 0.23
+
+Pose: X: 1443.53 Y: 1113.84 H: 0.15
+
+Pose: X: 1443.68 Y: 1113.86 H: 0.06
+
+Pose: X: 1443.76 Y: 1113.86 H: -0.02
+
+Pose: X: 1443.99 Y: 1113.85 H: -0.11
+
+Pose: X: 1444.06 Y: 1113.83 H: -0.19
+
+Pose: X: 1444.28 Y: 1113.78 H: -0.27
+
+Pose: X: 1444.43 Y: 1113.74 H: -0.34
+
+Pose: X: 1444.43 Y: 1113.74 H: -0.40
+
+Pose: X: 1446.46 Y: 1112.86 H: -0.42
+
+Pose: X: 1449.89 Y: 1111.35 H: -0.41
+
+Pose: X: 1454.44 Y: 1109.36 H: -0.41
+
+Pose: X: 1459.55 Y: 1107.14 H: -0.41
+
+Pose: X: 1464.94 Y: 1104.81 H: -0.41
+
+Pose: X: 1470.34 Y: 1102.48 H: -0.41
+
+Pose: X: 1475.88 Y: 1100.09 H: -0.41
+
+NextMove: 1481.28, 1097.77 -> 1617.18, 1099.16
+Pose: X: 1481.28 Y: 1097.77 H: -0.41
+
+Pose: X: 1486.51 Y: 1095.61 H: -0.38
+
+Pose: X: 1488.09 Y: 1095.05 H: -0.31
+
+Pose: X: 1488.90 Y: 1094.82 H: -0.24
+
+Pose: X: 1489.05 Y: 1094.79 H: -0.16
+
+Pose: X: 1488.82 Y: 1094.82 H: -0.09
+
+Pose: X: 1488.67 Y: 1094.83 H: -0.02
+
+Pose: X: 1488.59 Y: 1094.83 H: 0.01
+
+Pose: X: 1490.35 Y: 1094.86 H: 0.02
+
+Pose: X: 1494.32 Y: 1094.91 H: 0.01
+
+Pose: X: 1499.66 Y: 1094.95 H: 0.01
+
+Pose: X: 1505.16 Y: 1094.97 H: 0.00
+
+Pose: X: 1511.19 Y: 1094.98 H: 0.00
+
+Pose: X: 1517.22 Y: 1094.99 H: 0.00
+
+Pose: X: 1523.41 Y: 1095.00 H: -0.00
+
+Pose: X: 1529.29 Y: 1094.99 H: -0.00
+
+Pose: X: 1535.17 Y: 1094.98 H: -0.00
+
+Pose: X: 1540.90 Y: 1094.97 H: -0.00
+
+Pose: X: 1546.55 Y: 1094.96 H: -0.00
+
+Pose: X: 1552.20 Y: 1094.94 H: -0.00
+
+Pose: X: 1557.77 Y: 1094.92 H: -0.00
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1563.42 Y: 1094.89 H: -0.01
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1570.60 Y: 1094.84 H: -0.01
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.23 Y: 1094.78 H: -0.01
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1587.63 Y: 1094.69 H: -0.01
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1595.79 Y: 1094.55 H: -0.02
+
+NextMove: 1601.44, 1094.56 -> 1629.62, 938.70
+Warning: detected obstacle out of bounds.
+Pose: X: 1601.44 Y: 1094.56 H: 0.02
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1606.10 Y: 1094.64 H: 0.01
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1606.71 Y: 1094.62 H: -0.10
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1606.79 Y: 1094.60 H: -0.21
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1606.79 Y: 1094.60 H: -0.39
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1606.25 Y: 1094.89 H: -0.58
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1606.49 Y: 1094.70 H: -0.77
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1606.69 Y: 1094.47 H: -0.89
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1606.87 Y: 1094.22 H: -1.01
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1607.02 Y: 1093.96 H: -1.12
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1607.08 Y: 1093.82 H: -1.23
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1607.14 Y: 1093.60 H: -1.35
+
+Pose: X: 1607.14 Y: 1093.60 H: -1.42
+
+Pose: X: 1607.44 Y: 1091.48 H: -1.43
+
+Pose: X: 1607.98 Y: 1087.70 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1608.77 Y: 1082.26 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1609.63 Y: 1076.37 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1610.77 Y: 1068.51 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1611.90 Y: 1060.57 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1613.11 Y: 1052.26 H: -1.42
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1614.32 Y: 1044.02 H: -1.42
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1615.58 Y: 1035.49 H: -1.42
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1616.82 Y: 1027.03 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1618.01 Y: 1018.71 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1619.28 Y: 1009.87 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1620.56 Y: 1001.03 H: -1.43
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1621.82 Y: 992.49 H: -1.42
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1623.08 Y: 984.26 H: -1.41
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1624.45 Y: 975.82 H: -1.41
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1626.40 Y: 964.30 H: -1.40
+
+NextMove: 1627.47, 958.21 -> 1652.10, 873.78
+Warning: detected obstacle out of bounds.
+Pose: X: 1627.47 Y: 958.21 H: -1.39
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1628.77 Y: 952.01 H: -1.33
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1628.79 Y: 951.93 H: -1.29
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1629.35 Y: 950.03 H: -1.28
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1630.58 Y: 945.94 H: -1.28
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1632.69 Y: 939.07 H: -1.27
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1635.20 Y: 930.98 H: -1.27
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1637.63 Y: 923.18 H: -1.27
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1639.99 Y: 915.68 H: -1.27
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1642.37 Y: 908.10 H: -1.27
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1645.97 Y: 896.59 H: -1.27
+
+NextMove: 1649.78, 884.50 -> 1624.20, 795.64
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1649.78 Y: 884.50 H: -1.26
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1651.85 Y: 876.44 H: -1.38
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1651.84 Y: 876.51 H: -1.54
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1651.85 Y: 876.74 H: -1.64
+
+Pose: X: 1651.88 Y: 877.05 H: -1.75
+
+Pose: X: 1651.95 Y: 877.34 H: -1.84
+
+Pose: X: 1651.95 Y: 877.34 H: -1.89
+
+Pose: X: 1651.03 Y: 874.59 H: -1.90
+
+Pose: X: 1649.69 Y: 870.61 H: -1.89
+
+Pose: X: 1647.62 Y: 864.38 H: -1.89
+
+Pose: X: 1645.70 Y: 858.50 H: -1.88
+
+Pose: X: 1643.73 Y: 852.40 H: -1.88
+
+Pose: X: 1641.85 Y: 846.51 H: -1.88
+
+Pose: X: 1639.96 Y: 840.54 H: -1.88
+
+Pose: X: 1638.13 Y: 834.71 H: -1.87
+
+Pose: X: 1636.40 Y: 829.17 H: -1.87
+
+Pose: X: 1634.48 Y: 822.97 H: -1.87
+
+Pose: X: 1632.58 Y: 816.76 H: -1.87
+
+NextMove: 1630.86, 811.14 -> 1588.58, 731.69
+Pose: X: 1630.86 Y: 811.14 H: -1.87
+
+Pose: X: 1629.18 Y: 805.98 H: -1.90
+
+Pose: X: 1628.48 Y: 804.13 H: -1.97
+
+Pose: X: 1628.19 Y: 803.51 H: -2.04
+
+Pose: X: 1626.94 Y: 801.14 H: -2.08
+
+Pose: X: 1624.77 Y: 797.20 H: -2.08
+
+Pose: X: 1621.96 Y: 792.12 H: -2.08
+
+Pose: X: 1618.88 Y: 786.58 H: -2.08
+
+Pose: X: 1615.62 Y: 780.70 H: -2.08
+
+Pose: X: 1612.64 Y: 775.37 H: -2.08
+
+Pose: X: 1609.67 Y: 770.03 H: -2.08
+
+Pose: X: 1606.69 Y: 764.70 H: -2.08
+
+Pose: X: 1603.32 Y: 758.71 H: -2.08
+
+Pose: X: 1599.94 Y: 752.73 H: -2.09
+
+NextMove: 1596.52, 746.68 -> 1610.32, 601.03
+Pose: X: 1596.52 Y: 746.68 H: -2.09
+
+Pose: X: 1593.64 Y: 741.38 H: -2.05
+
+Pose: X: 1592.94 Y: 739.85 H: -1.96
+
+Pose: X: 1592.70 Y: 739.21 H: -1.87
+
+Pose: X: 1592.74 Y: 739.35 H: -1.79
+
+Pose: X: 1592.74 Y: 739.35 H: -1.69
+
+Pose: X: 1592.76 Y: 739.58 H: -1.60
+
+Pose: X: 1592.76 Y: 739.66 H: -1.51
+
+Pose: X: 1592.76 Y: 739.66 H: -1.46
+
+Pose: X: 1593.03 Y: 737.38 H: -1.45
+
+Pose: X: 1593.49 Y: 733.52 H: -1.45
+
+Pose: X: 1594.14 Y: 728.06 H: -1.45
+
+Pose: X: 1594.80 Y: 722.45 H: -1.46
+
+Pose: X: 1595.49 Y: 716.38 H: -1.46
+
+Pose: X: 1596.24 Y: 709.70 H: -1.46
+
+Pose: X: 1596.91 Y: 703.63 H: -1.46
+
+Pose: X: 1597.58 Y: 697.40 H: -1.46
+
+Pose: X: 1598.20 Y: 691.56 H: -1.47
+
+Pose: X: 1598.83 Y: 685.56 H: -1.47
+
+Pose: X: 1599.49 Y: 679.25 H: -1.47
+
+Pose: X: 1600.07 Y: 673.63 H: -1.47
+
+Pose: X: 1600.66 Y: 668.01 H: -1.47
+
+Pose: X: 1601.28 Y: 662.01 H: -1.47
+
+Pose: X: 1601.92 Y: 655.71 H: -1.47
+
+Pose: X: 1602.54 Y: 649.55 H: -1.47
+
+Pose: X: 1603.18 Y: 643.09 H: -1.47
+
+Pose: X: 1603.78 Y: 636.86 H: -1.48
+
+Pose: X: 1604.36 Y: 630.63 H: -1.48
+
+Pose: X: 1604.92 Y: 624.62 H: -1.48
+
+NextMove: 1605.45, 618.92 -> 1590.29, 521.15
+Pose: X: 1605.45 Y: 618.92 H: -1.48
+
+Pose: X: 1605.91 Y: 613.59 H: -1.49
+
+Pose: X: 1605.98 Y: 611.92 H: -1.56
+
+Pose: X: 1605.95 Y: 611.00 H: -1.64
+
+Pose: X: 1605.92 Y: 610.70 H: -1.71
+
+Pose: X: 1605.63 Y: 608.81 H: -1.74
+
+Pose: X: 1604.87 Y: 604.37 H: -1.74
+
+Pose: X: 1603.88 Y: 598.65 H: -1.74
+
+Pose: X: 1602.71 Y: 591.96 H: -1.74
+
+Pose: X: 1601.56 Y: 585.34 H: -1.74
+
+Pose: X: 1600.40 Y: 578.64 H: -1.74
+
+Pose: X: 1599.21 Y: 571.87 H: -1.75
+
+Pose: X: 1597.98 Y: 565.11 H: -1.75
+
+Pose: X: 1596.83 Y: 558.88 H: -1.75
+
+Pose: X: 1595.63 Y: 552.42 H: -1.76
+
+Pose: X: 1594.38 Y: 545.82 H: -1.76
+
+NextMove: 1593.16, 539.52 -> 1498.70, 500.23
+Pose: X: 1593.16 Y: 539.52 H: -1.76
+
+Pose: X: 1592.05 Y: 534.37 H: -1.80
+
+Pose: X: 1591.59 Y: 532.76 H: -1.88
+
+Pose: X: 1591.27 Y: 531.90 H: -1.97
+
+Pose: X: 1591.14 Y: 531.62 H: -2.06
+
+Pose: X: 1590.99 Y: 531.36 H: -2.15
+
+Pose: X: 1590.85 Y: 531.17 H: -2.24
+
+Pose: X: 1590.75 Y: 531.06 H: -2.34
+
+Pose: X: 1590.64 Y: 530.96 H: -2.44
+
+Pose: X: 1590.64 Y: 530.96 H: -2.53
+
+Pose: X: 1590.64 Y: 530.96 H: -2.62
+
+Pose: X: 1590.44 Y: 530.85 H: -2.70
+
+Pose: X: 1590.51 Y: 530.88 H: -2.78
+
+Pose: X: 1585.84 Y: 529.20 H: -2.82
+
+Pose: X: 1582.00 Y: 527.90 H: -2.81
+
+Pose: X: 1577.23 Y: 526.28 H: -2.81
+
+Pose: X: 1571.73 Y: 524.42 H: -2.82
+
+Pose: X: 1566.38 Y: 522.62 H: -2.82
+
+Pose: X: 1561.31 Y: 520.92 H: -2.82
+
+Pose: X: 1556.17 Y: 519.20 H: -2.82
+
+Pose: X: 1550.88 Y: 517.44 H: -2.82
+
+Pose: X: 1545.30 Y: 515.59 H: -2.82
+
+Pose: X: 1539.43 Y: 513.65 H: -2.82
+
+Pose: X: 1533.48 Y: 511.68 H: -2.82
+
+Pose: X: 1527.25 Y: 509.63 H: -2.82
+
+Pose: X: 1528.84 Y: 510.17 H: -2.81
+
+Pose: X: 1531.35 Y: 511.08 H: -2.78
+
+Pose: X: 1535.04 Y: 512.53 H: -2.75
+
+Pose: X: 1538.62 Y: 514.07 H: -2.72
+
+Pose: X: 1542.55 Y: 515.93 H: -2.68
+
+Pose: X: 1546.08 Y: 517.76 H: -2.64
+
+Pose: X: 1549.67 Y: 519.79 H: -2.61
+
+Pose: X: 1553.17 Y: 521.96 H: -2.57
+
+Pose: X: 1556.35 Y: 524.08 H: -2.54
+
+Pose: X: 1559.45 Y: 526.31 H: -2.50
+
+Pose: X: 1562.35 Y: 528.55 H: -2.46
+
+Pose: X: 1565.46 Y: 531.14 H: -2.43
+
+Pose: X: 1568.30 Y: 533.69 H: -2.39
+
+Pose: X: 1571.05 Y: 536.33 H: -2.36
+
+Pose: X: 1573.55 Y: 538.91 H: -2.32
+
+Pose: X: 1576.01 Y: 541.63 H: -2.29
+
+Pose: X: 1578.47 Y: 544.54 H: -2.25
+
+Pose: X: 1580.73 Y: 547.43 H: -2.22
+
+Pose: X: 1582.89 Y: 550.39 H: -2.18
+
+Pose: X: 1584.85 Y: 553.31 H: -2.15
+
+Pose: X: 1586.71 Y: 556.28 H: -2.11
+
+Pose: X: 1588.47 Y: 559.32 H: -2.08
+
+Pose: X: 1590.12 Y: 562.42 H: -2.04
+
+Pose: X: 1591.72 Y: 565.72 H: -2.00
+
+Pose: X: 1593.23 Y: 569.15 H: -1.96
+
+Pose: X: 1594.59 Y: 572.63 H: -1.93
+
+Pose: X: 1595.78 Y: 576.02 H: -1.89
+
+Pose: X: 1596.80 Y: 579.30 H: -1.86
+
+Pose: X: 1597.68 Y: 582.46 H: -1.83
+
+Pose: X: 1598.48 Y: 585.72 H: -1.80
+
+Pose: X: 1599.17 Y: 589.01 H: -1.76
+
+Pose: X: 1599.76 Y: 592.32 H: -1.73
+
+NextMove: 1600.74, 600.58 -> 1613.98, 497.67
+Pose: X: 1600.74 Y: 600.58 H: -1.65
+
+1.23
+Pose: X: 1600.90 Y: 603.86 H: -1.59
+
+1.24
+Pose: X: 1600.91 Y: 604.32 H: -1.58
+
+1.20
+Pose: X: 1600.94 Y: 605.23 H: -1.63
+
+1.13
+Pose: X: 1600.92 Y: 605.01 H: -1.69
+
+1.05
+Pose: X: 1600.90 Y: 604.86 H: -1.77
+
+0.97
+Pose: X: 1600.90 Y: 604.86 H: -1.85
+
+0.89
+Pose: X: 1600.95 Y: 605.00 H: -1.93
+
+0.82
+Pose: X: 1601.01 Y: 605.14 H: -2.00
+
+0.75
+Pose: X: 1601.07 Y: 605.28 H: -2.07
+
+0.68
+Pose: X: 1601.07 Y: 605.28 H: -2.14
+
+0.61
+Pose: X: 1601.07 Y: 605.28 H: -2.22
+
+0.53
+Pose: X: 1601.03 Y: 605.22 H: -2.29
+
+0.45
+Pose: X: 1601.03 Y: 605.22 H: -2.37
+
+0.37
+Pose: X: 1601.08 Y: 605.27 H: -2.45
+
+0.29
+Pose: X: 1601.02 Y: 605.22 H: -2.53
+
+0.21
+Pose: X: 1601.02 Y: 605.22 H: -2.61
+
+0.14
+Pose: X: 1600.89 Y: 605.15 H: -2.69
+
+0.06
+Pose: X: 1600.75 Y: 605.09 H: -2.76
+
+0.02
+Pose: X: 1600.68 Y: 605.06 H: -2.84
+
+Pose: X: 1600.38 Y: 604.99 H: -2.95
+
+Pose: X: 1600.23 Y: 604.96 H: -2.95
+
+Pose: X: 1600.30 Y: 604.98 H: -2.90
+
+Pose: X: 1600.60 Y: 605.06 H: -2.83
+
+Pose: X: 1600.60 Y: 605.06 H: -2.75
+
+Pose: X: 1600.60 Y: 605.06 H: -2.68
+
+Pose: X: 1600.60 Y: 605.06 H: -2.60
+
+Pose: X: 1600.66 Y: 605.10 H: -2.52
+
+Pose: X: 1600.78 Y: 605.19 H: -2.44
+
+Pose: X: 1600.84 Y: 605.25 H: -2.36
+
+Pose: X: 1601.00 Y: 605.41 H: -2.29
+
+Pose: X: 1601.09 Y: 605.53 H: -2.22
+
+Pose: X: 1601.14 Y: 605.59 H: -2.15
+
+Pose: X: 1601.14 Y: 605.59 H: -2.08
+
+Pose: X: 1601.17 Y: 605.66 H: -2.01
+
+Pose: X: 1601.17 Y: 605.66 H: -1.95
+
+Pose: X: 1601.27 Y: 605.95 H: -1.88
+
+Pose: X: 1601.31 Y: 606.10 H: -1.80
+
+Pose: X: 1601.36 Y: 606.32 H: -1.73
+
+Pose: X: 1601.40 Y: 606.62 H: -1.66
+
+Pose: X: 1601.40 Y: 606.78 H: -1.59
+
+Pose: X: 1601.40 Y: 607.08 H: -1.52
+
+Pose: X: 1601.38 Y: 607.31 H: -1.48
+
+Pose: X: 1601.50 Y: 606.02 H: -1.48
+
+Pose: X: 1601.79 Y: 602.82 H: -1.48
+
+Pose: X: 1602.17 Y: 598.41 H: -1.49
+
+Pose: X: 1602.59 Y: 593.54 H: -1.49
+
+Pose: X: 1603.04 Y: 588.22 H: -1.49
+
+Pose: X: 1603.51 Y: 582.74 H: -1.49
+
+Pose: X: 1603.97 Y: 577.41 H: -1.49
+
+Pose: X: 1604.44 Y: 571.94 H: -1.48
+
+Pose: X: 1604.90 Y: 566.69 H: -1.48
+
+Pose: X: 1605.38 Y: 561.36 H: -1.48
+
+Pose: X: 1605.88 Y: 555.81 H: -1.48
+
+Pose: X: 1606.39 Y: 550.11 H: -1.48
+
+Pose: X: 1606.92 Y: 544.33 H: -1.48
+
+Pose: X: 1607.43 Y: 538.63 H: -1.48
+
+Pose: X: 1607.94 Y: 533.00 H: -1.48
+
+Pose: X: 1608.44 Y: 527.37 H: -1.48
+
+Pose: X: 1608.94 Y: 521.82 H: -1.48
+
+NextMove: 1609.48, 516.04 -> 1770.45, 427.04
+Pose: X: 1609.48 Y: 516.04 H: -1.48
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1610.06 Y: 511.03 H: -1.44
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1610.40 Y: 509.16 H: -1.34
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1610.58 Y: 508.57 H: -1.22
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1610.36 Y: 509.06 H: -1.10
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1610.13 Y: 509.46 H: -0.98
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1609.72 Y: 510.01 H: -0.87
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1609.35 Y: 510.39 H: -0.75
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1609.12 Y: 510.59 H: -0.65
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1608.99 Y: 510.67 H: -0.54
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1608.79 Y: 510.79 H: -0.47
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1611.11 Y: 509.61 H: -0.47
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1619.96 Y: 505.12 H: -0.47
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1631.25 Y: 499.35 H: -0.47
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1649.69 Y: 489.97 H: -0.47
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1666.23 Y: 481.56 H: -0.47
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1686.11 Y: 471.31 H: -0.48
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1706.45 Y: 460.76 H: -0.48
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1718.17 Y: 456.72 H: -0.18
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1717.05 Y: 456.62 H: 0.36
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1716.55 Y: 456.28 H: 0.84
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1715.96 Y: 455.30 H: 1.21
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1715.86 Y: 454.86 H: 1.50
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1715.90 Y: 454.10 H: 1.74
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1716.05 Y: 453.51 H: 1.91
+
+Pose: X: 1716.14 Y: 453.29 H: 2.02
+
+Pose: X: 1716.21 Y: 453.16 H: 2.09
+
+Pose: X: 1716.29 Y: 453.03 H: 2.17
+
+Pose: X: 1716.42 Y: 452.84 H: 2.24
+
+Pose: X: 1716.52 Y: 452.73 H: 2.31
+
+Pose: X: 1716.74 Y: 452.51 H: 2.38
+
+Pose: X: 1716.91 Y: 452.36 H: 2.45
+
+Pose: X: 1717.09 Y: 452.22 H: 2.53
+
+Pose: X: 1717.22 Y: 452.14 H: 2.59
+
+Pose: X: 1717.28 Y: 452.10 H: 2.62
+
+Pose: X: 1716.09 Y: 452.78 H: 2.62
+
+Pose: X: 1713.30 Y: 454.37 H: 2.62
+
+Pose: X: 1709.60 Y: 456.50 H: 2.62
+
+Pose: X: 1705.30 Y: 458.98 H: 2.62
+
+Pose: X: 1700.66 Y: 461.64 H: 2.62
+
+Pose: X: 1695.89 Y: 464.36 H: 2.62
+
+Pose: X: 1691.04 Y: 467.12 H: 2.62
+
+Pose: X: 1686.13 Y: 469.91 H: 2.63
+
+Pose: X: 1681.27 Y: 472.64 H: 2.63
+
+Pose: X: 1676.41 Y: 475.37 H: 2.63
+
+Pose: X: 1671.47 Y: 478.12 H: 2.63
+
+Pose: X: 1666.60 Y: 480.83 H: 2.64
+
+Pose: X: 1661.38 Y: 483.70 H: 2.64
+
+Pose: X: 1656.16 Y: 486.57 H: 2.64
+
+Pose: X: 1650.93 Y: 489.42 H: 2.64
+
+Pose: X: 1645.91 Y: 492.16 H: 2.64
+
+Pose: X: 1640.81 Y: 494.94 H: 2.64
+
+Pose: X: 1635.85 Y: 497.65 H: 2.64
+
+Pose: X: 1630.76 Y: 500.43 H: 2.64
+
+Pose: X: 1625.74 Y: 503.18 H: 2.64
+
+Pose: X: 1620.93 Y: 505.84 H: 2.63
+
+Pose: X: 1615.86 Y: 508.67 H: 2.63
+
+Pose: X: 1610.92 Y: 511.42 H: 2.63
+
+Pose: X: 1605.86 Y: 514.25 H: 2.63
+
+Pose: X: 1600.72 Y: 517.12 H: 2.63
+
+Pose: X: 1595.65 Y: 519.93 H: 2.64
+
+Pose: X: 1590.43 Y: 522.81 H: 2.64
+
+Pose: X: 1585.28 Y: 525.65 H: 2.64
+
+Pose: X: 1580.07 Y: 528.52 H: 2.64
+
+Pose: X: 1574.98 Y: 531.32 H: 2.64
+
+Pose: X: 1569.63 Y: 534.26 H: 2.64
+
+Pose: X: 1564.40 Y: 537.12 H: 2.64
+
+Pose: X: 1558.84 Y: 540.15 H: 2.64
+
+Pose: X: 1553.28 Y: 543.19 H: 2.64
+
+Pose: X: 1547.92 Y: 546.13 H: 2.64
+
+NextMove: 1533.77, 553.84 -> 1443.78, 465.19
+Pose: X: 1533.77 Y: 553.84 H: 2.64
+
+3.09
+Pose: X: 1529.19 Y: 556.44 H: 2.61
+
+3.02
+Pose: X: 1527.65 Y: 557.43 H: 2.54
+
+2.94
+Pose: X: 1526.91 Y: 557.98 H: 2.46
+
+2.85
+Pose: X: 1526.80 Y: 558.08 H: 2.37
+
+2.77
+Pose: X: 1526.75 Y: 558.13 H: 2.29
+
+2.69
+Pose: X: 1526.75 Y: 558.13 H: 2.21
+
+2.61
+Pose: X: 1526.75 Y: 558.13 H: 2.13
+
+2.53
+Pose: X: 1526.75 Y: 558.13 H: 2.05
+
+2.46
+Pose: X: 1526.75 Y: 558.13 H: 1.98
+
+2.38
+Pose: X: 1526.72 Y: 558.20 H: 1.90
+
+2.31
+Pose: X: 1526.68 Y: 558.35 H: 1.83
+
+2.23
+Pose: X: 1526.61 Y: 558.65 H: 1.75
+
+2.16
+Pose: X: 1526.56 Y: 559.03 H: 1.68
+
+2.08
+Pose: X: 1526.52 Y: 559.48 H: 1.61
+
+2.02
+Pose: X: 1526.52 Y: 559.71 H: 1.54
+
+1.94
+Pose: X: 1526.52 Y: 559.71 H: 1.47
+
+1.87
+Pose: X: 1526.52 Y: 559.71 H: 1.39
+
+1.80
+Pose: X: 1526.51 Y: 559.64 H: 1.32
+
+1.73
+Pose: X: 1526.55 Y: 559.78 H: 1.25
+
+1.66
+Pose: X: 1526.55 Y: 559.78 H: 1.18
+
+1.58
+Pose: X: 1526.58 Y: 559.85 H: 1.11
+
+1.51
+Pose: X: 1526.62 Y: 559.92 H: 1.03
+
+1.44
+Pose: X: 1526.58 Y: 559.86 H: 0.96
+
+1.37
+Pose: X: 1526.53 Y: 559.79 H: 0.89
+
+1.30
+Pose: X: 1526.48 Y: 559.74 H: 0.82
+
+1.23
+Pose: X: 1526.43 Y: 559.68 H: 0.75
+
+1.16
+Pose: X: 1526.43 Y: 559.68 H: 0.68
+
+1.09
+Pose: X: 1526.49 Y: 559.73 H: 0.61
+
+1.02
+Pose: X: 1526.49 Y: 559.73 H: 0.54
+
+0.95
+Pose: X: 1526.55 Y: 559.77 H: 0.48
+
+0.89
+Pose: X: 1526.83 Y: 559.90 H: 0.41
+
+0.82
+Pose: X: 1527.11 Y: 560.01 H: 0.34
+
+0.75
+Pose: X: 1527.33 Y: 560.08 H: 0.27
+
+0.67
+Pose: X: 1527.78 Y: 560.18 H: 0.20
+
+0.60
+Pose: X: 1528.00 Y: 560.22 H: 0.12
+
+0.53
+Pose: X: 1528.31 Y: 560.25 H: 0.05
+
+0.46
+Pose: X: 1528.39 Y: 560.25 H: -0.02
+
+0.38
+Pose: X: 1528.54 Y: 560.24 H: -0.10
+
+0.31
+Pose: X: 1528.69 Y: 560.22 H: -0.17
+
+0.23
+Pose: X: 1528.84 Y: 560.18 H: -0.25
+
+0.16
+Pose: X: 1528.98 Y: 560.14 H: -0.32
+
+0.04
+Pose: X: 1529.20 Y: 560.06 H: -0.44
+
+Pose: X: 1529.20 Y: 560.06 H: -0.52
+
+Pose: X: 1529.33 Y: 559.98 H: -0.59
+
+Pose: X: 1529.27 Y: 560.02 H: -0.66
+
+Pose: X: 1529.38 Y: 559.92 H: -0.73
+
+Pose: X: 1529.44 Y: 559.87 H: -0.81
+
+Pose: X: 1529.54 Y: 559.76 H: -0.88
+
+Pose: X: 1529.63 Y: 559.63 H: -0.95
+
+Poe: X: 1529.71 Y: 559.51 H: -1.03
+
+Pose: X: 1529.86 Y: 559.24 H: -1.10
+
+Pose: X: 1529.93 Y: 559.10 H: -1.18
+
+Pose: X: 1529.98 Y: 558.96 H: -1.25
+
+Pose: X: 1530.02 Y: 558.81 H: -1.32
+
+Pose: X: 1530.04 Y: 558.74 H: -1.40
+
+Pose: X: 1530.04 Y: 558.74 H: -1.47
+
+Pose: X: 1530.03 Y: 558.81 H: -1.55
+
+Pose: X: 1530.03 Y: 558.74 H: -1.62
+
+Pose: X: 1530.03 Y: 558.66 H: -1.70
+
+Pose: X: 1530.00 Y: 558.51 H: -1.78
+
+Pose: X: 1529.96 Y: 558.36 H: -1.85
+
+Pose: X: 1529.94 Y: 558.29 H: -1.93
+
+Pose: X: 1529.94 Y: 558.29 H: -2.01
+
+Pose: X: 1529.87 Y: 558.15 H: -2.09
+
+Pose: X: 1529.79 Y: 558.02 H: -2.17
+
+Pose: X: 1529.74 Y: 557.96 H: -2.24
+
+Pose: X: 1529.69 Y: 557.90 H: -2.30
+
+Pose: X: 1530.62 Y: 558.92 H: -2.32
+
+Pose: X: 1532.16 Y: 560.62 H: -2.30
+
+Pose: X: 1534.20 Y: 562.99 H: -2.27
+
+Pose: X: 1536.21 Y: 565.49 H: -2.23
+
+Pose: X: 1538.38 Y: 568.35 H: -2.20
+
+Pose: X: 1540.40 Y: 571.22 H: -2.17
+
+Pose: X: 1542.28 Y: 574.09 H: -2.14
+
+Pose: X: 1544.04 Y: 576.96 H: -2.10
+
+Pose: X: 1545.85 Y: 580.15 H: -2.07
+
+Pose: X: 1547.41 Y: 583.12 H: -2.04
+
+Pose: X: 1549.03 Y: 586.49 H: -2.00
+
+Pose: X: 1550.49 Y: 589.77 H: -1.97
+
+Pose: X: 1551.70 Y: 592.74 H: -1.94
+
+Pose: X: 1552.84 Y: 595.82 H: -1.91
+
+Pose: X: 1553.89 Y: 598.93 H: -1.88
+
+Pose: X: 1554.84 Y: 602.07 H: -1.85
+
+Pose: X: 1555.69 Y: 605.25 H: -1.82
+
+Pose: X: 1556.44 Y: 608.44 H: -1.78
+
+Pose: X: 1557.10 Y: 611.74 H: -1.75
+
+Pose: X: 1557.64 Y: 614.97 H: -1.72
+
+Pose: X: 1558.07 Y: 618.23 H: -1.69
+
+Pose: X: 1558.40 Y: 621.50 H: -1.66
+
+Pose: X: 1558.64 Y: 625.08 H: -1.62
+
+Pose: X: 1558.75 Y: 628.59 H: -1.59
+
+Pose: X: 1558.75 Y: 632.25 H: -1.55
+
+Pose: X: 1558.62 Y: 635.76 H: -1.52
+
+Pose: X: 1558.37 Y: 639.34 H: -1.48
+
+Pose: X: 1557.99 Y: 642.91 H: -1.45
+
+Pose: X: 1557.49 Y: 646.39 H: -1.41
+
+Pose: X: 1556.88 Y: 649.85 H: -1.38
+
+Pose: X: 1556.15 Y: 653.28 H: -1.34
+
+Pose: X: 1555.37 Y: 656.47 H: -1.31
+
+Pose: X: 1554.45 Y: 659.70 H: -1.28
+
+Pose: X: 1553.44 Y: 662.91 H: -1.25
+
+Pose: X: 1552.37 Y: 665.93 H: -1.22
+
+Pose: X: 1551.15 Y: 669.06 H: -1.18
+
+NextMove: 1547.85, 676.28 -> 1730.61, 607.04
+Pose: X: 1547.85 Y: 676.28 H: -1.10
+
+1.26
+Pose: X: 1546.50 Y: 678.76 H: -1.04
+
+1.29
+Pose: X: 1545.98 Y: 679.61 H: -1.01
+
+1.25
+Pose: X: 1545.71 Y: 680.07 H: -1.04
+
+1.19
+Pose: X: 1545.71 Y: 680.07 H: -1.10
+
+1.12
+Pose: X: 1545.77 Y: 679.93 H: -1.17
+
+1.05
+Pose: X: 1545.77 Y: 679.93 H: -1.24
+
+0.98
+Pose: X: 1545.84 Y: 679.71 H: -1.31
+
+0.91
+Pose: X: 1545.89 Y: 679.49 H: -1.39
+
+0.84
+Pose: X: 1545.91 Y: 679.33 H: -1.46
+
+0.76
+Pose: X: 1545.93 Y: 679.11 H: -1.53
+
+0.69
+Pose: X: 1545.93 Y: 678.88 H: -1.61
+
+0.61
+Pose: X: 1545.91 Y: 678.65 H: -1.68
+
+0.54
+Pose: X: 1545.87 Y: 678.42 H: -1.76
+
+0.46
+Pose: X: 1545.84 Y: 678.27 H: -1.83
+
+0.39
+Pose: X: 1545.82 Y: 678.20 H: -1.91
+
+0.31
+Pose: X: 1545.79 Y: 678.13 H: -1.98
+
+0.23
+Pose: X: 1545.79 Y: 678.13 H: -2.06
+
+0.16
+Pose: X: 1545.75 Y: 678.06 H: -2.14
+
+0.08
+Pose: X: 1545.75 Y: 678.06 H: -2.22
+
+0.00
+Pose: X: 1545.70 Y: 678.00 H: -2.30
+
+Pose: X: 1545.70 Y: 678.00 H: -2.41
+
+Pose: X: 1545.65 Y: 677.95 H: -2.43
+
+Pose: X: 1545.65 Y: 677.95 H: -2.38
+
+Pose: X: 1545.81 Y: 678.12 H: -2.31
+
+Pose: X: 1545.90 Y: 678.23 H: -2.23
+
+Pose: X: 1546.04 Y: 678.42 H: -2.16
+
+Pose: X: 1546.20 Y: 678.68 H: -2.08
+
+Pose: X: 1546.30 Y: 678.89 H: -2.00
+
+Pose: X: 1546.42 Y: 679.17 H: -1.92
+
+Pose: X: 1546.49 Y: 679.39 H: -1.85
+
+Pose: X: 1546.52 Y: 679.53 H: -1.78
+
+Pose: X: 1546.56 Y: 679.76 H: -1.71
+
+Pose: X: 1546.59 Y: 679.99 H: -1.63
+
+Pose: X: 1546.59 Y: 680.14 H: -1.56
+
+Pose: X: 1546.58 Y: 680.29 H: -1.49
+
+Pose: X: 1546.57 Y: 680.44 H: -1.42
+
+Pose: X: 1546.54 Y: 680.59 H: -1.35
+
+Pose: X: 1546.48 Y: 680.82 H: -1.27
+
+Pose: X: 1546.38 Y: 681.10 H: -1.20
+
+Pose: X: 1546.26 Y: 681.38 H: -1.13
+
+Pose: X: 1546.19 Y: 681.52 H: -1.05
+
+Pose: X: 1546.07 Y: 681.71 H: -0.98
+
+Pose: X: 1545.98 Y: 681.84 H: -0.91
+
+Pose: X: 1545.88 Y: 681.95 H: -0.83
+
+Pose: X: 1545.82 Y: 682.01 H: -0.76
+
+Pose: X: 1545.71 Y: 682.11 H: -0.68
+
+Pose: X: 1545.65 Y: 682.16 H: -0.61
+
+Pose: X: 1545.58 Y: 682.20 H: -0.53
+
+Pose: X: 1545.45 Y: 682.27 H: -0.45
+
+Pose: X: 1545.31 Y: 682.33 H: -0.41
+
+Pose: X: 1546.64 Y: 681.76 H: -0.40
+
+Pose: X: 1549.74 Y: 680.45 H: -0.41
+
+Pose: X: 1553.87 Y: 678.66 H: -0.41
+
+Pose: X: 1558.28 Y: 676.74 H: -0.41
+
+Pose: X: 1563.18 Y: 674.59 H: -0.41
+
+Pose: X: 1568.21 Y: 672.38 H: -0.41
+
+Pose: X: 1573.17 Y: 670.19 H: -0.42
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.20 Y: 667.97 H: -0.42
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1584.35 Y: 665.26 H: -0.42
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1596.37 Y: 659.97 H: -0.41
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1608.61 Y: 654.62 H: -0.41
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1620.88 Y: 649.32 H: -0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1633.18 Y: 644.09 H: -0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1648.81 Y: 637.53 H: -0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1666.45 Y: 630.24 H: -0.39
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1687.25 Y: 621.79 H: -0.38
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1708.24 Y: 613.40 H: -0.38
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1719.86 Y: 611.11 H: -0.01
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1718.56 Y: 610.73 H: 0.59
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1717.93 Y: 610.07 H: 1.01
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1717.61 Y: 609.30 H: 1.36
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Failed to read line
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1717.61 Y: 607.94 H: 1.82
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1717.64 Y: 607.87 H: 1.98
+
+Pose: X: 1717.64 Y: 607.87 H: 2.09
+
+Pose: X: 1717.72 Y: 607.74 H: 2.16
+
+Pose: X: 1717.85 Y: 607.55 H: 2.23
+
+Pose: X: 1717.95 Y: 607.43 H: 2.30
+
+Pose: X: 1718.05 Y: 607.32 H: 2.38
+
+Pose: X: 1718.11 Y: 607.27 H: 2.45
+
+Pose: X: 1718.29 Y: 607.13 H: 2.53
+
+Pose: X: 1718.29 Y: 607.13 H: 2.60
+
+Pose: X: 1718.43 Y: 607.06 H: 2.67
+
+Pose: X: 1718.63 Y: 606.96 H: 2.73
+
+Pose: X: 1718.70 Y: 606.93 H: 2.78
+
+Pose: X: 1717.49 Y: 607.39 H: 2.78
+
+Pose: X: 1714.56 Y: 608.50 H: 2.78
+
+Pose: X: 1710.64 Y: 610.00 H: 2.77
+
+Pose: X: 1706.30 Y: 611.68 H: 2.77
+
+Pose: X: 1701.67 Y: 613.48 H: 2.77
+
+Pose: X: 1696.77 Y: 615.42 H: 2.76
+
+Pose: X: 1691.87 Y: 617.36 H: 2.76
+
+Pose: X: 1686.83 Y: 619.35 H: 2.76
+
+Pose: X: 1681.72 Y: 621.38 H: 2.76
+
+Pose: X: 1676.75 Y: 623.34 H: 2.76
+
+Pose: X: 1671.78 Y: 625.31 H: 2.76
+
+Pose: X: 1666.81 Y: 627.28 H: 2.76
+
+Pose: X: 1661.77 Y: 629.27 H: 2.77
+
+Pose: X: 1656.87 Y: 631.20 H: 2.77
+
+Pose: X: 1651.96 Y: 633.13 H: 2.77
+
+Pose: X: 1647.13 Y: 635.02 H: 2.77
+
+Pose: X: 1642.07 Y: 636.98 H: 2.77
+
+Pose: X: 1637.09 Y: 638.92 H: 2.77
+
+Pose: X: 1632.04 Y: 640.88 H: 2.77
+
+Pose: X: 1626.84 Y: 642.91 H: 2.77
+
+Pose: X: 1621.80 Y: 644.89 H: 2.77
+
+Pose: X: 1616.75 Y: 646.87 H: 2.77
+
+Pose: X: 1611.63 Y: 648.88 H: 2.77
+
+Pose: X: 1606.66 Y: 650.84 H: 2.76
+
+Pose: X: 1601.55 Y: 652.87 H: 2.76
+
+Pose: X: 1596.38 Y: 654.94 H: 2.76
+
+Pose: X: 1591.21 Y: 657.02 H: 2.76
+
+Pose: X: 1586.04 Y: 659.11 H: 2.76
+
+Pose: X: 1580.94 Y: 661.18 H: 2.76
+
+Pose: X: 1575.85 Y: 663.25 H: 2.75
+
+Pose: X: 1570.69 Y: 665.37 H: 2.75
+
+Pose: X: 1565.61 Y: 667.46 H: 2.75
+
+Pose: X: 1560.31 Y: 669.63 H: 2.75
+
+Pose: X: 1554.80 Y: 671.89 H: 2.75
+
+Pose: X: 1549.22 Y: 674.17 H: 2.75
+
+Pose: X: 1543.57 Y: 676.49 H: 2.75
+
+NextMove: 1528.81, 682.56 -> 1452.03, 706.65
+Pose: X: 1528.81 Y: 682.56 H: 2.75
+
+3.15
+Pose: X: 1524.48 Y: 684.30 H: 2.77
+
+3.14
+Pose: X: 1523.63 Y: 684.63 H: 2.76
+
+3.09
+Pose: X: 1523.21 Y: 684.81 H: 2.72
+
+3.03
+Pose: X: 1523.35 Y: 684.75 H: 2.65
+
+2.96
+Pose: X: 1523.28 Y: 684.78 H: 2.58
+
+2.89
+Pose: X: 1523.15 Y: 684.87 H: 2.51
+
+2.81
+Pose: X: 1523.09 Y: 684.92 H: 2.43
+
+2.72
+Pose: X: 1522.98 Y: 685.02 H: 2.35
+
+2.65
+Pose: X: 1522.88 Y: 685.14 H: 2.27
+
+2.57
+Pose: X: 1522.79 Y: 685.26 H: 2.19
+
+2.49
+Pose: X: 1522.66 Y: 685.45 H: 2.12
+
+2.42
+Pose: X: 1522.59 Y: 685.58 H: 2.04
+
+2.35
+Pose: X: 1522.52 Y: 685.72 H: 1.97
+
+2.27
+Pose: X: 1522.47 Y: 685.86 H: 1.89
+
+2.20
+Pose: X: 1522.38 Y: 686.15 H: 1.82
+
+2.12
+Pose: X: 1522.32 Y: 686.45 H: 1.74
+
+2.05
+Pose: X: 1522.30 Y: 686.60 H: 1.67
+
+1.98
+Pose: X: 1522.28 Y: 686.91 H: 1.60
+
+1.90
+Pose: X: 1522.28 Y: 686.99 H: 1.52
+
+1.83
+Pose: X: 1522.28 Y: 687.06 H: 1.45
+
+1.75
+Pose: X: 1522.30 Y: 687.14 H: 1.38
+
+1.68
+Pose: X: 1522.33 Y: 687.29 H: 1.30
+
+1.61
+Pose: X: 1522.40 Y: 687.50 H: 1.23
+
+1.53
+Pose: X: 1522.46 Y: 687.65 H: 1.16
+
+1.46
+Pose: X: 1522.52 Y: 687.78 H: 1.08
+
+1.38
+Pose: X: 1522.60 Y: 687.92 H: 1.01
+
+1.31
+Pose: X: 1522.69 Y: 688.04 H: 0.93
+
+1.23
+Pose: X: 1522.78 Y: 688.16 H: 0.85
+
+1.16
+Pose: X: 1522.83 Y: 688.22 H: 0.78
+
+1.08
+Pose: X: 1522.95 Y: 688.32 H: 0.70
+
+1.01
+Pose: X: 1523.07 Y: 688.41 H: 0.63
+
+0.93
+Pose: X: 1523.26 Y: 688.54 H: 0.55
+
+0.86
+Pose: X: 1523.32 Y: 688.58 H: 0.48
+
+0.78
+Pose: X: 1523.53 Y: 688.68 H: 0.41
+
+0.71
+Pose: X: 1523.60 Y: 688.70 H: 0.33
+
+0.64
+Pose: X: 1523.67 Y: 688.73 H: 0.26
+
+0.56
+Pose: X: 1523.75 Y: 688.74 H: 0.18
+
+0.49
+Pose: X: 1523.90 Y: 688.77 H: 0.11
+
+0.41
+Pose: X: 1523.98 Y: 688.77 H: 0.03
+
+0.34
+Pose: X: 1523.98 Y: 688.77 H: -0.04
+
+0.26
+Pose: X: 1524.05 Y: 688.76 H: -0.11
+
+0.15
+Pose: X: 1524.28 Y: 688.73 H: -0.23
+
+0.10
+Pose: X: 1524.28 Y: 688.73 H: -0.28
+
+0.03
+Pose: X: 1524.42 Y: 688.68 H: -0.34
+
+Pose: X: 1524.63 Y: 688.59 H: -0.44
+
+Pose: X: 1524.91 Y: 688.46 H: -0.46
+
+Pose: X: 1524.98 Y: 688.43 H: -0.42
+
+Pose: X: 1524.98 Y: 688.43 H: -0.35
+
+Pose: X: 1524.91 Y: 688.45 H: -0.28
+
+Pose: X: 1524.76 Y: 688.49 H: -0.20
+
+Pose: X: 1524.61 Y: 688.51 H: -0.13
+
+Pose: X: 1524.38 Y: 688.53 H: -0.05
+
+Pose: X: 1524.23 Y: 688.53 H: 0.02
+
+Pose: X: 1524.00 Y: 688.52 H: 0.10
+
+Pose: X: 1523.77 Y: 688.49 H: 0.17
+
+Pose: X: 1523.55 Y: 688.44 H: 0.24
+
+Pose: X: 1523.40 Y: 688.40 H: 0.32
+
+Pose: X: 1523.26 Y: 688.35 H: 0.39
+
+Pose: X: 1523.12 Y: 688.28 H: 0.47
+
+Pose: X: 1522.92 Y: 688.17 H: 0.54
+
+Pose: X: 1522.85 Y: 688.13 H: 0.62
+
+Pose: X: 1522.79 Y: 688.08 H: 0.69
+
+Pose: X: 1522.74 Y: 688.03 H: 0.77
+
+Pose: X: 1522.63 Y: 687.92 H: 0.84
+
+Pose: X: 1522.58 Y: 687.86 H: 0.92
+
+Pose: X: 1522.49 Y: 687.74 H: 0.99
+
+Pose: X: 1522.34 Y: 687.48 H: 1.07
+
+Pose: X: 1522.30 Y: 687.41 H: 1.14
+
+Pose: X: 1522.24 Y: 687.27 H: 1.21
+
+Pose: X: 1522.15 Y: 686.98 H: 1.29
+
+Pose: X: 1522.11 Y: 686.83 H: 1.36
+
+Pose: X: 1522.08 Y: 686.68 H: 1.44
+
+Pose: X: 1522.06 Y: 686.45 H: 1.51
+
+Pose: X: 1522.05 Y: 686.22 H: 1.58
+
+Pose: X: 1522.07 Y: 685.84 H: 1.65
+
+Pose: X: 1522.11 Y: 685.54 H: 1.72
+
+Pose: X: 1522.16 Y: 685.24 H: 1.79
+
+Pose: X: 1522.22 Y: 685.02 H: 1.87
+
+Pose: X: 1522.29 Y: 684.80 H: 1.94
+
+Pose: X: 1522.33 Y: 684.73 H: 2.01
+
+Pose: X: 1522.43 Y: 684.53 H: 2.09
+
+Pose: X: 1522.51 Y: 684.40 H: 2.16
+
+Pose: X: 1522.65 Y: 684.21 H: 2.24
+
+Pose: X: 1522.74 Y: 684.10 H: 2.31
+
+Pose: X: 1522.85 Y: 683.99 H: 2.39
+
+Pose: X: 1522.97 Y: 683.89 H: 2.46
+
+Pose: X: 1523.21 Y: 683.70 H: 2.54
+
+Pose: X: 1523.47 Y: 683.54 H: 2.62
+
+Pose: X: 1523.67 Y: 683.43 H: 2.69
+
+Pose: X: 1523.88 Y: 683.34 H: 2.76
+
+Pose: X: 1524.02 Y: 683.29 H: 2.80
+
+Pose: X: 1522.44 Y: 683.84 H: 2.81
+
+Pose: X: 1519.48 Y: 684.86 H: 2.81
+
+Pose: X: 1515.15 Y: 686.36 H: 2.81
+
+Pose: X: 1510.60 Y: 687.93 H: 2.81
+
+Pose: X: 1504.97 Y: 689.86 H: 2.81
+
+Pose: X: 1499.55 Y: 691.71 H: 2.81
+
+Pose: X: 1493.98 Y: 693.61 H: 2.81
+
+Pose: X: 1486.24 Y: 696.23 H: 2.82
+
+Pose: X: 1487.33 Y: 695.86 H: 2.81
+
+Pose: X: 1489.63 Y: 695.04 H: 2.79
+
+Pose: X: 1492.49 Y: 693.96 H: 2.77
+
+Pose: X: 1496.09 Y: 692.49 H: 2.74
+
+Pose: X: 1499.44 Y: 691.00 H: 2.71
+
+Pose: X: 1502.68 Y: 689.45 H: 2.68
+
+Pose: X: 1505.73 Y: 687.87 H: 2.65
+
+Pose: X: 1508.80 Y: 686.17 H: 2.62
+
+Pose: X: 1512.02 Y: 684.25 H: 2.59
+
+Pose: X: 1514.91 Y: 682.41 H: 2.56
+
+Pose: X: 1517.76 Y: 680.47 H: 2.53
+
+Pose: X: 1520.66 Y: 678.37 H: 2.50
+
+Pose: X: 1523.50 Y: 676.18 H: 2.47
+
+Pose: X: 1526.22 Y: 673.95 H: 2.44
+
+Pose: X: 1528.92 Y: 671.59 H: 2.41
+
+Pose: X: 1531.50 Y: 669.20 H: 2.38
+
+Pose: X: 1534.00 Y: 666.74 H: 2.35
+
+Pose: X: 1536.48 Y: 664.15 H: 2.32
+
+Pose: X: 1538.55 Y: 661.90 H: 2.31
+
+Pose: X: 1540.56 Y: 659.70 H: 2.31
+
+Pose: X: 1542.47 Y: 657.62 H: 2.32
+
+Pose: X: 1544.44 Y: 655.49 H: 2.32
+
+Pose: X: 1546.29 Y: 653.45 H: 2.30
+
+Pose: X: 1548.49 Y: 650.92 H: 2.27
+
+Pose: X: 1550.58 Y: 648.38 H: 2.25
+
+Pose: X: 1552.49 Y: 646.00 H: 2.24
+
+Pose: X: 1554.27 Y: 643.81 H: 2.26
+
+Pose: X: 1556.33 Y: 641.35 H: 2.27
+
+Pose: X: 1558.18 Y: 639.11 H: 2.25
+
+Pose: X: 1560.26 Y: 636.48 H: 2.23
+
+Pose: X: 1562.18 Y: 633.91 H: 2.20
+
+Pose: X: 1564.12 Y: 631.16 H: 2.17
+
+Pose: X: 1565.93 Y: 628.43 H: 2.14
+
+Pose: X: 1567.54 Y: 625.92 H: 2.14
+
+Pose: X: 1569.08 Y: 623.55 H: 2.16
+
+NextMove: 1573.25, 617.71 -> 1721.30, 677.12
+Pose: X: 1573.25 Y: 617.71 H: 2.23
+
+0.59
+Pose: X: 1574.97 Y: 615.47 H: 2.23
+
+0.63
+Pose: X: 1575.61 Y: 614.61 H: 2.18
+
+0.70
+Pose: X: 1575.81 Y: 614.29 H: 2.11
+
+0.77
+Pose: X: 1575.89 Y: 614.15 H: 2.04
+
+0.85
+Pose: X: 1575.89 Y: 614.15 H: 1.97
+
+0.92
+Pose: X: 1575.86 Y: 614.23 H: 1.89
+
+0.99
+Pose: X: 1575.84 Y: 614.30 H: 1.82
+
+1.07
+Pose: X: 1575.82 Y: 614.37 H: 1.75
+
+1.14
+Pose: X: 1575.81 Y: 614.45 H: 1.67
+
+1.22
+Pose: X: 1575.81 Y: 614.53 H: 1.60
+
+1.29
+Pose: X: 1575.81 Y: 614.60 H: 1.52
+
+1.37
+Pose: X: 1575.80 Y: 614.53 H: 1.44
+
+1.44
+Pose: X: 1575.80 Y: 614.53 H: 1.37
+
+1.52
+Pose: X: 1575.80 Y: 614.53 H: 1.30
+
+1.59
+Pose: X: 1575.80 Y: 614.53 H: 1.22
+
+1.67
+Pose: X: 1575.80 Y: 614.53 H: 1.15
+
+1.74
+Warning: detected obstacle out of bounds.
+Pose: X: 1575.84 Y: 614.59 H: 1.07
+
+1.83
+Warning: detected obstacle out of bounds.
+Pose: X: 1575.91 Y: 614.73 H: 0.98
+
+1.95
+Warning: detected obstacle out of bounds.
+Pose: X: 1576.14 Y: 615.03 H: 0.87
+
+2.06
+Warning: detected obstacle out of bounds.
+Pose: X: 1576.36 Y: 615.25 H: 0.75
+
+2.18
+Warning: detected obstacle out of bounds.
+Pose: X: 1576.65 Y: 615.49 H: 0.63
+
+2.30
+Warning: detected obstacle out of bounds.
+Pose: X: 1576.90 Y: 615.66 H: 0.51
+
+2.42
+Pose: X: 1577.04 Y: 615.73 H: 0.39
+
+2.50
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.19 Y: 615.78 H: 0.32
+
+2.61
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.41 Y: 615.84 H: 0.21
+
+2.73
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.63 Y: 615.87 H: 0.09
+
+2.85
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.86 Y: 615.88 H: -0.04
+
+2.97
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.01 Y: 615.86 H: -0.16
+
+3.10
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.31 Y: 615.80 H: -0.28
+
+3.22
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.67 Y: 615.67 H: -0.41
+
+3.34
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.08 Y: 615.46 H: -0.53
+
+3.46
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.52 Y: 615.17 H: -0.64
+
+3.62
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.98 Y: 614.76 H: -0.81
+
+3.73
+Warning: detected obstacle out of bounds.
+Pose: X: 1580.03 Y: 614.70 H: -0.91
+
+3.85
+Warning: detected obstacle out of bounds.
+Pose: X: 1580.16 Y: 614.51 H: -1.03
+
+3.97
+Warning: detected obstacle out of bounds.
+Pose: X: 1580.26 Y: 614.31 H: -1.16
+
+4.10
+Pose: X: 1580.26 Y: 614.31 H: -1.28
+
+4.17
+Pose: X: 1580.30 Y: 614.16 H: -1.36
+
+4.25
+Pose: X: 1580.31 Y: 614.09 H: -1.43
+
+4.32
+Pose: X: 1580.32 Y: 614.01 H: -1.51
+
+4.40
+Pose: X: 1580.32 Y: 613.93 H: -1.58
+
+4.48
+Pose: X: 1580.32 Y: 613.86 H: -1.66
+
+4.55
+Pose: X: 1580.31 Y: 613.78 H: -1.74
+
+4.63
+Pose: X: 1580.33 Y: 613.86 H: -1.82
+
+4.71
+Pose: X: 1580.26 Y: 613.64 H: -1.90
+
+4.79
+Pose: X: 1580.29 Y: 613.71 H: -1.98
+
+4.87
+Pose: X: 1580.26 Y: 613.64 H: -2.06
+
+4.95
+Pose: X: 1580.29 Y: 613.71 H: -2.13
+
+5.02
+Pose: X: 1580.25 Y: 613.64 H: -2.21
+
+5.10
+Pose: X: 1580.06 Y: 613.41 H: -2.29
+
+5.17
+Pose: X: 1579.80 Y: 613.13 H: -2.36
+
+5.25
+Pose: X: 1579.63 Y: 612.97 H: -2.43
+
+5.32
+Pose: X: 1579.45 Y: 612.83 H: -2.51
+
+5.40
+Pose: X: 1579.26 Y: 612.70 H: -2.58
+
+5.47
+Pose: X: 1579.19 Y: 612.66 H: -2.66
+
+5.55
+Pose: X: 1579.06 Y: 612.60 H: -2.74
+
+5.62
+Pose: X: 1578.99 Y: 612.57 H: -2.81
+
+5.70
+Pose: X: 1578.99 Y: 612.57 H: -2.88
+
+5.77
+Pose: X: 1578.91 Y: 612.55 H: -2.96
+
+5.85
+Pose: X: 1578.91 Y: 612.55 H: -3.03
+
+5.92
+Pose: X: 1578.76 Y: 612.54 H: -3.11
+
+0.28
+Pose: X: 1578.61 Y: 612.54 H: 3.10
+
+0.21
+Pose: X: 1578.30 Y: 612.57 H: 3.02
+
+0.13
+Pose: X: 1578.23 Y: 612.58 H: 2.95
+
+0.06
+Pose: X: 1578.00 Y: 612.63 H: 2.87
+
+0.02
+Pose: X: 1578.00 Y: 612.63 H: 2.80
+
+Pose: X: 1577.86 Y: 612.69 H: 2.69
+
+Pose: X: 1577.66 Y: 612.80 H: 2.61
+
+Pose: X: 1577.47 Y: 612.92 H: 2.54
+
+Pose: X: 1577.28 Y: 613.06 H: 2.47
+
+Pose: X: 1577.11 Y: 613.21 H: 2.40
+
+Pose: X: 1576.84 Y: 613.47 H: 2.33
+
+Pose: X: 1576.78 Y: 613.53 H: 2.26
+
+Pose: X: 1576.83 Y: 613.47 H: 2.19
+
+Pose: X: 1576.83 Y: 613.47 H: 2.11
+
+Pose: X: 1576.76 Y: 613.60 H: 2.04
+
+Pose: X: 1576.69 Y: 613.74 H: 1.96
+
+Pose: X: 1576.64 Y: 613.88 H: 1.89
+
+Pose: X: 1576.60 Y: 614.03 H: 1.82
+
+Pose: X: 1576.55 Y: 614.25 H: 1.74
+
+Pose: X: 1576.53 Y: 614.41 H: 1.67
+
+Pose: X: 1576.52 Y: 614.56 H: 1.59
+
+Pose: X: 1576.52 Y: 614.79 H: 1.52
+
+Pose: X: 1576.53 Y: 614.86 H: 1.44
+
+Pose: X: 1576.54 Y: 614.94 H: 1.36
+
+Pose: X: 1576.54 Y: 614.94 H: 1.28
+
+Pose: X: 1576.52 Y: 614.87 H: 1.21
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1576.55 Y: 614.94 H: 1.13
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1576.62 Y: 615.07 H: 1.04
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1576.83 Y: 615.39 H: 0.93
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.12 Y: 615.74 H: 0.83
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.34 Y: 615.96 H: 0.72
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.64 Y: 616.19 H: 0.60
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.84 Y: 616.31 H: 0.49
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1577.97 Y: 616.38 H: 0.41
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.80 Y: 617.16 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1586.98 Y: 620.18 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1598.44 Y: 625.03 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1610.47 Y: 630.12 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1622.56 Y: 635.24 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1634.58 Y: 640.33 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1650.61 Y: 647.12 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1670.71 Y: 655.67 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1691.23 Y: 664.39 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1720.79 Y: 676.83 H: 0.40
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1730.45 Y: 683.14 H: 0.76
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1730.11 Y: 682.64 H: 1.18
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1729.93 Y: 681.90 H: 1.47
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1729.94 Y: 681.29 H: 1.71
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1730.04 Y: 680.92 H: 1.95
+
+Pose: X: 1730.21 Y: 680.58 H: 2.12
+
+Pose: X: 1730.29 Y: 680.46 H: 2.19
+
+Pose: X: 1730.48 Y: 680.21 H: 2.26
+
+Pose: X: 1730.63 Y: 680.04 H: 2.34
+
+Pose: X: 1730.85 Y: 679.83 H: 2.41
+
+Pose: X: 1731.08 Y: 679.63 H: 2.48
+
+Pose: X: 1731.21 Y: 679.55 H: 2.55
+
+Pose: X: 1731.34 Y: 679.46 H: 2.62
+
+Pose: X: 1731.68 Y: 679.29 H: 2.70
+
+Pose: X: 1731.82 Y: 679.23 H: 2.77
+
+Pose: X: 1731.96 Y: 679.18 H: 2.83
+
+Pose: X: 1732.11 Y: 679.13 H: 2.86
+
+Pose: X: 1731.00 Y: 679.44 H: 2.87
+
+Pose: X: 1727.92 Y: 680.32 H: 2.86
+
+Pose: X: 1724.10 Y: 681.43 H: 2.86
+
+Pose: X: 1717.00 Y: 683.52 H: 2.85
+
+Pose: X: 1706.32 Y: 686.70 H: 2.85
+
+Pose: X: 1698.92 Y: 688.90 H: 2.86
+
+Pose: X: 1696.94 Y: 689.46 H: 2.87
+
+Pose: X: 1693.78 Y: 690.35 H: 2.87
+
+Pose: X: 1689.95 Y: 691.41 H: 2.87
+
+Pose: X: 1684.73 Y: 692.85 H: 2.87
+
+Pose: X: 1679.72 Y: 694.24 H: 2.87
+
+Pose: X: 1674.20 Y: 695.75 H: 2.87
+
+Pose: X: 1668.97 Y: 697.18 H: 2.88
+
+Pose: X: 1663.44 Y: 698.67 H: 2.88
+
+Pose: X: 1658.05 Y: 700.11 H: 2.88
+
+Pose: X: 1652.67 Y: 701.54 H: 2.88
+
+Pose: X: 1647.13 Y: 703.00 H: 2.88
+
+Pose: X: 1641.74 Y: 704.42 H: 2.88
+
+Pose: X: 1636.20 Y: 705.87 H: 2.89
+
+Pose: X: 1630.88 Y: 707.27 H: 2.89
+
+Pose: X: 1625.49 Y: 708.67 H: 2.89
+
+Pose: X: 1620.17 Y: 710.06 H: 2.89
+
+Pose: X: 1614.99 Y: 711.40 H: 2.89
+
+Pose: X: 1609.52 Y: 712.81 H: 2.89
+
+Pose: X: 1604.20 Y: 714.18 H: 2.89
+
+Pose: X: 1598.87 Y: 715.55 H: 2.89
+
+Pose: X: 1593.47 Y: 716.92 H: 2.89
+
+Pose: X: 1588.14 Y: 718.26 H: 2.90
+
+Pose: X: 1582.73 Y: 719.61 H: 2.90
+
+Pose: X: 1577.39 Y: 720.94 H: 2.90
+
+Pose: X: 1571.76 Y: 722.33 H: 2.90
+
+Pose: X: 1566.42 Y: 723.65 H: 2.90
+
+Pose: X: 1561.23 Y: 724.93 H: 2.90
+
+Pose: X: 1555.90 Y: 726.24 H: 2.90
+
+Pose: X: 1550.63 Y: 727.53 H: 2.90
+
+Pose: X: 1545.36 Y: 728.82 H: 2.90
+
+Pose: X: 1539.95 Y: 730.15 H: 2.90
+
+Pose: X: 1534.31 Y: 731.53 H: 2.90
+
+Pose: X: 1528.68 Y: 732.91 H: 2.90
+
+Pose: X: 1523.04 Y: 734.30 H: 2.90
+
+Pose: X: 1517.48 Y: 735.66 H: 2.90
+
+Pose: X: 1511.84 Y: 737.04 H: 2.90
+
+NextMove: 1496.11, 740.86 -> 1350.33, 756.06
+Pose: X: 1496.11 Y: 740.86 H: 2.90
+
+0.08
+Pose: X: 1490.75 Y: 742.09 H: 2.93
+
+0.07
+Pose: X: 1489.71 Y: 742.32 H: 2.92
+
+0.03
+Pose: X: 1488.60 Y: 742.60 H: 2.88
+
+Pose: X: 1488.60 Y: 742.60 H: 2.78
+
+Pose: X: 1488.31 Y: 742.71 H: 2.76
+
+Pose: X: 1488.24 Y: 742.73 H: 2.80
+
+Pose: X: 1488.24 Y: 742.73 H: 2.87
+
+Pose: X: 1488.32 Y: 742.72 H: 2.94
+
+Pose: X: 1488.47 Y: 742.69 H: 3.01
+
+Pose: X: 1486.42 Y: 742.93 H: 3.04
+
+Pose: X: 1482.62 Y: 743.32 H: 3.04
+
+Pose: X: 1477.46 Y: 743.86 H: 3.04
+
+Pose: X: 1471.84 Y: 744.45 H: 3.04
+
+Pose: X: 1464.55 Y: 745.23 H: 3.03
+
+Pose: X: 1465.91 Y: 745.08 H: 3.03
+
+Pose: X: 1468.34 Y: 744.77 H: 3.01
+
+Pose: X: 1471.66 Y: 744.28 H: 2.98
+
+Pose: X: 1475.42 Y: 743.60 H: 2.95
+
+Pose: X: 1478.93 Y: 742.87 H: 2.92
+
+Pose: X: 1482.42 Y: 742.02 H: 2.89
+
+Pose: X: 1485.96 Y: 741.06 H: 2.86
+
+Pose: X: 1489.31 Y: 740.03 H: 2.83
+
+Pose: X: 1492.86 Y: 738.82 H: 2.80
+
+Pose: X: 1496.36 Y: 737.51 H: 2.77
+
+Pose: X: 1499.82 Y: 736.09 H: 2.74
+
+Pose: X: 1503.23 Y: 734.56 H: 2.71
+
+Pose: X: 1506.67 Y: 732.89 H: 2.67
+
+Pose: X: 1509.98 Y: 731.15 H: 2.64
+
+Pose: X: 1513.30 Y: 729.27 H: 2.61
+
+Pose: X: 1516.39 Y: 727.44 H: 2.60
+
+Pose: X: 1519.30 Y: 725.75 H: 2.63
+
+Pose: X: 1522.72 Y: 723.89 H: 2.66
+
+Pose: X: 1525.91 Y: 722.25 H: 2.67
+
+Pose: X: 1528.75 Y: 720.76 H: 2.65
+
+Pose: X: 1532.09 Y: 718.91 H: 2.62
+
+Pose: X: 1535.36 Y: 716.95 H: 2.59
+
+Pose: X: 1538.32 Y: 715.06 H: 2.56
+
+Pose: X: 1541.16 Y: 713.13 H: 2.53
+
+Pose: X: 1544.07 Y: 711.02 H: 2.50
+
+Pose: X: 1546.79 Y: 708.93 H: 2.47
+
+Pose: X: 1549.52 Y: 706.71 H: 2.44
+
+Pose: X: 1552.18 Y: 704.41 H: 2.42
+
+Pose: X: 1554.77 Y: 702.05 H: 2.39
+
+Pose: X: 1557.24 Y: 699.66 H: 2.36
+
+Pose: X: 1559.59 Y: 697.26 H: 2.33
+
+Pose: X: 1561.74 Y: 694.98 H: 2.32
+
+Pose: X: 1563.74 Y: 692.88 H: 2.34
+
+Pose: X: 1566.12 Y: 690.51 H: 2.37
+
+NextMove: 1571.12, 685.57 -> 1447.97, 814.78
+Pose: X: 1571.12 Y: 685.57 H: 2.35
+
+0.71
+Pose: X: 1571.86 Y: 684.80 H: 2.33
+
+0.73
+Pose: X: 1570.52 Y: 686.26 H: 2.31
+
+0.79
+Pose: X: 1569.82 Y: 687.08 H: 2.25
+
+0.86
+Pose: X: 1569.36 Y: 687.69 H: 2.18
+
+0.93
+Pose: X: 1569.03 Y: 688.20 H: 2.10
+
+1.01
+Pose: X: 1569.03 Y: 688.20 H: 2.03
+
+1.08
+Pose: X: 1568.97 Y: 688.34 H: 1.96
+
+1.15
+Pose: X: 1568.92 Y: 688.48 H: 1.88
+
+1.23
+Pose: X: 1568.88 Y: 688.63 H: 1.81
+
+1.30
+Pose: X: 1568.86 Y: 688.70 H: 1.73
+
+1.38
+Pose: X: 1568.84 Y: 688.86 H: 1.66
+
+1.45
+Pose: X: 1568.84 Y: 689.01 H: 1.59
+
+1.52
+Pose: X: 1568.84 Y: 689.24 H: 1.51
+
+1.59
+Pose: X: 1568.85 Y: 689.39 H: 1.44
+
+1.67
+Pose: X: 1568.88 Y: 689.54 H: 1.37
+
+1.74
+Pose: X: 1568.92 Y: 689.69 H: 1.29
+
+1.82
+Pose: X: 1568.99 Y: 689.91 H: 1.22
+
+1.90
+Pose: X: 1569.07 Y: 690.12 H: 1.14
+
+1.97
+Pose: X: 1569.11 Y: 690.19 H: 1.07
+
+2.04
+Warning: detected obstacle out of bounds.
+Pose: X: 1569.19 Y: 690.32 H: 0.99
+
+2.13
+Warning: detected obstacle out of bounds.
+Pose: X: 1569.32 Y: 690.50 H: 0.90
+
+2.25
+Warning: detected obstacle out of bounds.
+Pose: X: 1569.52 Y: 690.73 H: 0.78
+
+2.37
+Warning: detected obstacle out of bounds.
+Pose: X: 1569.70 Y: 690.88 H: 0.67
+
+2.49
+Warning: detected obstacle out of bounds.
+Pose: X: 1569.82 Y: 690.97 H: 0.55
+
+2.61
+Pose: X: 1569.96 Y: 691.04 H: 0.43
+
+2.68
+Pose: X: 1570.03 Y: 691.07 H: 0.35
+
+2.76
+Pose: X: 1570.10 Y: 691.09 H: 0.28
+
+2.83
+Warning: detected obstacle out of bounds.
+Pose: X: 1570.17 Y: 691.11 H: 0.20
+
+2.93
+Warning: detected obstacle out of bounds.
+Pose: X: 1570.25 Y: 691.12 H: 0.11
+
+3.05
+Warning: detected obstacle out of bounds.
+Pose: X: 1570.25 Y: 691.12 H: -0.02
+
+3.18
+Warning: detected obstacle out of bounds.
+Pose: X: 1570.32 Y: 691.12 H: -0.14
+
+3.31
+Warning: detected obstacle out of bounds.
+Pose: X: 1570.40 Y: 691.10 H: -0.27
+
+3.47
+Pose: X: 1570.40 Y: 691.10 H: -0.43
+
+3.52
+Pose: X: 1570.26 Y: 691.17 H: -0.48
+
+3.58
+Warning: detected obstacle out of bounds.
+Pose: X: 1570.53 Y: 691.02 H: -0.55
+
+3.69
+Warning: detected obstacle out of bounds.
+Pose: X: 1570.72 Y: 690.89 H: -0.65
+
+3.81
+Warning: detected obstacle out of bounds.
+Pose: X: 1571.01 Y: 690.64 H: -0.77
+
+3.94
+Warning: detected obstacle out of bounds.
+Pose: X: 1571.16 Y: 690.47 H: -0.90
+
+4.06
+Warning: detected obstacle out of bounds.
+Pose: X: 1571.25 Y: 690.35 H: -1.03
+
+4.19
+Pose: X: 1571.35 Y: 690.14 H: -1.15
+
+4.26
+Pose: X: 1571.44 Y: 689.93 H: -1.23
+
+4.34
+Pose: X: 1571.51 Y: 689.71 H: -1.30
+
+4.41
+Pose: X: 1571.54 Y: 689.56 H: -1.38
+
+4.49
+Pose: X: 1571.55 Y: 689.49 H: -1.45
+
+4.56
+Pose: X: 1571.57 Y: 689.34 H: -1.52
+
+4.63
+Pose: X: 1571.57 Y: 689.26 H: -1.60
+
+4.71
+Pose: X: 1571.56 Y: 689.11 H: -1.67
+
+4.79
+Pose: X: 1571.52 Y: 688.88 H: -1.75
+
+4.86
+Pose: X: 1571.48 Y: 688.66 H: -1.82
+
+4.94
+Pose: X: 1571.43 Y: 688.51 H: -1.90
+
+5.01
+Pose: X: 1571.43 Y: 688.51 H: -1.98
+
+5.09
+Pose: X: 1571.40 Y: 688.44 H: -2.05
+
+5.16
+Pose: X: 1571.32 Y: 688.31 H: -2.12
+
+5.23
+Pose: X: 1571.24 Y: 688.18 H: -2.20
+
+5.31
+Pose: X: 1571.10 Y: 688.00 H: -2.27
+
+5.38
+Pose: X: 1571.05 Y: 687.95 H: -2.34
+
+5.46
+Pose: X: 1570.88 Y: 687.79 H: -2.42
+
+5.53
+Pose: X: 1570.76 Y: 687.69 H: -2.49
+
+5.60
+Pose: X: 1570.76 Y: 687.69 H: -2.57
+
+5.68
+Pose: X: 1570.63 Y: 687.61 H: -2.64
+
+5.75
+Pose: X: 1570.63 Y: 687.61 H: -2.72
+
+5.83
+Pose: X: 1570.56 Y: 687.58 H: -2.79
+
+5.91
+Pose: X: 1570.49 Y: 687.56 H: -2.87
+
+5.99
+Pose: X: 1570.49 Y: 687.56 H: -2.95
+
+6.06
+Pose: X: 1570.41 Y: 687.55 H: -3.03
+
+6.14
+Pose: X: 1570.41 Y: 687.55 H: -3.11
+
+0.07
+Pose: X: 1570.34 Y: 687.55 H: 3.10
+
+0.01
+Pose: X: 1570.26 Y: 687.56 H: 3.03
+
+Pose: X: 1570.18 Y: 687.57 H: 2.91
+
+Pose: X: 1567.74 Y: 688.18 H: 2.87
+
+Pose: X: 1564.43 Y: 689.12 H: 2.86
+
+Pose: X: 1559.74 Y: 690.49 H: 2.85
+
+Pose: X: 1554.62 Y: 692.01 H: 2.85
+
+Pose: X: 1549.21 Y: 693.63 H: 2.85
+
+Pose: X: 1543.50 Y: 695.34 H: 2.85
+
+Pose: X: 1538.02 Y: 696.99 H: 2.85
+
+Pose: X: 1532.46 Y: 698.65 H: 2.85
+
+Pose: X: 1527.04 Y: 700.27 H: 2.85
+
+Pose: X: 1521.63 Y: 701.88 H: 2.85
+
+Pose: X: 1516.35 Y: 703.44 H: 2.86
+
+Pose: X: 1511.00 Y: 705.00 H: 2.86
+
+Pose: X: 1505.58 Y: 706.57 H: 2.86
+
+Pose: X: 1500.07 Y: 708.16 H: 2.86
+
+Pose: X: 1494.49 Y: 709.76 H: 2.86
+
+Pose: X: 1488.54 Y: 711.45 H: 2.86
+
+Pose: X: 1480.83 Y: 713.63 H: 2.87
+
+Pose: X: 1482.22 Y: 713.23 H: 2.86
+
+Pose: X: 1484.49 Y: 712.54 H: 2.84
+
+Pose: X: 1487.47 Y: 711.57 H: 2.81
+
+Pose: X: 1491.06 Y: 710.29 H: 2.78
+
+Pose: X: 1494.48 Y: 708.96 H: 2.75
+
+Pose: X: 1497.78 Y: 707.55 H: 2.72
+
+Pose: X: 1500.96 Y: 706.07 H: 2.69
+
+Pose: X: 1504.17 Y: 704.47 H: 2.66
+
+Pose: X: 1507.40 Y: 702.74 H: 2.63
+
+Pose: X: 1510.52 Y: 700.95 H: 2.61
+
+Pose: X: 1513.57 Y: 699.07 H: 2.57
+
+Pose: X: 1516.57 Y: 697.10 H: 2.55
+
+Pose: X: 1519.63 Y: 694.95 H: 2.51
+
+Pose: X: 1522.57 Y: 692.75 H: 2.48
+
+Pose: X: 1525.37 Y: 690.51 H: 2.45
+
+Pose: X: 1528.23 Y: 688.09 H: 2.42
+
+Pose: X: 1530.89 Y: 685.69 H: 2.39
+
+Pose: X: 1533.48 Y: 683.21 H: 2.36
+
+Pose: X: 1535.95 Y: 680.70 H: 2.33
+
+Pose: X: 1538.21 Y: 678.32 H: 2.33
+
+Pose: X: 1540.28 Y: 676.18 H: 2.35
+
+Pose: X: 1542.54 Y: 673.91 H: 2.36
+
+Pose: X: 1544.41 Y: 672.00 H: 2.34
+
+Pose: X: 1546.61 Y: 669.67 H: 2.32
+
+Pose: X: 1548.67 Y: 667.41 H: 2.31
+
+Pose: X: 1550.54 Y: 665.40 H: 2.33
+
+Pose: X: 1552.89 Y: 663.00 H: 2.36
+
+Pose: X: 1555.20 Y: 660.77 H: 2.39
+
+Pose: X: 1557.44 Y: 658.70 H: 2.40
+
+Pose: X: 1559.51 Y: 656.77 H: 2.38
+
+Pose: X: 1561.86 Y: 654.48 H: 2.36
+
+Pose: X: 1564.20 Y: 652.07 H: 2.33
+
+Pose: X: 1566.37 Y: 649.70 H: 2.30
+
+Pose: X: 1568.62 Y: 647.11 H: 2.27
+
+Pose: X: 1570.68 Y: 644.65 H: 2.26
+
+NextMove: 1575.80, 638.88 -> 1624.94, 798.55
+Pose: X: 1575.80 Y: 638.88 H: 2.33
+
+0.54
+Pose: X: 1577.73 Y: 636.83 H: 2.33
+
+0.59
+Pose: X: 1578.50 Y: 635.97 H: 2.27
+
+0.66
+Pose: X: 1578.64 Y: 635.79 H: 2.21
+
+0.73
+Pose: X: 1578.68 Y: 635.73 H: 2.14
+
+0.80
+Pose: X: 1578.57 Y: 635.93 H: 2.06
+
+0.88
+Pose: X: 1578.50 Y: 636.07 H: 1.99
+
+0.95
+Pose: X: 1578.39 Y: 636.35 H: 1.91
+
+1.03
+Pose: X: 1578.30 Y: 636.64 H: 1.84
+
+1.10
+Pose: X: 1578.21 Y: 637.01 H: 1.76
+
+1.18
+Pose: X: 1578.15 Y: 637.39 H: 1.69
+
+1.25
+Pose: X: 1578.12 Y: 637.77 H: 1.61
+
+1.33
+Pose: X: 1578.12 Y: 638.23 H: 1.54
+
+1.40
+Pose: X: 1578.14 Y: 638.53 H: 1.47
+
+1.47
+Pose: X: 1578.19 Y: 638.91 H: 1.39
+
+1.54
+Pose: X: 1578.26 Y: 639.21 H: 1.32
+
+1.62
+Pose: X: 1578.32 Y: 639.43 H: 1.25
+
+1.69
+Pose: X: 1578.35 Y: 639.50 H: 1.17
+
+1.77
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.42 Y: 639.64 H: 1.10
+
+1.86
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.42 Y: 639.64 H: 1.00
+
+1.99
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.46 Y: 639.70 H: 0.88
+
+2.11
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.46 Y: 639.70 H: 0.75
+
+2.23
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.58 Y: 639.80 H: 0.63
+
+2.35
+Warning: detected obstacle out of bounds.
+Pose: X: 1578.83 Y: 639.96 H: 0.51
+
+2.47
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.25 Y: 640.16 H: 0.39
+
+2.59
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.53 Y: 640.26 H: 0.27
+
+2.71
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.76 Y: 640.31 H: 0.15
+
+2.83
+Warning: detected obstacle out of bounds.
+Pose: X: 1579.99 Y: 640.33 H: 0.04
+
+2.94
+Warning: detected obstacle out of bounds.
+Pose: X: 1580.29 Y: 640.33 H: -0.08
+
+3.06
+Warning: detected obstacle out of bounds.
+Pose: X: 1580.59 Y: 640.29 H: -0.20
+
+3.19
+Warning: detected obstacle out of bounds.
+Pose: X: 1580.89 Y: 640.21 H: -0.32
+
+3.31
+Warning: detected obstacle out of bounds.
+Pose: X: 1581.10 Y: 640.12 H: -0.44
+
+3.43
+Warning: detected obstacle out of bounds.
+Pose: X: 1581.37 Y: 639.97 H: -0.57
+
+3.55
+Warning: detected obstacle out of bounds.
+Pose: X: 1581.49 Y: 639.88 H: -0.69
+
+3.72
+Warning: detected obstacle out of bounds.
+Pose: X: 1581.76 Y: 639.62 H: -0.86
+
+3.83
+Warning: detected obstacle out of bounds.
+Pose: X: 1581.72 Y: 639.68 H: -0.96
+
+3.94
+Warning: detected obstacle out of bounds.
+Pose: X: 1581.96 Y: 639.29 H: -1.08
+
+4.07
+Warning: detected obstacle out of bounds.
+Pose: X: 1582.05 Y: 639.08 H: -1.20
+
+4.20
+Pose: X: 1582.05 Y: 639.08 H: -1.33
+
+4.27
+Pose: X: 1582.05 Y: 639.08 H: -1.41
+
+4.35
+Pose: X: 1582.07 Y: 638.93 H: -1.48
+
+4.42
+Pose: X: 1582.07 Y: 638.85 H: -1.56
+
+4.50
+Pose: X: 1582.07 Y: 638.85 H: -1.63
+
+4.57
+Pose: X: 1582.06 Y: 638.70 H: -1.71
+
+4.65
+Pose: X: 1582.02 Y: 638.47 H: -1.78
+
+4.72
+Pose: X: 1581.96 Y: 638.25 H: -1.86
+
+4.80
+Pose: X: 1581.89 Y: 638.04 H: -1.93
+
+4.87
+Pose: X: 1581.77 Y: 637.75 H: -2.01
+
+4.95
+Pose: X: 1581.67 Y: 637.55 H: -2.08
+
+5.02
+Pose: X: 1581.63 Y: 637.49 H: -2.16
+
+5.10
+Pose: X: 1581.63 Y: 637.49 H: -2.23
+
+5.17
+Pose: X: 1581.53 Y: 637.37 H: -2.30
+
+5.24
+Pose: X: 1581.42 Y: 637.26 H: -2.38
+
+5.32
+Pose: X: 1581.31 Y: 637.16 H: -2.45
+
+5.39
+Pose: X: 1581.31 Y: 637.16 H: -2.52
+
+5.46
+Pose: X: 1581.37 Y: 637.20 H: -2.60
+
+5.53
+Pose: X: 1581.44 Y: 637.24 H: -2.67
+
+5.61
+Pose: X: 1581.58 Y: 637.30 H: -2.74
+
+5.68
+Pose: X: 1581.58 Y: 637.30 H: -2.82
+
+5.75
+Pose: X: 1581.65 Y: 637.32 H: -2.89
+
+5.83
+Pose: X: 1581.73 Y: 637.34 H: -2.96
+
+5.90
+Pose: X: 1581.73 Y: 637.34 H: -3.04
+
+5.97
+Pose: X: 1581.73 Y: 637.34 H: -3.11
+
+0.24
+Pose: X: 1581.57 Y: 637.34 H: 3.10
+
+0.16
+Pose: X: 1581.35 Y: 637.36 H: 3.03
+
+0.09
+Pose: X: 1581.12 Y: 637.39 H: 2.96
+
+0.02
+Pose: X: 1580.90 Y: 637.44 H: 2.88
+
+Pose: X: 1580.68 Y: 637.51 H: 2.78
+
+Pose: X: 1580.54 Y: 637.57 H: 2.70
+
+Pose: X: 1580.40 Y: 637.64 H: 2.63
+
+Pose: X: 1580.27 Y: 637.72 H: 2.55
+
+Pose: X: 1580.21 Y: 637.77 H: 2.48
+
+Pose: X: 1580.15 Y: 637.82 H: 2.40
+
+Pose: X: 1580.10 Y: 637.87 H: 2.32
+
+Pose: X: 1579.95 Y: 638.04 H: 2.25
+
+Pose: X: 1579.86 Y: 638.16 H: 2.17
+
+Pose: X: 1579.82 Y: 638.23 H: 2.10
+
+Pose: X: 1579.71 Y: 638.43 H: 2.02
+
+Pose: X: 1579.65 Y: 638.57 H: 1.95
+
+Pose: X: 1579.57 Y: 638.79 H: 1.87
+
+Pose: X: 1579.51 Y: 639.01 H: 1.80
+
+Pose: X: 1579.45 Y: 639.31 H: 1.72
+
+Pose: X: 1579.42 Y: 639.61 H: 1.65
+
+Pose: X: 1579.40 Y: 639.99 H: 1.57
+
+Pose: X: 1579.42 Y: 640.37 H: 1.50
+
+Pose: X: 1579.46 Y: 640.75 H: 1.42
+
+Pose: X: 1579.49 Y: 640.90 H: 1.35
+
+Pose: X: 1579.54 Y: 641.13 H: 1.31
+
+Pose: X: 1579.99 Y: 642.82 H: 1.31
+
+Pose: X: 1580.85 Y: 646.07 H: 1.31
+
+Pose: X: 1581.99 Y: 650.43 H: 1.31
+
+Pose: X: 1583.25 Y: 655.23 H: 1.32
+
+Pose: X: 1584.61 Y: 660.48 H: 1.32
+
+Pose: X: 1586.01 Y: 665.87 H: 1.32
+
+Pose: X: 1587.43 Y: 671.42 H: 1.32
+
+Pose: X: 1588.82 Y: 676.90 H: 1.32
+
+Pose: X: 1590.22 Y: 682.45 H: 1.32
+
+Pose: X: 1591.59 Y: 687.93 H: 1.33
+
+Pose: X: 1592.98 Y: 693.49 H: 1.33
+
+Pose: X: 1594.35 Y: 699.05 H: 1.33
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1595.71 Y: 704.54 H: 1.33
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1597.24 Y: 710.76 H: 1.33
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1599.25 Y: 719.00 H: 1.33
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1601.26 Y: 727.31 H: 1.33
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1603.22 Y: 735.48 H: 1.34
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1605.25 Y: 743.94 H: 1.34
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1607.26 Y: 752.41 H: 1.34
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1609.22 Y: 760.74 H: 1.34
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1611.18 Y: 769.14 H: 1.34
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1613.04 Y: 777.09 H: 1.34
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1614.49 Y: 782.63 H: 1.29
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1615.62 Y: 786.04 H: 1.21
+
+NextMove: 1616.43, 787.93 -> 1674.57, 875.45
+Warning: detected obstacle out of bounds.
+Pose: X: 1616.43 Y: 787.93 H: 1.12
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1617.36 Y: 789.51 H: 0.97
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1618.64 Y: 791.32 H: 0.94
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1620.83 Y: 794.35 H: 0.95
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1625.38 Y: 800.68 H: 0.95
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1632.77 Y: 810.98 H: 0.95
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1640.27 Y: 821.47 H: 0.95
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1647.50 Y: 831.70 H: 0.96
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1654.79 Y: 842.16 H: 0.97
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1661.98 Y: 852.69 H: 0.98
+
+NextMove: 1669.48, 863.75 -> 1549.02, 999.84
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1669.48 Y: 863.75 H: 0.97
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1674.55 Y: 872.97 H: 1.16
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1674.65 Y: 873.26 H: 1.33
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1674.63 Y: 873.11 H: 1.50
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1674.64 Y: 872.27 H: 1.67
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1674.75 Y: 871.51 H: 1.77
+
+Pose: X: 1674.92 Y: 870.85 H: 1.87
+
+Pose: X: 1675.07 Y: 870.42 H: 1.94
+
+Pose: X: 1675.28 Y: 869.92 H: 2.00
+
+Pose: X: 1675.48 Y: 869.51 H: 2.07
+
+Pose: X: 1675.75 Y: 869.05 H: 2.14
+
+Pose: X: 1675.93 Y: 868.80 H: 2.21
+
+Pose: X: 1675.97 Y: 868.74 H: 2.27
+
+Pose: X: 1676.08 Y: 868.63 H: 2.32
+
+Pose: X: 1675.19 Y: 869.58 H: 2.32
+
+Pose: X: 1673.11 Y: 871.81 H: 2.32
+
+Pose: X: 1670.21 Y: 874.96 H: 2.31
+
+Pose: X: 1667.11 Y: 878.33 H: 2.31
+
+Pose: X: 1663.76 Y: 881.99 H: 2.31
+
+Pose: X: 1660.46 Y: 885.60 H: 2.31
+
+Pose: X: 1655.62 Y: 890.89 H: 2.31
+
+Pose: X: 1653.10 Y: 893.66 H: 2.31
+
+Pose: X: 1650.88 Y: 896.08 H: 2.31
+
+Pose: X: 1647.63 Y: 899.63 H: 2.31
+
+Pose: X: 1644.44 Y: 903.12 H: 2.31
+
+Pose: X: 1641.10 Y: 906.79 H: 2.31
+
+Pose: X: 1637.82 Y: 910.42 H: 2.30
+
+Pose: X: 1634.61 Y: 914.00 H: 2.30
+
+Pose: X: 1631.40 Y: 907.59 H: 2.30
+
+Pose: X: 1628.16 Y: 921.25 H: 2.30
+
+Pose: X: 1624.88 Y: 924.97 H: 2.29
+
+Pose: X: 1621.50 Y: 928.81 H: 2.29
+
+Pose: X: 1618.03 Y: 932.78 H: 2.29
+
+Pose: X: 1614.51 Y: 936.80 H: 2.29
+
+Pose: X: 1611.44 Y: 940.30 H: 2.29
+
+Pose: X: 1608.38 Y: 943.81 H: 2.29
+
+Pose: X: 1605.17 Y: 947.50 H: 2.29
+
+Pose: X: 1601.66 Y: 951.53 H: 2.29
+
+Pose: X: 1598.01 Y: 955.74 H: 2.28
+
+Pose: X: 1594.36 Y: 959.95 H: 2.29
+
+Pose: X: 1590.66 Y: 964.22 H: 2.29
+
+Pose: X: 1586.85 Y: 968.60 H: 2.29
+
+Pose: X: 1583.10 Y: 972.93 H: 2.28
+
+Pose: X: 1579.20 Y: 977.43 H: 2.29
+
+Pose: X: 1575.48 Y: 981.69 H: 2.29
+
+Pose: X: 1572.10 Y: 985.53 H: 2.30
+
+Pose: X: 1569.72 Y: 988.11 H: 2.33
+
+Pose: X: 1567.68 Y: 990.17 H: 2.37
+
+Pose: X: 1566.51 Y: 991.27 H: 2.41
+
+NextMove: 1565.59, 992.07 -> 1428.71, 1119.49
+Pose: X: 1565.59 Y: 992.07 H: 2.44
+
+Pose: X: 1564.35 Y: 993.09 H: 2.47
+
+Pose: X: 1564.11 Y: 993.28 H: 2.45
+
+Pose: X: 1564.05 Y: 993.33 H: 2.42
+
+Pose: X: 1563.08 Y: 994.19 H: 2.41
+
+Pose: X: 1560.52 Y: 996.47 H: 2.42
+
+Pose: X: 1557.42 Y: 999.20 H: 2.42
+
+Pose: X: 1553.52 Y: 1002.62 H: 2.42
+
+Pose: X: 1549.49 Y: 1006.14 H: 2.43
+
+Pose: X: 1545.27 Y: 1009.78 H: 2.43
+
+Pose: X: 1540.81 Y: 1013.61 H: 2.43
+
+Pose: X: 1536.46 Y: 1017.33 H: 2.44
+
+Pose: X: 1532.16 Y: 1021.00 H: 2.44
+
+Pose: X: 1527.85 Y: 1024.65 H: 2.44
+
+Pose: X: 1523.35 Y: 1028.44 H: 2.44
+
+Pose: X: 1518.90 Y: 1032.17 H: 2.45
+
+Pose: X: 1514.50 Y: 1035.83 H: 2.45
+
+Pose: X: 1510.14 Y: 1039.42 H: 2.45
+
+Pose: X: 1505.52 Y: 1043.18 H: 2.46
+
+Pose: X: 1501.06 Y: 1046.78 H: 2.47
+
+Pose: X: 1497.01 Y: 1050.02 H: 2.47
+
+Pose: X: 1492.82 Y: 1053.35 H: 2.47
+
+Pose: X: 1488.76 Y: 1056.58 H: 2.47
+
+Pose: X: 1484.64 Y: 1059.86 H: 2.47
+
+Pose: X: 1480.58 Y: 1063.09 H: 2.47
+
+Pose: X: 1476.16 Y: 1066.62 H: 2.47
+
+Pose: X: 1471.93 Y: 1070.01 H: 2.47
+
+Pose: X: 1467.51 Y: 1073.53 H: 2.47
+
+Pose: X: 1463.02 Y: 1077.08 H: 2.47
+
+Pose: X: 1458.51 Y: 1080.62 H: 2.48
+
+Pose: X: 1454.06 Y: 1084.10 H: 2.48
+
+Pose: X: 1449.53 Y: 1087.60 H: 2.48
+
+Pose: X: 1445.68 Y: 1090.61 H: 2.48
+
+Pose: X: 1443.07 Y: 1092.73 H: 2.44
+
+Pose: X: 1440.90 Y: 1094.65 H: 2.39
+
+Pose: X: 1439.31 Y: 1096.19 H: 2.34
+
+Pose: X: 1437.86 Y: 1097.76 H: 2.29
+
+Pose: X: 1436.63 Y: 1099.23 H: 2.24
+
+Pose: X: 1435.44 Y: 1100.81 H: 2.19
+
+NextMove: 1434.20, 1102.65 -> 1283.32, 1119.17
+Pose: X: 1434.20 Y: 1102.65 H: 2.14
+
+Pose: X: 1432.87 Y: 1104.79 H: 2.11
+
+Pose: X: 1433.25 Y: 1104.22 H: 2.20
+
+Pose: X: 1435.04 Y: 1101.83 H: 2.23
+
+Pose: X: 1437.17 Y: 1099.14 H: 2.26
+
+Pose: X: 1439.31 Y: 1096.55 H: 2.26
+
+Pose: X: 1441.28 Y: 1094.12 H: 2.24
+
+Pose: X: 1443.38 Y: 1091.39 H: 2.21
+
+Pose: X: 1445.30 Y: 1088.83 H: 2.21
+
+Pose: X: 1447.30 Y: 1086.23 H: 2.24
+
+Pose: X: 1449.40 Y: 1083.60 H: 2.25
+
+Pose: X: 1451.38 Y: 1081.08 H: 2.23
+
+Pose: X: 1453.44 Y: 1078.33 H: 2.20
+
+Pose: X: 1455.41 Y: 1075.61 H: 2.19
+
+Pose: X: 1457.41 Y: 1072.91 H: 2.22
+
+Pose: X: 1459.49 Y: 1070.26 H: 2.25
+
+Pose: X: 1461.69 Y: 1067.63 H: 2.28
+
+Pose: X: 1463.65 Y: 1065.39 H: 2.29
+
+Pose: X: 1465.72 Y: 1063.04 H: 2.29
+
+Pose: X: 1467.71 Y: 1060.82 H: 2.31
+
+Pose: X: 1470.23 Y: 1058.16 H: 2.34
+
+Pose: X: 1472.56 Y: 1055.85 H: 2.38
+
+Pose: X: 1475.25 Y: 1053.36 H: 2.41
+
+Pose: X: 1477.65 Y: 1051.23 H: 2.42
+
+Pose: X: 1479.92 Y: 1049.19 H: 2.40
+
+Pose: X: 1482.37 Y: 1046.89 H: 2.38
+
+Pose: X: 1484.65 Y: 1044.63 H: 2.35
+
+Pose: X: 1486.78 Y: 1042.45 H: 2.34
+
+Pose: X: 1488.93 Y: 1040.28 H: 2.36
+
+Pose: X: 1491.42 Y: 1037.91 H: 2.39
+
+Pose: X: 1493.44 Y: 1036.04 H: 2.40
+
+Pose: X: 1495.45 Y: 1034.17 H: 2.38
+
+Pose: X: 1497.63 Y: 1032.03 H: 2.35
+
+Pose: X: 1499.57 Y: 1030.08 H: 2.35
+
+Pose: X: 1501.52 Y: 1028.14 H: 2.37
+
+Pose: X: 1503.22 Y: 1026.50 H: 2.38
+
+Pose: X: 1504.81 Y: 1024.96 H: 2.37
+
+NextMove: 1509.28, 1020.36 -> 1556.47, 1225.54
+Pose: X: 1509.28 Y: 1020.36 H: 2.32
+
+0.15
+Pose: X: 1511.30 Y: 1018.07 H: 2.27
+
+0.09
+Pose: X: 1511.77 Y: 1017.47 H: 2.21
+
+0.02
+Pose: X: 1512.08 Y: 1017.03 H: 2.14
+
+Pose: X: 1512.00 Y: 1017.16 H: 2.03
+
+Pose: X: 1511.94 Y: 1017.30 H: 1.96
+
+Pose: X: 1511.91 Y: 1017.37 H: 1.88
+
+Pose: X: 1511.91 Y: 1017.37 H: 1.81
+
+Pose: X: 1511.91 Y: 1017.37 H: 1.73
+
+Pose: X: 1511.92 Y: 1017.30 H: 1.66
+
+Pose: X: 1511.93 Y: 1017.22 H: 1.58
+
+Pose: X: 1511.92 Y: 1017.14 H: 1.50
+
+Pose: X: 1511.91 Y: 1016.99 H: 1.43
+
+Pose: X: 1511.88 Y: 1016.84 H: 1.38
+
+Pose: X: 1512.14 Y: 1018.11 H: 1.36
+
+Pose: X: 1512.75 Y: 1021.03 H: 1.36
+
+Pose: X: 1513.61 Y: 1025.06 H: 1.36
+
+Pose: X: 1514.57 Y: 1029.46 H: 1.35
+
+Pose: X: 1515.66 Y: 1034.38 H: 1.35
+
+Pose: X: 1516.85 Y: 1039.60 H: 1.35
+
+Pose: X: 1518.03 Y: 1044.81 H: 1.35
+
+Pose: X: 1519.26 Y: 1050.17 H: 1.34
+
+Pose: X: 1520.49 Y: 1055.52 H: 1.34
+
+Pose: X: 1521.72 Y: 1060.88 H: 1.35
+
+Pose: X: 1522.97 Y: 1066.39 H: 1.35
+
+Pose: X: 1524.27 Y: 1072.05 H: 1.34
+
+Pose: X: 1525.59 Y: 1077.78 H: 1.34
+
+Pose: X: 1527.84 Y: 1087.45 H: 1.34
+
+Pose: X: 1528.62 Y: 1090.79 H: 1.34
+
+Pose: X: 1529.53 Y: 1094.74 H: 1.35
+
+Pose: X: 1530.79 Y: 1100.32 H: 1.35
+
+Pose: X: 1531.99 Y: 1105.77 H: 1.36
+
+Pose: X: 1533.14 Y: 1111.14 H: 1.36
+
+Pose: X: 1534.29 Y: 1116.68 H: 1.37
+
+Pose: X: 1535.40 Y: 1122.21 H: 1.38
+
+Pose: X: 1536.52 Y: 1127.99 H: 1.38
+
+Pose: X: 1537.60 Y: 1133.77 H: 1.39
+
+Pose: X: 1538.61 Y: 1139.40 H: 1.39
+
+Pose: X: 1539.60 Y: 1144.97 H: 1.40
+
+Pose: X: 1540.58 Y: 1150.53 H: 1.40
+
+Pose: X: 1541.55 Y: 1156.02 H: 1.40
+
+Pose: X: 1542.57 Y: 1161.81 H: 1.40
+
+Pose: X: 1543.56 Y: 1167.45 H: 1.40
+
+Pose: X: 1544.53 Y: 1172.94 H: 1.40
+
+Pose: X: 1545.54 Y: 1178.81 H: 1.40
+
+Pose: X: 1546.56 Y: 1184.76 H: 1.40
+
+Pose: X: 1547.58 Y: 1190.70 H: 1.40
+
+Pose: X: 1548.68 Y: 1197.18 H: 1.40
+
+Pose: X: 1549.81 Y: 1203.80 H: 1.40
+
+NextMove: 1550.88, 1209.97 -> 1579.65, 1331.80
+Pose: X: 1550.88 Y: 1209.97 H: 1.39
+
+Pose: X: 1551.68 Y: 1214.09 H: 1.36
+
+Pose: X: 1552.35 Y: 1217.15 H: 1.35
+
+Pose: X: 1553.31 Y: 1221.40 H: 1.35
+
+Pose: X: 1554.73 Y: 1227.73 H: 1.35
+
+Pose: X: 1556.08 Y: 1233.68 H: 1.35
+
+Pose: X: 1557.59 Y: 1240.31 H: 1.35
+
+Pose: X: 1559.14 Y: 1247.16 H: 1.35
+
+Pose: X: 1560.67 Y: 1253.94 H: 1.35
+
+Pose: X: 1562.12 Y: 1260.35 H: 1.35
+
+Pose: X: 1563.50 Y: 1266.53 H: 1.35
+
+Pose: X: 1564.92 Y: 1272.94 H: 1.35
+
+Pose: X: 1566.40 Y: 1279.73 H: 1.36
+
+Pose: X: 1567.82 Y: 1286.30 H: 1.36
+
+Pose: X: 1569.24 Y: 1292.95 H: 1.36
+
+Pose: X: 1570.73 Y: 1299.97 H: 1.36
+
+Pose: X: 1572.30 Y: 1307.44 H: 1.36
+
+NextMove: 1573.84, 1314.76 -> 1456.86, 1469.56
+Pose: X: 1573.84 Y: 1314.76 H: 1.36
+
+Pose: X: 1574.95 Y: 1320.77 H: 1.41
+
+Pose: X: 1575.14 Y: 1322.36 H: 1.50
+
+Pose: X: 1575.16 Y: 1323.12 H: 1.58
+
+Pose: X: 1575.16 Y: 1323.12 H: 1.68
+
+Pose: X: 1575.16 Y: 1323.12 H: 1.77
+
+Pose: X: 1575.18 Y: 1323.05 H: 1.85
+
+Pose: X: 1575.23 Y: 1322.91 H: 1.94
+
+Pose: X: 1575.32 Y: 1322.70 H: 2.02
+
+Pose: X: 1575.46 Y: 1322.43 H: 2.10
+
+Pose: X: 1575.58 Y: 1322.23 H: 2.18
+
+Pose: X: 1575.67 Y: 1322.11 H: 2.23
+
+Pose: X: 1574.59 Y: 1323.49 H: 2.24
+
+Pose: X: 1572.46 Y: 1326.19 H: 2.24
+
+Pose: X: 1569.40 Y: 1330.10 H: 2.23
+
+Pose: X: 1566.12 Y: 1334.31 H: 2.23
+
+Pose: X: 1562.37 Y: 1339.14 H: 2.23
+
+Pose: X: 1558.62 Y: 1343.96 H: 2.23
+
+Pose: X: 1554.60 Y: 1349.15 H: 2.23
+
+Pose: X: 1550.66 Y: 1354.21 H: 2.23
+
+Pose: X: 1546.71 Y: 1359.26 H: 2.24
+
+Pose: X: 1542.65 Y: 1364.43 H: 2.24
+
+Pose: X: 1538.77 Y: 1369.35 H: 2.24
+
+Pose: X: 1534.89 Y: 1374.26 H: 2.24
+
+Pose: X: 1531.20 Y: 1378.93 H: 2.24
+
+Pose: X: 1527.55 Y: 1383.54 H: 2.24
+
+Pose: X: 1523.86 Y: 1388.21 H: 2.24
+
+Pose: X: 1520.17 Y: 1392.89 H: 2.24
+
+Pose: X: 1516.53 Y: 1397.51 H: 2.24
+
+Pose: X: 1512.61 Y: 1402.49 H: 2.24
+
+Pose: X: 1508.85 Y: 1407.30 H: 2.23
+
+Pose: X: 1504.90 Y: 1412.36 H: 2.23
+
+Pose: X: 1501.25 Y: 1417.06 H: 2.23
+
+Pose: X: 1497.56 Y: 1421.83 H: 2.23
+
+Pose: X: 1493.59 Y: 1426.97 H: 2.23
+
+Pose: X: 1489.39 Y: 1432.41 H: 2.23
+
+Pose: X: 1485.24 Y: 1437.79 H: 2.23
+
+Pose: X: 1480.42 Y: 1444.01 H: 2.23
+
+Pose: X: 1475.32 Y: 1450.59 H: 2.23
+
+NextMove: 1470.44, 1456.85 -> 1330.99, 1373.38
+Pose: X: 1470.44 Y: 1456.85 H: 2.23
+
+Pose: X: 1466.68 Y: 1461.86 H: 2.20
+
+Pose: X: 1465.53 Y: 1463.57 H: 2.13
+
+Pose: X: 1464.85 Y: 1464.76 H: 2.04
+
+Pose: X: 1464.63 Y: 1465.25 H: 1.96
+
+Pose: X: 1464.52 Y: 1465.53 H: 1.87
+
+Pose: X: 1464.45 Y: 1465.83 H: 1.77
+
+Pose: X: 1464.39 Y: 1466.21 H: 1.67
+
+Pose: X: 1464.38 Y: 1466.36 H: 1.58
+
+Pose: X: 1464.39 Y: 1466.59 H: 1.48
+
+Pose: X: 1464.40 Y: 1466.66 H: 1.41
+
+Pose: X: 1464.42 Y: 1466.74 H: 1.32
+
+Pose: X: 1464.39 Y: 1466.67 H: 1.23
+
+Pose: X: 1464.39 Y: 1466.67 H: 1.14
+
+Pose: X: 1464.36 Y: 1466.60 H: 1.05
+
+Pose: X: 1464.36 Y: 1466.60 H: 0.97
+
+Pose: X: 1464.36 Y: 1466.60 H: 0.89
+
+Pose: X: 1464.41 Y: 1466.65 H: 0.81
+
+Pose: X: 1464.47 Y: 1466.71 H: 0.72
+
+Pose: X: 1464.58 Y: 1466.80 H: 0.63
+
+Pose: X: 1464.77 Y: 1466.93 H: 0.55
+
+Pose: X: 1464.84 Y: 1466.97 H: 0.47
+
+Pose: X: 1465.05 Y: 1467.06 H: 0.40
+
+Pose: X: 1465.12 Y: 1467.09 H: 0.32
+
+Pose: X: 1465.27 Y: 1467.13 H: 0.24
+
+Pose: X: 1465.57 Y: 1467.19 H: 0.16
+
+Pose: X: 1465.72 Y: 1467.21 H: 0.08
+
+Pose: X: 1465.87 Y: 1467.22 H: -0.00
+
+Pose: X: 1465.95 Y: 1467.21 H: -0.08
+
+Pose: X: 1466.02 Y: 1467.20 H: -0.15
+
+Pose: X: 1466.02 Y: 1467.20 H: -0.23
+
+Pose: X: 1466.17 Y: 1467.16 H: -0.31
+
+Pose: X: 1466.24 Y: 1467.14 H: -0.39
+
+Pose: X: 1466.24 Y: 1467.14 H: -0.46
+
+Pose: X: 1466.31 Y: 1467.10 H: -0.54
+
+Pose: X: 1466.44 Y: 1467.02 H: -0.61
+
+Pose: X: 1466.44 Y: 1467.02 H: -0.69
+
+Pose: X: 1466.49 Y: 1466.97 H: -0.76
+
+Pose: X: 1466.55 Y: 1466.91 H: -0.84
+
+Pose: X: 1466.60 Y: 1466.85 H: -0.91
+
+Pose: X: 1466.55 Y: 1466.92 H: -0.98
+
+Pose: X: 1466.55 Y: 1466.92 H: -1.05
+
+Pose: X: 1466.55 Y: 1466.92 H: -1.12
+
+Pose: X: 1466.61 Y: 1466.77 H: -1.23
+
+Pose: X: 1466.59 Y: 1466.85 H: -1.28
+
+Pose: X: 1466.63 Y: 1466.70 H: -1.35
+
+Pose: X: 1466.65 Y: 1466.55 H: -1.41
+
+Pose: X: 1466.59 Y: 1467.16 H: -1.52
+
+Pose: X: 1466.46 Y: 1469.29 H: -1.50
+
+Pose: X: 1466.22 Y: 1472.26 H: -1.48
+
+Pose: X: 1465.85 Y: 1475.60 H: -1.44
+
+Pose: X: 1465.34 Y: 1479.15 H: -1.41
+
+Pose: X: 1464.70 Y: 1482.76 H: -1.38
+
+Pose: X: 1463.97 Y: 1486.19 H: -1.34
+
+Pose: X: 1463.15 Y: 1489.45 H: -1.31
+
+Pose: X: 1462.17 Y: 1492.90 H: -1.28
+
+Pose: X: 1461.06 Y: 1496.32 H: -1.24
+
+Pose: X: 1459.84 Y: 1499.69 H: -1.21
+
+Pose: X: 1458.53 Y: 1502.95 H: -1.17
+
+Pose: X: 1457.11 Y: 1506.16 H: -1.14
+
+Pose: X: 1455.58 Y: 1509.33 H: -1.10
+
+Pose: X: 1453.91 Y: 1512.50 H: -1.07
+
+Pose: X: 1452.13 Y: 1515.62 H: -1.03
+
+Pose: X: 1450.55 Y: 1518.23 H: -1.02
+
+Pose: X: 1449.13 Y: 1520.59 H: -1.04
+
+Pose: X: 1447.46 Y: 1523.50 H: -1.06
+
+Pose: X: 1445.92 Y: 1526.31 H: -1.07
+
+Pose: X: 1444.53 Y: 1528.78 H: -1.05
+
+Pose: X: 1442.90 Y: 1531.53 H: -1.02
+
+Pose: X: 1441.18 Y: 1534.24 H: -0.99
+
+Pose: X: 1439.28 Y: 1537.02 H: -0.96
+
+Pose: X: 1437.42 Y: 1539.63 H: -0.94
+
+Pose: X: 1435.79 Y: 1541.93 H: -0.96
+
+Pose: X: 1433.95 Y: 1544.65 H: -0.99
+
+Pose: X: 1432.23 Y: 1547.27 H: -0.99
+
+Pose: X: 1430.67 Y: 1549.62 H: -0.97
+
+Pose: X: 1428.82 Y: 1552.24 H: -0.94
+
+Pose: X: 1426.80 Y: 1554.93 H: -0.91
+
+Pose: X: 1424.79 Y: 1557.43 H: -0.88
+
+Pose: X: 1422.87 Y: 1559.71 H: -0.87
+
+Pose: X: 1421.01 Y: 1561.93 H: -0.89
+
+Pose: X: 1418.97 Y: 1564.50 H: -0.91
+
+Pose: X: 1417.10 Y: 1566.92 H: -0.91
+
+NextMove: 1412.40, 1572.64 -> 1523.74, 1510.81
+Pose: X: 1412.40 Y: 1572.64 H: -0.85
+
+0.62
+Pose: X: 1410.12 Y: 1575.11 H: -0.80
+
+0.64
+Pose: X: 1409.63 Y: 1575.59 H: -0.78
+
+0.59
+Pose: X: 1408.94 Y: 1576.30 H: -0.82
+
+0.53
+Pose: X: 1409.04 Y: 1576.19 H: -0.88
+
+0.46
+Pose: X: 1409.09 Y: 1576.13 H: -0.95
+
+0.38
+Pose: X: 1409.17 Y: 1576.00 H: -1.03
+
+0.31
+Pose: X: 1409.24 Y: 1575.87 H: -1.10
+
+0.23
+Pose: X: 1409.31 Y: 1575.73 H: -1.18
+
+0.16
+Pose: X: 1409.33 Y: 1575.66 H: -1.25
+
+0.09
+Pose: X: 1409.38 Y: 1575.51 H: -1.33
+
+0.01
+Pose: X: 1409.41 Y: 1575.36 H: -1.40
+
+Pose: X: 1409.42 Y: 1575.28 H: -1.51
+
+Pose: X: 1409.42 Y: 1575.21 H: -1.52
+
+Pose: X: 1409.43 Y: 1575.13 H: -1.48
+
+Pose: X: 1409.41 Y: 1575.28 H: -1.41
+
+Pose: X: 1409.39 Y: 1575.36 H: -1.34
+
+Pose: X: 1409.33 Y: 1575.58 H: -1.27
+
+Pose: X: 1409.23 Y: 1575.87 H: -1.19
+
+Pose: X: 1409.14 Y: 1576.08 H: -1.12
+
+Pose: X: 1409.07 Y: 1576.21 H: -1.05
+
+Pose: X: 1408.98 Y: 1576.34 H: -0.97
+
+Pose: X: 1408.89 Y: 1576.46 H: -0.90
+
+Pose: X: 1408.80 Y: 1576.58 H: -0.83
+
+Pose: X: 1408.63 Y: 1576.74 H: -0.75
+
+Pose: X: 1408.46 Y: 1576.89 H: -0.68
+
+Pose: X: 1408.28 Y: 1577.03 H: -0.61
+
+Pose: X: 1408.09 Y: 1577.15 H: -0.55
+
+Pose: X: 1409.39 Y: 1576.36 H: -0.54
+
+Pose: X: 1412.07 Y: 1574.75 H: -0.54
+
+Pose: X: 1415.86 Y: 1572.45 H: -0.55
+
+Pose: X: 1420.10 Y: 1569.87 H: -0.55
+
+Pose: X: 1424.67 Y: 1567.10 H: -0.55
+
+Pose: X: 1429.56 Y: 1564.12 H: -0.55
+
+Pose: X: 1434.59 Y: 1561.07 H: -0.55
+
+Pose: X: 1439.68 Y: 1557.97 H: -0.55
+
+Pose: X: 1444.82 Y: 1554.83 H: -0.55
+
+Pose: X: 1449.71 Y: 1551.84 H: -0.55
+
+Pose: X: 1454.53 Y: 1548.89 H: -0.55
+
+Pose: X: 1459.41 Y: 1545.89 H: -0.55
+
+Pose: X: 1464.29 Y: 1542.89 H: -0.55
+
+Pose: X: 1469.16 Y: 1539.89 H: -0.55
+
+Pose: X: 1474.03 Y: 1536.88 H: -0.55
+
+Pose: X: 1478.97 Y: 1533.82 H: -0.55
+
+Pose: X: 1483.84 Y: 1530.81 H: -0.56
+
+Pose: X: 1488.70 Y: 1527.79 H: -0.56
+
+Pose: X: 1493.63 Y: 1524.72 H: -0.56
+
+Pose: X: 1498.55 Y: 1521.64 H: -0.56
+
+Pose: X: 1503.41 Y: 1518.61 H: -0.56
+
+NextMove: 1507.38, 1516.18 -> 1677.98, 1549.79
+Pose: X: 1507.38 Y: 1516.18 H: -0.54
+
+Pose: X: 1510.92 Y: 1514.22 H: -0.48
+
+Pose: X: 1511.95 Y: 1513.73 H: -0.40
+
+Pose: X: 1512.24 Y: 1513.62 H: -0.33
+
+Pose: X: 1512.39 Y: 1513.58 H: -0.25
+
+Pose: X: 1512.31 Y: 1513.59 H: -0.17
+
+Pose: X: 1512.24 Y: 1513.60 H: -0.09
+
+Pose: X: 1512.01 Y: 1513.61 H: -0.01
+
+Pose: X: 1511.63 Y: 1513.60 H: 0.07
+
+Pose: X: 1511.40 Y: 1513.57 H: 0.15
+
+Pose: X: 1511.17 Y: 1513.54 H: 0.20
+
+Pose: X: 1513.34 Y: 1513.98 H: 0.20
+
+Pose: X: 1517.01 Y: 1514.71 H: 0.20
+
+Pose: X: 1521.96 Y: 1515.68 H: 0.19
+
+Pose: X: 1527.21 Y: 1516.69 H: 0.19
+
+Pose: X: 1532.68 Y: 1517.72 H: 0.19
+
+Pose: X: 1538.31 Y: 1518.78 H: 0.18
+
+Pose: X: 1544.09 Y: 1519.85 H: 0.18
+
+Pose: X: 1549.87 Y: 1520.93 H: 0.18
+
+Pose: X: 1555.73 Y: 1522.00 H: 0.18
+
+Pose: X: 1561.74 Y: 1523.09 H: 0.18
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1567.45 Y: 1524.12 H: 0.18
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1574.37 Y: 1525.36 H: 0.18
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1583.16 Y: 1526.93 H: 0.18
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1591.89 Y: 1528.47 H: 0.18
+
+Warning: detected obstacle out of bounds.
+Pose: X: 1600.76 Y: 1530.03 H: 0.17
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1609.41 Y: 1531.54 H: 0.17
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1622.05 Y: 1533.72 H: 0.17
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1635.38 Y: 1535.99 H: 0.17
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1653.60 Y: 1539.04 H: 0.16
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1665.55 Y: 1541.56 H: 0.25
+
+NextMove: 1669.44, 1543.12 -> 1890.12, 1654.92
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1669.44 Y: 1543.12 H: 0.51
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1680.25 Y: 1549.73 H: 0.58
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1695.36 Y: 1559.69 H: 0.58
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1717.61 Y: 1574.35 H: 0.58
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1729.98 Y: 1579.85 H: 0.25
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1732.24 Y: 1579.82 H: -0.28
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1732.69 Y: 1579.55 H: -0.82
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1732.84 Y: 1579.29 H: -1.25
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1732.87 Y: 1579.14 H: -1.54
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1732.85 Y: 1578.91 H: -1.78
+
+Warning: detected obstacle out of bounds.
+Warning: detected obstacle out of bounds.
+Pose: X: 1732.89 Y: 1579.06 H: -1.95
+
+Pose: X: 1733.00 Y: 1579.26 H: -2.12
+
+Pose: X: 1732.95 Y: 1579.20 H: -2.18
+
+Pose: X: 1732.91 Y: 1579.14 H: -2.25
+
+Pose: X: 1732.76 Y: 1578.96 H: -2.32
+
+Pose: X: 1732.70 Y: 1578.91 H: -2.39
+
+Pose: X: 1732.59 Y: 1578.81 H: -2.43
+
+Pose: X: 1731.55 Y: 1577.91 H: -2.44
+
+Pose: X: 1729.17 Y: 1575.87 H: -2.43
+
+Pose: X: 1726.47 Y: 1573.51 H: -2.42
+
+Pose: X: 1723.10 Y: 1570.52 H: -2.41
+
+Pose: X: 1719.69 Y: 1567.46 H: -2.41
+
+Pose: X: 1716.02 Y: 1564.12 H: -2.40
+
+Pose: X: 1712.09 Y: 1560.50 H: -2.40
+
+Pose: X: 1708.05 Y: 1556.77 H: -2.39
+
+Pose: X: 1704.43 Y: 1553.37 H: -2.38
+
+Pose: X: 1700.67 Y: 1549.79 H: -2.38
+
+Pose: X: 1697.00 Y: 1546.23 H: -2.37
+
+Pose: X: 1693.22 Y: 1542.56 H: -2.37
+
+RECEIVED: Stopping
