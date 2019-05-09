@@ -8,7 +8,7 @@
 #define CONFIDENCE_MASK 0b00111111
 #define NUM_BITS 6
 #define DEFAULT_PROB 0b00011111 // this is default value of 32
-#define ALPHA 0.1
+#define ALPHA 0.6
 
 class BeliefMapper : public Mapper {
     public:

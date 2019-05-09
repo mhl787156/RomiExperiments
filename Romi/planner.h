@@ -27,6 +27,8 @@ class Planner {
         float _nextMoveY = 0;
         float _targetDist = 0;
         float _targetAngle = 0;
+        short prev_best_i = 0;
+        short prev_best_j = 0;
 };
 
 void Planner::calculateNextMove(Kinematics& pose) {
@@ -46,6 +48,11 @@ void Planner::calculateNextMove(Kinematics& pose) {
     {
         for (int j=0;j<MAP_RESOLUTION;j++)
         {
+            
+            if(i == prev_best_i || j == prev_best_j) {
+                continue;
+            }
+
             int eeprom_address = (i*MAP_RESOLUTION)+j;
             
             if (eeprom_address > 1023)
@@ -97,10 +104,10 @@ void Planner::calculateNextMove(Kinematics& pose) {
     Serial1.print(_nextMoveX);
     Serial1.print(", ");
     Serial1.println(_nextMoveY);
-    Serial1.print("  ");
-    Serial1.print(best_i);
-    Serial1.print(", ");
-    Serial1.println(best_j);
+    // Serial1.print("  ");
+    // Serial1.print(best_i);
+    // Serial1.print(", ");
+    // Serial1.println(best_j);
 
     // Demands calculated in Romi.ino each loop cycle
 }

@@ -410,10 +410,10 @@ bool IRDetectObstacle() {
 }
 
 bool detectBoundary() {
-  float xmin = 100;// 200;
-  float xmax = 1700;// 1600;
-  float ymin = 100;// 200;
-  float ymax = 1700;// 1600;
+  float xmin = 0;// 200;
+  float xmax = 1800;// 1600;
+  float ymin = 0;// 200;
+  float ymax = 1800;// 1600;
   return Pose.getX() < xmin || Pose.getX() > xmax || Pose.getY() < xmin || Pose.getY() > xmax;
 }
 
