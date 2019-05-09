@@ -36,46 +36,40 @@ void Planner::calculateNextMove(Kinematics& pose) {
     float best_y = pose.getY();
     int max_entropy = 0;
 
-    float rand_threshold = 50;
+    float rand_threshold = 100;
 
     bool found = false;
-
-    for (int i=0;i<MAP_RESOLUTION;i++)
-    {
-        for (int j=0;j<MAP_RESOLUTION;j++)
+    while(!found) {
+        int i = random(0, 25);
+        int j = random(0, 25);
+        int eeprom_address = (i*MAP_RESOLUTION)+j;
+        
+        if (eeprom_address > 1023)
         {
-            int eeprom_address = (i*MAP_RESOLUTION)+j;
+            Serial1.println(F("Error: EEPROM Address greater than 1023"));
+        }
+        else
+        {
+            byte value;
+            value = EEPROM.read(eeprom_address);//, value);
+            short conf = value & CONFIDENCE_MASK;
+            float conf_p = ((float) conf) / 64;
             
-            if (eeprom_address > 1023)
-            {
-                Serial1.println(F("Error: EEPROM Address greater than 1023"));
-            }
-            else
-            {
-                byte value;
-                value = EEPROM.read(eeprom_address);//, value);
-                short conf = value & CONFIDENCE_MASK;
-                float conf_p = ((float) conf) / 64;
-                
-                float entropy_p = -(conf_p * log(conf_p)) -((1 - conf_p) * log(1-conf_p));
+            float entropy_p = -(conf_p * log(conf_p)) -((1 - conf_p) * log(1-conf_p));
 
-                // Find cell of maximum entropy
-                if (entropy_p >= max_entropy) {
-                    max_entropy = entropy_p;
-                    float x_loc = _map.indexToPose(j, MAP_X, MAP_RESOLUTION);
-                    float y_loc = _map.indexToPose(i, MAP_Y, MAP_RESOLUTION);    
-                    best_x = x_loc;
-                    best_y = y_loc;
+            // Find cell of maximum entropy
+            if (entropy_p >= max_entropy) {
+                max_entropy = entropy_p;
+                float x_loc = _map.indexToPose(j, MAP_X, MAP_RESOLUTION);
+                float y_loc = _map.indexToPose(i, MAP_Y, MAP_RESOLUTION);    
+                best_x = x_loc;
+                best_y = y_loc;
 
-                    if (random(0, 1000) < rand_threshold) {                        
-                        found = true;
-                        break;
-                    }
+                if (random(0, 1000) < rand_threshold) {                        
+                    found = true;
+                    break;
                 }
             }
-        }
-        if (found) {
-            break;
         }
     }
     // Set next Move
