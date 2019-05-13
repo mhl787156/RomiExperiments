@@ -330,7 +330,7 @@ void BoundaryAvoidanceState() {
     right_speed_demand = forward_bias;
 
     // If moved forward for more than 3 seconds, exit back to motion planning
-    if(millis() - movement_timer > 500) {
+    if(millis() - movement_timer > 2000) {
       movement_state = 0;
       movement_internal_state = 0;
       buzz();
@@ -410,10 +410,10 @@ bool IRDetectObstacle() {
 }
 
 bool detectBoundary() {
-  float xmin = 100;// 200;
-  float xmax = 1700;// 1600;
-  float ymin = 100;// 200;
-  float ymax = 1700;// 1600;
+  float xmin = 0;// 200;
+  float xmax = 1800;// 1600;
+  float ymin = 0;// 200;
+  float ymax = 1800;// 1600;
   return Pose.getX() < xmin || Pose.getX() > xmax || Pose.getY() < xmin || Pose.getY() > xmax;
 }
 
@@ -485,7 +485,7 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
     float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
 
     // Update all cells up to the obstacle position as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.1) {
+    for(float k = 0.0 ; k < 1.0 ; k=k+ 7.2/distance) {
       projected_x = Pose.getX() + ( k * cos_proj );
       projected_y = Pose.getY() + ( k * sin_proj );
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
@@ -501,7 +501,7 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
     float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
 
     // Update all cells up to maximum distance as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.1) {
+    for(float k = 0.0 ; k < 1.0 ; k=k+7.2/distance) {
       projected_x = Pose.getX() + ( k * cos_proj );
       projected_y = Pose.getY() + ( k * sin_proj );
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
