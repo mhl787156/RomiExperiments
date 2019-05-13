@@ -103,12 +103,14 @@ byte BeliefMapper::update(byte feature, int eeprom_address) {
         value = value | VISITED_BIT; // set first bit only
     } else if (feature == (byte)'O') { // Obstacle update
         byte confidence = value & CONFIDENCE_MASK;
-        int new_conf = ((int) confidence) * ALPHA + 63 * (1-ALPHA);
+        unsigned int new_conf = ((unsigned int) confidence) * ALPHA + 63 * (1-ALPHA);
+        new_conf = min(new_conf, 63);
         confidence = (byte) new_conf;
         value = (value & 0b11000000) | (confidence & 0b00111111);
     } else { // non-obstacle update
         byte confidence = value & CONFIDENCE_MASK;
-        int new_conf = ((int) confidence) * ALPHA + 0 * (1-ALPHA);
+        unsigned int new_conf = ((unsigned int) confidence) * ALPHA + 0 * (1-ALPHA);
+        new_conf = max(new_conf, 0);
         confidence = (byte) new_conf;
         value = (value & 0b11000000) | (confidence & 0b00111111);
     }

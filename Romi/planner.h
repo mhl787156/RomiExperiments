@@ -92,6 +92,9 @@ void Planner::calculateNextMove(Kinematics& pose) {
         conf_threshold += 10;
     }
 
+    prev_best_i = best_i;
+    prev_best_j = best_j;
+
     // Set next Move
     _nextMoveX = best_x;
     _nextMoveY = best_y;

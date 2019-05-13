@@ -485,7 +485,7 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
     float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
 
     // Update all cells up to the obstacle position as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.1) {
+    for(float k = 0.0 ; k < 1.0 ; k=k+ 7.2/distance) {
       projected_x = Pose.getX() + ( k * cos_proj );
       projected_y = Pose.getY() + ( k * sin_proj );
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
@@ -501,7 +501,7 @@ void IRProjectOntoMap(float distance, float angleoffset, float mindist, float ma
     float sin_proj = distance * sin( Pose.getThetaRadians() + angleoffset);
 
     // Update all cells up to maximum distance as non-obstacles
-    for(float k = 0.0 ; k < 1.0 ; k=k+0.1) {
+    for(float k = 0.0 ; k < 1.0 ; k=k+7.2/distance) {
       projected_x = Pose.getX() + ( k * cos_proj );
       projected_y = Pose.getY() + ( k * sin_proj );
       Map.updateMapFeature( (byte)'.', projected_x, projected_y );
